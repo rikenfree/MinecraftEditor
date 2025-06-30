@@ -1,0 +1,3335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: AD is Loading
+      TermType: 0
+      Description: 
+      Languages:
+      - 'AD is Loading '
+      - "AD se est\xE1 cargando "
+      - 'AD est en cours de chargement '
+      - "AD \u304C\u30ED\u30FC\u30C9\u4E2D\u3067\u3059 "
+      - "AD \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044F "
+      - "Qu\u1EA3ng c\xE1o \u0111ang t\u1EA3i "
+      - "AD \u0E01\u0E33\u0E25\u0E31\u0E07\u0E42\u0E2B\u0E25\u0E14 "
+      - "O an\xFAncio est\xE1 carregando "
+      - "AD si\u0119 \u0142aduje "
+      - "\uAD11\uACE0 \uB85C\uB4DC \uC911 "
+      - "AD \xE8 in caricamento "
+      - 'AD wird geladen '
+      - "AD Y\xFCkleniyor "
+      - "\u5E7F\u544A\u52A0\u8F7D\u4E2D "
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Ad
+      TermType: 0
+      Description: 
+      Languages:
+      - Ad
+      - Anuncio
+      - Annonce
+      - "\u5E83\u544A"
+      - "\u041E\u0431\u044A\u044F\u0432\u043B\u0435\u043D\u0438\u0435"
+      - "Qu\u1EA3ng c\xE1o"
+      - "\u0E42\u0E06\u0E29\u0E13\u0E32"
+      - "de An\xFAncios"
+      - "Og\u0142oszenie"
+      - "\uAE30\uC6D0 \uD6C4"
+      - Anno Domini
+      - Anzeige
+      - Reklam
+      - "\u5E7F\u544A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Adventure
+      TermType: 0
+      Description: 
+      Languages:
+      - Adventure
+      - Aventura
+      - Aventure
+      - "\u5192\u967A"
+      - "\u041F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+      - "Cu\u1ED9c phi\xEAu l\u01B0u"
+      - "\u0E01\u0E32\u0E23\u0E1C\u0E08\u0E0D\u0E20\u0E31\u0E22"
+      - Aventura
+      - Przygoda
+      - "\uBAA8\uD5D8"
+      - Avventura
+      - Abenteuer
+      - Macera
+      - "\u5192\u9669"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Amazing
+      TermType: 0
+      Description: 
+      Languages:
+      - Amazing
+      - Asombroso
+      - Incroyable
+      - "\u3059\u3070\u3089\u3057\u3044"
+      - "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439"
+      - "Tuy\u1EC7t v\u1EDDi"
+      - "\u0E2D\u0E31\u0E28\u0E08\u0E23\u0E23\u0E22\u0E4C"
+      - "Incr\xEDvel"
+      - Niesamowity
+      - "\uB180\uB77C\uC6B4"
+      - Sorprendente
+      - Toll
+      - "\u0130nan\u0131lmaz"
+      - "\u60CA\u4EBA\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Andreas
+      TermType: 0
+      Description: 
+      Languages:
+      - Andreas
+      - "Andr\xE9s"
+      - "Andr\xE9as"
+      - "\u30A2\u30F3\u30C9\u30EC\u30A2\u30B9"
+      - "\u0410\u043D\u0434\u0440\u0435\u0430\u0441"
+      - Andreas
+      - "\u0E41\u0E2D\u0E19\u0E40\u0E14\u0E23\u0E35\u0E22\u0E2A"
+      - Andreas
+      - Andreas
+      - "\uC548\uB4DC\uB808\uC544\uC2A4"
+      - Andreas
+      - Andreas
+      - Andreas
+      - "\u5B89\u5FB7\u70C8\u4E9A\u65AF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Apocalypse
+      TermType: 0
+      Description: 
+      Languages:
+      - Apocalypse
+      - Apocalipsis
+      - Apocalypse
+      - "\u9ED9\u793A\u9332"
+      - "\u0410\u043F\u043E\u043A\u0430\u043B\u0438\u043F\u0441\u0438\u0441"
+      - "t\u1EADn th\u1EBF"
+      - "\u0E04\u0E31\u0E21\u0E20\u0E35\u0E23\u0E4C\u0E02\u0E2D\u0E07\u0E28\u0E32\u0E2A\u0E19\u0E32\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E4C"
+      - Apocalipse
+      - Apokalipsa
+      - "\uBB35\uC2DC"
+      - Apocalisse
+      - Apokalypse
+      - "K\u0131yamet"
+      - "\u542F\u793A\u5F55"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Arena
+      TermType: 0
+      Description: 
+      Languages:
+      - Arena
+      - Arena
+      - "Ar\xE8ne"
+      - "\u30A2\u30EA\u30FC\u30CA"
+      - "\u0410\u0440\u0435\u043D\u0430"
+      - "\u0111\u1EA5u tr\u01B0\u1EDDng"
+      - "\u0E2D\u0E32\u0E23\u0E35\u0E19\u0E48\u0E32"
+      - Arena
+      - Arena
+      - "\uD22C\uAE30\uC7A5"
+      - Arena
+      - Arena
+      - Arena
+      - "\u7ADE\u6280\u573A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Art
+      TermType: 0
+      Description: 
+      Languages:
+      - Art
+      - Arte
+      - Art
+      - "\u7F8E\u8853"
+      - "\u0418\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u043E"
+      - "Ngh\u1EC7 thu\u1EADt"
+      - "\u0E28\u0E34\u0E25\u0E1B\u0E30"
+      - Arte
+      - Sztuka
+      - "\uBBF8\uC220"
+      - Arte
+      - Kunst
+      - Sanat
+      - "\u827A\u672F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Awesome
+      TermType: 0
+      Description: 
+      Languages:
+      - Awesome
+      - Impresionante
+      - "G\xE9nial"
+      - "\u7D20\u6674\u3089\u3057\u3044"
+      - "\u041F\u043E\u0442\u0440\u044F\u0441\u0430\u044E\u0449\u0438\u0439"
+      - "Tuy\u1EC7t v\u1EDDi"
+      - "\u0E2A\u0E38\u0E14\u0E22\u0E2D\u0E14"
+      - "Incr\xEDvel"
+      - "Wspania\u0142y"
+      - "\uC5C4\uCCAD\uB09C"
+      - Eccezionale
+      - Eindrucksvoll
+      - "M\xFCkemmel"
+      - "\u60CA\u4EBA\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: BSG
+      TermType: 0
+      Description: 
+      Languages:
+      - BSG
+      - BSG
+      - BSG
+      - BSG
+      - "\u0411\u0421\u0413"
+      - BSG
+      - "\u0E1A\u0E35\u0E40\u0E2D\u0E2A\u0E08\u0E35"
+      - BSG
+      - BSG
+      - BSG
+      - BSG
+      - BSG
+      - BSG
+      - BSG
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Banner
+      TermType: 0
+      Description: 
+      Languages:
+      - Banner
+      - Bandera
+      - "Banni\xE8re"
+      - "\u30D0\u30CA\u30FC"
+      - "\u0411\u0430\u043D\u043D\u0435\u0440"
+      - "Ng\u1ECDn c\u1EDD"
+      - "\u0E41\u0E1A\u0E19\u0E40\u0E19\u0E2D\u0E23\u0E4C"
+      - Bandeira
+      - Transparent
+      - "\uBC30\uB108"
+      - Stendardo
+      - Banner
+      - "Afi\u015F"
+      - "\u6A2A\u5E45"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: BannerDestroy
+      TermType: 0
+      Description: 
+      Languages:
+      - BannerDestroy
+      - BannerDestroy
+      - "Banni\xE8reD\xE9truire"
+      - "\u30D0\u30CA\u30FC\u7834\u58CA\u3059\u308B"
+      - "\u0411\u0430\u043D\u043D\u0435\u0440\u0423\u043D\u0438\u0447\u0442\u043E\u0436\u0438\u0442\u044C"
+      - "Bi\u1EC3u Ng\u1EEFPh\xE1 H\u1EE7y"
+      - "\u0E41\u0E1A\u0E19\u0E40\u0E19\u0E2D\u0E23\u0E4C\u0E17\u0E33\u0E25\u0E32\u0E22"
+      - BannerDestroy
+      - Zniszcz sztandar
+      - "\uBC30\uB108\uD30C\uAD34"
+      - BannerDistruggi
+      - BannerDestroy
+      - BannerYok Etme
+      - "\u6A2A\u5E45\u9500\u6BC1"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Battle
+      TermType: 0
+      Description: 
+      Languages:
+      - Battle
+      - Batalla
+      - Bataille
+      - "\u6226\u3044"
+      - "\u0411\u043E\u0435\u0432\u043E\u0439"
+      - "Tr\u1EADn \u0111\xE1nh"
+      - "\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D\u0E2A\u0E39\u0E49"
+      - Batalha
+      - Bitwa
+      - "\uC804\uD22C"
+      - Battaglia
+      - Schlacht
+      - "Sava\u015F"
+      - "\u6218\u6597"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Best
+      TermType: 0
+      Description: 
+      Languages:
+      - Best
+      - Mejor
+      - Meilleur
+      - "\u6700\u9AD8"
+      - "\u041B\u0443\u0447\u0448\u0438\u0439"
+      - "T\u1ED1t nh\u1EA5t"
+      - "\u0E14\u0E35\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14"
+      - Melhor
+      - To, co najlepsze
+      - "\uCD5C\uC0C1\uC758"
+      - Migliore
+      - Am besten
+      - En iyi
+      - "\u6700\u597D\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Better
+      TermType: 0
+      Description: 
+      Languages:
+      - Better
+      - Mejor
+      - Mieux
+      - "\u3088\u308A\u826F\u3044"
+      - "\u041B\u0443\u0447\u0448\u0435"
+      - "T\u1ED1t h\u01A1n"
+      - "\u0E14\u0E35\u0E01\u0E27\u0E48\u0E32"
+      - Melhorar
+      - Lepsza
+      - "\uB354 \uB098\uC740"
+      - Meglio
+      - Besser
+      - Daha iyi
+      - "\u66F4\u597D\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Big
+      TermType: 0
+      Description: 
+      Languages:
+      - Big
+      - Grande
+      - Grand
+      - "\u5927\u304D\u3044"
+      - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439"
+      - "To l\u1EDBn"
+      - "\u0E43\u0E2B\u0E0D\u0E48"
+      - Grande
+      - "Du\u017Cy"
+      - "\uD070"
+      - Grande
+      - "Gro\xDF"
+      - "B\xFCy\xFCk"
+      - "\u5927\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Bikini
+      TermType: 0
+      Description: 
+      Languages:
+      - Bikini
+      - Bikini
+      - Bikini
+      - "\u30D3\u30AD\u30CB"
+      - "\u0411\u0438\u043A\u0438\u043D\u0438"
+      - Bikini
+      - "\u0E1A\u0E34\u0E01\u0E34\u0E19\u0E35\u0E48"
+      - Bikini
+      - Bikini
+      - "\uBE44\uD0A4\uB2C8"
+      - Bikini
+      - Bikini
+      - Bikini
+      - "\u6BD4\u57FA\u5C3C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Block
+      TermType: 0
+      Description: 
+      Languages:
+      - Block
+      - Bloquear
+      - Bloc
+      - "\u30D6\u30ED\u30C3\u30AF"
+      - "\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
+      - "Kh\u1ED1i"
+      - "\u0E1B\u0E34\u0E14\u0E01\u0E31\u0E49\u0E19"
+      - Bloquear
+      - Blok
+      - "\uCC28\uB2E8\uD558\uB2E4"
+      - Bloccare
+      - Block
+      - Engellemek
+      - "\u5835\u585E"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Bottom
+      TermType: 0
+      Description: 
+      Languages:
+      - Bottom
+      - Abajo
+      - Bas
+      - "\u5E95"
+      - "\u041D\u0438\u0436\u043D\u0438\u0439"
+      - "\u0110\xE1y"
+      - "\u0E14\u0E49\u0E32\u0E19\u0E25\u0E48\u0E32\u0E07"
+      - Fundo
+      - "Sp\xF3d"
+      - "\uB9E8 \uC544\uB798"
+      - Metter il fondo a
+      - Unten
+      - Alt
+      - "\u5E95\u90E8"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Casa
+      TermType: 0
+      Description: 
+      Languages:
+      - Casa
+      - casa
+      - Maison
+      - "\u30AB\u30FC\u30B5"
+      - "\u041A\u0430\u0441\u0430"
+      - "Ng\xF4i nh\xE0"
+      - "\u0E04\u0E32\u0E0B\u0E48\u0E32"
+      - Casa
+      - Casa
+      - "\uCE74\uC0AC"
+      - Casa
+      - Casa
+      - Casa
+      - "\u5361\u8428"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Castle
+      TermType: 0
+      Description: 
+      Languages:
+      - Castle
+      - Castillo
+      - "Ch\xE2teau"
+      - "\u57CE"
+      - "\u0417\u0430\u043C\u043E\u043A"
+      - "L\xE2u \u0111\xE0i"
+      - "\u0E1B\u0E23\u0E32\u0E2A\u0E32\u0E17"
+      - Castelo
+      - Zamek
+      - "\uC131"
+      - Castello
+      - Schloss
+      - Kale
+      - "\u57CE\u5821"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Challenge
+      TermType: 0
+      Description: 
+      Languages:
+      - Challenge
+      - "Desaf\xEDo"
+      - "D\xE9fi"
+      - "\u30C1\u30E3\u30EC\u30F3\u30B8"
+      - "\u0418\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0435"
+      - "Th\u1EED th\xE1ch"
+      - "\u0E17\u0E49\u0E32\u0E17\u0E32\u0E22"
+      - Desafio
+      - Wyzwanie
+      - "\uB3C4\uC804"
+      - Sfida
+      - Herausforderung
+      - Meydan okumak
+      - "\u6311\u6218"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Check your internet connection and try again!
+      TermType: 0
+      Description: 
+      Languages:
+      - Check your internet connection and try again!
+      - "\xA1Comprueba tu conexi\xF3n a Internet e int\xE9ntalo de nuevo!"
+      - "V\xE9rifiez votre connexion Internet et r\xE9essayez\_!"
+      - "\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u63A5\u7D9A\u3092\u78BA\u8A8D\u3057\u3066\u3001\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002"
+      - "\u041F\u0440\u043E\u0432\u0435\u0440\u044C\u0442\u0435 \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+        \u043A \u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0443 \u0438 \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u0435
+        \u043F\u043E\u043F\u044B\u0442\u043A\u0443!"
+      - "H\xE3y ki\u1EC3m tra k\u1EBFt n\u1ED1i internet c\u1EE7a b\u1EA1n v\xE0
+        th\u1EED l\u1EA1i!"
+      - "\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E01\u0E32\u0E23\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E15\u0E48\u0E2D\u0E2D\u0E34\u0E19\u0E40\u0E17\u0E2D\u0E23\u0E4C\u0E40\u0E19\u0E47\u0E15\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E41\u0E25\u0E49\u0E27\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07!"
+      - "Verifique sua conex\xE3o com a internet e tente novamente!"
+      - "Sprawd\u017A swoje po\u0142\u0105czenie internetowe i spr\xF3buj ponownie!"
+      - "\uC778\uD130\uB137 \uC5F0\uACB0\uC744 \uD655\uC778\uD558\uACE0 \uB2E4\uC2DC
+        \uC2DC\uB3C4\uD574 \uBCF4\uC138\uC694!"
+      - Controlla la tua connessione Internet e riprova!
+      - "\xDCberpr\xFCfen Sie Ihre Internetverbindung und versuchen Sie es erneut!"
+      - "\u0130nternet ba\u011Flant\u0131n\u0131z\u0131 kontrol edip tekrar deneyin!"
+      - "\u68C0\u67E5\u60A8\u7684\u4E92\u8054\u7F51\u8FDE\u63A5\u5E76\u91CD\u8BD5\uFF01"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Chester
+      TermType: 0
+      Description: 
+      Languages:
+      - Chester
+      - Chester
+      - Chester
+      - "\u30C1\u30A7\u30B9\u30BF\u30FC"
+      - "\u0427\u0435\u0441\u0442\u0435\u0440"
+      - Chester
+      - "\u0E40\u0E0A\u0E2A\u0E40\u0E15\u0E2D\u0E23\u0E4C"
+      - Chester
+      - Chestera
+      - "\uCCB4\uC2A4\uD130"
+      - Chester
+      - Chester
+      - Chester
+      - "\u5207\u65AF\u7279"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: City
+      TermType: 0
+      Description: 
+      Languages:
+      - City
+      - Ciudad
+      - Ville
+      - "\u5E02"
+      - "\u0413\u043E\u0440\u043E\u0434"
+      - "Th\xE0nh ph\u1ED1"
+      - "\u0E40\u0E21\u0E37\u0E2D\u0E07"
+      - Cidade
+      - Miasto
+      - "\uB3C4\uC2DC"
+      - "Citt\xE0"
+      - Stadt
+      - "\u015Eehir"
+      - "\u57CE\u5E02"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Clear
+      TermType: 0
+      Description: 
+      Languages:
+      - Clear
+      - Claro
+      - Clair
+      - "\u30AF\u30EA\u30A2"
+      - "\u041F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u0439"
+      - "Th\xF4ng tho\xE1ng"
+      - "\u0E0A\u0E31\u0E14\u0E40\u0E08\u0E19"
+      - Claro
+      - Jasne
+      - "\uBD84\uBA85\uD55C"
+      - Chiaro
+      - Klar
+      - Temizlemek
+      - "\u6E05\u9664"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Cool
+      TermType: 0
+      Description: 
+      Languages:
+      - Cool
+      - Fresco
+      - Cool
+      - "\u3044\u3044\u306D"
+      - "\u041F\u0440\u043E\u0445\u043B\u0430\u0434\u043D\u044B\u0439"
+      - "M\xE1t m\u1EBB"
+      - "\u0E40\u0E22\u0E47\u0E19"
+      - Legal
+      - Fajny
+      - "\uC2DC\uC6D0\uD55C"
+      - Freddo
+      - Cool
+      - Serin
+      - "\u51C9\u723D\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Craft
+      TermType: 0
+      Description: 
+      Languages:
+      - Craft
+      - "Artesan\xEDa"
+      - Artisanat
+      - "\u30AF\u30E9\u30D5\u30C8"
+      - "\u0420\u0435\u043C\u0435\u0441\u043B\u043E"
+      - "th\u1EE7 c\xF4ng"
+      - "\u0E07\u0E32\u0E19\u0E1D\u0E35\u0E21\u0E37\u0E2D"
+      - Arte
+      - "Rzemios\u0142o"
+      - "\uC120\uBC15"
+      - Mestiere
+      - Handwerk
+      - Zanaat
+      - "\u5DE5\u827A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Crazy
+      TermType: 0
+      Description: 
+      Languages:
+      - Crazy
+      - Loco
+      - Fou
+      - "\u30AF\u30EC\u30A4\u30B8\u30FC"
+      - "\u0421\u0443\u043C\u0430\u0441\u0448\u0435\u0434\u0448\u0438\u0439"
+      - "\u0110i\xEAn"
+      - "\u0E04\u0E25\u0E31\u0E48\u0E07\u0E44\u0E04\u0E25\u0E49"
+      - Louco
+      - Zwariowany
+      - "\uBBF8\uCE5C"
+      - Pazzo
+      - "Verr\xFCckt"
+      - Deli
+      - "\u75AF\u72C2\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Death
+      TermType: 0
+      Description: 
+      Languages:
+      - Death
+      - Muerte
+      - La mort
+      - "\u6B7B"
+      - "\u0421\u043C\u0435\u0440\u0442\u044C"
+      - "C\xE1i ch\u1EBFt"
+      - "\u0E04\u0E27\u0E32\u0E21\u0E15\u0E32\u0E22"
+      - Morte
+      - "\u015Amier\u0107"
+      - "\uC8FD\uC74C"
+      - Morte
+      - Tod
+      - "\xD6l\xFCm"
+      - "\u6B7B\u4EA1"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Diamond
+      TermType: 0
+      Description: 
+      Languages:
+      - Diamond
+      - Diamante
+      - diamant
+      - "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9"
+      - "\u0410\u043B\u043C\u0430\u0437"
+      - "Kim c\u01B0\u01A1ng"
+      - "\u0E40\u0E1E\u0E0A\u0E23"
+      - Diamante
+      - Diament
+      - "\uB2E4\uC774\uC544\uBAAC\uB4DC"
+      - Diamante
+      - Diamant
+      - Elmas
+      - "\u94BB\u77F3"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Download
+      TermType: 0
+      Description: 
+      Languages:
+      - Download
+      - Descargar
+      - "T\xE9l\xE9charger"
+      - "\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9"
+      - "\u0421\u043A\u0430\u0447\u0430\u0442\u044C"
+      - "T\u1EA3i xu\u1ED1ng"
+      - "\u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14"
+      - Download
+      - "Pobiera\u0107"
+      - "\uB2E4\uC6B4\uB85C\uB4DC"
+      - Scaricamento
+      - Herunterladen
+      - "\u0130ndirmek"
+      - "\u4E0B\u8F7D"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Download Skin
+      TermType: 0
+      Description: 
+      Languages:
+      - Download Skin
+      - Descargar piel
+      - "T\xE9l\xE9charger le skin"
+      - "\u30B9\u30AD\u30F3\u3092\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9"
+      - "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u0441\u043A\u0438\u043D"
+      - "T\u1EA3i xu\u1ED1ng da"
+      - "\u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14\u0E2A\u0E01\u0E34\u0E19"
+      - Baixar skin
+      - "Pobierz sk\xF3rk\u0119"
+      - "\uC2A4\uD0A8 \uB2E4\uC6B4\uB85C\uB4DC"
+      - Scarica Pelle
+      - Skin herunterladen
+      - "D\u0131\u015F G\xF6r\xFCn\xFCm\xFC \u0130ndir"
+      - "\u4E0B\u8F7D\u76AE\u80A4"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Dropper
+      TermType: 0
+      Description: 
+      Languages:
+      - Dropper
+      - Cuentagotas
+      - Compte-gouttes
+      - "\u30B9\u30DD\u30A4\u30C8"
+      - "\u043A\u0430\u043F\u0435\u043B\u044C\u043D\u0438\u0446\u0430"
+      - "\u1ED1ng nh\u1ECF gi\u1ECDt"
+      - "\u0E2B\u0E22\u0E14"
+      - Conta-gotas
+      - Zakraplacz
+      - "\uB4DC\uB85C\uD37C"
+      - Contagocce
+      - Tropfer
+      - "Damlal\u0131k"
+      - "\u6EF4\u7BA1"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Duty
+      TermType: 0
+      Description: 
+      Languages:
+      - Duty
+      - Deber
+      - Devoir
+      - "\u7FA9\u52D9"
+      - "\u0414\u043E\u043B\u0433"
+      - "Nhi\u1EC7m v\u1EE5"
+      - "\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48"
+      - "Obriga\xE7\xE3o"
+      - "Obowi\u0105zek"
+      - "\uC758\uBB34"
+      - Dovere
+      - Pflicht
+      - "G\xF6rev"
+      - "\u8D23\u4EFB"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Edition
+      TermType: 0
+      Description: 
+      Languages:
+      - Edition
+      - "Edici\xF3n"
+      - "\xC9dition"
+      - "\u7248"
+      - "\u0412\u0435\u0440\u0441\u0438\u044F"
+      - "Phi\xEAn b\u1EA3n"
+      - "\u0E09\u0E1A\u0E31\u0E1A"
+      - "Edi\xE7\xE3o"
+      - Wydanie
+      - "\uD310"
+      - Edizione
+      - Auflage
+      - "Bask\u0131"
+      - "\u7248"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: End
+      TermType: 0
+      Description: 
+      Languages:
+      - End
+      - Fin
+      - Fin
+      - "\u7D42\u308F\u308A"
+      - "\u041A\u043E\u043D\u0435\u0446"
+      - "K\u1EBFt th\xFAc"
+      - "\u0E08\u0E1A"
+      - Fim
+      - Koniec
+      - "\uB05D"
+      - FINE
+      - Ende
+      - Son
+      - "\u7ED3\u5C3E"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Enter keyword to search
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter keyword to search
+      - Ingrese la palabra clave para buscar
+      - "Entrez le mot-cl\xE9 pour rechercher"
+      - "\u30AD\u30FC\u30EF\u30FC\u30C9\u3092\u5165\u529B\u3057\u3066\u691C\u7D22\u3057\u307E\u3059"
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043A\u043B\u044E\u0447\u0435\u0432\u043E\u0435
+        \u0441\u043B\u043E\u0432\u043E \u0434\u043B\u044F \u043F\u043E\u0438\u0441\u043A\u0430"
+      - "Nh\u1EADp t\u1EEB kh\xF3a \u0111\u1EC3 t\xECm ki\u1EBFm"
+      - "\u0E1B\u0E49\u0E2D\u0E19\u0E04\u0E33\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E49\u0E19\u0E2B\u0E32"
+      - Digite a palavra-chave para pesquisar
+      - "Wpisz s\u0142owo kluczowe, aby wyszuka\u0107"
+      - "\uAC80\uC0C9\uD560 \uD0A4\uC6CC\uB4DC\uB97C \uC785\uB825\uD558\uC138\uC694"
+      - Inserisci la parola chiave da cercare
+      - Geben Sie den Suchbegriff ein, um zu suchen
+      - Aranacak anahtar kelimeyi girin
+      - "\u8F93\u5165\u5173\u952E\u5B57\u8FDB\u884C\u641C\u7D22"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Epic
+      TermType: 0
+      Description: 
+      Languages:
+      - Epic
+      - "\xC9pico"
+      - "\xC9pique"
+      - "\u3059\u3054\u3044"
+      - "\u042D\u043F\u0438\u0447\u0435\u0441\u043A\u0438\u0439"
+      - "S\u1EED Thi"
+      - "\u0E21\u0E2B\u0E32\u0E01\u0E32\u0E1E\u0E22\u0E4C"
+      - "\xC9pico"
+      - Epicki
+      - "\uC11C\uC0AC\uC2DC"
+      - Epico
+      - Epos
+      - Epik
+      - "\u53F2\u8BD7"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Error
+      TermType: 0
+      Description: 
+      Languages:
+      - Error
+      - Error
+      - Erreur
+      - "\u30A8\u30E9\u30FC"
+      - "\u041E\u0448\u0438\u0431\u043A\u0430"
+      - "L\u1ED7i"
+      - "\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14"
+      - Erro
+      - "B\u0142\u0105d"
+      - "\uC624\uB958"
+      - Errore
+      - Fehler
+      - Hata
+      - "\u9519\u8BEF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Escape
+      TermType: 0
+      Description: 
+      Languages:
+      - Escape
+      - Escapar
+      - "S'\xE9chapper"
+      - "\u9003\u3052\u308B"
+      - "\u041F\u043E\u0431\u0435\u0433"
+      - "B\u1ECF tr\u1ED1n"
+      - "\u0E2B\u0E19\u0E35"
+      - Escapar
+      - Ucieczka
+      - "\uD0C8\uCD9C\uD558\uB2E4"
+      - Fuga
+      - Flucht
+      - "Ka\xE7mak"
+      - "\u9003\u8131"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Extreme
+      TermType: 0
+      Description: 
+      Languages:
+      - Extreme
+      - Extremo
+      - "Extr\xEAme"
+      - "\u904E\u6FC0"
+      - "\u042D\u043A\u0441\u0442\u0440\u0438\u043C"
+      - "V\xF4 c\xF9ng"
+      - "\u0E2A\u0E38\u0E14\u0E02\u0E35\u0E14"
+      - Extremo
+      - Skrajny
+      - "\uADF9\uC2EC\uD55C"
+      - Estremo
+      - Extrem
+      - "A\u015F\u0131r\u0131"
+      - "\u6781\u7AEF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: FNAF
+      TermType: 0
+      Description: 
+      Languages:
+      - FNAF
+      - FNAF
+      - FNAF
+      - FNAF
+      - "\u0424\u041D\u0410\u0424"
+      - FNAF
+      - "\u0E40\u0E2D\u0E1F\u0E19\u0E32\u0E1F"
+      - FNAF
+      - FNAFA
+      - FNAF
+      - FNAF
+      - FNAF
+      - FNAF
+      - FNAF
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Favourite
+      TermType: 0
+      Description: 
+      Languages:
+      - Favourite
+      - Favorito
+      - "Pr\xE9f\xE9r\xE9"
+      - "\u304A\u6C17\u306B\u5165\u308A"
+      - "\u041B\u044E\u0431\u0438\u043C\u044B\u0439"
+      - "Y\xEAu th\xEDch"
+      - "\u0E17\u0E35\u0E48\u0E0A\u0E37\u0E48\u0E19\u0E0A\u0E2D\u0E1A"
+      - Favorito
+      - Ulubiony
+      - "\uAC00\uC7A5 \uC88B\uC544\uD558\uB294"
+      - Preferito
+      - Favorit
+      - Favori
+      - "\u6700\u559C\u6B22\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Favourite Maps
+      TermType: 0
+      Description: 
+      Languages:
+      - Favourite Maps
+      - Mapas favoritos
+      - Cartes favorites
+      - "\u304A\u6C17\u306B\u5165\u308A\u306E\u5730\u56F3"
+      - "\u041B\u044E\u0431\u0438\u043C\u044B\u0435 \u043A\u0430\u0440\u0442\u044B"
+      - "B\u1EA3n \u0111\u1ED3 y\xEAu th\xEDch"
+      - "\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E42\u0E1B\u0E23\u0E14"
+      - Mapas favoritos
+      - Ulubione mapy
+      - "\uC990\uACA8\uCC3E\uB294 \uC9C0\uB3C4"
+      - Mappe preferite
+      - Lieblingskarten
+      - Favori Haritalar
+      - "\u6700\u559C\u6B22\u7684\u5730\u56FE"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: File permission is required to export maps to Minecraft.
+      TermType: 0
+      Description: 
+      Languages:
+      - File permission is required to export maps to Minecraft.
+      - Se requiere permiso de archivo para exportar mapas a Minecraft.
+      - L'autorisation de fichier est requise pour exporter des cartes vers Minecraft.
+      - "\u30DE\u30C3\u30D7\u3092 Minecraft \u306B\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3059\u308B\u306B\u306F\u3001\u30D5\u30A1\u30A4\u30EB\u6A29\u9650\u304C\u5FC5\u8981\u3067\u3059\u3002"
+      - "\u0414\u043B\u044F \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430 \u043A\u0430\u0440\u0442
+        \u0432 Minecraft \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435
+        \u0444\u0430\u0439\u043B\u0430."
+      - "C\u1EA7n c\xF3 quy\u1EC1n truy c\u1EADp t\u1EC7p \u0111\u1EC3 xu\u1EA5t
+        b\u1EA3n \u0111\u1ED3 sang Minecraft."
+      - "\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E2D\u0E19\u0E38\u0E0D\u0E32\u0E15\u0E08\u0E32\u0E01\u0E44\u0E1F\u0E25\u0E4C\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E2A\u0E48\u0E07\u0E2D\u0E2D\u0E01\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E44\u0E1B\u0E22\u0E31\u0E07
+        Minecraft"
+      - "\xC9 necess\xE1ria permiss\xE3o de arquivo para exportar mapas para o Minecraft."
+      - "Aby wyeksportowa\u0107 mapy do Minecrafta, wymagane s\u0105 uprawnienia
+        do pliku."
+      - "\uC9C0\uB3C4\uB97C Minecraft\uB85C \uB0B4\uBCF4\uB0B4\uB824\uBA74 \uD30C\uC77C
+        \uAD8C\uD55C\uC774 \uD544\uC694\uD569\uB2C8\uB2E4."
+      - "Per esportare le mappe in Minecraft \xE8 necessaria l'autorizzazione del
+        file."
+      - Zum Exportieren von Karten nach Minecraft ist eine Dateiberechtigung erforderlich.
+      - "Haritalar\u0131 Minecraft'a aktarmak i\xE7in dosya izni gereklidir."
+      - "\u5C06\u5730\u56FE\u5BFC\u51FA\u5230 Minecraft \u9700\u8981\u6587\u4EF6\u6743\u9650\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Fnaf
+      TermType: 0
+      Description: 
+      Languages:
+      - Fnaf
+      - fnaf
+      - Fnaf
+      - "\u30D5\u30CA\u30D5"
+      - "\u0424\u043D\u0430\u0444"
+      - fnaf
+      - "\u0E1F\u0E19\u0E32\u0E1F"
+      - Fnaf
+      - Fnaf
+      - "\uD504\uB098\uD504"
+      - Fnaf
+      - Fnaf
+      - Fnaf
+      - "\u5F17\u7EB3\u592B"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Force Loading Intrestitial
+      TermType: 0
+      Description: 
+      Languages:
+      - Force Loading Intrestitial
+      - Fuerza de carga intersticial
+      - "Chargement forc\xE9 Intrestitiel"
+      - "\u30A4\u30F3\u30BF\u30FC\u30B9\u30C6\u30A3\u30B7\u30E3\u30EB\u306E\u5F37\u5236\u8AAD\u307F\u8FBC\u307F"
+      - "\u041F\u0440\u0438\u043D\u0443\u0434\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F
+        \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u043C\u0435\u0436\u0441\u0442\u0440\u0430\u043D\u0438\u0447\u043D\u043E\u0433\u043E
+        \u043E\u0431\u044A\u044F\u0432\u043B\u0435\u043D\u0438\u044F"
+      - "Bu\u1ED9c t\u1EA3i qu\u1EA3ng c\xE1o xen k\u1EBD"
+      - "\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E43\u0E2B\u0E49\u0E42\u0E2B\u0E25\u0E14\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E20\u0E32\u0E22\u0E43\u0E19"
+      - "For\xE7ar carregamento intrasticial"
+      - "Wymu\u015B \u0142adowanie reklamy pe\u0142noekranowej"
+      - "\uAC15\uC81C \uB85C\uB529 \uC911"
+      - Intrestitial con caricamento forzato
+      - Laden von Intrestitial erzwingen
+      - "Ge\xE7i\u015F Reklam\u0131n\u0131 Zorla Y\xFCkleme"
+      - "\u529B\u52A0\u8F7D\u95F4\u8D28"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Forgotten
+      TermType: 0
+      Description: 
+      Languages:
+      - Forgotten
+      - Olvidado
+      - "Oubli\xE9"
+      - "\u5FD8\u308C\u3089\u308C\u305F"
+      - "\u0417\u0430\u0431\u044B\u0442\u044B\u0439"
+      - "b\u1ECB l\xE3ng qu\xEAn"
+      - "\u0E25\u0E37\u0E21"
+      - Esquecido
+      - Zapomniany
+      - "\uC78A\uD600\uC9C4"
+      - Dimenticato
+      - Vergessene
+      - "Unutulmu\u015F"
+      - "\u5FD8\u8BB0\u4E86"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Freddys
+      TermType: 0
+      Description: 
+      Languages:
+      - Freddys
+      - Freddy
+      - Freddy
+      - "\u30D5\u30EC\u30C7\u30A3\u30FC\u30BA"
+      - "\u0424\u0440\u0435\u0434\u0434\u0438"
+      - Freddy
+      - "\u0E40\u0E1F\u0E23\u0E14\u0E14\u0E35\u0E49"
+      - Freddy
+      - Freddys
+      - "\uD504\uB808\uB514\uC2A4"
+      - Freddy
+      - Freddys
+      - Freddy'ler
+      - "\u5F17\u96F7\u8FEA\u65AF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Frozen
+      TermType: 0
+      Description: 
+      Languages:
+      - Frozen
+      - Congelado
+      - "Congel\xE9"
+      - "\u51CD\u3063\u305F"
+      - "\u0417\u0430\u043C\u043E\u0440\u043E\u0436\u0435\u043D\u043D\u044B\u0439"
+      - "\u0110\xF4ng c\u1EE9ng"
+      - "\u0E41\u0E0A\u0E48\u0E41\u0E02\u0E47\u0E07"
+      - Congeladas
+      - "Mro\u017Cony"
+      - "\uACA8\uC6B8 \uC655\uAD6D"
+      - Congelato
+      - Gefroren
+      - "Dondurulmu\u015F"
+      - "\u51B7\u51BB"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Fun
+      TermType: 0
+      Description: 
+      Languages:
+      - Fun
+      - Divertido
+      - Amusant
+      - "\u697D\u3057\u3044"
+      - "\u0412\u0435\u0441\u0435\u043B\u044C\u0435"
+      - "Vui v\u1EBB"
+      - "\u0E2A\u0E19\u0E38\u0E01"
+      - "Divers\xE3o"
+      - Zabawa
+      - "\uC7AC\uBBF8\uC788\uB294"
+      - Divertimento
+      - "Spa\xDF"
+      - "E\u011Flence"
+      - "\u4E50\u8DA3"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Game
+      TermType: 0
+      Description: 
+      Languages:
+      - Game
+      - Juego
+      - Jeu
+      - "\u30B2\u30FC\u30E0"
+      - "\u0418\u0433\u0440\u0430"
+      - "Tr\xF2 ch\u01A1i"
+      - "\u0E40\u0E01\u0E21"
+      - Jogo
+      - Gra
+      - "\uAC8C\uC784"
+      - Gioco
+      - Spiel
+      - Oyun
+      - "\u6E38\u620F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Games
+      TermType: 0
+      Description: 
+      Languages:
+      - Games
+      - Juegos
+      - Jeux
+      - "\u30B2\u30FC\u30E0"
+      - "\u0418\u0433\u0440\u044B"
+      - "Tr\xF2 ch\u01A1i"
+      - "\u0E40\u0E01\u0E21"
+      - Jogos
+      - Gry
+      - "\uACC4\uB7B5"
+      - Giochi
+      - Spiele
+      - Oyunlar
+      - "\u6E38\u620F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Good
+      TermType: 0
+      Description: 
+      Languages:
+      - Good
+      - Bien
+      - Bien
+      - "\u826F\u3044"
+      - "\u0425\u043E\u0440\u043E\u0448\u0438\u0439"
+      - "T\u1ED1t"
+      - "\u0E14\u0E35"
+      - Bom
+      - Dobry
+      - "\uC88B\uC740"
+      - Bene
+      - Gut
+      - "\u0130yi"
+      - "\u597D\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Gta
+      TermType: 0
+      Description: 
+      Languages:
+      - Gta
+      - gta
+      - Gta
+      - Gta
+      - "\u0413\u0442\u0430"
+      - Gta
+      - "\u0E08\u0E35\u0E17\u0E35\u0E40\u0E2D"
+      - GTA
+      - Gta
+      - "\uADF8\uD0C0"
+      - Gta
+      - Gta
+      - Gta
+      - "\u4FA0\u76D7\u730E\u8F66"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: HOUSE
+      TermType: 0
+      Description: 
+      Languages:
+      - HOUSE
+      - CASA
+      - MAISON
+      - "\u5BB6"
+      - "\u0414\u041E\u041C"
+      - "C\u0102N NH\xC0"
+      - "\u0E1A\u0E49\u0E32\u0E19"
+      - CASA
+      - DOM
+      - "\uC9D1"
+      - CASA
+      - HAUS
+      - EV
+      - "\u623F\u5B50"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Hard
+      TermType: 0
+      Description: 
+      Languages:
+      - Hard
+      - Duro
+      - Dur
+      - "\u96E3\u3057\u3044"
+      - "\u0416\u0435\u0441\u0442\u043A\u0438\u0439"
+      - "C\u1EE9ng"
+      - "\u0E41\u0E02\u0E47\u0E07"
+      - Duro
+      - Twardy
+      - "\uB531\uB531\uD55C"
+      - Difficile
+      - Hart
+      - Zor
+      - "\u96BE\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Herobrine
+      TermType: 0
+      Description: 
+      Languages:
+      - Herobrine
+      - herobrina
+      - "H\xE9robrine"
+      - "\u30D8\u30ED\u30D6\u30E9\u30A4\u30F3"
+      - "\u0425\u0438\u0440\u043E\u0431\u0440\u0438\u043D"
+      - Herobrine
+      - "\u0E40\u0E2E\u0E42\u0E23\u0E1A\u0E23\u0E34\u0E19"
+      - Herobrine
+      - Herobrine
+      - "\uD788\uB85C\uBE48"
+      - Herobrine
+      - Herobrine
+      - Herobrin
+      - "\u8D6B\u7F57\u5E03\u6797"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Home
+      TermType: 0
+      Description: 
+      Languages:
+      - Home
+      - Hogar
+      - Maison
+      - "\u5BB6"
+      - "\u0414\u043E\u043C"
+      - "Trang ch\u1EE7"
+      - "\u0E1A\u0E49\u0E32\u0E19"
+      - Lar
+      - Dom
+      - "\uC9D1"
+      - Casa
+      - Heim
+      - Ev
+      - "\u5BB6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Hotel
+      TermType: 0
+      Description: 
+      Languages:
+      - Hotel
+      - Hotel
+      - "H\xF4tel"
+      - "\u30DB\u30C6\u30EB"
+      - "\u0413\u043E\u0441\u0442\u0438\u043D\u0438\u0446\u0430"
+      - "Kh\xE1ch s\u1EA1n"
+      - "\u0E42\u0E23\u0E07\u0E41\u0E23\u0E21"
+      - Hotel
+      - Hotel
+      - "\uD638\uD154"
+      - Hotel
+      - Hotel
+      - Otel
+      - "\u9152\u5E97"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: House
+      TermType: 0
+      Description: 
+      Languages:
+      - House
+      - Casa
+      - Maison
+      - "\u5BB6"
+      - "\u0414\u043E\u043C"
+      - "C\u0103n nh\xE0"
+      - "\u0E1A\u0E49\u0E32\u0E19"
+      - Casa
+      - Dom
+      - "\uC9D1"
+      - Casa
+      - Haus
+      - Ev
+      - "\u623F\u5B50"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Houses
+      TermType: 0
+      Description: 
+      Languages:
+      - Houses
+      - Casas
+      - Maisons
+      - "\u4F4F\u5B85"
+      - "\u0414\u043E\u043C\u0430"
+      - "Nh\xE0"
+      - "\u0E1A\u0E49\u0E32\u0E19"
+      - Casas
+      - Domy
+      - "\uC8FC\uD0DD"
+      - Case
+      - "H\xE4user"
+      - Evler
+      - "\u623F\u5C4B"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Hunger
+      TermType: 0
+      Description: 
+      Languages:
+      - Hunger
+      - Hambre
+      - Faim
+      - "\u98E2\u3048"
+      - "\u0413\u043E\u043B\u043E\u0434"
+      - "N\u1EA1n \u0111\xF3i"
+      - "\u0E04\u0E27\u0E32\u0E21\u0E2B\u0E34\u0E27"
+      - Fome
+      - "G\u0142\xF3d"
+      - "\uAD76\uC8FC\uB9BC"
+      - Fame
+      - Hunger
+      - "A\xE7l\u0131k"
+      - "\u9965\u997F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: If you like us, please give us 5 stars :D
+      TermType: 0
+      Description: 
+      Languages:
+      - If you like us, please give us 5 stars :D
+      - Si te gustamos, por favor danos 5 estrellas :D
+      - "Si vous nous aimez, donnez-nous 5 \xE9toiles :D"
+      - "\u79C1\u305F\u3061\u3092\u6C17\u306B\u5165\u3063\u3066\u3044\u305F\u3060\u3051\u307E\u3057\u305F\u3089\u30015
+        \u3064\u661F\u3092\u304A\u9858\u3044\u3057\u307E\u3059 :D"
+      - "\u0415\u0441\u043B\u0438 \u043C\u044B \u0432\u0430\u043C \u043D\u0440\u0430\u0432\u0438\u043C\u0441\u044F,
+        \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043F\u043E\u0441\u0442\u0430\u0432\u044C\u0442\u0435
+        \u043D\u0430\u043C 5 \u0437\u0432\u0435\u0437\u0434 :D"
+      - "N\u1EBFu b\u1EA1n th\xEDch ch\xFAng t\xF4i, vui l\xF2ng cho ch\xFAng t\xF4i
+        5 sao :D"
+      - "\u0E16\u0E49\u0E32\u0E04\u0E38\u0E13\u0E0A\u0E2D\u0E1A\u0E40\u0E23\u0E32
+        \u0E42\u0E1B\u0E23\u0E14\u0E43\u0E2B\u0E49 5 \u0E14\u0E32\u0E27\u0E41\u0E01\u0E48\u0E40\u0E23\u0E32
+        :D"
+      - "Se voc\xEA gosta de n\xF3s, por favor, d\xEA-nos 5 estrelas: D"
+      - "Je\u015Bli nas lubisz, daj nam 5 gwiazdek :D"
+      - "\uB9C8\uC74C\uC5D0 \uB4DC\uC2E0\uB2E4\uBA74 \uBCC4 5\uAC1C\uB97C \uB20C\uB7EC\uC8FC\uC138\uC694
+        :D"
+      - 'Se ti piacciamo, ti preghiamo di darci 5 stelle: D'
+      - "Wenn Sie uns m\xF6gen, geben Sie uns bitte 5 Sterne :D"
+      - "Bizi be\u011Fendiyseniz, l\xFCtfen bize 5 y\u0131ld\u0131z verin: D"
+      - "\u5982\u679C\u60A8\u559C\u6B22\u6211\u4EEC\uFF0C\u8BF7\u7ED9\u6211\u4EEC
+        5 \u9897\u661F :D"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Import Now
+      TermType: 0
+      Description: 
+      Languages:
+      - Import Now
+      - Importar ahora
+      - Importer maintenant
+      - "\u4ECA\u3059\u3050\u30A4\u30F3\u30DD\u30FC\u30C8"
+      - "\u0418\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0441\u0435\u0439\u0447\u0430\u0441"
+      - "Nh\u1EADp ngay"
+      - "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49"
+      - Importar agora
+      - Importuj teraz
+      - "\uC9C0\uAE08 \uAC00\uC838\uC624\uAE30"
+      - Importa ora
+      - Jetzt importieren
+      - "\u015Eimdi \u0130\xE7e Aktar"
+      - "\u7ACB\u5373\u5BFC\u5165"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Intrestital Force Loader Callback
+      TermType: 0
+      Description: 
+      Languages:
+      - Intrestital Force  Loader Callback
+      - "Devoluci\xF3n de llamada del cargador de fuerza intrestital"
+      - Rappel du chargeur de force Intrestital
+      - "\u8178\u5185\u30D5\u30A9\u30FC\u30B9\u30ED\u30FC\u30C0\u30FC\u306E\u30B3\u30FC\u30EB\u30D0\u30C3\u30AF"
+      - "\u041E\u0431\u0440\u0430\u0442\u043D\u044B\u0439 \u0432\u044B\u0437\u043E\u0432
+        \u0437\u0430\u0433\u0440\u0443\u0437\u0447\u0438\u043A\u0430 Intrestital"
+      - "G\u1ECDi l\u1EA1i Intrestital Force Loader"
+      - "Intrestital Force Loader \u0E42\u0E17\u0E23\u0E01\u0E25\u0E31\u0E1A"
+      - "Retorno de chamada do carregador de for\xE7a intrastical"
+      - "Wywo\u0142anie zwrotne modu\u0142u \u0142aduj\u0105cego Intrestital"
+      - "\uC7A5\uB0B4 \uD798 \uB85C\uB354 \uCF5C\uBC31"
+      - Richiamata caricatore forza interstitale
+      - "R\xFCckruf des Intrestital Force Loaders"
+      - "\u0130nrestital Kuvvet Y\xFCkleyici Geri \xC7a\u011F\u0131rma"
+      - "\u95F4\u8D28\u529B\u52A0\u8F7D\u5668\u56DE\u8C03"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Island
+      TermType: 0
+      Description: 
+      Languages:
+      - Island
+      - Isla
+      - "\xCEle"
+      - "\u5CF6"
+      - "\u041E\u0441\u0442\u0440\u043E\u0432"
+      - "H\xF2n \u0111\u1EA3o"
+      - "\u0E40\u0E01\u0E32\u0E30"
+      - Ilha
+      - Wyspa
+      - "\uC12C"
+      - Isola
+      - Insel
+      - Ada
+      - "\u5C9B"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: King
+      TermType: 0
+      Description: 
+      Languages:
+      - King
+      - Rey
+      - Roi
+      - "\u738B"
+      - "\u041A\u043E\u0440\u043E\u043B\u044C"
+      - "Nh\xE0 vua"
+      - "\u0E01\u0E29\u0E31\u0E15\u0E23\u0E34\u0E22\u0E4C"
+      - Rei
+      - "Kr\xF3l"
+      - "\uC655"
+      - Re
+      - "K\xF6nig"
+      - Kral
+      - "\u56FD\u738B"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Land
+      TermType: 0
+      Description: 
+      Languages:
+      - Land
+      - Tierra
+      - Atterrir
+      - "\u571F\u5730"
+      - "\u0417\u0435\u043C\u043B\u044F"
+      - "\u0110\u1EA5t"
+      - "\u0E17\u0E35\u0E48\u0E14\u0E34\u0E19"
+      - Terra
+      - Grunt
+      - "\uB545"
+      - Terra
+      - Land
+      - Kara
+      - "\u571F\u5730"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Later
+      TermType: 0
+      Description: 
+      Languages:
+      - Later
+      - "M\xE1s tarde"
+      - Plus tard
+      - "\u5F8C\u3067"
+      - "\u041F\u043E\u0437\u0436\u0435"
+      - "Sau \u0111\xF3"
+      - "\u0E20\u0E32\u0E22\u0E2B\u0E25\u0E31\u0E07"
+      - Mais tarde
+      - "P\xF3\u017Aniej"
+      - "\uB098\uC911\uC5D0"
+      - Dopo
+      - "Sp\xE4ter"
+      - Daha sonra
+      - "\u4E4B\u540E"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Lucky
+      TermType: 0
+      Description: 
+      Languages:
+      - Lucky
+      - Afortunado
+      - Chanceux
+      - "\u30E9\u30C3\u30AD\u30FC"
+      - "\u0423\u0434\u0430\u0447\u043B\u0438\u0432\u044B\u0439"
+      - "May m\u1EAFn"
+      - "\u0E42\u0E0A\u0E04\u0E14\u0E35"
+      - Sortudo
+      - "Maj\u0105cy szcz\u0119\u015Bcie"
+      - "\uC6B4\uC774 \uC88B\uC740"
+      - Fortunato
+      - "Gl\xFCcklich"
+      - "\u015Eansl\u0131"
+      - "\u5E78\u8FD0\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: MCPE is not installed on your phone Please install Leatest Version
+      TermType: 0
+      Description: 
+      Languages:
+      - MCPE is not installed on your phone Please install Leatest Version
+      - "MCPE no est\xE1 instalado en su tel\xE9fono. Instale la versi\xF3n m\xE1s
+        reciente."
+      - "MCPE n'est pas install\xE9 sur votre t\xE9l\xE9phone Veuillez installer
+        la version la plus r\xE9cente"
+      - "MCPE \u304C\u643A\u5E2F\u96FB\u8A71\u306B\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3055\u308C\u3066\u3044\u307E\u305B\u3093
+        \u6700\u65B0\u30D0\u30FC\u30B8\u30E7\u30F3\u3092\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "MCPE \u043D\u0435 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D
+        \u043D\u0430 \u0432\u0430\u0448\u0435\u043C \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0435.
+        \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044E\u044E
+        \u0432\u0435\u0440\u0441\u0438\u044E."
+      - "MCPE ch\u01B0a \u0111\u01B0\u1EE3c c\xE0i \u0111\u1EB7t tr\xEAn \u0111i\u1EC7n
+        tho\u1EA1i c\u1EE7a b\u1EA1n Vui l\xF2ng c\xE0i \u0111\u1EB7t Phi\xEAn b\u1EA3n
+        m\u1EDBi nh\u1EA5t"
+      - "\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07
+        MCPE \u0E42\u0E1B\u0E23\u0E14\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07\u0E40\u0E27\u0E2D\u0E23\u0E4C\u0E0A\u0E31\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E25\u0E48\u0E32\u0E2A\u0E38\u0E14"
+      - "MCPE n\xE3o est\xE1 instalado no seu telefone Instale a vers\xE3o mais recente"
+      - "MCPE nie jest zainstalowane na Twoim telefonie. Zainstaluj najnowsz\u0105
+        wersj\u0119"
+      - "MCPE\uAC00 \uD734\uB300\uD3F0\uC5D0 \uC124\uCE58\uB418\uC5B4 \uC788\uC9C0
+        \uC54A\uC2B5\uB2C8\uB2E4. \uCD5C\uC2E0 \uBC84\uC804\uC744 \uC124\uCE58\uD558\uC138\uC694."
+      - "MCPE non \xE8 installato sul tuo telefono. Installa la versione pi\xF9 recente"
+      - MCPE ist nicht auf Ihrem Telefon installiert. Bitte installieren Sie die
+        aktuellste Version
+      - "MCPE telefonunuzda y\xFCkl\xFC de\u011Fil L\xFCtfen En Son S\xFCr\xFCm\xFC
+        Y\xFCkleyin"
+      - "\u60A8\u7684\u624B\u673A\u4E0A\u672A\u5B89\u88C5 MCPE \u8BF7\u5B89\u88C5\u6700\u65B0\u7248\u672C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Mansion
+      TermType: 0
+      Description: 
+      Languages:
+      - Mansion
+      - "Mansi\xF3n"
+      - Manoir
+      - "\u30DE\u30F3\u30B7\u30E7\u30F3"
+      - "\u041E\u0441\u043E\u0431\u043D\u044F\u043A"
+      - "bi\u1EC7t th\u1EF1"
+      - "\u0E04\u0E24\u0E2B\u0E32\u0E2A\u0E19\u0E4C"
+      - "Mans\xE3o"
+      - Rezydencja
+      - "\uB9E8\uC158"
+      - Dimora
+      - Villa
+      - Konak
+      - "\u5927\u53A6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Mansions
+      TermType: 0
+      Description: 
+      Languages:
+      - Mansions
+      - Mansiones
+      - Demeures
+      - "\u30DE\u30F3\u30B7\u30E7\u30F3"
+      - "\u041E\u0441\u043E\u0431\u043D\u044F\u043A\u0438"
+      - "bi\u1EC7t th\u1EF1"
+      - "\u0E41\u0E21\u0E19\u0E0A\u0E31\u0E48\u0E19"
+      - "Mans\xF5es"
+      - Rezydencje
+      - "\uC544\uD30C\uD2B8"
+      - Palazzi
+      - Villen
+      - Konaklar
+      - "\u8C6A\u5B85"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Map
+      TermType: 0
+      Description: 
+      Languages:
+      - Map
+      - Mapa
+      - Carte
+      - "\u5730\u56F3"
+      - "\u043A\u0430\u0440\u0442\u0430"
+      - "B\u1EA3n \u0111\u1ED3"
+      - "\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48"
+      - Mapa
+      - Mapa
+      - "\uC9C0\uB3C4"
+      - Carta geografica
+      - Karte
+      - Harita
+      - "\u5730\u56FE"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Map Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Map Name
+      - Nombre del mapa
+      - Nom de la carte
+      - "\u30DE\u30C3\u30D7\u540D"
+      - "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0430\u0440\u0442\u044B"
+      - "T\xEAn b\u1EA3n \u0111\u1ED3"
+      - "\u0E0A\u0E37\u0E48\u0E2D\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48"
+      - Nome do mapa
+      - Nazwa mapy
+      - "\uC9C0\uB3C4 \uC774\uB984"
+      - Nome della mappa
+      - Kartenname
+      - "Harita Ad\u0131"
+      - "\u5730\u56FE\u540D\u79F0"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Mario
+      TermType: 0
+      Description: 
+      Languages:
+      - Mario
+      - Mario
+      - Mario
+      - "\u30DE\u30EA\u30AA"
+      - "\u041C\u0430\u0440\u0438\u043E"
+      - Mario
+      - "\u0E21\u0E32\u0E23\u0E34\u0E42\u0E2D"
+      - "M\xE1rio"
+      - Mario
+      - "\uB9C8\uB9AC\uC624"
+      - Mario
+      - Mario
+      - Mario
+      - "\u9A6C\u91CC\u5965"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Maze
+      TermType: 0
+      Description: 
+      Languages:
+      - Maze
+      - Laberinto
+      - Labyrinthe
+      - "\u8FF7\u8DEF"
+      - "\u041B\u0430\u0431\u0438\u0440\u0438\u043D\u0442"
+      - "m\xEA cung"
+      - "\u0E40\u0E02\u0E32\u0E27\u0E07\u0E01\u0E15"
+      - Labirinto
+      - Labirynt
+      - "\uBBF8\uB85C"
+      - Labirinto
+      - Labyrinth
+      - Labirent
+      - "\u8FF7\u5BAB"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Medieval
+      TermType: 0
+      Description: 
+      Languages:
+      - Medieval
+      - Medieval
+      - "M\xE9di\xE9val"
+      - "\u4E2D\u4E16"
+      - "\u0421\u0440\u0435\u0434\u043D\u0435\u0432\u0435\u043A\u043E\u0432\u044B\u0439"
+      - "th\u1EDDi trung c\u1ED5"
+      - "\u0E22\u0E38\u0E04\u0E01\u0E25\u0E32\u0E07"
+      - Medieval
+      - "\u015Aredniowieczny"
+      - "\uC911\uC138"
+      - Medievale
+      - Mittelalterlich
+      - "Orta\xE7a\u011Fa ait"
+      - "\u4E2D\u4E16\u7EAA"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Mega
+      TermType: 0
+      Description: 
+      Languages:
+      - Mega
+      - Mega
+      - "M\xE9ga"
+      - "\u30E1\u30AC"
+      - "\u041C\u0435\u0433\u0430"
+      - "Si\xEAu c\u1EA5p"
+      - "\u0E40\u0E21\u0E01\u0E49\u0E32"
+      - Mega
+      - Mega
+      - "\uBA54\uAC00"
+      - Mega
+      - Mega
+      - Mega
+      - "\u5146"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Menu
+      TermType: 0
+      Description: 
+      Languages:
+      - Menu
+      - "Men\xFA"
+      - Menu
+      - "\u30E1\u30CB\u30E5\u30FC"
+      - "\u041C\u0435\u043D\u044E"
+      - "Th\u1EF1c \u0110\u01A1n"
+      - "\u0E40\u0E21\u0E19\u0E39"
+      - "Card\xE1pio"
+      - Menu
+      - "\uBA54\uB274"
+      - "Men\xF9"
+      - Speisekarte
+      - "Men\xFC"
+      - "\u83DC\u5355"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Minigames
+      TermType: 0
+      Description: 
+      Languages:
+      - Minigames
+      - Mini juegos
+      - Mini-jeux
+      - "\u30DF\u30CB\u30B2\u30FC\u30E0"
+      - "\u041C\u0438\u043D\u0438 \u0438\u0433\u0440\u044B"
+      - "Nh\u1EEFng tr\xF2 ch\u01A1i nh\u1ECF"
+      - "\u0E21\u0E34\u0E19\u0E34\u0E40\u0E01\u0E21"
+      - Mini jogos
+      - Mini gry
+      - "\uBBF8\uB2C8 \uAC8C\uC784"
+      - Mini giochi
+      - Minispiele
+      - "K\xFC\xE7\xFCk oyunlar"
+      - "\u5C0F\u6E38\u620F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Modern
+      TermType: 0
+      Description: 
+      Languages:
+      - Modern
+      - Moderno
+      - Moderne
+      - "\u30E2\u30C0\u30F3\u306A"
+      - "\u0421\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0439"
+      - "Hi\u1EC7n \u0111\u1EA1i"
+      - "\u0E17\u0E31\u0E19\u0E2A\u0E21\u0E31\u0E22"
+      - Moderno
+      - Nowoczesny
+      - "\uD604\uB300\uC758"
+      - Moderno
+      - Modern
+      - Modern
+      - "\u73B0\u4EE3\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: More Apps
+      TermType: 0
+      Description: 
+      Languages:
+      - More Apps
+      - "M\xE1s aplicaciones"
+      - Plus d'applications
+      - "\u3088\u308A\u591A\u304F\u306E\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3"
+      - "\u0411\u043E\u043B\u044C\u0448\u0435 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439"
+      - "Th\xEAm nhi\u1EC1u \u1EE9ng d\u1EE5ng"
+      - "\u0E41\u0E2D\u0E1E\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21"
+      - Mais aplicativos
+      - "Wi\u0119cej aplikacji"
+      - "\uB354 \uB9CE\uC740 \uC560\uD50C \uB9AC\uCF00\uC774\uC158"
+      - "Pi\xF9 applicazioni"
+      - Mehr Apps
+      - Daha fazla uygulama
+      - "\u66F4\u591A\u5E94\u7528\u7A0B\u5E8F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Nether
+      TermType: 0
+      Description: 
+      Languages:
+      - Nether
+      - Inferior
+      - Bas
+      - "\u30CD\u30B6\u30FC"
+      - "\u041F\u0443\u0441\u0442\u043E\u0442\u0430"
+      - "\u0111\u1ECBa ng\u1EE5c"
+      - "\u0E40\u0E19\u0E40\u0E18\u0E2D\u0E23\u0E4C"
+      - Inferior
+      - Dolny
+      - "\uB124\uB354"
+      - Neanche
+      - Nether
+      - Nether
+      - "\u4E0B\u754C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: New Text
+      TermType: 0
+      Description: 
+      Languages:
+      - New Text
+      - Nuevo texto
+      - Nouveau texte
+      - "\u65B0\u3057\u3044\u30C6\u30AD\u30B9\u30C8"
+      - "\u041D\u043E\u0432\u044B\u0439 \u0442\u0435\u043A\u0441\u0442"
+      - "V\u0103n b\u1EA3n m\u1EDBi"
+      - "\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E43\u0E2B\u0E21\u0E48"
+      - Novo texto
+      - Nowy tekst
+      - "\uC0C8 \uD14D\uC2A4\uD2B8"
+      - Nuovo testo
+      - Neuer Text
+      - Yeni Metin
+      - "\u65B0\u6587\u672C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Nights
+      TermType: 0
+      Description: 
+      Languages:
+      - Nights
+      - Noches
+      - Nuits
+      - "\u591C"
+      - "\u041D\u043E\u0447\u0438"
+      - "\u0110\xEAm"
+      - "\u0E04\u0E37\u0E19"
+      - Noites
+      - Noce
+      - "\uBC24"
+      - Notti
+      - "N\xE4chte"
+      - Geceler
+      - "\u591C\u665A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: OK
+      TermType: 0
+      Description: 
+      Languages:
+      - OK
+      - DE ACUERDO
+      - D'ACCORD
+      - "\u308F\u304B\u308A\u307E\u3057\u305F"
+      - "\u0425\u041E\u0420\u041E\u0428\u041E"
+      - "\u0110\u01AF\u1EE2C R\u1ED2I"
+      - "\u0E15\u0E01\u0E25\u0E07"
+      - OK
+      - OK
+      - "\uC88B\uC544\uC694"
+      - OK
+      - OK
+      - TAMAM
+      - "\u597D\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Ok
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - De acuerdo
+      - D'accord
+      - "\u308F\u304B\u308A\u307E\u3057\u305F"
+      - "\u0425\u043E\u0440\u043E\u0448\u043E"
+      - "\u0110\u01B0\u1EE3c r\u1ED3i"
+      - "\u0E15\u0E01\u0E25\u0E07"
+      - OK
+      - OK
+      - "\uC88B\uC544\uC694"
+      - OK
+      - OK
+      - Tamam
+      - "\u597D\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: PARKOUR
+      TermType: 0
+      Description: 
+      Languages:
+      - Parkour
+      - Parkour
+      - Parkour
+      - "\u30D1\u30EB\u30AF\u30FC\u30EB"
+      - "\u041F\u0430\u0440\u043A\u0443\u0440"
+      - "V\u01B0\u1EE3t Ch\u01B0\u1EDBng Ng\u1EA1i V\u1EADt"
+      - "\u0E1B\u0E32\u0E23\u0E4C\u0E01\u0E31\u0E27\u0E23\u0E4C"
+      - Parkour
+      - Parkoura
+      - "\uD30C\uCFE0\uB974"
+      - Parkour
+      - Parkour
+      - Parkur
+      - "\u8DD1\u9177"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: PVP
+      TermType: 0
+      Description: 
+      Languages:
+      - PVP
+      - JcJ
+      - JcJ
+      - PVP
+      - "\u041F\u0412\u041F"
+      - PVP
+      - "\u0E1E\u0E35\u0E27\u0E35\u0E1E\u0E35"
+      - PVP
+      - PvP
+      - PVP
+      - PvP
+      - PVP
+      - PVP
+      - "\u805A\u4E59\u70EF\u5421\u54AF\u70F7\u916E"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Parkour
+      TermType: 0
+      Description: 
+      Languages:
+      - Parkour
+      - parkour
+      - Parkour
+      - "\u30D1\u30EB\u30AF\u30FC\u30EB"
+      - "\u041F\u0430\u0440\u043A\u0443\u0440"
+      - "v\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt"
+      - "\u0E1B\u0E32\u0E23\u0E4C\u0E01\u0E31\u0E27\u0E23\u0E4C"
+      - Parkour
+      - Parkoura
+      - "\uD30C\uCFE0\uB974"
+      - Parkour
+      - Parkour
+      - parkur
+      - "\u8DD1\u9177"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Permission Required!
+      TermType: 0
+      Description: 
+      Languages:
+      - Permission Required!
+      - "\xA1Se requiere permiso!"
+      - "Autorisation requise\_!"
+      - "\u8A31\u53EF\u304C\u5FC5\u8981\u3067\u3059!"
+      - "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435!"
+      - "C\u1EA7n c\xF3 s\u1EF1 cho ph\xE9p!"
+      - "\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E2D\u0E19\u0E38\u0E0D\u0E32\u0E15!"
+      - "Permiss\xE3o necess\xE1ria!"
+      - Wymagane pozwolenie!
+      - "\uD5C8\uAC00\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4!"
+      - Permesso richiesto!
+      - Erlaubnis erforderlich!
+      - "\u0130zin Gerekli!"
+      - "\u9700\u8981\u8BB8\u53EF\uFF01"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Pixel
+      TermType: 0
+      Description: 
+      Languages:
+      - Pixel
+      - "P\xEDxel"
+      - Pixels
+      - "\u30D4\u30AF\u30BB\u30EB"
+      - "\u041F\u0438\u043A\u0441\u0435\u043B\u044C"
+      - Pixel
+      - "\u0E1E\u0E34\u0E01\u0E40\u0E0B\u0E25"
+      - Pixel
+      - Piksel
+      - "\uD53D\uC140"
+      - Pixel
+      - Pixel
+      - Piksel
+      - "\u50CF\u7D20"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Play
+      TermType: 0
+      Description: 
+      Languages:
+      - Play
+      - Jugar
+      - Jouer
+      - "\u904A\u3076"
+      - "\u0418\u0433\u0440\u0430\u0442\u044C"
+      - "Ch\u01A1i"
+      - "\u0E40\u0E25\u0E48\u0E19"
+      - Jogar
+      - "Gra\u0107"
+      - "\uB180\uB2E4"
+      - Giocare
+      - Spielen
+      - Oynamak
+      - "\u73A9"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Please Rate Us!
+      TermType: 0
+      Description: 
+      Languages:
+      - Please Rate Us!
+      - "\xA1Calif\xEDcanos!"
+      - "Veuillez nous \xE9valuer\_!"
+      - "\u8A55\u4FA1\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043E\u0446\u0435\u043D\u0438\u0442\u0435
+        \u043D\u0430\u0441!"
+      - "H\xE3y \u0111\xE1nh gi\xE1 ch\xFAng t\xF4i!"
+      - "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E43\u0E2B\u0E49\u0E04\u0E30\u0E41\u0E19\u0E19\u0E40\u0E23\u0E32!"
+      - Por favor, avalie-nos!
+      - "Oce\u0144 nas!"
+      - "\uC6B0\uB9AC\uB97C \uD3C9\uAC00\uD574\uC8FC\uC138\uC694!"
+      - Per favore valutaci!
+      - Bitte bewerten Sie uns!
+      - "L\xFCtfen Bizi De\u011Ferlendirin!"
+      - "\u8BF7\u8BC4\u4EF7\u6211\u4EEC\uFF01"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Portal
+      TermType: 0
+      Description: 
+      Languages:
+      - Portal
+      - Portal
+      - Portail
+      - "\u30DD\u30FC\u30BF\u30EB"
+      - "\u041F\u043E\u0440\u0442\u0430\u043B"
+      - "C\u1ED5ng th\xF4ng tin"
+      - "\u0E1E\u0E2D\u0E23\u0E4C\u0E17\u0E31\u0E25"
+      - Portal
+      - Portal
+      - "\uBB38"
+      - Portale
+      - Portal
+      - Portal
+      - "\u95E8\u6237\u7F51\u7AD9"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Privacy
+      TermType: 0
+      Description: 
+      Languages:
+      - Privacy
+      - Privacidad
+      - "Confidentialit\xE9"
+      - "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC"
+      - "\u041A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C"
+      - "S\u1EF1 ri\xEAng t\u01B0"
+      - "\u0E04\u0E27\u0E32\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E15\u0E31\u0E27"
+      - Privacidade
+      - "Prywatno\u015B\u0107"
+      - "\uC740\uB454"
+      - Privacy
+      - "Privatsph\xE4re"
+      - Mahremiyet
+      - "\u9690\u79C1"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Privacy Policy
+      TermType: 0
+      Description: 
+      Languages:
+      - Privacy Policy
+      - "Pol\xEDtica De Privacidad"
+      - "Politique De Confidentialit\xE9"
+      - "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+      - "\u041F\u043E\u043B\u0438\u0442\u0438\u043A\u0430 \u041A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
+      - "Ch\xEDnh S\xE1ch B\u1EA3o M\u1EADt"
+      - "\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E04\u0E27\u0E32\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E15\u0E31\u0E27"
+      - "Pol\xEDtica De Privacidade"
+      - "Polityka Prywatno\u015Bci"
+      - "\uAC1C\uC778 \uC815\uBCF4 \uC815\uCC45"
+      - Politica Sulla Riservatezza
+      - Datenschutzrichtlinie
+      - "Gizlilik Politikas\u0131"
+      - "\u9690\u79C1\u653F\u7B56"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Profile
+      TermType: 0
+      Description: 
+      Languages:
+      - Profile
+      - Perfil
+      - Profil
+      - "\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"
+      - "\u041F\u0440\u043E\u0444\u0438\u043B\u044C"
+      - "H\u1ED3 s\u01A1"
+      - "\u0E1B\u0E23\u0E30\u0E27\u0E31\u0E15\u0E34\u0E42\u0E14\u0E22\u0E22\u0E48\u0E2D"
+      - Perfil
+      - Profil
+      - "\uD504\uB85C\uD544"
+      - Profilo
+      - Profil
+      - Profil
+      - "\u8F6E\u5ED3"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Puzzle
+      TermType: 0
+      Description: 
+      Languages:
+      - Puzzle
+      - Rompecabezas
+      - Puzzle
+      - "\u30D1\u30BA\u30EB"
+      - "\u0413\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043A\u0430"
+      - "C\xE2u \u0111\u1ED1"
+      - "\u0E1B\u0E23\u0E34\u0E28\u0E19\u0E32"
+      - "Quebra-cabe\xE7a"
+      - Puzzle
+      - "\uD37C\uC990"
+      - Puzzle
+      - Puzzle
+      - Bulmaca
+      - "\u8C1C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: PvP
+      TermType: 0
+      Description: 
+      Languages:
+      - PvP
+      - JcJ
+      - PvP
+      - PvP
+      - "\u041F\u0432\u041F"
+      - PvP
+      - "\u0E1E\u0E35\u0E27\u0E35\u0E1E\u0E35"
+      - JxJ
+      - PvP
+      - PVP
+      - PvP
+      - PvP
+      - PvP
+      - "\u73A9\u5BB6\u5BF9\u6218"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Race
+      TermType: 0
+      Description: 
+      Languages:
+      - Race
+      - Carrera
+      - Course
+      - "\u4EBA\u7A2E"
+      - "\u0420\u0430\u0441\u0430"
+      - "Lo\xE0i"
+      - "\u0E41\u0E02\u0E48\u0E07"
+      - Corrida
+      - "Wy\u015Bcig"
+      - "\uACBD\uC8FC"
+      - Gara
+      - Wettrennen
+      - Irk
+      - "\u79CD\u65CF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Rainbow
+      TermType: 0
+      Description: 
+      Languages:
+      - Rainbow
+      - "Arco\xEDris"
+      - Arc-en-ciel
+      - "\u8679"
+      - "\u0420\u0430\u0434\u0443\u0433\u0430"
+      - "c\u1EA7u v\u1ED3ng"
+      - "\u0E23\u0E38\u0E49\u0E07"
+      - "Arco-\xEDris"
+      - "T\u0119cza"
+      - "\uBB34\uC9C0\uAC1C"
+      - Arcobaleno
+      - Regenbogen
+      - "G\xF6kku\u015Fa\u011F\u0131"
+      - "\u5F69\u8679"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Rate
+      TermType: 0
+      Description: 
+      Languages:
+      - Rate
+      - Tasa
+      - Taux
+      - "\u30EC\u30FC\u30C8"
+      - "\u0421\u0442\u0430\u0432\u043A\u0430"
+      - "T\u1EF7 l\u1EC7"
+      - "\u0E1B\u0E23\u0E30\u0E40\u0E21\u0E34\u0E19"
+      - Avaliar
+      - "Wska\u017Anik"
+      - "\uBE44\uC728"
+      - Valutare
+      - Rate
+      - Oran
+      - "\u901F\u5EA6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Rate For Us
+      TermType: 0
+      Description: 
+      Languages:
+      - Rate For Us
+      - Tasa Para Nosotros
+      - Tarif Pour Nous
+      - "\u79C1\u305F\u3061\u306E\u6599\u91D1"
+      - "\u0426\u0435\u043D\u0430 \u0414\u043B\u044F \u041D\u0430\u0441"
+      - "\u0110\xE1nh Gi\xE1 Cho Ch\xFAng T\xF4i"
+      - "\u0E2D\u0E31\u0E15\u0E23\u0E32\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E40\u0E23\u0E32"
+      - "Taxa Para N\xF3s"
+      - Stawka Dla Nas
+      - "\uC6B0\uB9AC\uB97C \uC704\uD55C \uC694\uAE08"
+      - Tariffa Per Noi
+      - "Tarif F\xFCr Uns"
+      - "Bizim I\xE7in Oran"
+      - "\u7ED9\u6211\u4EEC\u7684\u8D39\u7387"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Redstone
+      TermType: 0
+      Description: 
+      Languages:
+      - Redstone
+      - piedra roja
+      - Pierre rouge
+      - "\u8D64\u77F3"
+      - "\u0420\u0435\u0434\u0441\u0442\u043E\u0443\u043D"
+      - "\u0110\xE1 \u0111\u1ECF"
+      - "\u0E40\u0E23\u0E14\u0E2A\u0E42\u0E15\u0E19"
+      - Redstone
+      - "Czerwony kamie\u0144"
+      - "\uBD89\uC740 \uC0C9 \uB3CC"
+      - Pietra rossa
+      - roter Stein
+      - "K\u0131rm\u0131z\u0131 ta\u015F"
+      - "\u7EA2\u77F3\u5934"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Remake
+      TermType: 0
+      Description: 
+      Languages:
+      - Remake
+      - Rehacer
+      - Refaire
+      - "\u30EA\u30E1\u30A4\u30AF"
+      - "\u0420\u0435\u043C\u0435\u0439\u043A"
+      - "L\xE0m l\u1EA1i"
+      - "\u0E23\u0E35\u0E40\u0E21\u0E04"
+      - Refazer
+      - "Przerobi\u0107"
+      - "\uB2E4\uC2DC \uB9CC\uB4E4\uB2E4"
+      - Remake
+      - Neuauflage
+      - "Yeniden Yap\u0131m"
+      - "\u7FFB\u62CD"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Reward
+      - Premio
+      - "R\xE9compense"
+      - "\u8912\u7F8E"
+      - "\u041D\u0430\u0433\u0440\u0430\u0434\u0430"
+      - "Ph\u1EA7n th\u01B0\u1EDFng"
+      - "\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25"
+      - Recompensa
+      - Nagroda
+      - "\uBCF4\uC0C1"
+      - Ricompensa
+      - Belohnen
+      - "\xD6d\xFCl"
+      - "\u62A5\u916C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Rollercoaster
+      TermType: 0
+      Description: 
+      Languages:
+      - Rollercoaster
+      - "Monta\xF1a rusa"
+      - Montagnes russes
+      - "\u30B8\u30A7\u30C3\u30C8\u30B3\u30FC\u30B9\u30BF\u30FC"
+      - "\u0410\u043C\u0435\u0440\u0438\u043A\u0430\u043D\u0441\u043A\u0438\u0435
+        \u0433\u043E\u0440\u043A\u0438"
+      - "t\xE0u l\u01B0\u1EE3n si\xEAu t\u1ED1c"
+      - "\u0E23\u0E16\u0E44\u0E1F\u0E40\u0E2B\u0E32\u0E30"
+      - Montanha russa
+      - "Kolejka g\xF3rska"
+      - "\uB864\uB7EC \uCF54\uC2A4\uD130"
+      - Montagne russe
+      - Achterbahn
+      - "Lunapark h\u0131z treni"
+      - "\u8FC7\u5C71\u8F66"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Run
+      TermType: 0
+      Description: 
+      Languages:
+      - Run
+      - Correr
+      - Courir
+      - "\u8D70\u308B"
+      - "\u0411\u0435\u0433\u0430\u0442\u044C"
+      - "Ch\u1EA1y"
+      - "\u0E27\u0E34\u0E48\u0E07"
+      - Correr
+      - "Uruchomi\u0107"
+      - "\uB2EC\uB9AC\uB2E4"
+      - Correre
+      - Laufen
+      - "Ko\u015Fmak"
+      - "\u8DD1\u6B65"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Runner
+      TermType: 0
+      Description: 
+      Languages:
+      - Runner
+      - Corredor
+      - Coureur
+      - "\u30E9\u30F3\u30CA\u30FC"
+      - "\u0431\u0435\u0433\u0443\u043D"
+      - "\xC1 qu\xE2n"
+      - "\u0E19\u0E31\u0E01\u0E27\u0E34\u0E48\u0E07"
+      - Corredor
+      - Biegacz
+      - "\uB2EC\uB9AC\uB294 \uC0AC\uB78C"
+      - Corridore
+      - "L\xE4ufer"
+      - "Ko\u015Fucu"
+      - "\u8DD1\u6B65\u8005"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: SUCCESS
+      TermType: 0
+      Description: 
+      Languages:
+      - SUCCESS
+      - "\xC9XITO"
+      - "SUCC\xC8S"
+      - "\u6210\u529F"
+      - "\u0423\u0421\u041F\u0415\u0425"
+      - "TH\xC0NH C\xD4NG"
+      - "\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
+      - SUCESSO
+      - POWODZENIE
+      - "\uC131\uACF5"
+      - SUCCESSO
+      - ERFOLG
+      - "BA\u015EARI"
+      - "\u6210\u529F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: School
+      TermType: 0
+      Description: 
+      Languages:
+      - School
+      - Escuela
+      - "\xC9cole"
+      - "\u5B66\u6821"
+      - "\u0428\u043A\u043E\u043B\u0430"
+      - "Tr\u01B0\u1EDDng h\u1ECDc"
+      - "\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19"
+      - Escola
+      - "Szko\u0142a"
+      - "\uD559\uAD50"
+      - Scuola
+      - Schule
+      - Okul
+      - "\u5B66\u6821"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Search
+      TermType: 0
+      Description: 
+      Languages:
+      - Search
+      - Buscar
+      - Recherche
+      - "\u691C\u7D22"
+      - "\u041F\u043E\u0438\u0441\u043A"
+      - "T\xECm ki\u1EBFm"
+      - "\u0E04\u0E49\u0E19\u0E2B\u0E32"
+      - Procurar
+      - Szukaj
+      - "\uCC3E\uB2E4"
+      - Ricerca
+      - Suchen
+      - Aramak
+      - "\u641C\u7D22"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Search Maps
+      TermType: 0
+      Description: 
+      Languages:
+      - Search Maps
+      - Buscar mapas
+      - Rechercher des cartes
+      - "\u30DE\u30C3\u30D7\u3092\u691C\u7D22"
+      - "\u041F\u043E\u0438\u0441\u043A \u043F\u043E \u043A\u0430\u0440\u0442\u0430\u043C"
+      - "T\xECm ki\u1EBFm b\u1EA3n \u0111\u1ED3"
+      - "\u0E04\u0E49\u0E19\u0E2B\u0E32\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48"
+      - Pesquisar mapas
+      - Szukaj w Mapach
+      - "\uC9C0\uB3C4 \uAC80\uC0C9"
+      - Cerca mappe
+      - Karten durchsuchen
+      - Haritalarda Ara
+      - "\u641C\u7D22\u5730\u56FE"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Search Result
+      TermType: 0
+      Description: 
+      Languages:
+      - Search Result
+      - "Resultado de b\xFAsqueda"
+      - "R\xE9sultat de la recherche"
+      - "\u691C\u7D22\u7D50\u679C"
+      - "\u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u043F\u043E\u0438\u0441\u043A\u0430"
+      - "T\xECm k\xEAt qu\u1EA3"
+      - "\u0E1C\u0E25\u0E01\u0E32\u0E23\u0E04\u0E49\u0E19\u0E2B\u0E32"
+      - Resultado da pesquisa
+      - Wynik wyszukiwania
+      - "\uAC80\uC0C9 \uACB0\uACFC"
+      - Risultato della ricerca
+      - Suchergebnis
+      - "Arama sonu\xE7lar\u0131"
+      - "\u641C\u7D22\u7ED3\u679C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Select Language
+      TermType: 0
+      Description: 
+      Languages:
+      - Select Language
+      - Seleccione El Idioma
+      - Choisir La Langue
+      - "\u8A00\u8A9E\u3092\u9078\u629E\u3059\u308B"
+      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u042F\u0437\u044B\u043A"
+      - "Ch\u1ECDn Ng\xF4n Ng\u1EEF"
+      - "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E29\u0E32"
+      - Selecione O Idioma
+      - "Wybierz J\u0119zyk"
+      - "\uC5B8\uC5B4 \uC120\uD0DD"
+      - Seleziona La Lingua
+      - "Sprache Ausw\xE4hlen"
+      - "Dil Se\xE7in"
+      - "\u9009\u62E9\u8BED\u8A00"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Select Maps by Tags
+      TermType: 0
+      Description: 
+      Languages:
+      - Select Maps by Tags
+      - Seleccionar mapas por etiquetas
+      - "S\xE9lectionner des cartes par balises"
+      - "\u30BF\u30B0\u306B\u3088\u308B\u30DE\u30C3\u30D7\u306E\u9078\u629E"
+      - "\u0412\u044B\u0431\u043E\u0440 \u043A\u0430\u0440\u0442 \u043F\u043E \u0442\u0435\u0433\u0430\u043C"
+      - "Ch\u1ECDn b\u1EA3n \u0111\u1ED3 theo th\u1EBB"
+      - "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E15\u0E32\u0E21\u0E41\u0E17\u0E47\u0E01"
+      - Selecione mapas por tags
+      - "Wybierz Mapy wed\u0142ug tag\xF3w"
+      - "\uD0DC\uADF8\uB85C \uC9C0\uB3C4 \uC120\uD0DD"
+      - Seleziona Mappe per tag
+      - "W\xE4hlen Sie Karten nach Tags aus"
+      - "Haritalar\u0131 Etiketlere G\xF6re Se\xE7in"
+      - "\u6309\u6807\u7B7E\u9009\u62E9\u5730\u56FE"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Select language
+      TermType: 0
+      Description: 
+      Languages:
+      - Select language
+      - Seleccione el idioma
+      - Choisir la langue
+      - "\u8A00\u8A9E\u3092\u9078\u629E\u3059\u308B"
+      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u044F\u0437\u044B\u043A"
+      - "Ch\u1ECDn ng\xF4n ng\u1EEF"
+      - "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E29\u0E32"
+      - Selecione o idioma
+      - "Wybierz j\u0119zyk"
+      - "\uC5B8\uC5B4 \uC120\uD0DD"
+      - Seleziona la lingua
+      - "Sprache ausw\xE4hlen"
+      - "Dil Se\xE7in"
+      - "\u9009\u62E9\u8BED\u8A00"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Set Minecraft File Storage Location = External.
+      TermType: 0
+      Description: 
+      Languages:
+      - Set Minecraft File Storage Location = External.
+      - "Establezca la ubicaci\xF3n de almacenamiento de archivos de Minecraft =
+        Externa."
+      - "D\xE9finissez l'emplacement de stockage des fichiers Minecraft = Externe."
+      - "Minecraft \u30D5\u30A1\u30A4\u30EB\u306E\u4FDD\u5B58\u5834\u6240\u3092\u5916\u90E8\u306B\u8A2D\u5B9A\u3057\u307E\u3059\u3002"
+      - "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435
+        \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430 \u0444\u0430\u0439\u043B\u043E\u0432
+        Minecraft = \u0432\u043D\u0435\u0448\u043D\u0435\u0435."
+      - "\u0110\u1EB7t V\u1ECB tr\xED l\u01B0u tr\u1EEF t\u1EC7p Minecraft = B\xEAn
+        ngo\xE0i."
+      - "\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E40\u0E01\u0E47\u0E1A\u0E44\u0E1F\u0E25\u0E4C
+        Minecraft = \u0E20\u0E32\u0E22\u0E19\u0E2D\u0E01"
+      - Defina o local de armazenamento de arquivos do Minecraft = externo.
+      - "Ustaw lokalizacj\u0119 przechowywania plik\xF3w Minecraft = Zewn\u0119trzna."
+      - "Minecraft \uD30C\uC77C \uC800\uC7A5 \uC704\uCE58\uB97C \u200B\u200B\uC678\uBD80\uB85C
+        \uC124\uC815\uD569\uB2C8\uB2E4."
+      - Imposta la posizione di archiviazione dei file di Minecraft = Esterna.
+      - "Stellen Sie den Speicherort der Minecraft-Datei auf \u201EExtern\u201C ein."
+      - "Minecraft Dosya Depolama Konumunu = Harici olarak ayarlay\u0131n."
+      - "\u8BBE\u7F6E Minecraft \u6587\u4EF6\u5B58\u50A8\u4F4D\u7F6E = \u5916\u90E8\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Share
+      TermType: 0
+      Description: 
+      Languages:
+      - Share
+      - Compartir
+      - Partager
+      - "\u5171\u6709"
+      - "\u0414\u0435\u043B\u0438\u0442\u044C\u0441\u044F"
+      - "Chia s\u1EBB"
+      - "\u0E41\u0E1A\u0E48\u0E07\u0E1B\u0E31\u0E19"
+      - Compartilhar
+      - "Udzia\u0142"
+      - "\uACF5\uC720\uD558\uB2E4"
+      - Condividere
+      - Aktie
+      - "Payla\u015Fmak"
+      - "\u5206\u4EAB"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Share App
+      TermType: 0
+      Description: 
+      Languages:
+      - Share App
+      - "Compartir Aplicaci\xF3n"
+      - Partager L'application
+      - "\u30A2\u30D7\u30EA\u3092\u5171\u6709\u3059\u308B"
+      - "\u041F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F \u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\u043C"
+      - "Chia S\u1EBB \u1EE8ng D\u1EE5ng"
+      - "\u0E41\u0E0A\u0E23\u0E4C\u0E41\u0E2D\u0E1B"
+      - Compartilhe O Aplicativo
+      - "Udost\u0119pnij Aplikacje"
+      - "\uC571 \uACF5\uC720"
+      - Condividi App
+      - App Teilen
+      - "Uygulamay\u0131 Payla\u015F"
+      - "\u5206\u4EAB\u5E94\u7528\u7A0B\u5E8F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Ship
+      TermType: 0
+      Description: 
+      Languages:
+      - Ship
+      - Barco
+      - Bateau
+      - "\u8239"
+      - "\u041A\u043E\u0440\u0430\u0431\u043B\u044C"
+      - "T\xE0u th\u1EE7y"
+      - "\u0E40\u0E23\u0E37\u0E2D"
+      - Enviar
+      - Statek
+      - "\uBC30"
+      - Nave
+      - Schiff
+      - Gemi
+      - "\u8239"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Sky
+      TermType: 0
+      Description: 
+      Languages:
+      - Sky
+      - Cielo
+      - Ciel
+      - "\u7A7A"
+      - "\u041D\u0435\u0431\u043E"
+      - "B\u1EA7u tr\u1EDDi"
+      - "\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32"
+      - "C\xE9u"
+      - Niebo
+      - "\uD558\uB298"
+      - Cielo
+      - Himmel
+      - "G\xF6ky\xFCz\xFC"
+      - "\u5929\u7A7A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Skyblock
+      TermType: 0
+      Description: 
+      Languages:
+      - Skyblock
+      - Bloque cielo
+      - Blocage du ciel
+      - "\u30B9\u30AB\u30A4\u30D6\u30ED\u30C3\u30AF"
+      - "\u0421\u043A\u0430\u0439\u0431\u043B\u043E\u043A"
+      - Skyblock
+      - "\u0E2A\u0E01\u0E32\u0E22\u0E1A\u0E25\u0E47\u0E2D\u0E04"
+      - Skyblock
+      - Skyblock
+      - "\uC2A4\uCE74\uC774\uBE14\uB85D"
+      - Blocco di cielo
+      - Skyblock
+      - "G\xF6ky\xFCz\xFC blo\u011Fu"
+      - "\u7A7A\u4E2D\u5C01\u9501"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Skywars
+      TermType: 0
+      Description: 
+      Languages:
+      - Skywars
+      - guerras del cielo
+      - Guerres du ciel
+      - "\u30B9\u30AB\u30A4\u30A6\u30A9\u30FC\u30BA"
+      - "\u0421\u043A\u0430\u0439\u0432\u0430\u0440\u0441"
+      - Skywars
+      - "\u0E2A\u0E01\u0E32\u0E22\u0E27\u0E2D\u0E23\u0E4C\u0E2A"
+      - Guerra Celeste
+      - Skywars
+      - "\uC2A4\uCE74\uC774\uC6CC\uC988"
+      - Skywars
+      - Himmelskriege
+      - Skywars
+      - "\u7A7A\u6218"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Song
+      TermType: 0
+      Description: 
+      Languages:
+      - Song
+      - "Canci\xF3n"
+      - Chanson
+      - "\u6B4C"
+      - "\u041F\u0435\u0441\u043D\u044F"
+      - "B\xE0i h\xE1t"
+      - "\u0E40\u0E1E\u0E25\u0E07"
+      - "Can\xE7\xE3o"
+      - Piosenka
+      - "\uB178\uB798"
+      - Canzone
+      - Lied
+      - "\u015Eark\u0131"
+      - "\u6B4C\u66F2"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Stadium
+      TermType: 0
+      Description: 
+      Languages:
+      - Stadium
+      - Estadio
+      - Stade
+      - "\u30B9\u30BF\u30B8\u30A2\u30E0"
+      - "\u0421\u0442\u0430\u0434\u0438\u043E\u043D"
+      - "S\xE2n v\u1EADn \u0111\u1ED9ng"
+      - "\u0E2A\u0E19\u0E32\u0E21\u0E01\u0E35\u0E2C\u0E32"
+      - "Est\xE1dio"
+      - Stadion
+      - "\uACBD\uAE30\uC7A5"
+      - stadio
+      - Stadion
+      - stadyum
+      - "\u4F53\u80B2\u573A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Stampys
+      TermType: 0
+      Description: 
+      Languages:
+      - Stampys
+      - sellos
+      - Stampys
+      - "\u30B9\u30BF\u30F3\u30D4\u30FC\u30BA"
+      - "\u0421\u0442\u0430\u043C\u043F\u0438\u0441"
+      - con tem
+      - "\u0E2A\u0E41\u0E15\u0E21\u0E1B\u0E4C"
+      - Estampados
+      - Stempelki
+      - "\uC2A4\uD0EC\uD53C"
+      - Stampy
+      - Stampys
+      - Stampy'ler
+      - "\u65AF\u5766\u76AE\u65AF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Star
+      TermType: 0
+      Description: 
+      Languages:
+      - Star
+      - Estrella
+      - "\xC9toile"
+      - "\u661F"
+      - "\u0417\u0432\u0435\u0437\u0434\u0430"
+      - "Ng\xF4i sao"
+      - "\u0E14\u0E32\u0E27"
+      - Estrela
+      - Gwiazda
+      - "\uBCC4"
+      - Stella
+      - Stern
+      - "Y\u0131ld\u0131z"
+      - "\u661F\u661F"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Start Import
+      TermType: 0
+      Description: 
+      Languages:
+      - Start Import
+      - "Iniciar importaci\xF3n"
+      - "D\xE9marrer l'importation"
+      - "\u30A4\u30F3\u30DD\u30FC\u30C8\u306E\u958B\u59CB"
+      - "\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u043C\u043F\u043E\u0440\u0442"
+      - "B\u1EAFt \u0111\u1EA7u nh\u1EADp"
+      - "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E01\u0E32\u0E23\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32"
+      - "Iniciar importa\xE7\xE3o"
+      - Rozpocznij importowanie
+      - "\uAC00\uC838\uC624\uAE30 \uC2DC\uC791"
+      - Avvia l'importazione
+      - Starten Sie den Import
+      - "\u0130\xE7e aktarmay\u0131 ba\u015Flat"
+      - "\u5F00\u59CB\u5BFC\u5165"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Statue
+      TermType: 0
+      Description: 
+      Languages:
+      - Statue
+      - Estatua
+      - Statue
+      - "\u50CF"
+      - "\u0421\u0442\u0430\u0442\u0443\u044F"
+      - "B\u1EE9c t\u01B0\u1EE3ng"
+      - "\u0E23\u0E39\u0E1B\u0E1B\u0E31\u0E49\u0E19"
+      - "Est\xE1tua"
+      - Statua
+      - "\uB3D9\uC0C1"
+      - Statua
+      - Statue
+      - Heykel
+      - "\u96D5\u50CF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Super
+      TermType: 0
+      Description: 
+      Languages:
+      - Super
+      - "S\xFAper"
+      - Super
+      - "\u7D20\u6674\u3089\u3057\u3044"
+      - "\u0421\u0443\u043F\u0435\u0440"
+      - "si\xEAu"
+      - "\u0E2A\u0E38\u0E14 \u0E46"
+      - Super
+      - Super
+      - "\uAC10\uB3C5\uC790"
+      - Super
+      - Super
+      - "S\xFCper"
+      - "\u6781\u597D\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Survival
+      TermType: 0
+      Description: 
+      Languages:
+      - Survival
+      - Supervivencia
+      - Survie
+      - "\u30B5\u30D0\u30A4\u30D0\u30EB"
+      - "\u0412\u044B\u0436\u0438\u0432\u0430\u043D\u0438\u0435"
+      - "S\u1ED1ng s\xF3t"
+      - "\u0E01\u0E32\u0E23\u0E2D\u0E22\u0E39\u0E48\u0E23\u0E2D\u0E14"
+      - "Sobreviv\xEAncia"
+      - Przetrwanie
+      - "\uD65C\uCC29"
+      - Sopravvivenza
+      - "\xDCberleben"
+      - Hayatta kalma
+      - "\u751F\u5B58"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 'TAG: Some Tag'
+      TermType: 0
+      Description: 
+      Languages:
+      - 'TAG: Some Tag'
+      - 'ETIQUETA: Alguna etiqueta'
+      - "TAG\_:\_Une \xE9tiquette"
+      - "\u30BF\u30B0\u30EA\u30B9\u30C8: \u3042\u308B\u30BF\u30B0"
+      - "\u0422\u0415\u0413: \u041A\u0430\u043A\u043E\u0439-\u0442\u043E \u0442\u0435\u0433"
+      - "TAG: M\u1ED9t s\u1ED1 th\u1EBB"
+      - "\u0E41\u0E17\u0E47\u0E01: \u0E41\u0E17\u0E47\u0E01\u0E1A\u0E32\u0E07\u0E2A\u0E48\u0E27\u0E19"
+      - 'TAG: alguma etiqueta'
+      - "TAG: jaki\u015B tag"
+      - "\uD0DC\uADF8: \uC77C\uBD80 \uD0DC\uADF8"
+      - 'TAG: qualche tag'
+      - 'TAG: Irgendein Tag'
+      - "ET\u0130KET: Baz\u0131 Etiketler"
+      - "\u6807\u7B7E\uFF1A\u4E00\u4E9B\u6807\u7B7E"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: TAP TO CONTINUE
+      TermType: 0
+      Description: 
+      Languages:
+      - TAP TO CONTINUE
+      - PULSE PARA CONTINUAR
+      - APPUYEZ POUR CONTINUER
+      - "\u30BF\u30C3\u30D7\u3057\u3066\u7D9A\u884C"
+      - "\u041D\u0410\u0416\u041C\u0418\u0422\u0415, \u0427\u0422\u041E\u0411\u042B
+        \u041F\u0420\u041E\u0414\u041E\u041B\u0416\u0418\u0422\u042C"
+      - "NH\u1EA4N \u0110\u1EC2 TI\u1EBEP T\u1EE4C"
+      - "\u0E41\u0E15\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D"
+      - CLIQUE PARA CONTINUAR
+      - "KLIKNIJ, ABY KONTYNUOWA\u0106"
+      - "\uACC4\uC18D\uD558\uB824\uBA74 \uD0ED\uD558\uC138\uC694."
+      - TOCCA PER CONTINUARE
+      - TIPPEN SIE, UM FORTZUFAHREN
+      - "DEVAM ETMEK \u0130\xC7\u0130N DOKUNUN"
+      - "\u70B9\u51FB\u7EE7\u7EED"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Tag
+      TermType: 0
+      Description: 
+      Languages:
+      - Tag
+      - Etiqueta
+      - "\xC9tiqueter"
+      - "\u9B3C\u3054\u3063\u3053"
+      - "\u042F\u0440\u043B\u044B\u043A"
+      - "Nh\xE3n"
+      - "\u0E41\u0E17\u0E47\u0E01"
+      - "Marca\xE7\xE3o"
+      - Etykietka
+      - "\uAF2C\uB9AC\uD45C"
+      - Etichetta
+      - Etikett
+      - Etiket
+      - "\u6807\u7B7E"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Temple
+      TermType: 0
+      Description: 
+      Languages:
+      - Temple
+      - Templo
+      - Temple
+      - "\u5BFA"
+      - "\u0425\u0440\u0430\u043C"
+      - "Ng\xF4i \u0111\u1EC1n"
+      - "\u0E27\u0E31\u0E14"
+      - "t\xEAmpora"
+      - "\u015Awi\u0105tynia"
+      - "\uC808"
+      - Tempio
+      - Tempel
+      - "Tap\u0131nak"
+      - "\u5BFA\u5E99"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Tower
+      TermType: 0
+      Description: 
+      Languages:
+      - Tower
+      - Torre
+      - La tour
+      - "\u30BF\u30EF\u30FC"
+      - "\u0411\u0430\u0448\u043D\u044F"
+      - "T\xF2a th\xE1p"
+      - "\u0E17\u0E32\u0E27\u0E40\u0E27\u0E2D\u0E23\u0E4C"
+      - Torre
+      - "Wie\u017Ca"
+      - "\uD0D1"
+      - Torre
+      - Turm
+      - Kule
+      - "\u5854"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Town
+      TermType: 0
+      Description: 
+      Languages:
+      - Town
+      - Ciudad
+      - Ville
+      - "\u753A"
+      - "\u0413\u043E\u0440\u043E\u0434"
+      - "Th\u1ECB tr\u1EA5n"
+      - "\u0E40\u0E21\u0E37\u0E2D\u0E07"
+      - Cidade
+      - Miasto
+      - "\uB3C4\uC2DC"
+      - "Citt\xE0"
+      - Stadt
+      - "\u015Eehir"
+      - "\u9547"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Tree
+      TermType: 0
+      Description: 
+      Languages:
+      - Tree
+      - "\xC1rbol"
+      - Arbre
+      - "\u6728"
+      - "\u0414\u0435\u0440\u0435\u0432\u043E"
+      - "C\xE2y"
+      - "\u0E15\u0E49\u0E19\u0E44\u0E21\u0E49"
+      - "\xC1rvore"
+      - Drzewo
+      - "\uB098\uBB34"
+      - Albero
+      - Baum
+      - "A\u011Fa\xE7"
+      - "\u6811"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Update
+      TermType: 0
+      Description: 
+      Languages:
+      - Update
+      - Actualizar
+      - "Mise \xE0 jour"
+      - "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8"
+      - "\u041E\u0431\u043D\u043E\u0432\u043B\u044F\u0442\u044C"
+      - "C\u1EADp nh\u1EADt"
+      - "\u0E2D\u0E31\u0E1B\u0E40\u0E14\u0E15"
+      - Atualizar
+      - Aktualizacja
+      - "\uC5C5\uB370\uC774\uD2B8"
+      - Aggiornamento
+      - Aktualisieren
+      - "G\xFCncelleme"
+      - "\u66F4\u65B0"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Update is Available!
+      TermType: 0
+      Description: 
+      Languages:
+      - Update is Available!
+      - "\xA1Actualizaci\xF3n disponible!"
+      - "La mise \xE0 jour est disponible\_!"
+      - "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u304C\u5229\u7528\u53EF\u80FD\u3067\u3059!"
+      - "\u041E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u043E!"
+      - "C\u1EADp nh\u1EADt c\xF3 s\u1EB5n!"
+      - "\u0E2D\u0E31\u0E1B\u0E40\u0E14\u0E15\u0E41\u0E25\u0E49\u0E27!"
+      - "A atualiza\xE7\xE3o est\xE1 dispon\xEDvel!"
+      - "Aktualizacja jest dost\u0119pna!"
+      - "\uC5C5\uB370\uC774\uD2B8\uAC00 \uAC00\uB2A5\uD569\uB2C8\uB2E4!"
+      - "L'aggiornamento \xE8 disponibile!"
+      - "Update ist verf\xFCgbar!"
+      - "G\xFCncelleme mevcut!"
+      - "\u66F4\u65B0\u53EF\u7528\uFF01"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Village
+      TermType: 0
+      Description: 
+      Languages:
+      - Village
+      - Aldea
+      - Village
+      - "\u6751"
+      - "\u0414\u0435\u0440\u0435\u0432\u043D\u044F"
+      - "L\xE0ng b\u1EA3n"
+      - "\u0E2B\u0E21\u0E39\u0E48\u0E1A\u0E49\u0E32\u0E19"
+      - Vila
+      - "Wie\u015B"
+      - "\uB9C8\uC744"
+      - Villaggio
+      - Dorf
+      - "K\xF6y"
+      - "\u6751\u5E84"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Vs
+      TermType: 0
+      Description: 
+      Languages:
+      - Vs
+      - contra
+      - Contre
+      - "\u5BFE"
+      - "\u041F\u0440\u043E\u0442\u0438\u0432"
+      - Vs
+      - "\u0E40\u0E17\u0E35\u0E22\u0E1A\u0E01\u0E31\u0E1A"
+      - Contra
+      - Vs
+      - "\uB300"
+      - Contro
+      - Vs
+      - Vs
+      - VS
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Wars
+      TermType: 0
+      Description: 
+      Languages:
+      - Wars
+      - Guerras
+      - Guerres
+      - "\u6226\u4E89"
+      - "\u0412\u043E\u0439\u043D\u044B"
+      - "chi\u1EBFn tranh"
+      - "\u0E2A\u0E07\u0E04\u0E23\u0E32\u0E21"
+      - Guerras
+      - Wojny
+      - "\uC804\uC7C1"
+      - Guerre
+      - Kriege
+      - "Sava\u015Flar"
+      - "\u6218\u4E89"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Water
+      TermType: 0
+      Description: 
+      Languages:
+      - Water
+      - Agua
+      - Eau
+      - "\u6C34"
+      - "\u0412\u043E\u0434\u0430"
+      - "N\u01B0\u1EDBc"
+      - "\u0E19\u0E49\u0E33"
+      - "\xC1gua"
+      - Woda
+      - "\uBB3C"
+      - Acqua
+      - Wasser
+      - su
+      - "\u6C34"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: World
+      TermType: 0
+      Description: 
+      Languages:
+      - World
+      - Mundo
+      - Monde
+      - "\u4E16\u754C"
+      - "\u041C\u0438\u0440"
+      - "Th\u1EBF gi\u1EDBi"
+      - "\u0E42\u0E25\u0E01"
+      - Mundo
+      - "\u015Awiat"
+      - "\uC138\uACC4"
+      - Mondo
+      - Welt
+      - "D\xFCnya"
+      - "\u4E16\u754C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Zombie
+      TermType: 0
+      Description: 
+      Languages:
+      - Zombie
+      - Zombi
+      - Zombi
+      - "\u30BE\u30F3\u30D3"
+      - "\u0416\u0438\u0432\u043E\u0439 \u043C\u0435\u0440\u0442\u0432\u0435\u0446"
+      - "Th\xE2y ma"
+      - "\u0E0B\u0E2D\u0E21\u0E1A\u0E35\u0E49"
+      - Zumbi
+      - "Ba\u0142wan"
+      - "\uC880\uBE44"
+      - Zombie
+      - Zombie
+      - Zombi
+      - "\u50F5\u5C38"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Zombies
+      TermType: 0
+      Description: 
+      Languages:
+      - Zombies
+      - Zombis
+      - Des morts-vivants
+      - "\u30BE\u30F3\u30D3"
+      - "\u0417\u043E\u043C\u0431\u0438"
+      - Zombie
+      - "\u0E0B\u0E2D\u0E21\u0E1A\u0E35\u0E49"
+      - Zumbis
+      - Zombie
+      - "\uC880\uBE44"
+      - Zombie
+      - Zombies
+      - zombiler
+      - "\u50F5\u5C38"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: "3D-\u0420\u0435\u0434\u0430\u043A\u0442\u043E\u0440 \u041D\u0430\u043A\u0438\u0434\u043A\u0438
+        (\u041D\u0430\u0434\u043A\u0440\u044B\u043B\u0438\u0439)"
+      TermType: 0
+      Description: 
+      Languages:
+      - 3D Editor Of Cape (Elytra)
+      - "Editor 3D De Capa (\xC9litros)"
+      - "\xC9diteur 3D De Cape (\xC9lytres)"
+      - "\u30B1\u30FC\u30D7\uFF08\u30A8\u30EA\u30C8\u30E9\uFF09\u306E3D\u30A8\u30C7\u30A3\u30BF\u30FC"
+      - "3D \u0420\u0435\u0434\u0430\u043A\u0442\u043E\u0440 \u041F\u043B\u0430\u0449\u0430
+        (\u042D\u043B\u0438\u0442\u0440\u044B)"
+      - "Tr\xECnh Ch\u1EC9nh S\u1EEDa 3D C\u1EE7a Cape (Elytra)"
+      - "\u0E42\u0E1B\u0E23\u0E41\u0E01\u0E23\u0E21\u0E41\u0E01\u0E49\u0E44\u0E02\u0E20\u0E32\u0E1E\u0E2A\u0E32\u0E21\u0E21\u0E34\u0E15\u0E34\u0E02\u0E2D\u0E07\u0E40\u0E04\u0E1B
+        (\u0E40\u0E2D\u0E25\u0E35\u0E17\u0E23\u0E32)"
+      - "Editor 3D De Capa (\xC9litros)"
+      - Edytor 3D Peleryny (Elytra)
+      - "\uCF00\uC774\uD504(Elytra)\uC758 3D \uD3B8\uC9D1\uAE30"
+      - Editor 3D Del Mantello (Elitre)
+      - 3D-Editor Des Kaps (Elytren)
+      - "Cape'in (Elytra) 3D Edit\xF6r\xFC"
+      - "\u62AB\u98CE\uFF08\u9798\u7FC5\uFF09\u7684 3D \u7F16\u8F91\u5668"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Edit Cape
+      TermType: 0
+      Description: 
+      Languages:
+      - Edit Cape
+      - "Capa De Edici\xF3n"
+      - Modifier Le Manteau
+      - "\u30AF\u30ED\u30FC\u30AF\u3092\u7DE8\u96C6"
+      - "\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u041F\u043B\u0430\u0449"
+      - "Ch\u1EC9nh S\u1EEDa \xC1o Cho\xE0ng"
+      - "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E04\u0E25\u0E38\u0E21"
+      - Editar Capa
+      - "Edytuj P\u0142aszcz"
+      - "\uB9DD\uD1A0 \uD3B8\uC9D1"
+      - Modifica Mantello
+      - Umhang Bearbeiten
+      - "Pelerini D\xFCzenle"
+      - "\u7F16\u8F91\u6597\u7BF7"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Edit Elytra
+      TermType: 0
+      Description: 
+      Languages:
+      - Edit Elytra
+      - "Editar \xC9litros"
+      - "Modifier Les \xC9lytres"
+      - "\u30A8\u30EA\u30C8\u30E9\u3092\u7DE8\u96C6"
+      - "\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u041D\u0430\u0434\u043A\u0440\u044B\u043B\u044C\u044F"
+      - "Ch\u1EC9nh S\u1EEDa Elytra"
+      - "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E40\u0E2D\u0E25\u0E35\u0E15\u0E23\u0E32"
+      - "Editar \xC9litros"
+      - "Edytuj Elytr\u0119"
+      - "\uB531\uC9C0\uB0A0\uAC1C \uD3B8\uC9D1"
+      - Modificare Le Elitre
+      - "Fl\xFCgeldecken Bearbeiten"
+      - "Elitra'y\u0131 D\xFCzenle"
+      - "\u7F16\u8F91\u9798\u7FC5"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Maps For Minecraft
+      TermType: 0
+      Description: 
+      Languages:
+      - Maps For Minecraft
+      - Mapas Para Minecraft
+      - Cartes Pour Minecraft
+      - "\u30DE\u30A4\u30F3\u30AF\u30E9\u30D5\u30C8\u306E\u30DE\u30C3\u30D7"
+      - "\u041A\u0430\u0440\u0442\u044B \u0414\u043B\u044F \u041C\u0430\u0439\u043D\u043A\u0440\u0430\u0444\u0442\u0430"
+      - "B\u1EA3n \u0110\u1ED3 Cho Minecraft"
+      - "\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E21\u0E32\u0E22\u0E04\u0E23\u0E32\u0E1F"
+      - Mapas Para Minecraft
+      - Mapy Do Minecrafta
+      - "\uB9C8\uC778\uD06C\uB798\uD504\uD2B8\uC6A9 \uC9C0\uB3C4"
+      - Mappe Per Minecraft
+      - "Karten F\xFCr Minecraft"
+      - "Minecraft I\xE7in Haritalar"
+      - "\u6211\u7684\u4E16\u754C\u5730\u56FE"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - Cancelar
+      - Annuler
+      - "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      - "\u041E\u0442\u043C\u0435\u043D\u0430"
+      - "H\u1EE7y B\u1ECF"
+      - "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01"
+      - Cancelar
+      - "Anulowa\u0107"
+      - "\uCDE8\uC18C"
+      - Cancellare
+      - Stornieren
+      - Iptal Etmek
+      - "\u53D6\u6D88"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Settings
+      TermType: 0
+      Description: 
+      Languages:
+      - Settings
+      - Ajustes
+      - "Param\xE8tres"
+      - "\u8A2D\u5B9A"
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+      - "C\xE0i \u0110\u1EB7t"
+      - "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32"
+      - "Configura\xE7\xF5es"
+      - Ustawienia
+      - "\uC124\uC815"
+      - Impostazioni
+      - Einstellungen
+      - Ayarlar
+      - "\u8BBE\u7F6E"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Create HD Cape Texture
+      TermType: 0
+      Description: 
+      Languages:
+      - Create Hd Cape Texture
+      - Crear Textura De Capa HD
+      - "Cr\xE9er Une Texture De Cape HD"
+      - "HD\u30B1\u30FC\u30D7\u30C6\u30AF\u30B9\u30C1\u30E3\u3092\u4F5C\u6210\u3059\u308B"
+      - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C Hd \u0422\u0435\u043A\u0441\u0442\u0443\u0440\u0443
+        \u041F\u043B\u0430\u0449\u0430"
+      - "T\u1EA1o K\u1EBFt C\u1EA5u \xC1o Cho\xE0ng Hd"
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E1C\u0E34\u0E27\u0E40\u0E04\u0E1B
+        HD"
+      - Criar Textura De Capa Hd
+      - "Utw\xF3rz Tekstur\u0119 Peleryny Hd"
+      - "HD \uCF00\uC774\uD504 \uD14D\uC2A4\uCC98 \uB9CC\uB4E4\uAE30"
+      - Creare Una Trama Di Mantello Hd
+      - Erstellen Sie Eine HD-Cape-Textur
+      - "Hd Pelerin Dokusu Olu\u015Ftur"
+      - "\u521B\u5EFA\u9AD8\u6E05\u6597\u7BF7\u7EB9\u7406"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Pick Image
+      TermType: 0
+      Description: 
+      Languages:
+      - Pick Image
+      - Elegir Imagen
+      - Choisir Une Image
+      - "\u753B\u50CF\u3092\u9078\u629E"
+      - "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435"
+      - "Ch\u1ECDn H\xECnh \u1EA2nh"
+      - "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E1E"
+      - Escolher Imagem
+      - Wybierz Obraz
+      - "\uC774\uBBF8\uC9C0 \uC120\uD0DD"
+      - Scegli L'immagine
+      - "Bild Ausw\xE4hlen"
+      - "Resim Se\xE7"
+      - "\u9009\u62E9\u56FE\u50CF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: Japanese
+      Code: ja
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: Vietnamese
+      Code: vi
+      Flags: 0
+    - Name: Thai
+      Code: th
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    - Name: Polish
+      Code: pl
+      Flags: 0
+    - Name: Korean
+      Code: ko
+      Flags: 0
+    - Name: Italian
+      Code: it
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Turkish
+      Code: tr
+      Flags: 0
+    - Name: Chinese
+      Code: zh
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbzM45dcSEZN5gBsTXafw0lO9o7M4-BgVDCBA2kFmcxap8Hv6mC93HS-MujF6koFcA5H3g/exec
+    Google_SpreadsheetKey: 14Him-AqWIIZzuHOTpRvu7wTdl4q919jI344VcK8H8OQ
+    Google_SpreadsheetName: I2Loc Maps For Minecraft Localization
+    Google_LastUpdatedVersion: 1717413410886
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
+    Spreadsheet_SortRows: 1
