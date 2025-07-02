@@ -1,85 +1,53 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using SuperStarSdk;
-using System;
+using System.Collections;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class CustomLoding2 : MonoBehaviour
 {
-    public Text welcomePercentText;
-
-    public Text welcomeDoneText;
-
+    public TextMeshProUGUI welcomePercentText;
+    public TextMeshProUGUI tapToContinueText;
     public Image welcomeProgress;
 
-    private float welcomeWaitTime = 10f;
+    public float fillDuration = 3f; // How long to fill (seconds)
 
-    private bool welcomeDone = false;
+    private bool loadingDone = false;
 
-    // Start is called before the first frame update
-    private void Awake()
+    void Start()
     {
-#if UNITY_ANDROID
-        welcomeWaitTime = 8;
-#elif UNITY_IOS
-        welcomeWaitTime=0;
-#endif
+        tapToContinueText.gameObject.SetActive(false);
+        welcomeProgress.fillAmount = 0f; // Make sure your Image Type is set to Filled in the Inspector!
+        welcomePercentText.text = "0 %";
+
     }
-    private void Start()
-    {
-        LoadSceneAsync();
-    }
-    // Update is called once per frame
+
     void Update()
     {
-        if (!welcomeDone)
+
+        if (!loadingDone)
         {
-            float time = Time.time;
-            if (time >= welcomeWaitTime )
+            if (welcomeProgress.fillAmount != 1f)
             {
-                welcomeProgress.fillAmount = 1f;
-                welcomePercentText.text = "SUCCESS";
-                welcomeDoneText.gameObject.SetActive(true);
-                welcomeDone = true;
+                welcomeProgress.fillAmount = welcomeProgress.fillAmount + Time.deltaTime * fillDuration;
+                welcomePercentText.text = (int)(welcomeProgress.fillAmount * 100f) + " %";
             }
-            //else if (time >= welcomeWaitTime)
-            //{
-            //    //int num = (int)(time / welcomeWaitTime * 100f);
-            //    //welcomePercentText.text = 99 + " %";
-            //    welcomeProgress.fillAmount = 0.99f;
-            //    welcomePercentText.text = "Map Data Loading....";
-            // //   welcomeDoneText.gameObject.SetActive(true);
-            //   // welcomeDone = true;
-            //}
             else
             {
-                int num = (int)(time / welcomeWaitTime * 100f);
-                welcomeProgress.fillAmount = time / welcomeWaitTime;
-                welcomePercentText.text = num + " %";
-                welcomeDoneText.gameObject.SetActive(false);
+                tapToContinueText.gameObject.SetActive(true);
+                loadingDone = true;
             }
         }
     }
+
+
+
     public void OnClickContinueButton()
     {
-        if (welcomeDone)
+        if (loadingDone)
         {
-            //SceneManager.LoadScene(1);
 
-            //SuperStarAd.Instance.ShowInterstitial();
-            asyncLoad.allowSceneActivation = true;
-
+            SceneManager.LoadSceneAsync(7);
         }
-    }
-
-    AsyncOperation asyncLoad;
-    public void LoadSceneAsync() 
-    {
-
-        asyncLoad = SceneManager.LoadSceneAsync(7);
-        asyncLoad.allowSceneActivation = false;
-
     }
 }
