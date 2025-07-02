@@ -3270,6 +3270,148 @@ MonoBehaviour:
       - "\u9009\u62E9\u56FE\u50CF"
       Flags: 0000000000000000000000000000
       Languages_Touch: []
+    - Term: Rate Us
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: RateUS
+      TermType: 0
+      Description: 
+      Languages:
+      - RateUS
+      - RateUS
+      - TauxUS
+      - "\u30EC\u30FC\u30C8US"
+      - "\u041E\u0446\u0435\u043D\u0438\u0442\u044C\u0421\u0428\u0410"
+      - "T\u1EF7 gi\xE1US"
+      - "\u0E43\u0E2B\u0E49\u0E04\u0E30\u0E41\u0E19\u0E19US"
+      - RateUS
+      - "Oce\u0144USA"
+      - "\uB808\uC774\uD2B8US"
+      - RateUS
+      - RateUS
+      - OranABD
+      - "\u8BC4\u4EF7\u7F8E\u56FD"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: How To Use Editor
+      TermType: 0
+      Description: 
+      Languages:
+      - How To Use The Guide
+      - "C\xF3mo Utilizar La Gu\xEDa"
+      - Comment Utiliser Le Guide
+      - "\u30AC\u30A4\u30C9\u306E\u4F7F\u3044\u65B9"
+      - "\u041A\u0430\u043A \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+        \u0420\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E\u043C"
+      - "C\xE1ch S\u1EED D\u1EE5ng H\u01B0\u1EDBng D\u1EABn"
+      - "\u0E27\u0E34\u0E18\u0E35\u0E43\u0E0A\u0E49\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D"
+      - Como Usar O Guia
+      - "Jak Korzysta\u0107 Z Przewodnika"
+      - "\uC0AC\uC6A9 \uBC29\uBC95 \uAC00\uC774\uB4DC"
+      - Guida All'uso
+      - Anleitung Zur Verwendung
+      - "Nas\u0131l Kullan\u0131l\u0131r K\u0131lavuzu"
+      - "\u4F7F\u7528\u6307\u5357"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: How To Import Skin
+      TermType: 0
+      Description: 
+      Languages:
+      - How To Import Skin
+      - "C\xF3mo Importar Skin"
+      - Comment Importer Un Skin
+      - "\u30B9\u30AD\u30F3\u3092\u30A4\u30F3\u30DD\u30FC\u30C8\u3059\u308B\u65B9\u6CD5"
+      - "\u041A\u0430\u043A \u0418\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0421\u043A\u0438\u043D"
+      - "C\xE1ch Nh\u1EADp Skin"
+      - "\u0E27\u0E34\u0E18\u0E35\u0E01\u0E32\u0E23\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E01\u0E34\u0E19"
+      - Como Importar Skin
+      - "Jak Importowa\u0107 Sk\xF3rk\u0119"
+      - "\uC2A4\uD0A8\uC744 \uAC00\uC838\uC624\uB294 \uBC29\uBC95"
+      - Come Importare La Skin
+      - So Importieren Sie Skin
+      - "Cilt Nas\u0131l I\xE7e Aktar\u0131l\u0131r"
+      - "\u5982\u4F55\u5BFC\u5165\u76AE\u80A4"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Language
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - Idioma
+      - Langue
+      - "\u8A00\u8A9E"
+      - "\u042F\u0437\u044B\u043A"
+      - "Ng\xF4n Ng\u1EEF"
+      - "\u0E20\u0E32\u0E29\u0E32"
+      - Linguagem
+      - "J\u0119zyk"
+      - "\uC5B8\uC5B4"
+      - Lingua
+      - Sprache
+      - Dil
+      - "\u8BED\u8A00"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Close
+      TermType: 0
+      Description: 
+      Languages:
+      - Close
+      - Cerca
+      - Fermer
+      - "\u8FD1\u3044"
+      - "\u0417\u0430\u043A\u0440\u044B\u0432\u0430\u0442\u044C"
+      - "\u0110\xF3ng"
+      - "\u0E1B\u0E34\u0E14"
+      - Fechar
+      - "Zamkn\u0105\u0107"
+      - "\uB2EB\uB2E4"
+      - Vicino
+      - "Schlie\xDFen"
+      - "Kapal\u0131"
+      - "\u5173\u95ED"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: How To Use Guide
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
