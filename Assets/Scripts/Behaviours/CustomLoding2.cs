@@ -27,7 +27,6 @@ public class CustomLoding2 : MonoBehaviour
 
         if (!loadingDone)
         {
-            Debug.Log("aa");
             if (welcomeProgress.fillAmount != 1f)
             {
                 welcomeProgress.fillAmount = welcomeProgress.fillAmount + Time.deltaTime * fillDuration;
