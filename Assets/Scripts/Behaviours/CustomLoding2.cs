@@ -29,7 +29,7 @@ public class CustomLoding2 : MonoBehaviour
         {
             if (welcomeProgress.fillAmount != 1f)
             {
-                welcomeProgress.fillAmount = welcomeProgress.fillAmount + Time.deltaTime * fillDuration;
+                welcomeProgress.fillAmount += welcomeProgress.fillAmount + Time.deltaTime * fillDuration;
                 welcomePercentText.text = (int)(welcomeProgress.fillAmount * 100f) + " %";
             }
             else
