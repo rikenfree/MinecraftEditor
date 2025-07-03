@@ -16690,8 +16690,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1120578651}
-        m_TargetAssemblyTypeName: CustomLoding, Assembly-CSharp
+      - m_Target: {fileID: 2078894631}
+        m_TargetAssemblyTypeName: CustomLoding2, Assembly-CSharp
         m_MethodName: OnClickContinueButton
         m_Mode: 1
         m_Arguments:

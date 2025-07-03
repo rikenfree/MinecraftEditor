@@ -5306,6 +5306,731 @@ MonoBehaviour:
       - "\u4E0B\u8F7D"
       Flags: 0000000000000000000000000000
       Languages_Touch: []
+    - Term: 3D Skin Editor For Mcpe
+      TermType: 0
+      Description: 
+      Languages:
+      - 3D Skin Editor For Mcpe
+      - "Editor De M\xE1scaras 3D Para MCPE"
+      - "\xC9diteur De Skin 3D Pour MCPE"
+      - "MCPE\u75283D\u30B9\u30AD\u30F3\u30A8\u30C7\u30A3\u30BF\u30FC"
+      - "3D \u0420\u0435\u0434\u0430\u043A\u0442\u043E\u0440 \u0421\u043A\u0438\u043D\u043E\u0432
+        \u0414\u043B\u044F Mcpe"
+      - "Tr\xECnh Ch\u1EC9nh S\u1EEDa Skin 3D Cho Mcpe"
+      - "\u0E42\u0E1B\u0E23\u0E41\u0E01\u0E23\u0E21\u0E41\u0E01\u0E49\u0E44\u0E02\u0E2A\u0E01\u0E34\u0E19
+        3 \u0E21\u0E34\u0E15\u0E34\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A Mcpe"
+      - Editor De Skin 3D Para MCPE
+      - "Edytor Sk\xF3rek 3D Dla Mcpe"
+      - "MCPE\uC6A9 3D \uC2A4\uD0A8 \uD3B8\uC9D1\uAE30"
+      - Editor Di Skin 3D Per MCPE
+      - "3D-Skin-Editor F\xFCr MCPE"
+      - "Mcpe I\xE7in 3D Skin D\xFCzenleyici"
+      - "Mcpe \u7684 3D \u76AE\u80A4\u7F16\u8F91\u5668"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Setting
+      TermType: 0
+      Description: 
+      Languages:
+      - Setting
+      - "Configuraci\xF3n"
+      - "Param\xE8tre"
+      - "\u8A2D\u5B9A"
+      - "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440"
+      - "C\xE0i \u0110\u1EB7t"
+      - "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32"
+      - Contexto
+      - Ustawienie
+      - "\uD658\uACBD"
+      - Collocamento
+      - Einstellung
+      - Ayar
+      - "\u73AF\u5883"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Watch Tutorial
+      TermType: 0
+      Description: 
+      Languages:
+      - Watch Tutorial
+      - Ver Tutorial
+      - Regarder Le Tutoriel
+      - "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u3092\u898B\u308B"
+      - "\u0421\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0423\u0440\u043E\u043A"
+      - "Xem H\u01B0\u1EDBng D\u1EABn"
+      - "\u0E0A\u0E21\u0E01\u0E32\u0E23\u0E2A\u0E2D\u0E19"
+      - Assistir Tutorial
+      - Obejrzyj Samouczek
+      - "\uD29C\uD1A0\uB9AC\uC5BC \uBCF4\uAE30"
+      - Guarda Il Tutorial
+      - Tutorial Ansehen
+      - "\xD6\u011Freticiyi Izle"
+      - "\u89C2\u770B\u6559\u7A0B"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: MCPE Button
+      TermType: 0
+      Description: 
+      Languages:
+      - Mcpe Button
+      - "Bot\xF3n Mcpe"
+      - Bouton Mcpe
+      - "MCPE\u30DC\u30BF\u30F3"
+      - "\u041A\u043D\u043E\u043F\u043A\u0430 Mcpe"
+      - "N\xFAt Mcpe"
+      - "\u0E1B\u0E38\u0E48\u0E21 Mcpe"
+      - "Bot\xE3o Mcpe"
+      - Przycisk Mcpe
+      - "Mcpe \uBC84\uD2BC"
+      - Pulsante Mcpe
+      - "Mcpe-Schaltfl\xE4che"
+      - "Mcpe D\xFC\u011Fmesi"
+      - "Mcpe \u6309\u94AE"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Da
+      TermType: 0
+      Description: 
+      Languages:
+      - And
+      - Y
+      - Et
+      - "\u305D\u3057\u3066"
+      - "\u0418"
+      - "V\xE0"
+      - "\u0E41\u0E25\u0E30"
+      - E
+      - I
+      - "\uADF8\uB9AC\uACE0"
+      - E
+      - Und
+      - Ve
+      - "\u548C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Skin 0
+      TermType: 0
+      Description: 
+      Languages:
+      - Skin 0
+      - Piel 0
+      - Peau 0
+      - "\u30B9\u30AD\u30F30"
+      - "\u041A\u043E\u0436\u0430 0"
+      - Da 0
+      - "\u0E1C\u0E34\u0E27 0"
+      - Pele 0
+      - "Sk\xF3ra 0"
+      - "\uD53C\uBD80 0"
+      - Pelle 0
+      - Haut 0
+      - Cilt 0
+      - "\u76AE\u80A4 0"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Export Cape
+      TermType: 0
+      Description: 
+      Languages:
+      - Export Cape
+      - "Capa De Exportaci\xF3n"
+      - Cap D'exportation
+      - "\u8F38\u51FA\u30B1\u30FC\u30D7"
+      - "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u043D\u044B\u0439 \u041F\u043B\u0430\u0449"
+      - "Xu\u1EA5t Kh\u1EA9u \xC1o Cho\xE0ng"
+      - "\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E04\u0E25\u0E38\u0E21\u0E2A\u0E48\u0E07\u0E2D\u0E2D\u0E01"
+      - "Capa De Exporta\xE7\xE3o"
+      - Eksport Peleryny
+      - "\uC218\uCD9C\uC6A9 \uCF00\uC774\uD504"
+      - Capo Di Esportazione
+      - Exportkap
+      - Ihracat Pelerini
+      - "\u51FA\u53E3\u89D2"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: To MCPE
+      TermType: 0
+      Description: 
+      Languages:
+      - To Mcpe
+      - A Mcpe
+      - "\xC0 Mcpe"
+      - "MCPE\u3078"
+      - "\u0412 Mcpe"
+      - "\u0110\u1EBFn Mcpe"
+      - "\u0E44\u0E1B\u0E17\u0E35\u0E48 Mcpe"
+      - Para Mcpe
+      - Do Mcpe
+      - "Mcpe\uB85C"
+      - A Mcpe
+      - Zu Mcpe
+      - Mcpe'ye
+      - "\u5230 Mcpe"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Save Skin To Gallery
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Save Skin To Gallery '
+      - "Guardar Skin En La Galer\xEDa"
+      - Enregistrer Le Skin Dans La Galerie
+      - "\u30B9\u30AD\u30F3\u3092\u30AE\u30E3\u30E9\u30EA\u30FC\u306B\u4FDD\u5B58"
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0421\u043A\u0438\u043D
+        \u0412 \u0413\u0430\u043B\u0435\u0440\u0435\u044E"
+      - "L\u01B0u Skin V\xE0o Th\u01B0 Vi\u1EC7n"
+      - "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E1C\u0E34\u0E27\u0E25\u0E07\u0E43\u0E19\u0E41\u0E01\u0E25\u0E40\u0E25\u0E2D\u0E23\u0E35\u0E48"
+      - Salvar Skin Na Galeria
+      - "Zapisz Sk\xF3rk\u0119 Do Galerii"
+      - "\uAC24\uB7EC\uB9AC\uC5D0 \uC2A4\uD0A8 \uC800\uC7A5"
+      - Salva La Skin Nella Galleria
+      - Skin In Galerie Speichern
+      - Cildi Galeriye Kaydet
+      - "\u5C06\u76AE\u80A4\u4FDD\u5B58\u5230\u56FE\u5E93"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Save to Gallery Elytra (64X32)
+      TermType: 0
+      Description: 
+      Languages:
+      - Save to Gallery Elytra (64X32)
+      - "Guardar en la galer\xEDa Elytra (64X32)"
+      - Enregistrer dans la galerie Elytra (64X32)
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u306B\u4FDD\u5B58 \u30A8\u30EA\u30C8\u30E9
+        (64X32)"
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435
+        Elytra (64X32)"
+      - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n \u1EA3nh Elytra (64X32)"
+      - "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E25\u0E07\u0E43\u0E19\u0E41\u0E01\u0E25\u0E2D\u0E23\u0E35\u0E48
+        Elytra (64X32)"
+      - Salvar na Galeria Elytra (64X32)
+      - Zapisz do Galerii Elytra (64X32)
+      - "\uAC24\uB7EC\uB9AC Elytra(64X32)\uC5D0 \uC800\uC7A5"
+      - Salva nella Galleria Elitre (64X32)
+      - In der Galerie speichern Elytra (64X32)
+      - Galeriye Kaydet Elytra (64X32)
+      - "\u4FDD\u5B58\u81F3\u753B\u5ECA Elytra (64X32)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Save to Gallery Cape (22X17)
+      TermType: 0
+      Description: 
+      Languages:
+      - Save to Gallery Cape (22X17)
+      - "Guardar en la galer\xEDa Capa (22X17)"
+      - Enregistrer dans la galerie Cape (22X17)
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u30B1\u30FC\u30D7\uFF0822X17\uFF09\u306B\u4FDD\u5B58"
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435
+        Cape (22X17)"
+      - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n \u1EA3nh Cape (22X17)"
+      - "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E25\u0E07\u0E43\u0E19\u0E41\u0E01\u0E25\u0E2D\u0E23\u0E35\u0E48
+        Cape (22X17)"
+      - Salvar na Galeria Cape (22X17)
+      - Zapisz do Galerii Cape (22X17)
+      - "\uAC24\uB7EC\uB9AC \uCF00\uC774\uD504(22X17)\uC5D0 \uC800\uC7A5"
+      - Salva nella Galleria Cape (22X17)
+      - In der Galerie speichern Cape (22X17)
+      - Galeriye Kaydet Cape (22X17)
+      - "\u4FDD\u5B58\u81F3\u753B\u5ECA Cape (22X17)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Save to Gallery Cape (64x32)
+      TermType: 0
+      Description: 
+      Languages:
+      - Save to Gallery Cape (64x32)
+      - "Guardar en la galer\xEDa Cape (64x32)"
+      - Enregistrer dans la galerie Cape (64x32)
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u30B1\u30FC\u30D7\uFF0864x32\uFF09\u306B\u4FDD\u5B58"
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435
+        Cape (64x32)"
+      - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n \u1EA3nh Cape (64x32)"
+      - "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E25\u0E07\u0E43\u0E19\u0E41\u0E01\u0E25\u0E2D\u0E23\u0E35\u0E48
+        Cape (64x32)"
+      - Salvar na Galeria Cape (64x32)
+      - Zapisz w Galerii Cape (64x32)
+      - "\uAC24\uB7EC\uB9AC \uCF00\uC774\uD504(64x32)\uC5D0 \uC800\uC7A5"
+      - Salva nella Galleria Cape (64x32)
+      - In der Galerie speichern Cape (64x32)
+      - Galeriye Kaydet Cape (64x32)
+      - "\u4FDD\u5B58\u81F3\u753B\u5ECA Cape (64x32)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Save to Gallery Cape (512X256)
+      TermType: 0
+      Description: 
+      Languages:
+      - Save to Gallery Cape (512X256)
+      - "Guardar en la galer\xEDa Cape (512X256)"
+      - Enregistrer dans la galerie Cape (512X256)
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u30B1\u30FC\u30D7\u306B\u4FDD\u5B58 (512X256)"
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435
+        Cape (512X256)"
+      - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n \u1EA3nh Cape (512X256)"
+      - "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E25\u0E07\u0E43\u0E19\u0E41\u0E01\u0E25\u0E2D\u0E23\u0E35\u0E48
+        Cape (512X256)"
+      - Salvar na Galeria Cape (512X256)
+      - Zapisz do Galerii Cape (512X256)
+      - "\uAC24\uB7EC\uB9AC \uCF00\uC774\uD504(512X256)\uC5D0 \uC800\uC7A5"
+      - Salva nella Galleria Cape (512X256)
+      - In der Galerie speichern Cape (512X256)
+      - Galeriye Kaydet Cape (512X256)
+      - "\u4FDD\u5B58\u81F3\u753B\u5ECA Cape (512X256)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Cape Elytra Collections
+      TermType: 0
+      Description: 
+      Languages:
+      - Cape and Elytra Collections
+      - "Colecciones de Cape y \xC9lytra"
+      - Collections Cape et Elytra
+      - "\u30B1\u30FC\u30D7\u3068\u30A8\u30EA\u30C8\u30E9\u306E\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3"
+      - "\u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0438 \u043F\u043B\u0430\u0449\u0435\u0439
+        \u0438 \u043D\u0430\u0434\u043A\u0440\u044B\u043B\u0438\u0439"
+      - "B\u1ED9 s\u01B0u t\u1EADp Cape v\xE0 Elytra"
+      - "\u0E04\u0E2D\u0E25\u0E40\u0E25\u0E01\u0E0A\u0E31\u0E48\u0E19\u0E40\u0E04\u0E1B\u0E41\u0E25\u0E30\u0E40\u0E2D\u0E25\u0E35\u0E15\u0E23\u0E32"
+      - "Cole\xE7\xF5es de Cabo e \xC9litros"
+      - Kolekcje Cape i Elytra
+      - "\uCF00\uC774\uD504\uC640 \uC5D8\uB9AC\uD2B8\uB77C \uCEEC\uB809\uC158"
+      - Collezioni di mantelli ed elitre
+      - Kap- und Elytra-Sammlungen
+      - "Cape ve Elytra Koleksiyonlar\u0131"
+      - "\u62AB\u98CE\u548C\u9798\u7FC5\u6536\u85CF"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 2. Press on edit character
+      TermType: 0
+      Description: 
+      Languages:
+      - 2. Press on edit character
+      - 2. Pulse en editar personaje
+      - "2. Appuyez sur Modifier le caract\xE8re"
+      - "2. \u6587\u5B57\u7DE8\u96C6\u3092\u62BC\u3059"
+      - "2. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \xAB\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C
+        \u0441\u0438\u043C\u0432\u043E\u043B\xBB."
+      - "2. Nh\u1EA5n v\xE0o ch\u1EC9nh s\u1EEDa k\xFD t\u1EF1"
+      - "2. \u0E01\u0E14\u0E41\u0E01\u0E49\u0E44\u0E02\u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23"
+      - 2. Pressione editar personagem
+      - "2. Naci\u015Bnij edytuj znak"
+      - "2. \uBB38\uC790 \uD3B8\uC9D1\uC744 \uB204\uB974\uC138\uC694"
+      - 2. Premere su modifica carattere
+      - "2. Dr\xFCcken Sie auf Zeichen bearbeiten"
+      - "2. Karakteri d\xFCzenle'ye bas\u0131n"
+      - "2. \u6309\u4E0B\u7F16\u8F91\u5B57\u7B26"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 3. Press on second tab(skin selector) as shown in image.
+      TermType: 0
+      Description: 
+      Languages:
+      - "3. Press on second tab(skin selector) \n    as shown in image."
+      - "3. Presione la segunda pesta\xF1a (selector de skin) como se muestra en
+        la imagen."
+      - "3. Appuyez sur le deuxi\xE8me onglet (s\xE9lecteur de skin)\ncomme indiqu\xE9
+        sur l'image."
+      - "3. \u753B\u50CF\u306E\u3088\u3046\u306B\u30012\u756A\u76EE\u306E\u30BF\u30D6\uFF08\u30B9\u30AD\u30F3\u30BB\u30EC\u30AF\u30BF\u30FC\uFF09\u3092\u62BC\u3057\u307E\u3059\u3002"
+      - "3. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u0432\u0442\u043E\u0440\u0443\u044E
+        \u0432\u043A\u043B\u0430\u0434\u043A\u0443 (\u0432\u044B\u0431\u043E\u0440
+        \u0441\u043A\u0438\u043D\u0430) \n\u043A\u0430\u043A \u043F\u043E\u043A\u0430\u0437\u0430\u043D\u043E
+        \u043D\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0438."
+      - "3. Nh\u1EA5n v\xE0o tab th\u1EE9 hai (b\u1ED9 ch\u1ECDn giao di\u1EC7n)\nnh\u01B0
+        trong h\xECnh minh h\u1ECDa."
+      - "3. \u0E01\u0E14\u0E17\u0E35\u0E48\u0E41\u0E17\u0E47\u0E1A\u0E17\u0E35\u0E48\u0E2A\u0E2D\u0E07
+        (\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2A\u0E01\u0E34\u0E19)
+        \n\u0E15\u0E32\u0E21\u0E17\u0E35\u0E48\u0E41\u0E2A\u0E14\u0E07\u0E43\u0E19\u0E23\u0E39\u0E1B\u0E20\u0E32\u0E1E"
+      - '3. Pressione a segunda aba (seletor de skin)
+
+        como mostrado na imagem.'
+      - "3. Naci\u015Bnij drug\u0105 zak\u0142adk\u0119 (selektor sk\xF3rki) \njak
+        pokazano na obrazku."
+      - "3. \uB450 \uBC88\uC9F8 \uD0ED(\uC2A4\uD0A8 \uC120\uD0DD\uAE30)\uC744 \uB204\uB974\uC138\uC694.\n\uADF8\uB9BC\uACFC
+        \uAC19\uC774\uC694."
+      - 3. Premere sulla seconda scheda (selettore skin) come mostrato nell'immagine.
+      - 3. Klicken Sie auf die zweite Registerkarte (Skin-Auswahl), wie im Bild gezeigt.
+      - "3. Resimde g\xF6sterildi\u011Fi gibi ikinci sekmeye (cilt se\xE7ici) bas\u0131n."
+      - "3. \u6309\u4E0B\u7B2C\u4E8C\u4E2A\u9009\u9879\u5361\uFF08\u76AE\u80A4\u9009\u62E9\u5668\uFF09\uFF0C\u5982\u56FE\u6240\u793A\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 4. Press on OWNED tab..
+      TermType: 0
+      Description: 
+      Languages:
+      - 4. Press on OWNED tab..
+      - "4. Presione la pesta\xF1a PROPIEDAD."
+      - "4. Appuyez sur l'onglet PROPRI\xC9TAIRE."
+      - "4. OWNED\u30BF\u30D6\u3092\u62BC\u3057\u307E\u3059\u3002"
+      - "4. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u0432\u043A\u043B\u0430\u0434\u043A\u0443
+        \u0421\u041E\u0411\u0421\u0422\u0412\u0415\u041D\u041D\u042B\u0415."
+      - "4. Nh\u1EA5n v\xE0o tab OWNED."
+      - "4. \u0E01\u0E14\u0E17\u0E35\u0E48\u0E41\u0E17\u0E47\u0E1A OWNED"
+      - 4. Pressione a aba OWNED.
+      - "4. Kliknij na zak\u0142adk\u0119 POSIADANE."
+      - "4. \uC18C\uC720 \uD0ED\uC744 \uB204\uB974\uC138\uC694."
+      - "4. Premere sulla scheda DI PROPRIET\xC0."
+      - "4. Dr\xFCcken Sie auf die Registerkarte \u201EEIGENTUM\u201C."
+      - "4. OWNED sekmesine bas\u0131n."
+      - "4. \u6309\u4E0B\u201COWNED\u201D\u9009\u9879\u5361\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 5. Press on Import Skin.
+      TermType: 0
+      Description: 
+      Languages:
+      - 5. Press on Import Skin.
+      - 5. Pulse en Importar skin.
+      - 5. Appuyez sur Importer le skin.
+      - "5. \u300C\u30B9\u30AD\u30F3\u306E\u30A4\u30F3\u30DD\u30FC\u30C8\u300D\u3092\u62BC\u3057\u307E\u3059\u3002"
+      - "5. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \xAB\u0418\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0441\u043A\u0438\u043D\xBB."
+      - "5. Nh\u1EA5n v\xE0o Nh\u1EADp giao di\u1EC7n."
+      - "5. \u0E01\u0E14\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E01\u0E34\u0E19"
+      - 5. Pressione Importar Skin.
+      - "5. Kliknij Importuj sk\xF3rk\u0119."
+      - "5. \uC2A4\uD0A8 \uAC00\uC838\uC624\uAE30\uB97C \uB204\uB974\uC138\uC694."
+      - 5. Premere su Importa skin.
+      - "5. Klicken Sie auf \u201ESkin importieren\u201C."
+      - "5. Import Skin\u2019e bas\u0131n."
+      - "5. \u6309\u4E0B\u5BFC\u5165\u76AE\u80A4\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 6.Press on CHOOSE NEW SKIN.
+      TermType: 0
+      Description: 
+      Languages:
+      - 6.Press on CHOOSE NEW SKIN.
+      - 6. Pulse en ELEGIR NUEVA PIEL.
+      - 6. Appuyez sur CHOISIR UN NOUVEAU SKIN.
+      - "6.\u300C\u65B0\u3057\u3044\u30B9\u30AD\u30F3\u3092\u9078\u629E\u300D\u3092\u62BC\u3057\u307E\u3059\u3002"
+      - "6.\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u0412\u042B\u0411\u0420\u0410\u0422\u042C
+        \u041D\u041E\u0412\u042B\u0419 \u0421\u041A\u0418\u041D."
+      - "6. Nh\u1EA5n v\xE0o CH\u1ECCN GIAO DI\u1EC6N M\u1EDAI."
+      - "6. \u0E01\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2A\u0E01\u0E34\u0E19\u0E43\u0E2B\u0E21\u0E48"
+      - 6. Pressione ESCOLHER NOVA SKIN.
+      - "6. Kliknij WYBIERZ NOW\u0104 SK\xD3RK\u0118."
+      - "6. \uC0C8\uB85C\uC6B4 \uC2A4\uD0A8 \uC120\uD0DD\uC744 \uB204\uB974\uC138\uC694."
+      - 6. Premere su SCEGLI NUOVA SKIN.
+      - "6. Dr\xFCcken Sie auf NEUE HAUT AUSW\xC4HLEN."
+      - "6.YEN\u0130 DER\u0130 SE\xC7'e bas\u0131n."
+      - "6.\u6309\u4E0B\u9009\u62E9\u65B0\u76AE\u80A4\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 7. Next a gallery will open.Find the skin image among your images and
+        select it.
+      TermType: 0
+      Description: 
+      Languages:
+      - "7. Next a gallery will open.Find the skin image \n    among your images
+        and select it."
+      - "7. Se abrir\xE1 una galer\xEDa. Busca la imagen del dise\xF1o entre tus
+        im\xE1genes y selecci\xF3nala."
+      - "7. Une galerie s'ouvrira ensuite. Recherchez l'image de skin parmi vos images
+        et s\xE9lectionnez-la."
+      - "7. \u6B21\u306B\u30AE\u30E3\u30E9\u30EA\u30FC\u304C\u958B\u304D\u307E\u3059\u3002\u753B\u50CF\u306E\u4E2D\u304B\u3089\u30B9\u30AD\u30F3\u753B\u50CF\u3092\u898B\u3064\u3051\u3066\u9078\u629E\u3057\u307E\u3059\u3002"
+      - "7. \u0414\u0430\u043B\u0435\u0435 \u043E\u0442\u043A\u0440\u043E\u0435\u0442\u0441\u044F
+        \u0433\u0430\u043B\u0435\u0440\u0435\u044F. \u041D\u0430\u0439\u0434\u0438\u0442\u0435
+        \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0441\u043A\u0438\u043D\u0430
+        \u0441\u0440\u0435\u0434\u0438 \u0432\u0430\u0448\u0438\u0445 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439
+        \u0438 \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0435\u0433\u043E."
+      - "7. Ti\u1EBFp theo, m\u1ED9t th\u01B0 vi\u1EC7n s\u1EBD m\u1EDF ra. T\xECm
+        h\xECnh \u1EA3nh da\ntrong s\u1ED1 c\xE1c h\xECnh \u1EA3nh c\u1EE7a b\u1EA1n
+        v\xE0 ch\u1ECDn n\xF3."
+      - "7. \u0E08\u0E32\u0E01\u0E19\u0E31\u0E49\u0E19\u0E41\u0E01\u0E25\u0E40\u0E25\u0E2D\u0E23\u0E35\u0E08\u0E30\u0E40\u0E1B\u0E34\u0E14\u0E02\u0E36\u0E49\u0E19
+        \u0E04\u0E49\u0E19\u0E2B\u0E32\u0E20\u0E32\u0E1E\u0E2A\u0E01\u0E34\u0E19
+        \n\u0E08\u0E32\u0E01\u0E20\u0E32\u0E1E\u0E15\u0E48\u0E32\u0E07\u0E46 \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E41\u0E25\u0E49\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E1E\u0E19\u0E31\u0E49\u0E19"
+      - "7. Em seguida, uma galeria ser\xE1 aberta. Encontre a imagem da skin\nentre
+        suas imagens e selecione-a."
+      - "7. Nast\u0119pnie otworzy si\u0119 galeria. Znajd\u017A obraz sk\xF3ry \nw\u015Br\xF3d
+        swoich obraz\xF3w i wybierz go."
+      - "7. \uAC24\uB7EC\uB9AC\uAC00 \uC5F4\uB9BD\uB2C8\uB2E4. \uC774\uBBF8\uC9C0
+        \uC911\uC5D0\uC11C \uC6D0\uD558\uB294 \uC2A4\uD0A8 \uC774\uBBF8\uC9C0\uB97C
+        \uCC3E\uC544 \uC120\uD0DD\uD558\uC138\uC694."
+      - "7. Si aprir\xE0 una galleria. Trova l'immagine della skin tra le tue immagini
+        e selezionala."
+      - "7. Anschlie\xDFend \xF6ffnet sich eine Galerie. Suchen Sie das Skin-Bild\nunter
+        Ihren Bildern und w\xE4hlen Sie es aus."
+      - "7. Ard\u0131ndan bir galeri a\xE7\u0131lacak.Resimleriniz aras\u0131nda
+        cilt resmini bulun ve se\xE7in."
+      - "7. \u63A5\u4E0B\u6765\u4F1A\u6253\u5F00\u4E00\u4E2A\u56FE\u5E93\u3002\u5728\u60A8\u7684\u56FE\u7247\u4E2D\u627E\u5230\u76AE\u80A4\u56FE\u7247\u5E76\u9009\u62E9\u5B83\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 8.Choose the model which looks best for your skin. The difference is
+        the arm size.
+      TermType: 0
+      Description: 
+      Languages:
+      - "8.Choose the model which looks best for your skin.\n    The difference is
+        the arm size."
+      - "8. Elige el modelo que mejor se adapte a tu piel. La diferencia radica en
+        el tama\xF1o del brazo."
+      - "8. Choisissez le mod\xE8le qui convient le mieux \xE0 votre peau. La diff\xE9rence
+        r\xE9side dans la taille des bras."
+      - "8.\u304A\u808C\u306B\u4E00\u756A\u5408\u3046\u30E2\u30C7\u30EB\u3092\u304A\u9078\u3073\u304F\u3060\u3055\u3044\u3002\n\u9055\u3044\u306F\u8155\u306E\u30B5\u30A4\u30BA\u3067\u3059\u3002"
+      - "8.\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043C\u043E\u0434\u0435\u043B\u044C,
+        \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043B\u0443\u0447\u0448\u0435
+        \u0432\u0441\u0435\u0433\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
+        \u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u0436\u0435.\n\u0420\u0430\u0437\u043D\u0438\u0446\u0430
+        \u0437\u0430\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F \u0432
+        \u0440\u0430\u0437\u043C\u0435\u0440\u0435 \u0440\u0443\u043A\u0438."
+      - "8. Ch\u1ECDn m\u1EABu ph\xF9 h\u1EE3p nh\u1EA5t v\u1EDBi l\xE0n da c\u1EE7a
+        b\u1EA1n.\nS\u1EF1 kh\xE1c bi\u1EC7t n\u1EB1m \u1EDF k\xEDch th\u01B0\u1EDBc
+        c\xE1nh tay."
+      - "8.\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E21\u0E32\u0E30\u0E01\u0E31\u0E1A\u0E1C\u0E34\u0E27\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14\n\u0E04\u0E27\u0E32\u0E21\u0E41\u0E15\u0E01\u0E15\u0E48\u0E32\u0E07\u0E2D\u0E22\u0E39\u0E48\u0E17\u0E35\u0E48\u0E02\u0E19\u0E32\u0E14\u0E41\u0E02\u0E19"
+      - "8. Escolha o modelo que melhor se adapta \xE0 sua pele.\nA diferen\xE7a
+        est\xE1 no tamanho do bra\xE7o."
+      - "8. Wybierz model, kt\xF3ry najlepiej pasuje do Twojej sk\xF3ry.\nR\xF3\u017Cnica
+        polega na rozmiarze ramienia."
+      - "8. \uC790\uC2E0\uC758 \uD53C\uBD80\uC5D0 \uAC00\uC7A5 \uC798 \uB9DE\uB294
+        \uBAA8\uB378\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n\uCC28\uC774\uC810\uC740
+        \uD314 \uD06C\uAE30\uC785\uB2C8\uB2E4."
+      - "8. Scegli il modello pi\xF9 adatto alla tua pelle.\nLa differenza sta nella
+        misura del braccio."
+      - "8. W\xE4hlen Sie das Modell, das am besten zu Ihrer Haut passt.\nDer Unterschied
+        liegt in der Armgr\xF6\xDFe."
+      - "8. Cildinize en uygun modeli se\xE7in.\nFark kol \xF6l\xE7\xFCs\xFCd\xFCr."
+      - "8.\u9009\u62E9\u6700\u9002\u5408\u60A8\u80A4\u8D28\u7684\u6B3E\u5F0F\u3002\n\u533A\u522B\u5728\u4E8E\u624B\u81C2\u5C3A\u5BF8\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 9. As soon as you open a world you will have your new skin.
+      TermType: 0
+      Description: 
+      Languages:
+      - 9. As soon as you open a world you will have your new skin.
+      - "9. Tan pronto como abras un mundo tendr\xE1s tu nueva skin."
+      - "9. D\xE8s que vous ouvrez un monde, vous aurez votre nouvelle peau."
+      - "9. \u30EF\u30FC\u30EB\u30C9\u3092\u958B\u304F\u3068\u3059\u3050\u306B\u65B0\u3057\u3044\u30B9\u30AD\u30F3\u304C\u624B\u306B\u5165\u308A\u307E\u3059\u3002"
+      - "9. \u041A\u0430\u043A \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u044B
+        \u043E\u0442\u043A\u0440\u043E\u0435\u0442\u0435 \u043C\u0438\u0440, \u0443
+        \u0432\u0430\u0441 \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F \u043D\u043E\u0432\u044B\u0439
+        \u0441\u043A\u0438\u043D."
+      - "9. Ngay khi b\u1EA1n m\u1EDF m\u1ED9t th\u1EBF gi\u1EDBi, b\u1EA1n s\u1EBD
+        c\xF3 giao di\u1EC7n m\u1EDBi."
+      - "9. \u0E17\u0E31\u0E19\u0E17\u0E35\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E40\u0E1B\u0E34\u0E14\u0E42\u0E25\u0E01\u0E04\u0E38\u0E13\u0E08\u0E30\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E2A\u0E01\u0E34\u0E19\u0E43\u0E2B\u0E21\u0E48"
+      - "9. Assim que voc\xEA abrir um mundo, voc\xEA ter\xE1 sua nova skin."
+      - "9. Po otwarciu \u015Bwiata otrzymasz now\u0105 sk\xF3rk\u0119."
+      - "9. \uC138\uACC4\uB97C \uC5F4\uBA74 \uC0C8\uB85C\uC6B4 \uC2A4\uD0A8\uC774
+        \uC81C\uACF5\uB429\uB2C8\uB2E4."
+      - 9. Non appena apri un mondo avrai la tua nuova skin.
+      - "9. Sobald Sie eine Welt \xF6ffnen, haben Sie Ihr neues Skin."
+      - "9. Bir d\xFCnyay\u0131 a\xE7t\u0131\u011F\u0131n\u0131z anda yeni cildinize
+        kavu\u015Facaks\u0131n\u0131z."
+      - "9. \u4E00\u65E6\u4F60\u6253\u5F00\u4E00\u4E2A\u4E16\u754C\uFF0C\u4F60\u5C31\u4F1A\u62E5\u6709\u65B0\u7684\u76AE\u80A4\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Create Cape (22x17) (64x32)
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Create Cape
+
+        (22x17) (64x32)'
+      - 'Crear Capa
+
+        (22x17) (64x32)'
+      - "Cr\xE9er Une Cape\n(22x17) (64x32)"
+      - "\u30B1\u30FC\u30D7\u4F5C\u6210\n(22x17) (64x32)"
+      - "\u0441\u043E\u0437\u0434\u0430\u0442\u044C \u043F\u043B\u0430\u0449\n(22x17)
+        (64x32)"
+      - "T\u1EA1o Cape\n(22x17) (64x32)"
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E04\u0E25\u0E38\u0E21\n(22x17)
+        (64x32)"
+      - 'Criar Capa
+
+        (22x17) (64x32)'
+      - "Utw\xF3rz Peleryn\u0119\n(22x17) (64x32)"
+      - "\uCF00\uC774\uD504 \uB9CC\uB4E4\uAE30\n(22x17) (64x32)"
+      - 'Crea Mantello
+
+        (22x17) (64x32)'
+      - 'Umhang Erstellen
+
+        (22 X 17) (64 X 32)'
+      - "Cape Olu\u015Ftur\n(22x17) (64x32)"
+      - "\u5236\u4F5C\u62AB\u98CE\n(22x17) (64x32)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Create Elytra (64x32)
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Create Elytra
+
+        (64x32)'
+      - "Crear \xE9litros\n(64x32)"
+      - "Cr\xE9er Des \xE9lytres\n(64x32)"
+      - "\u30A8\u30EA\u30C8\u30E9\u3092\u4F5C\u6210\n(64x32)"
+      - "\u0441\u043E\u0437\u0434\u0430\u0442\u044C \u044D\u043B\u0438\u0442\u0440\u0443\n(64x32)"
+      - "T\u1EA1o Elytra\n(64x32)"
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E40\u0E2D\u0E25\u0E35\u0E15\u0E23\u0E32\n(64x32)"
+      - "Criar \xE9litros\n(64x32)"
+      - "Utw\xF3rz Elytr\u0119\n(64x32)"
+      - "\uB531\uC9C0\uB0A0\uAC1C \uC0DD\uC131\n(64x32)"
+      - 'Crea Elitre
+
+        (64x32)'
+      - "Fl\xFCgeldecken Erstellen\n(64 X 32)"
+      - "Elytra'y\u0131 Olu\u015Ftur\n(64x32)"
+      - "\u521B\u5EFA\u9798\u7FC5\n(64x32)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Browse Gallery Cape (22x17)(64x32)
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Browse Gallery Cape
+
+        (22x17)(64x32)'
+      - "Explorar Galer\xEDa Capa\n(22x17)(64x32)"
+      - 'Parcourir La Galerie Cape
+
+        (22x17)(64x32)'
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u30B1\u30FC\u30D7\u3092\u898B\u308B\n(22x17)(64x32)"
+      - "\u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0433\u0430\u043B\u0435\u0440\u0435\u044E
+        Cape\n(22x17)(64x32)"
+      - "Duy\u1EC7t Qua Th\u01B0 Vi\u1EC7n Cape\n(22x17)(64x32)"
+      - "\u0E40\u0E23\u0E35\u0E22\u0E01\u0E14\u0E39\u0E41\u0E01\u0E25\u0E2D\u0E23\u0E35\u0E48
+        Cape\n(22x17)(64x32)"
+      - 'Explorar Galeria De Capas
+
+        (22x17)(64x32)'
+      - "Przegl\u0105daj Galeri\u0119 Cape\n(22x17)(64x32)"
+      - "\uAC24\uB7EC\uB9AC \uCF00\uC774\uD504 \uB458\uB7EC\uBCF4\uAE30\n(22x17)(64x32)"
+      - 'Sfoglia La Galleria Cape
+
+        (22x17)(64x32)'
+      - 'Galerie Cape Durchsuchen
+
+        (22x17)(64x32)'
+      - "Galeriye G\xF6zat Cape\n(22x17)(64x32)"
+      - "\u6D4F\u89C8\u56FE\u5E93 \u6597\u7BF7\n(22x17)(64x32)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Browse Gallery Elytra (64x32)
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Browse Gallery Elytra
+
+        (64x32)'
+      - "Explorar La Galer\xEDa \xE9litros\n(64x32)"
+      - 'Parcourir La Galerie Elytra
+
+        (64x32)'
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u3092\u898B\u308B \u30A8\u30EA\u30C8\u30E9\n(64x32)"
+      - "\u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0433\u0430\u043B\u0435\u0440\u0435\u044E
+        Elytra\n(64x32)"
+      - "Duy\u1EC7t Th\u01B0 Vi\u1EC7n Elytra\n(64x32)"
+      - "\u0E40\u0E23\u0E35\u0E22\u0E01\u0E14\u0E39\u0E41\u0E01\u0E25\u0E2D\u0E23\u0E35\u0E48
+        Elytra\n(64x32)"
+      - 'Explorar Galeria Elytra
+
+        (64x32)'
+      - "Przegl\u0105daj Galeri\u0119 Elytra\n(64x32)"
+      - "\uAC24\uB7EC\uB9AC \uD0D0\uC0C9 Elytra\n(64x32)"
+      - 'Sfoglia La Galleria Elitre
+
+        (64x32)'
+      - 'Galerie Elytra Durchsuchen
+
+        (64x32)'
+      - "Galeriye G\xF6z At Elytra\n(64x32)"
+      - "\u6D4F\u89C8\u9798\u7FC5\u56FE\u5E93\n(64x32)"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Cape format is not valid
+      TermType: 0
+      Description: 
+      Languages:
+      - Cape format is not valid
+      - "El formato Cape no es v\xE1lido"
+      - Le format Cape n'est pas valide
+      - "\u30B1\u30FC\u30D7\u5F62\u5F0F\u304C\u7121\u52B9\u3067\u3059"
+      - "\u0424\u043E\u0440\u043C\u0430\u0442 Cape \u043D\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u0435\u043D"
+      - "\u0110\u1ECBnh d\u1EA1ng Cape kh\xF4ng h\u1EE3p l\u1EC7"
+      - "\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A Cape \u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07"
+      - "O formato do cabo n\xE3o \xE9 v\xE1lido"
+      - "Format Cape jest nieprawid\u0142owy"
+      - "\uCF00\uC774\uD504 \uD615\uC2DD\uC774 \uC720\uD6A8\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+      - "Il formato del capo non \xE8 valido"
+      - "Das Cape-Format ist ung\xFCltig"
+      - "Cape format\u0131 ge\xE7erli de\u011Fil"
+      - "Cape \u683C\u5F0F\u65E0\u6548"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Please select Cape 22x17 or 64x32 Elytra 64x32
+      TermType: 0
+      Description: 
+      Languages:
+      - "Please select\nCape 22x17 or 64x32    \nElytra 64x32  "
+      - "Por favor seleccione\nCape 22x17 o 64x32\n\xC9lytra 64x32"
+      - "Veuillez s\xE9lectionner\nCape 22x17 ou 64x32\nElytra 64x32"
+      - "\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044\n\u30B1\u30FC\u30D7 22x17
+        \u307E\u305F\u306F 64x32\n\u30A8\u30EA\u30C8\u30E9 64x32"
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435\n\u041F\u043B\u0430\u0449
+        22x17 \u0438\u043B\u0438 64x32\n\u041D\u0430\u0434\u043A\u0440\u044B\u043B\u044C\u044F
+        64x32"
+      - "Vui l\xF2ng ch\u1ECDn\nCape 22x17 ho\u1EB7c 64x32\nElytra 64x32"
+      - "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E40\u0E25\u0E37\u0E2D\u0E01\nCape 22x17
+        \u0E2B\u0E23\u0E37\u0E2D 64x32 \nElytra 64x32"
+      - 'Selecione
+
+        Capa 22x17 ou 64x32
+
+        Elytra 64x32'
+      - "Prosz\u0119 wybra\u0107\nCape 22x17 lub 64x32\nElytra 64x32"
+      - "\uC120\uD0DD\uD574 \uC8FC\uC138\uC694\n\uCF00\uC774\uD504 22x17 \uB610\uB294
+        64x32\n\uC5D8\uB9AC\uD2B8\uB77C 64x32"
+      - 'Seleziona
+
+        Cape 22x17 o 64x32
+
+        Elitre 64x32'
+      - "Bitte w\xE4hlen Sie:\nKap 22x17 oder 64x32\nElytra 64x32"
+      - "L\xFCtfen se\xE7in\nCape 22x17 veya 64x32\nElytra 64x32"
+      - "\u8BF7\u9009\u62E9\n\u62AB\u80A9 22x17 \u6216 64x32\n\u9798\u7FC5 64x32"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Online Cap Catalog
+      TermType: 0
+      Description: 
+      Languages:
+      - Online Cap Catalog
+      - "Cat\xE1logo De Gorras En L\xEDnea"
+      - Catalogue De Casquettes En Ligne
+      - "\u30AA\u30F3\u30E9\u30A4\u30F3\u30AD\u30E3\u30C3\u30D7\u30AB\u30BF\u30ED\u30B0"
+      - "\u041E\u043D\u043B\u0430\u0439\u043D-\u041A\u0430\u0442\u0430\u043B\u043E\u0433
+        \u041A\u0440\u044B\u0448\u0435\u043A"
+      - "Danh M\u1EE5c M\u0169 Tr\u1EF1c Tuy\u1EBFn"
+      - "\u0E41\u0E04\u0E47\u0E15\u0E15\u0E32\u0E25\u0E47\u0E2D\u0E01\u0E2B\u0E21\u0E27\u0E01\u0E2D\u0E2D\u0E19\u0E44\u0E25\u0E19\u0E4C"
+      - "Cat\xE1logo De Bon\xE9s Online"
+      - Katalog Czapek Online
+      - "\uC628\uB77C\uC778 \uCEA1 \uCE74\uD0C8\uB85C\uADF8"
+      - Catalogo Online Di Cappellini
+      - Online-Kappenkatalog
+      - "\xC7evrimi\xE7i \u015Eapka Katalo\u011Fu"
+      - "\u5728\u7EBF\u5E3D\u5B50\u76EE\u5F55"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Create new
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Create new '
+      - Crear nuevo
+      - "Cr\xE9er un nouveau"
+      - "\u65B0\u898F\u4F5C\u6210"
+      - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043D\u043E\u0432\u044B\u0439"
+      - "T\u1EA1o m\u1EDBi"
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E43\u0E2B\u0E21\u0E48"
+      - Criar novo
+      - "Utw\xF3rz nowy"
+      - "\uC0C8\uB85C \uB9CC\uB4E4\uAE30"
+      - Crea nuovo
+      - Neu erstellen
+      - "Yeni olu\u015Ftur"
+      - "\u521B\u5EFA\u65B0\u7684"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
