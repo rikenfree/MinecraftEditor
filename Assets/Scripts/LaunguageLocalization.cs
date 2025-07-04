@@ -13,6 +13,15 @@ public class Launguage
     public string Code;
 }
 
+[System.Serializable]
+public class LanguageButtonData
+{
+    public string LanguageName;
+    public string LanguageCode;
+    public Button button;      // Reference to the button
+    public Image tickmark;     // Reference to the tickmark image
+}
+
 public class LaunguageLocalization : MonoBehaviour
 {
     public static LaunguageLocalization instance;

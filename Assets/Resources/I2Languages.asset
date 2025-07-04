@@ -6031,6 +6031,789 @@ MonoBehaviour:
       - "\u521B\u5EFA\u65B0\u7684"
       Flags: 0000000000000000000000000000
       Languages_Touch: []
+    - Term: Draw pixels with Pencil Tool
+      TermType: 0
+      Description: 
+      Languages:
+      - Draw pixels with Pencil Tool
+      - "Dibujar p\xEDxeles con la herramienta L\xE1piz"
+      - Dessiner des pixels avec l'outil Crayon
+      - "\u925B\u7B46\u30C4\u30FC\u30EB\u3067\u30D4\u30AF\u30BB\u30EB\u3092\u63CF\u304F"
+      - "\u0420\u0438\u0441\u0443\u0435\u043C \u043F\u0438\u043A\u0441\u0435\u043B\u0438
+        \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430
+        \xAB\u041A\u0430\u0440\u0430\u043D\u0434\u0430\u0448\xBB"
+      - "V\u1EBD c\xE1c \u0111i\u1EC3m \u1EA3nh b\u1EB1ng C\xF4ng c\u1EE5 B\xFAt
+        ch\xEC"
+      - "\u0E27\u0E32\u0E14\u0E1E\u0E34\u0E01\u0E40\u0E0B\u0E25\u0E14\u0E49\u0E27\u0E22\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E14\u0E34\u0E19\u0E2A\u0E2D"
+      - "Desenhar pixels com a ferramenta L\xE1pis"
+      - "Rysuj piksele za pomoc\u0105 narz\u0119dzia O\u0142\xF3wek"
+      - "\uC5F0\uD544 \uB3C4\uAD6C\uB85C \uD53D\uC140 \uADF8\uB9AC\uAE30"
+      - Disegna pixel con lo strumento matita
+      - Zeichnen Sie Pixel mit dem Bleistift-Werkzeug
+      - "Kalem Arac\u0131 ile piksel \xE7izin"
+      - "\u4F7F\u7528\u94C5\u7B14\u5DE5\u5177\u7ED8\u5236\u50CF\u7D20"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Erase Pixels
+      TermType: 0
+      Description: 
+      Languages:
+      - Erase Pixels
+      - "Borrar P\xEDxeles"
+      - Effacer Les Pixels
+      - "\u30D4\u30AF\u30BB\u30EB\u3092\u6D88\u53BB\u3059\u308B"
+      - "\u0421\u0442\u0435\u0440\u0435\u0442\u044C \u041F\u0438\u043A\u0441\u0435\u043B\u0438"
+      - 
+      - "\u0E25\u0E1A\u0E1E\u0E34\u0E01\u0E40\u0E0B\u0E25"
+      - Apagar Pixels
+      - "Wyma\u017C Piksele"
+      - 
+      - Cancella I Pixel
+      - "Pixel L\xF6schen"
+      - Pikselleri Sil
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Face Paint Tool
+      TermType: 0
+      Description: 
+      Languages:
+      - Face Paint Tool
+      - Herramienta De Pintura Facial
+      - Outil De Peinture Pour Le Visage
+      - "\u30D5\u30A7\u30A4\u30B9\u30DA\u30A4\u30F3\u30C8\u30C4\u30FC\u30EB"
+      - "\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442 \u0414\u043B\u044F
+        \u0420\u0438\u0441\u043E\u0432\u0430\u043D\u0438\u044F \u041D\u0430 \u041B\u0438\u0446\u0435"
+      - "C\xF4ng C\u1EE5 V\u1EBD M\u1EB7t"
+      - "\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E27\u0E32\u0E14\u0E2B\u0E19\u0E49\u0E32"
+      - Ferramenta De Pintura Facial
+      - "Narz\u0119dzie Do Malowania Twarzy"
+      - "\uC5BC\uAD74 \uD398\uC778\uD2B8 \uB3C4\uAD6C"
+      - Strumento Per Dipingere Il Viso
+      - Gesichtsbemalungswerkzeug
+      - "Y\xFCz Boyama Arac\u0131"
+      - "\u9762\u90E8\u5F69\u7ED8\u5DE5\u5177"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Draw with Pencil
+      TermType: 0
+      Description: 
+      Languages:
+      - Drawing with pencil
+      - "Dibujar con l\xE1piz"
+      - Dessiner au crayon
+      - "\u925B\u7B46\u3067\u63CF\u304F"
+      - "\u0420\u0438\u0441\u043E\u0432\u0430\u0442\u044C \u043A\u0430\u0440\u0430\u043D\u0434\u0430\u0448\u043E\u043C"
+      - "V\u1EBD b\u1EB1ng b\xFAt ch\xEC"
+      - "\u0E01\u0E32\u0E23\u0E27\u0E32\u0E14\u0E20\u0E32\u0E1E\u0E14\u0E49\u0E27\u0E22\u0E14\u0E34\u0E19\u0E2A\u0E2D"
+      - "Desenho a l\xE1pis"
+      - "Rysowanie o\u0142\xF3wkiem"
+      - "\uC5F0\uD544\uB85C \uADF8\uB9AC\uAE30"
+      - Disegnare con la matita
+      - Zeichnen mit Bleistift
+      - "Kalemle \xE7iz"
+      - "\u7528\u94C5\u7B14\u7ED8\u753B"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Edge Visibility
+      TermType: 0
+      Description: 
+      Languages:
+      - Edge Visibility
+      - Visibilidad Del Borde
+      - "Visibilit\xE9 Des Bords"
+      - "\u30A8\u30C3\u30B8\u306E\u53EF\u8996\u6027"
+      - "\u0412\u0438\u0434\u0438\u043C\u043E\u0441\u0442\u044C \u041A\u0440\u0430\u044F"
+      - "Kh\u1EA3 N\u0103ng Hi\u1EC3n Th\u1ECB C\u1EA1nh"
+      - "\u0E01\u0E32\u0E23\u0E21\u0E2D\u0E07\u0E40\u0E2B\u0E47\u0E19\u0E02\u0E2D\u0E1A"
+      - Visibilidade De Borda
+      - "Widoczno\u015B\u0107 Kraw\u0119dzi"
+      - "\uAC00\uC7A5\uC790\uB9AC \uAC00\uC2DC\uC131"
+      - "Visibilit\xE0 Dei Bordi"
+      - Kantensichtbarkeit
+      - "Kenar G\xF6r\xFCn\xFCrl\xFC\u011F\xFC"
+      - "\u8FB9\u7F18\u53EF\u89C1\u6027"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Show Hide Parts
+      TermType: 0
+      Description: 
+      Languages:
+      - Show/Hide Parts
+      - Mostrar/Ocultar Partes
+      - "Afficher/Masquer Les Pi\xE8ces"
+      - "\u30D1\u30FC\u30C4\u306E\u8868\u793A/\u975E\u8868\u793A"
+      - "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C/\u0421\u043A\u0440\u044B\u0442\u044C
+        \u0427\u0430\u0441\u0442\u0438"
+      - "Hi\u1EC3n Th\u1ECB/\u1EA8n C\xE1c Ph\u1EA7n"
+      - "\u0E41\u0E2A\u0E14\u0E07/\u0E0B\u0E48\u0E2D\u0E19\u0E0A\u0E34\u0E49\u0E19\u0E2A\u0E48\u0E27\u0E19"
+      - Mostrar/Ocultar Partes
+      - "Poka\u017C/Ukryj Cz\u0119\u015Bci"
+      - "\uBD80\uBD84 \uD45C\uC2DC/\uC228\uAE30\uAE30"
+      - Mostra/Nascondi Parti
+      - Teile Ein-/Ausblenden
+      - "Par\xE7alar\u0131 G\xF6ster/Gizle"
+      - "\u663E\u793A/\u9690\u85CF\u96F6\u4EF6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Quick Save to Gallery
+      TermType: 0
+      Description: 
+      Languages:
+      - Quick save to gallery
+      - "Guardado r\xE1pido en la galer\xEDa"
+      - Sauvegarde rapide dans la galerie
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u306B\u30AF\u30A4\u30C3\u30AF\u4FDD\u5B58"
+      - "\u0411\u044B\u0441\u0442\u0440\u043E\u0435 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435
+        \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435"
+      - "L\u01B0u nhanh v\xE0o Th\u01B0 vi\u1EC7n"
+      - "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E23\u0E27\u0E14\u0E40\u0E23\u0E47\u0E27\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E41\u0E01\u0E25\u0E40\u0E25\u0E2D\u0E23\u0E35\u0E48"
+      - Salvar rapidamente na galeria
+      - Szybkie zapisywanie w galerii
+      - "\uAC24\uB7EC\uB9AC\uC5D0 \uBE60\uB974\uAC8C \uC800\uC7A5"
+      - Salvataggio rapido nella Galleria
+      - Schnelles Speichern in der Galerie
+      - "Galeriye h\u0131zl\u0131 kaydet"
+      - "\u5FEB\u901F\u4FDD\u5B58\u81F3\u56FE\u5E93"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Loaded with Skins
+      TermType: 0
+      Description: 
+      Languages:
+      - Loaded with skins
+      - Cargado con pieles
+      - "Charg\xE9 de skins"
+      - "\u30B9\u30AD\u30F3\u6E80\u8F09"
+      - "\u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043D\u043E \u0441\u043A\u0438\u043D\u0430\u043C\u0438"
+      - "\u0110\u01B0\u1EE3c t\u1EA3i v\u1EDBi Skins"
+      - "\u0E40\u0E15\u0E47\u0E21\u0E44\u0E1B\u0E14\u0E49\u0E27\u0E22\u0E2A\u0E01\u0E34\u0E19"
+      - Carregado com skins
+      - "Za\u0142adowany sk\xF3rkami"
+      - "\uC2A4\uD0A8\uC774 \uAC00\uB4DD\uD558\uB2E4"
+      - Caricato con pelli
+      - Vollgepackt mit Skins
+      - Derilerle dolu
+      - "\u6EE1\u8F7D\u76AE\u80A4"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Auto Grid
+      TermType: 0
+      Description: 
+      Languages:
+      - Automatic Network
+      - "Red Autom\xE1tica"
+      - "R\xE9seau Automatique"
+      - "\u30AA\u30FC\u30C8\u30B0\u30EA\u30C3\u30C9"
+      - "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+        \u0421\u0435\u0442\u043A\u0430"
+      - "L\u01B0\u1EDBi T\u1EF1 \u0110\u1ED9ng"
+      - "\u0E40\u0E04\u0E23\u0E37\u0E2D\u0E02\u0E48\u0E32\u0E22\u0E2D\u0E31\u0E15\u0E42\u0E19\u0E21\u0E31\u0E15\u0E34"
+      - "Rede Autom\xE1tica"
+      - "Sie\u0107 Automatyczna"
+      - "\uC790\uB3D9 \uB124\uD2B8\uC6CC\uD06C"
+      - Rete Automatica
+      - Automatisches Netzwerk
+      - Otomatik Izgara
+      - "\u81EA\u52A8\u7F51\u683C"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Utilities+
+      TermType: 0
+      Description: 
+      Languages:
+      - Utilities+
+      - Utilidades+
+      - Utilitaires+
+      - "\u30E6\u30FC\u30C6\u30A3\u30EA\u30C6\u30A3+"
+      - "\u041A\u043E\u043C\u043C\u0443\u043D\u0430\u043B\u044C\u043D\u044B\u0435
+        \u0423\u0441\u043B\u0443\u0433\u0438+"
+      - "Ti\u1EC7n \xCDch+"
+      - "\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E39\u0E1B\u0E42\u0E20\u0E04+"
+      - "Utilit\xE1rios+"
+      - "Narz\u0119dzia+"
+      - "\uC720\uD2F8\uB9AC\uD2F0+"
+      - "Utilit\xE0+"
+      - Dienstprogramme+
+      - Kamu Hizmetleri+
+      - "\u516C\u7528\u4E8B\u4E1A+"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Support with Ad
+      TermType: 0
+      Description: 
+      Languages:
+      - Support with Ad
+      - Soporte con publicidad
+      - "Assistance avec publicit\xE9"
+      - "\u5E83\u544A\u3067\u30B5\u30DD\u30FC\u30C8"
+      - "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u0441 \u0440\u0435\u043A\u043B\u0430\u043C\u043E\u0439"
+      - "H\u1ED7 tr\u1EE3 v\u1EDBi Qu\u1EA3ng c\xE1o"
+      - "\u0E23\u0E2D\u0E07\u0E23\u0E31\u0E1A\u0E14\u0E49\u0E27\u0E22\u0E42\u0E06\u0E29\u0E13\u0E32"
+      - "Suporte com an\xFAncio"
+      - "Wsparcie z reklam\u0105"
+      - "\uAD11\uACE0\uB85C \uC9C0\uC6D0"
+      - "Supporto con pubblicit\xE0"
+      - "Unterst\xFCtzung mit Anzeige"
+      - Reklamla Destekleyin
+      - "\u5E7F\u544A\u652F\u6301"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Custom Cape Addon
+      TermType: 0
+      Description: 
+      Languages:
+      - Custom Cape Addon
+      - Complemento De Capa Personalizado
+      - "Module Compl\xE9mentaire De Cape Personnalis\xE9e"
+      - "\u30AB\u30B9\u30BF\u30E0\u30B1\u30FC\u30D7\u30A2\u30C9\u30AA\u30F3"
+      - "\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+        \u041D\u0430\u043A\u0438\u0434\u043A\u0430"
+      - "Addon \xC1o Cho\xE0ng T\xF9y Ch\u1EC9nh"
+      - "\u0E41\u0E2D\u0E14\u0E2D\u0E2D\u0E19\u0E40\u0E04\u0E1B\u0E41\u0E1A\u0E1A\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E40\u0E2D\u0E07"
+      - Capa Personalizada Adicional
+      - Niestandardowy Dodatek Peleryny
+      - "\uCEE4\uC2A4\uD140 \uCF00\uC774\uD504 \uC560\uB4DC\uC628"
+      - Componente Aggiuntivo Del Mantello Personalizzato
+      - Benutzerdefiniertes Cape-Addon
+      - "\xD6zel Pelerin Eklentisi"
+      - "\u81EA\u5B9A\u4E49\u62AB\u98CE\u63D2\u4EF6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Cape Editor
+      TermType: 0
+      Description: 
+      Languages:
+      - Custom Cape Addon
+      - Complemento De Capa Personalizado
+      - "Module Compl\xE9mentaire De Cape Personnalis\xE9e"
+      - "\u30AB\u30B9\u30BF\u30E0\u30B1\u30FC\u30D7\u30A2\u30C9\u30AA\u30F3"
+      - "\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+        \u041D\u0430\u043A\u0438\u0434\u043A\u0430"
+      - "Addon \xC1o Cho\xE0ng T\xF9y Ch\u1EC9nh"
+      - "\u0E41\u0E2D\u0E14\u0E2D\u0E2D\u0E19\u0E40\u0E04\u0E1B\u0E41\u0E1A\u0E1A\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E40\u0E2D\u0E07"
+      - Capa Personalizada Adicional
+      - Niestandardowy Dodatek Peleryny
+      - "\uCEE4\uC2A4\uD140 \uCF00\uC774\uD504 \uC560\uB4DC\uC628"
+      - Componente Aggiuntivo Del Mantello Personalizzato
+      - Benutzerdefiniertes Cape-Addon
+      - "\xD6zel Pelerin Eklentisi"
+      - "\u81EA\u5B9A\u4E49\u62AB\u98CE\u63D2\u4EF6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Cape Addon
+      TermType: 0
+      Description: 
+      Languages:
+      - Cape Addon
+      - Complemento De Capa
+      - "Module Compl\xE9mentaire De Cape"
+      - "\u30B1\u30FC\u30D7\u30A2\u30C9\u30AA\u30F3"
+      - "\u041D\u0430\u043A\u0438\u0434\u043A\u0430 \u0410\u0434\u0434\u043E\u043D"
+      - "Ph\u1EA7n B\u1ED5 Sung \xC1o Cho\xE0ng"
+      - "\u0E41\u0E2D\u0E14\u0E2D\u0E2D\u0E19\u0E40\u0E04\u0E1B"
+      - Capa Addon
+      - Dodatek Peleryna
+      - "\uCF00\uC774\uD504 \uC560\uB4DC\uC628"
+      - Componente Aggiuntivo Del Mantello
+      - Umhang-Addon
+      - Pelerin Eklentisi
+      - "\u6597\u7BF7\u63D2\u4EF6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Instructions
+      TermType: 0
+      Description: 
+      Languages:
+      - Instructions
+      - Instrucciones
+      - Instructions
+      - "\u8AAC\u660E\u66F8"
+      - "\u0418\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438"
+      - "H\u01B0\u1EDBng D\u1EABn"
+      - "\u0E04\u0E33\u0E41\u0E19\u0E30\u0E19\u0E33"
+      - "Instru\xE7\xF5es"
+      - Instrukcje
+      - "\uC9C0\uCE68"
+      - Istruzioni
+      - Anweisungen
+      - Talimatlar
+      - "\u6307\u793A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Explore new Mods, Tools, Packs for MCPE with our app! Discover fresh
+        maps, mods, and skins to enhance your Minecraft gameplay.
+      TermType: 0
+      Description: 
+      Languages:
+      - "Explore new Mods, Tools, Packs for MCPE \nwith our app!\nDiscover fresh
+        maps, mods, and skins to\nenhance your Minecraft gameplay."
+      - "\xA1Explora nuevos mods, herramientas y paquetes para MCPE con nuestra app!\nDescubre
+        nuevos mapas, mods y aspectos para mejorar tu experiencia de juego en Minecraft."
+      - "D\xE9couvrez de nouveaux mods, outils et packs pour MCPE\navec notre application\_!\nD\xE9couvrez
+        de nouvelles cartes, mods et skins pour\nam\xE9liorer votre exp\xE9rience
+        de jeu Minecraft."
+      - "\u30A2\u30D7\u30EA\u3067MCPE\u306E\u65B0\u3057\u3044MOD\u3001\u30C4\u30FC\u30EB\u3001\u30D1\u30C3\u30AF\u3092\u63A2\u7D22\u3057\u3088\u3046\uFF01\nMinecraft\u306E\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u3092\u3055\u3089\u306B\u5145\u5B9F\u3055\u305B\u308B\u3001\u65B0\u3057\u3044\u30DE\u30C3\u30D7\u3001MOD\u3001\u30B9\u30AD\u30F3\u3092\u767A\u898B\u3057\u3088\u3046\u3002"
+      - "\u0418\u0441\u0441\u043B\u0435\u0434\u0443\u0439\u0442\u0435 \u043D\u043E\u0432\u044B\u0435
+        \u043C\u043E\u0434\u044B, \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B,
+        \u043F\u0430\u043A\u0435\u0442\u044B \u0434\u043B\u044F MCPE \n\u0441 \u043D\u0430\u0448\u0438\u043C
+        \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\u043C!\n\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435
+        \u0434\u043B\u044F \u0441\u0435\u0431\u044F \u043D\u043E\u0432\u044B\u0435
+        \u043A\u0430\u0440\u0442\u044B, \u043C\u043E\u0434\u044B \u0438 \u0441\u043A\u0438\u043D\u044B,\n\u0447\u0442\u043E\u0431\u044B
+        \u0443\u043B\u0443\u0447\u0448\u0438\u0442\u044C \u0438\u0433\u0440\u043E\u0432\u043E\u0439
+        \u043F\u0440\u043E\u0446\u0435\u0441\u0441 Minecraft."
+      - "Kh\xE1m ph\xE1 c\xE1c Mod, C\xF4ng c\u1EE5, G\xF3i m\u1EDBi cho MCPE\nv\u1EDBi
+        \u1EE9ng d\u1EE5ng c\u1EE7a ch\xFAng t\xF4i!\nKh\xE1m ph\xE1 c\xE1c b\u1EA3n
+        \u0111\u1ED3, mod v\xE0 giao di\u1EC7n m\u1EDBi \u0111\u1EC3\nn\xE2ng cao
+        l\u1ED1i ch\u01A1i Minecraft c\u1EE7a b\u1EA1n."
+      - "\u0E2A\u0E33\u0E23\u0E27\u0E08 Mod, \u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D,
+        \u0E41\u0E1E\u0E47\u0E04\u0E43\u0E2B\u0E21\u0E48\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A
+        MCPE\n\u0E14\u0E49\u0E27\u0E22\u0E41\u0E2D\u0E1B\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32!\n\u0E04\u0E49\u0E19\u0E1E\u0E1A\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48,
+        mod \u0E41\u0E25\u0E30\u0E2A\u0E01\u0E34\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E46
+        \u0E40\u0E1E\u0E37\u0E48\u0E2D\n\u0E1B\u0E23\u0E31\u0E1A\u0E1B\u0E23\u0E38\u0E07\u0E01\u0E32\u0E23\u0E40\u0E25\u0E48\u0E19\u0E40\u0E01\u0E21
+        Minecraft \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13"
+      - 'Explore novos Mods, Ferramentas e Pacotes para MCPE
+
+        com nosso aplicativo!
+
+        Descubra
+        novos mapas, mods e skins para
+
+        melhorar sua jogabilidade no Minecraft.'
+      - "Odkryj nowe mody, narz\u0119dzia, pakiety do MCPE \ndzi\u0119ki naszej aplikacji!\nOdkryj
+        nowe mapy, mody i sk\xF3rki, aby\nulepszy\u0107 rozgrywk\u0119 w Minecraft."
+      - "MCPE\uB97C \uC704\uD55C \uC0C8\uB85C\uC6B4 \uBAA8\uB4DC, \uB3C4\uAD6C, \uD329\uC744\n\uC571\uC5D0\uC11C
+        \uB9CC\uB098\uBCF4\uC138\uC694!\n\uC0C8\uB85C\uC6B4 \uB9F5, \uBAA8\uB4DC,
+        \uC2A4\uD0A8\uC744 \uCC3E\uC544\n\uB9C8\uC778\uD06C\uB798\uD504\uD2B8 \uAC8C\uC784\uD50C\uB808\uC774\uB97C
+        \uB354\uC6B1 \uD48D\uC131\uD558\uAC8C \uB9CC\uB4E4\uC5B4 \uBCF4\uC138\uC694."
+      - 'Esplora nuove mod, strumenti e pacchetti per MCPE
+
+        con la nostra
+        app!
+
+        Scopri nuove mappe, mod e skin per
+
+        migliorare il tuo
+        gameplay di Minecraft.'
+      - "Entdecke neue Mods, Tools und Packs f\xFCr MCPE\nmit unserer App!\nEntdecke
+        neue Karten, Mods und Skins, um\ndein Minecraft-Gameplay zu verbessern."
+      - "MCPE i\xE7in yeni Modlar, Ara\xE7lar, Paketler ke\u015Ffedin\nuygulamam\u0131zla!\nMinecraft
+        oyununuzu geli\u015Ftirmek i\xE7in\nyeni haritalar, modlar ve g\xF6r\xFCn\xFCmler
+        ke\u015Ffedin."
+      - "\u4F7F\u7528\u6211\u4EEC\u7684\u5E94\u7528\u63A2\u7D22 MCPE \u7684\u5168\u65B0\u6A21\u7EC4\u3001\u5DE5\u5177\u548C\u8D44\u6E90\u5305\uFF01\n\u63A2\u7D22\u5168\u65B0\u5730\u56FE\u3001\u6A21\u7EC4\u548C\u76AE\u80A4\uFF0C\n\u63D0\u5347\u4F60\u7684
+        Minecraft \u6E38\u620F\u4F53\u9A8C\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Next
+      TermType: 0
+      Description: 
+      Languages:
+      - Next
+      - "Pr\xF3ximo"
+      - Suivant
+      - "\u6B21"
+      - "\u0421\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439"
+      - "K\u1EBF Ti\u1EBFp"
+      - "\u0E15\u0E48\u0E2D\u0E44\u0E1B"
+      - "Pr\xF3ximo"
+      - "Nast\u0119pny"
+      - "\uB2E4\uC74C"
+      - Prossimo
+      - "N\xE4chste"
+      - Sonraki
+      - "\u4E0B\u4E00\u4E2A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Back
+      TermType: 0
+      Description: 
+      Languages:
+      - Back
+      - "Atr\xE1s"
+      - Dos
+      - "\u623B\u308B"
+      - "\u041D\u0430\u0437\u0430\u0434"
+      - "M\u1EB7t Sau"
+      - "\u0E01\u0E25\u0E31\u0E1A"
+      - Voltar
+      - Z Powrotem
+      - "\uB4A4\uCABD\uC5D0"
+      - Indietro
+      - "Zur\xFCck"
+      - Geri
+      - "\u540E\u9000"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Rules
+      TermType: 0
+      Description: 
+      Languages:
+      - Rules
+      - Normas
+      - "R\xE8gles"
+      - "\u30EB\u30FC\u30EB"
+      - "\u041F\u0440\u0430\u0432\u0438\u043B\u0430"
+      - "Quy T\u1EAFc"
+      - "\u0E01\u0E0E"
+      - Regras
+      - Zasady
+      - "\uADDC\uCE59"
+      - Regole
+      - Regeln
+      - "T\xFCz\xFCk"
+      - "\u89C4\u5219"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 1. DON'T STEAL 2. DON'T GRIEF 3. DON'T BE A JERK 4. NO HACKS - NO CHEATING
+        5. CERTAIN GRINDERS ARE PROHIBITED
+      TermType: 0
+      Description: 
+      Languages:
+      - '1.  DON''T STEAL
+
+        2.  DON''T GRIEF
+
+        3.  DON''T BE A JERK
+
+        4. 
+        NO HACKS - NO CHEATING
+
+        5.  CERTAIN GRINDERS ARE PROHIBITED'
+      - "1. NO ROBES\n2. NO HAGAS DUELOS\n3. NO SEAS IMB\xC9CIL\n4. NO HAGAS TRAMPAS\n5.
+        CIERTOS GRINDERS EST\xC1N PROHIBIDOS"
+      - "1. NE VOLEZ PAS\n2. NE VOUS ATTENTEZ PAS\n3. NE SOYEZ PAS UN CASSE-T\xCATE\n4.
+        PAS DE PIRATAGE - PAS DE TRICHE\n5. CERTAINS GRINDERS SONT INTERDITS"
+      - "1. \u76D7\u307E\u306A\u3044\u3067\n2. \u8352\u3089\u3055\u306A\u3044\u3067\n3.
+        \u5ACC\u306A\u5974\u306B\u306A\u3089\u306A\u3044\u3067\n4. \u30CF\u30C3\u30AD\u30F3\u30B0\u7981\u6B62\u3001\u30C1\u30FC\u30C8\u7981\u6B62\n5.
+        \u7279\u5B9A\u306E\u30B0\u30E9\u30A4\u30F3\u30C0\u30FC\u306F\u7981\u6B62\u3055\u308C\u3066\u3044\u307E\u3059"
+      - "1. \u041D\u0415 \u0412\u041E\u0420\u0423\u0419\n2. \u041D\u0415 \u0413\u041E\u0420\u0418\n3.
+        \u041D\u0415 \u0411\u0423\u0414\u042C \u041F\u0420\u0418\u0414\u0423\u0420\u041E\u041A\u041E\u041C\n4.
+        \u041D\u0418\u041A\u0410\u041A\u0418\u0425 \u0412\u0417\u041B\u041E\u041C\u041E\u0412
+        - \u041D\u0418\u041A\u0410\u041A\u041E\u0413\u041E \u041E\u0411\u041C\u0410\u041D\u0410\n5.
+        \u041D\u0415\u041A\u041E\u0422\u041E\u0420\u042B\u0415 \u0413\u0420\u0410\u0419\u041D\u0414\u0415\u0420\u042B
+        \u0417\u0410\u041F\u0420\u0415\u0429\u0415\u041D\u042B"
+      - "1. KH\xD4NG TR\u1ED8M C\u1EAEP\n2. KH\xD4NG BU\u1ED2N\n3. KH\xD4NG L\xC0M
+        K\u1EBA \u0110\u1EA6U\n4. KH\xD4NG C\xD3 HACK - KH\xD4NG GIAN L\u1EACN\n5.
+        C\u1EA4M M\u1ED8T S\u1ED0 M\xC1Y XAY"
+      - "1. \u0E2B\u0E49\u0E32\u0E21\u0E02\u0E42\u0E21\u0E22\n2. \u0E2B\u0E49\u0E32\u0E21\u0E01\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E40\u0E14\u0E37\u0E2D\u0E14\u0E23\u0E49\u0E2D\u0E19\u0E43\u0E2B\u0E49\u0E1C\u0E39\u0E49\u0E2D\u0E37\u0E48\u0E19\n3.
+        \u0E2B\u0E49\u0E32\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E19\u0E07\u0E35\u0E48\u0E40\u0E07\u0E48\u0E32\n4.
+        \u0E2B\u0E49\u0E32\u0E21\u0E41\u0E2E\u0E47\u0E01\u0E2B\u0E23\u0E37\u0E2D\u0E42\u0E01\u0E07\n5.
+        \u0E2B\u0E49\u0E32\u0E21\u0E21\u0E34\u0E43\u0E2B\u0E49\u0E1C\u0E39\u0E49\u0E40\u0E25\u0E48\u0E19\u0E1A\u0E32\u0E07\u0E04\u0E19\u0E43\u0E0A\u0E49\u0E42\u0E1B\u0E23\u0E41\u0E01\u0E23\u0E21\u0E42\u0E01\u0E07"
+      - "1. N\xC3O ROUBE\n2. N\xC3O SE CHORE\n3. N\xC3O SEJA IDIOTA\n4. SEM HACKS
+        - SEM TRAPA\xC7AS\n5. CERTOS GRINDERS S\xC3O PROIBIDOS"
+      - "1. NIE KRADZIE\u017B\n2. NIE \u017BA\u0141UJ\n3. NIE B\u0104D\u0179 G\u0141UPKIEM\n4.
+        \u017BADNYCH HACK\xD3W - \u017BADNYCH OSZUSTW\n5. NIEKT\xD3RE GRINDERY S\u0104
+        ZABRONIONE"
+      - "1. \uB3C4\uB451\uC9C8\uD558\uC9C0 \uB9C8\uC138\uC694\n2. \uC2AC\uD37C\uD558\uC9C0
+        \uB9C8\uC138\uC694\n3. \uBA4D\uCCAD\uC774\uAC00 \uB418\uC9C0 \uB9C8\uC138\uC694\n4.
+        \uD574\uD0B9\uC774\uB098 \uC18D\uC784\uC218\uB294 \uAE08\uC9C0\uC785\uB2C8\uB2E4\n5.
+        \uD2B9\uC815 \uADF8\uB77C\uC778\uB354\uB294 \uAE08\uC9C0\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4"
+      - '1. NON RUBARE
+
+        2. NON AFFLITARTI
+
+        3. NON ESSERE UNO STRONZO
+
+        4.
+        NIENTE TRUCCHI - NIENTE IMBROGLI
+
+        5. ALCUNI GRINDER SONO VIETATI'
+      - "1. NICHT STEHLEN\n2. NICHT TRAURIG SEIN\n3. KEIN ARSCHLOCH SEIN\n4. KEINE
+        HACKS \u2013 KEIN SCHUMMELN\n5. BESTIMMTE GRINDER SIND VERBOTEN"
+      - "1. \xC7ALMA\n2. \xDCZ\xDCLME\n3. SERSER\u0130 OLMAYIN\n4. H\u0130LE YOK
+        - H\u0130LE YOK\n5. BEL\u0130RL\u0130 \xD6\u011E\xDCT\xDCC\xDCLER YASAKTIR"
+      - "1. \u7981\u6B62\u5077\u7A83\n2. \u7981\u6B62\u60B2\u4F24\n3. \u7981\u6B62\u4F5C\u5F0A\n4.
+        \u7981\u6B62\u9ED1\u5BA2\u653B\u51FB - \u7981\u6B62\u4F5C\u5F0A\n5. \u7981\u6B62\u4F7F\u7528\u7279\u5B9A\u78E8\u5E8A"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: How To Activate
+      TermType: 0
+      Description: 
+      Languages:
+      - How To Activate
+      - "C\xF3mo Activar"
+      - Comment Activer
+      - "\u30A2\u30AF\u30C6\u30A3\u30D9\u30FC\u30C8\u65B9\u6CD5"
+      - "\u041A\u0430\u043A \u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
+      - "C\xE1ch K\xEDch Ho\u1EA1t"
+      - "\u0E27\u0E34\u0E18\u0E35\u0E01\u0E32\u0E23\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19"
+      - Como Ativar
+      - "Jak Aktywowa\u0107"
+      - "\uD65C\uC131\uD654 \uBC29\uBC95"
+      - Come Attivare
+      - So Aktivieren Sie
+      - "Nas\u0131l Etkinle\u015Ftirilir"
+      - "\u5982\u4F55\u6FC0\u6D3B"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 1) Setting > Global Resources 2) Activate > Direct Cape by Velocity Gamer
+      TermType: 0
+      Description: 
+      Languages:
+      - "1) Setting > Global Resources \n\n2) Activate > Direct Cape by Velocity
+        Gamer"
+      - "1) Configuraci\xF3n > Recursos globales\n\n2) Activar > Capa directa de
+        Velocity Gamer"
+      - "1) Param\xE8tres > Ressources globales\n\n2) Activer > Cap direct par Velocity
+        Gamer"
+      - "1) \u8A2D\u5B9A > \u30B0\u30ED\u30FC\u30D0\u30EB\u30EA\u30BD\u30FC\u30B9\n\n2)
+        \u6709\u52B9\u5316 > Direct Cape by Velocity Gamer"
+      - "1) \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 > \u0413\u043B\u043E\u0431\u0430\u043B\u044C\u043D\u044B\u0435
+        \u0440\u0435\u0441\u0443\u0440\u0441\u044B \n\n2) \u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        > Direct Cape \u043E\u0442 Velocity Gamer"
+      - "1) Thi\u1EBFt l\u1EADp > T\xE0i nguy\xEAn to\xE0n c\u1EA7u\n\n2) K\xEDch
+        ho\u1EA1t > Direct Cape c\u1EE7a Velocity Gamer"
+      - "1) \u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32 > \u0E17\u0E23\u0E31\u0E1E\u0E22\u0E32\u0E01\u0E23\u0E17\u0E31\u0E48\u0E27\u0E42\u0E25\u0E01
+        \n\n2) \u0E40\u0E1B\u0E34\u0E14\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19 > Direct
+        Cape \u0E42\u0E14\u0E22 Velocity Gamer"
+      - "1) Configura\xE7\xF5es > Recursos Globais\n\n2) Ativar > Direct Cape da
+        Velocity Gamer"
+      - '1) Ustawienia > Zasoby globalne
+
+
+        2) Aktywuj > Direct Cape by Velocity
+        Gamer'
+      - "1) \uC124\uC815 > \uAE00\uB85C\uBC8C \uB9AC\uC18C\uC2A4\n\n2) \uD65C\uC131\uD654
+        > Velocity Gamer\uC758 Direct Cape"
+      - '1) Impostazioni > Risorse globali
+
+
+        2) Attiva > Mantello diretto
+        di Velocity Gamer'
+      - '1) Einstellungen > Globale Ressourcen
+
+
+        2) Aktivieren > Direkter
+        Zugriff von Velocity Gamer'
+      - "1) Ayarlar > K\xFCresel Kaynaklar \n\n2) Etkinle\u015Ftir > Velocity Gamer
+        taraf\u0131ndan Do\u011Frudan Cape"
+      - "1) \u8BBE\u7F6E > \u5168\u5C40\u8D44\u6E90\n\n2) \u6FC0\u6D3B > Velocity
+        Gamer \u7684 Direct Cape"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Rate us
+      TermType: 0
+      Description: 
+      Languages:
+      - Rate us
+      - Calificanos
+      - "\xC9valuez-nous"
+      - "\u8A55\u4FA1\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\u041E\u0446\u0435\u043D\u0438\u0442\u0435 \u043D\u0430\u0441"
+      - "\u0110\xE1nh gi\xE1 ch\xFAng t\xF4i"
+      - "\u0E43\u0E2B\u0E49\u0E04\u0E30\u0E41\u0E19\u0E19\u0E40\u0E23\u0E32"
+      - Avalie-nos
+      - "Oce\u0144 nas"
+      - "\uC6B0\uB9AC\uB97C \uD3C9\uAC00\uD574\uC8FC\uC138\uC694"
+      - Valutaci
+      - Bewerten Sie uns
+      - Bizi derecelendirin
+      - "\u7ED9\u6211\u4EEC\u8BC4\u5206"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Thank you for using our app.Rate us with 5 stars to help. After that
+        open your game your map Added Sucessfully.
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Thank you for using our app.Rate us with
+
+        5 stars to help.
+
+        After
+        that open your game your map
+
+        Added Sucessfully.
+
+'
+      - "Gracias por usar nuestra aplicaci\xF3n. Calif\xEDcanos con 5 estrellas si
+        nos ayudas.\nDespu\xE9s, abre el mapa del juego.\nA\xF1adido correctamente."
+      - "Merci d'utiliser notre application. Donnez-nous 5 \xE9toiles pour nous aider.\nApr\xE8s
+        cela, ouvrez votre jeu et votre carte a \xE9t\xE9 ajout\xE9e.\n"
+      - "\u30A2\u30D7\u30EA\u3092\u3054\u5229\u7528\u3044\u305F\u3060\u304D\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u30025\u3064\u661F\u306E\u8A55\u4FA1\u3092\u304A\u9858\u3044\u3057\u307E\u3059\u3002\n\u305D\u306E\u5F8C\u3001\u30B2\u30FC\u30E0\u3092\u958B\u3044\u3066\u30DE\u30C3\u30D7\u3092\u8FFD\u52A0\u3057\u3066\u304F\u3060\u3055\u3044\u3002\n\u6B63\u5E38\u306B\u8FFD\u52A0\u3055\u308C\u307E\u3057\u305F\u3002\n"
+      - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435
+        \u043D\u0430\u0448\u0435\u0433\u043E \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F.\u041E\u0446\u0435\u043D\u0438\u0442\u0435
+        \u043D\u0430\u0441\n5 \u0437\u0432\u0435\u0437\u0434\u0430\u043C\u0438, \u0447\u0442\u043E\u0431\u044B
+        \u043F\u043E\u043C\u043E\u0447\u044C.\n\u041F\u043E\u0441\u043B\u0435 \u044D\u0442\u043E\u0433\u043E
+        \u043E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0441\u0432\u043E\u044E
+        \u0438\u0433\u0440\u0443, \u0432\u0430\u0448\u0430 \u043A\u0430\u0440\u0442\u0430\n\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E
+        \u0443\u0441\u043F\u0435\u0448\u043D\u043E.\n"
+      - "C\u1EA3m \u01A1n b\u1EA1n \u0111\xE3 s\u1EED d\u1EE5ng \u1EE9ng d\u1EE5ng
+        c\u1EE7a ch\xFAng t\xF4i. \u0110\xE1nh gi\xE1 ch\xFAng t\xF4i v\u1EDBi\n5
+        sao \u0111\u1EC3 gi\xFAp \u0111\u1EE1.\nSau \u0111\xF3 m\u1EDF tr\xF2 ch\u01A1i
+        c\u1EE7a b\u1EA1n, b\u1EA3n \u0111\u1ED3 c\u1EE7a b\u1EA1n\n\u0110\xE3 th\xEAm
+        th\xE0nh c\xF4ng.\n"
+      - "\u0E02\u0E2D\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E41\u0E2D\u0E1B\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32
+        \u0E42\u0E1B\u0E23\u0E14\u0E43\u0E2B\u0E49\u0E04\u0E30\u0E41\u0E19\u0E19\u0E40\u0E23\u0E32\u0E14\u0E49\u0E27\u0E22\n5
+        \u0E14\u0E32\u0E27\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E04\u0E38\u0E13\n\u0E08\u0E32\u0E01\u0E19\u0E31\u0E49\u0E19\u0E40\u0E1B\u0E34\u0E14\u0E40\u0E01\u0E21\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13
+        \u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\n\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\u0E41\u0E25\u0E49\u0E27"
+      - 'Obrigado por usar nosso aplicativo. Avalie-nos com
+
+        5 estrelas para
+        ajudar.
+
+        Depois disso, abra o jogo e seu mapa
+
+        Adicionado
+        com sucesso.
+
+'
+      - "Dzi\u0119kujemy za korzystanie z naszej aplikacji. Oce\u0144 nas\n5 gwiazdkami,
+        aby pom\xF3c.\nNast\u0119pnie otw\xF3rz swoj\u0105 gr\u0119, swoj\u0105 map\u0119\nDodano
+        pomy\u015Blnie.\n"
+      - "\uC571\uC744 \uC774\uC6A9\uD574 \uC8FC\uC154\uC11C \uAC10\uC0AC\uD569\uB2C8\uB2E4.
+        \uBCC4 5\uAC1C\uB85C \uD3C9\uAC00\uD574 \uC8FC\uC2DC\uBA74 \uB3C4\uC6C0\uC774
+        \uB420 \uAC83\uC785\uB2C8\uB2E4.\n\uADF8\uB7F0 \uB2E4\uC74C \uAC8C\uC784\uC744
+        \uC5F4\uACE0 \uC9C0\uB3C4\uB97C \uCD94\uAC00\uD558\uC138\uC694.\n\uC131\uACF5\uC801\uC73C\uB85C
+        \uCD94\uAC00\uB418\uC5C8\uC2B5\uB2C8\uB2E4.\n"
+      - "Grazie per aver utilizzato la nostra app. Valutaci con\n5 stelle per aiutarci.\nDopodich\xE9,
+        apri il gioco e la mappa.\nAggiunta con successo."
+      - "Vielen Dank, dass Sie unsere App nutzen. Bewerten Sie uns mit 5 Sternen,
+        um uns zu helfen.\n\xD6ffnen Sie anschlie\xDFend Ihr Spiel und Ihre Karte.\nErfolgreich
+        hinzugef\xFCgt.\n"
+      - "Uygulamam\u0131z\u0131 kulland\u0131\u011F\u0131n\u0131z i\xE7in te\u015Fekk\xFCr
+        ederiz. Bize yard\u0131mc\u0131 olmak i\xE7in\n5 y\u0131ld\u0131z verin.\nArd\u0131ndan
+        oyununuzu a\xE7\u0131n ve haritan\u0131z\nBa\u015Far\u0131yla Eklendi.\n"
+      - "\u611F\u8C22\u60A8\u4F7F\u7528\u6211\u4EEC\u7684\u5E94\u7528\u3002\u8BF7\u7ED9\u6211\u4EEC\n5
+        \u661F\u8BC4\u4EF7\u4EE5\u5E2E\u52A9\u6211\u4EEC\u3002\n\u4E4B\u540E\u6253\u5F00\u60A8\u7684\u6E38\u620F\u5730\u56FE\n\u5DF2\u6210\u529F\u6DFB\u52A0\u3002\n"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 'Click Import Button > Select Minecraft Note : Make Sure Latest Minecreaft
+        Need To be Install In your Device'
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Click Import Button > Select Minecraft
+
+
+        Note : Make Sure Latest
+        Minecreaft Need To be Install In your Device'
+      - "Haz clic en el bot\xF3n Importar > Selecciona Minecraft.\n\nNota: Aseg\xFArate
+        de tener instalada la versi\xF3n m\xE1s reciente de Minecraft en tu dispositivo."
+      - "Cliquez sur le bouton Importer > S\xE9lectionnez Minecraft.\n\nRemarque\_:
+        Assurez-vous que la derni\xE8re version de Minecraft est install\xE9e sur
+        votre appareil."
+      - "\u300C\u30A4\u30F3\u30DD\u30FC\u30C8\u300D\u30DC\u30BF\u30F3\u3092\u30AF\u30EA\u30C3\u30AF
+        > Minecraft \u3092\u9078\u629E\n\n\u6CE8\uFF1A\u30C7\u30D0\u30A4\u30B9\u306B\u6700\u65B0\u306E
+        Minecraft \u304C\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3055\u308C\u3066\u3044\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043A\u043D\u043E\u043F\u043A\u0443
+        \xAB\u0418\u043C\u043F\u043E\u0440\u0442\xBB > \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435
+        Minecraft\n\n\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435:
+        \u0443\u0431\u0435\u0434\u0438\u0442\u0435\u0441\u044C, \u0447\u0442\u043E
+        \u043D\u0430 \u0432\u0430\u0448\u0435\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435
+        \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0430 \u200B\u200B\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F
+        \u0432\u0435\u0440\u0441\u0438\u044F Minecraft"
+      - "Nh\u1EA5p v\xE0o n\xFAt Nh\u1EADp > Ch\u1ECDn Minecraft\n\nL\u01B0u \xFD:
+        \u0110\u1EA3m b\u1EA3o Minecreaft m\u1EDBi nh\u1EA5t c\u1EA7n \u0111\u01B0\u1EE3c
+        c\xE0i \u0111\u1EB7t trong thi\u1EBFt b\u1ECB c\u1EE7a b\u1EA1n"
+      - "\u0E04\u0E25\u0E34\u0E01\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32
+        > \u0E40\u0E25\u0E37\u0E2D\u0E01 Minecraft\n\n\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E2B\u0E15\u0E38:
+        \u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E43\u0E2B\u0E49\u0E41\u0E19\u0E48\u0E43\u0E08\u0E27\u0E48\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07
+        Minecraft \u0E40\u0E27\u0E2D\u0E23\u0E4C\u0E0A\u0E31\u0E19\u0E25\u0E48\u0E32\u0E2A\u0E38\u0E14\u0E25\u0E07\u0E43\u0E19\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13"
+      - "Clique no bot\xE3o Importar > Selecione Minecraft\n\nObserva\xE7\xE3o: Certifique-se
+        de que a vers\xE3o mais recente do Minecraft esteja instalada no seu dispositivo."
+      - "Kliknij przycisk Importuj > Wybierz Minecraft\n\nUwaga: Upewnij si\u0119,
+        \u017Ce najnowsza wersja Minecraft musi by\u0107 zainstalowana na Twoim urz\u0105dzeniu"
+      - "\uAC00\uC838\uC624\uAE30 \uBC84\uD2BC \uD074\uB9AD > Minecraft \uC120\uD0DD\n\n\uCC38\uACE0:
+        \uAE30\uAE30\uC5D0 \uCD5C\uC2E0 Minecraft\uAC00 \uC124\uCE58\uB418\uC5B4
+        \uC788\uC5B4\uC57C \uD569\uB2C8\uB2E4."
+      - 'Fai clic sul pulsante Importa > Seleziona Minecraft
+
+
+        Nota: assicurati
+        che l''ultima versione di Minecraft sia installata sul tuo dispositivo.'
+      - "Klicken Sie auf \u201EImportieren\u201C > \u201EMinecraft ausw\xE4hlen\u201C.\n\nHinweis:
+        Stellen Sie sicher, dass die neueste Version von Minecraft auf Ihrem Ger\xE4t
+        installiert ist."
+      - "\u0130\xE7e Aktarma D\xFC\u011Fmesine T\u0131klay\u0131n > Minecraft'\u0131
+        Se\xE7in\n\nNot: Cihaz\u0131n\u0131za En Son Minecreaft'\u0131n Y\xFCkl\xFC
+        Oldu\u011Fundan Emin Olun"
+      - "\u70B9\u51FB\u5BFC\u5165\u6309\u94AE > \u9009\u62E9 Minecraft\n\n\u6CE8\u610F\uFF1A\u8BF7\u786E\u4FDD\u60A8\u7684\u8BBE\u5907\u5DF2\u5B89\u88C5\u6700\u65B0\u7684
+        Minecraft"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Preview
+      TermType: 0
+      Description: 
+      Languages:
+      - Preview
+      - Avance
+      - "Aper\xE7u"
+      - "\u30D7\u30EC\u30D3\u30E5\u30FC"
+      - "\u041F\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+        \u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440"
+      - "Xem Tr\u01B0\u1EDBc"
+      - "\u0E15\u0E31\u0E27\u0E2D\u0E22\u0E48\u0E32\u0E07"
+      - "Pr\xE9-Visualiza\xE7\xE3o"
+      - "Zapowied\u017A"
+      - "\uC2DC\uC0AC"
+      - Anteprima
+      - Vorschau
+      - "\xD6nizleme"
+      - "\u9884\u89C8"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: View Your Texture
+      TermType: 0
+      Description: 
+      Languages:
+      - View Your Texture
+      - Mira Tu Textura
+      - Visualisez Votre Texture
+      - "\u30C6\u30AF\u30B9\u30C1\u30E3\u3092\u8868\u793A"
+      - "\u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0412\u0430\u0448\u0443
+        \u0422\u0435\u043A\u0441\u0442\u0443\u0440\u0443"
+      - "Xem K\u1EBFt C\u1EA5u C\u1EE7a B\u1EA1n"
+      - "\u0E14\u0E39\u0E1E\u0E37\u0E49\u0E19\u0E1C\u0E34\u0E27\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13"
+      - Veja Sua Textura
+      - "Zobacz Swoj\u0105 Tekstur\u0119"
+      - "\uD14D\uC2A4\uCC98\uB97C \uBCF4\uC138\uC694"
+      - Visualizza La Tua Trama
+      - Sehen Sie Sich Ihre Textur An
+      - "Dokunuzu G\xF6r\xFCnt\xFCleyin"
+      - "\u67E5\u770B\u4F60\u7684\u7EB9\u7406"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: "Module Compl\xE9mentaire De Cape"
+      TermType: 0
+      Description: 
+      Languages:
+      - Cape Add-On
+      - Complemento De Capa
+      - "Module Compl\xE9mentaire De Cape"
+      - "\u30B1\u30FC\u30D7\u30A2\u30C9\u30AA\u30F3"
+      - "\u041D\u0430\u0434\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u041D\u0430\u043A\u0438\u0434\u043A\u0438"
+      - "Ph\u1EA7n B\u1ED5 Sung \xC1o Cho\xE0ng"
+      - "\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E04\u0E25\u0E38\u0E21\u0E40\u0E2A\u0E23\u0E34\u0E21"
+      - Capa Adicional
+      - Dodatek Peleryny
+      - "\uCF00\uC774\uD504 \uCD94\uAC00"
+      - Componente Aggiuntivo Del Mantello
+      - Cape-Add-On
+      - Pelerin Eklentisi
+      - "\u62AB\u98CE\u9644\u52A0\u7EC4\u4EF6"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Image Cropper
+      TermType: 0
+      Description: 
+      Languages:
+      - Image Cropper
+      - "Recortador De Im\xE1genes"
+      - Recadrage D'image
+      - "\u753B\u50CF\u5207\u308A\u629C\u304D\u30C4\u30FC\u30EB"
+      - "\u041E\u0431\u0440\u0435\u0437\u043A\u0430 \u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F"
+      - "C\u1EAFt H\xECnh \u1EA2nh"
+      - "\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E04\u0E23\u0E2D\u0E1A\u0E15\u0E31\u0E14\u0E23\u0E39\u0E1B\u0E20\u0E32\u0E1E"
+      - Cortador De Imagens
+      - Przycinanie Obrazu
+      - "\uC774\uBBF8\uC9C0 \uC790\uB974\uAE30"
+      - Ritagliatore Di Immagini
+      - Bildbeschneider
+      - "Resim K\u0131rp\u0131c\u0131"
+      - "\u56FE\u50CF\u88C1\u526A\u5668"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

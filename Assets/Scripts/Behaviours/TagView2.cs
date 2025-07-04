@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TagView2 : MonoBehaviour
 {
 	public Image background;
 
-	public Text nameText;
+	public TextMeshProUGUI nameText;
 
 	public void SetName(string name)
 	{

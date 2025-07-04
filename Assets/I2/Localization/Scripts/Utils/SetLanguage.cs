@@ -13,23 +13,8 @@ namespace I2.Loc
 
         private void Start()
         {
-            if (LocalizationManager.CurrentLanguage == _Language)
-            {
-                this.gameObject.transform.GetChild(0).GetComponent<Image>().sprite = GuiManager2.instance.LanguageSelect;
-            }
-        }
-
-        private void Update()
-        {
-            if (LocalizationManager.CurrentLanguage != _Language)
-            {
-                this.gameObject.transform.GetChild(0).GetComponent<Image>().sprite = GuiManager2.instance.LanguageDeselect;
-            }
-        }
-
-        void OnClick()
-        {
-            ApplyLanguage();
+            // Hide tickmark by default
+            this.gameObject.transform.GetChild(0).gameObject.SetActive(LocalizationManager.CurrentLanguage == _Language);
         }
 
         public void ApplyLanguage()
@@ -37,7 +22,15 @@ namespace I2.Loc
             if (LocalizationManager.HasLanguage(_Language))
             {
                 LocalizationManager.CurrentLanguage = _Language;
-                this.gameObject.transform.GetChild(0).GetComponent<Image>().sprite = GuiManager2.instance.LanguageSelect;
+                // Show tickmark for this button
+                this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+
+                // Hide tickmark for all other SetLanguage buttons
+                foreach (var btn in FindObjectsByType<SetLanguage>(FindObjectsSortMode.None))
+                {
+                    if (btn != this)
+                        btn.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+                }
             }
         }
     }
