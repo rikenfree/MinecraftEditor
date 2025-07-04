@@ -13,6 +13,15 @@ public class Launguage
     public string Code;
 }
 
+[System.Serializable]
+public class LanguageButtonData
+{
+    public string LanguageName;
+    public string LanguageCode;
+    public Button button;      // Reference to the button
+    public Image tickmark;     // Reference to the tickmark image
+}
+
 public class LaunguageLocalization : MonoBehaviour
 {
     public static LaunguageLocalization instance;
@@ -46,13 +55,6 @@ public class LaunguageLocalization : MonoBehaviour
 
     [Space]
     [Header("I2 Localize Refrence")]
-
-    public Color selected;
-    public Color unSelected;
-
-    public Color selectedText;
-    public Color unSelectedText;
-
 
     public Transform languagebtnparent;
     public List<Launguage> Language = new List<Launguage>();
@@ -110,10 +112,7 @@ public class LaunguageLocalization : MonoBehaviour
         if (oldSelectedNob >= 0 && oldSelectedNob < languagebtnparent.childCount)
         {
             Transform oldT = languagebtnparent.GetChild(oldSelectedNob);
-            oldT.GetComponent<Image>().color = unSelected;
-            oldT.GetChild(0).GetComponent<TextMeshProUGUI>().color = unSelectedText;
-            oldT.GetChild(1).gameObject.SetActive(true);
-            oldT.GetChild(2).gameObject.SetActive(false);
+            oldT.GetChild(1).gameObject.SetActive(false);
         }
 
         Transform newT = languagebtnparent.GetChild(index);
@@ -121,10 +120,7 @@ public class LaunguageLocalization : MonoBehaviour
         {
             newT.DOScale(new Vector3(1.05f, 1.05f, 1.05f), 0.1f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo);
         }
-        newT.GetComponent<Image>().color = selected;
-        newT.GetChild(0).GetComponent<TextMeshProUGUI>().color = selectedText;
-        newT.GetChild(1).gameObject.SetActive(false);
-        newT.GetChild(2).gameObject.SetActive(true);
+        newT.GetChild(1).gameObject.SetActive(true);
 
         currentlanguage = Language[index].Code;
         LocalizationManager.CurrentLanguageCode = currentlanguage;
