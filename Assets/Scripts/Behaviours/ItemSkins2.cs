@@ -128,7 +128,7 @@ public class ItemSkins2 : MonoBehaviour
                 }
                 else
                 {
-                    ToastManager.Instance.ShowTost("AD is not available");
+                    ToastManager.Instance.ShowToast("AD is not available");
                 }
 
 
@@ -164,7 +164,7 @@ public class ItemSkins2 : MonoBehaviour
                 }
                 else
                 {
-                    ToastManager.Instance.ShowTost("AD is not available");
+                    ToastManager.Instance.ShowToast("AD is not available");
                 }
 
 

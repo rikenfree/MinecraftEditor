@@ -27,6 +27,8 @@ public class RatingManager : MonoBehaviour
         {
             StarImages[i].sprite = BlankStarSprite;
         }
+        TapToRate.SetActive(true);
+        Thanks.SetActive(false);
         // SelectStar(lastSelectedStar);
     }
    

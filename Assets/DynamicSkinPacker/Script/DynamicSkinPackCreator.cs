@@ -541,7 +541,7 @@ ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip"
         else
         {
             Debug.LogError("Please Add Skin Pack Name");
-            ToastManager.Instance.ShowTost("Please Add Skin Pack Name");
+            ToastManager.Instance.ShowToast("Please Add Skin Pack Name");
             return;
         }
         if (!string.IsNullOrEmpty(if_skinName.text))
@@ -551,7 +551,7 @@ ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip"
         else
         {
             Debug.LogError("Please Add Skin Name");
-            ToastManager.Instance.ShowTost("Please Add Skin Name");
+            ToastManager.Instance.ShowToast("Please Add Skin Name");
             return;
         }
 
@@ -568,7 +568,7 @@ ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip"
         else
         {
             Debug.LogError("Please Add Version of MCPE");
-            ToastManager.Instance.ShowTost("Please Add Version of MCPE");
+            ToastManager.Instance.ShowToast("Please Add Version of MCPE");
             return;
         }
 

@@ -127,7 +127,7 @@ namespace Main.View
 				}
 				else
 				{
-					ToastManager.Instance.ShowTost("Ad is not Loaded");
+					ToastManager.Instance.ShowToast("Ad is not Loaded");
 				}
 			});
 		}
@@ -150,7 +150,7 @@ namespace Main.View
 						else
 						{
 							Debug.LogError("Export 000");
-							ToastManager.Instance.ShowTost("Ad is not Loaded");
+							ToastManager.Instance.ShowToast("Ad is not Loaded");
 						}
                     });
             }

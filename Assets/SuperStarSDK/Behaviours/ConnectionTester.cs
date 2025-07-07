@@ -124,7 +124,7 @@ public class ConnectionTester : MonoBehaviour
             callback(true);
         }
         else { 
-            Debug.LogError("Not Available ");
+            Debug.LogError("Not available ");
             callback(false);
 
         }

@@ -1,9 +1,9 @@
-﻿using GoogleMobileAds.Api;
+using GoogleMobileAds.Api;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using com.unity3d.mediation;
 namespace SuperStarSdk
 {
     public class SuperStarAd : MonoBehaviour
@@ -12,6 +12,26 @@ namespace SuperStarSdk
 
         public delegate void AfterInterstitialFunction();
 
+        public bool isTestAdmobAds = false;
+        List<string> TestAISBID = new List<string>() { "ca-app-pub-3940256099942544/6300978111" };
+        List<string> TestAISInID = new List<string>() { "ca-app-pub-3940256099942544/1033173712" };
+        List<string> TestAISReID = new List<string>() { "ca-app-pub-3940256099942544/5224354917" };
+      
+
+        List<string> TestIISBID = new List<string>() { "ca-app-pub-3940256099942544/2934735716" };
+        List<string> TestIISInID = new List<string>() { "ca-app-pub-3940256099942544/4411468910" };
+        List<string> TestIISReID = new List<string>() { "ca-app-pub-3940256099942544/1712485313" };
+
+
+        public List<string> BannerAdsIds = new List<string>();
+        public List<string> IntrestitialAdsIds = new List<string>();
+        public List<string> RewardAdsIds = new List<string>();
+
+        public int BannerIdIndex = 0;
+        public int IntrestitialIdIndex = 0;
+        public int RewardIdIndex = 0;
+        public int AppOpenIdIndex = 0;
+        public int AppNativeIdIndex = 0;
 
 
         private static float lastInterstitial;
@@ -23,7 +43,7 @@ namespace SuperStarSdk
 
         public bool testMode = false;
 
-        public IronSourceBannerPosition baanerPosition;
+        public LevelPlayBannerPosition baanerPosition;
         public AdPosition baanerPositionadmob;
 
         public GameObject bannerImage;
@@ -53,8 +73,46 @@ namespace SuperStarSdk
                 PlayerPrefs.SetInt("NoAds", value);
             }
         }
+
+        public static string uniqueUserId = "SSSdk";
+
+
+        private void OnEnable() 
+        {
+            IronSourceRewardedVideoEvents.onAdOpenedEvent += RewardedVideoAdOpenedEvent;
+            IronSourceRewardedVideoEvents.onAdClosedEvent += RewardedVideoAdClosedEvent;
+            IronSourceRewardedVideoEvents.onAdAvailableEvent += RewardedVideoOnAdAvailable;
+            IronSourceRewardedVideoEvents.onAdUnavailableEvent += RewardedVideoOnAdUnavailable;
+            IronSourceRewardedVideoEvents.onAdShowFailedEvent += RewardedVideoAdShowFailedEvent;
+            IronSourceRewardedVideoEvents.onAdRewardedEvent += RewardedVideoAdRewardedEvent;
+            IronSourceRewardedVideoEvents.onAdClickedEvent += RewardedVideoAdClickedEvent;
+        }
         public void Setup()
         {
+
+            if (isTestAdmobAds)
+            {
+#if UNITY_ANDROID
+               
+                BannerAdsIds = TestAISBID;
+                IntrestitialAdsIds = TestAISInID;
+                RewardAdsIds = TestAISReID;
+
+#else
+          
+            BannerAdsIds = TestIISBID;
+            IntrestitialAdsIds = TestIISInID;
+            RewardAdsIds = TestIISReID;
+          
+#endif
+            }
+            else
+            {
+                BannerAdsIds = SuperStarSdkManager.Instance.crossPromoAssetsRoot.ISBID;
+                IntrestitialAdsIds = SuperStarSdkManager.Instance.crossPromoAssetsRoot.ISInID;
+                RewardAdsIds = SuperStarSdkManager.Instance.crossPromoAssetsRoot.ISReID;
+            }
+
 #if UNITY_ANDROID
             string appKey = SuperStarSdkManager.Instance.crossPromoAssetsRoot.ISAppKey;
 #elif UNITY_IPHONE
@@ -63,13 +121,23 @@ namespace SuperStarSdk
         string appKey = "unexpected_platform";
 #endif
 
+           
+
+            string id = IronSource.Agent.getAdvertiserId();
+            Debug.Log("unity-script: IronSource.Agent.getAdvertiserId : " + id);
+
+            Debug.Log("unity-script: IronSource.Agent.validateIntegration");
             IronSource.Agent.validateIntegration();
 
             Debug.Log("unity-script: unity version" + IronSource.unityVersion());
 
             // SDK init
-            Debug.Log("unity-script: IronSource.Agent.init");
-            IronSource.Agent.init(appKey);
+            Debug.Log("unity-script: LevelPlay Init");
+            LevelPlay.Init(appKey, uniqueUserId, new[] { LevelPlayAdFormat.REWARDED });
+
+            LevelPlay.OnInitSuccess += OnInitializationCompleted;
+            LevelPlay.OnInitFailed += (error => Debug.Log("Initialization error: " + error));
+
             bannerImage.SetActive(false);
 
             if (NoAds == 0)
@@ -88,84 +156,38 @@ namespace SuperStarSdk
             lastInterstitial = -1000f;
 
         }
-
-        void OnEnable()
+        private LevelPlayBannerAd bannerAd;
+        void OnInitializationCompleted(LevelPlayConfiguration configuration)
         {
-            //Add Rewarded Video Events
-            //IronSourceEvents.onRewardedVideoAdOpenedEvent += RewardedVideoAdOpenedEvent;
-            //IronSourceEvents.onRewardedVideoAdClosedEvent += RewardedVideoAdClosedEvent;
-            //IronSourceEvents.onRewardedVideoAvailabilityChangedEvent += RewardedVideoAvailabilityChangedEvent;
-            //IronSourceEvents.onRewardedVideoAdStartedEvent += RewardedVideoAdStartedEvent;
-            //IronSourceEvents.onRewardedVideoAdEndedEvent += RewardedVideoAdEndedEvent;
-            //IronSourceEvents.onRewardedVideoAdRewardedEvent += RewardedVideoAdRewardedEvent;
-            //IronSourceEvents.onRewardedVideoAdShowFailedEvent += RewardedVideoAdShowFailedEvent;
-            //IronSourceEvents.onRewardedVideoAdClickedEvent += RewardedVideoAdClickedEvent;
+            Debug.Log("Initialization completed");
+            LoadBanner();
 
-            //Add AdInfo Rewarded Video Events
-            IronSourceRewardedVideoEvents.onAdOpenedEvent += RewardedVideoAdOpenedEvent;
-            IronSourceRewardedVideoEvents.onAdClosedEvent += RewardedVideoAdClosedEvent;
-            IronSourceRewardedVideoEvents.onAdAvailableEvent += RewardedVideoOnAdAvailable;
-            IronSourceRewardedVideoEvents.onAdUnavailableEvent += RewardedVideoOnAdUnavailable;
-            IronSourceRewardedVideoEvents.onAdShowFailedEvent += RewardedVideoAdShowFailedEvent;
-            IronSourceRewardedVideoEvents.onAdRewardedEvent += RewardedVideoAdRewardedEvent;
-            IronSourceRewardedVideoEvents.onAdClickedEvent += RewardedVideoAdClickedEvent;
+        }
 
+        void LoadBanner()
+        {
+            // Create object
+            bannerAd = new LevelPlayBannerAd(BannerAdsIds[BannerIdIndex],null,baanerPosition);
 
-            // Add Interstitial Events
-            //IronSourceEvents.onInterstitialAdReadyEvent += InterstitialAdReadyEvent;
-            //IronSourceEvents.onInterstitialAdLoadFailedEvent += InterstitialAdLoadFailedEvent;
-            //IronSourceEvents.onInterstitialAdShowSucceededEvent += InterstitialAdShowSucceededEvent;
-            //IronSourceEvents.onInterstitialAdShowFailedEvent += InterstitialAdShowFailedEvent;
-            //IronSourceEvents.onInterstitialAdClickedEvent += InterstitialAdClickedEvent;
-            //IronSourceEvents.onInterstitialAdOpenedEvent += InterstitialAdOpenedEvent;
-            //IronSourceEvents.onInterstitialAdClosedEvent += InterstitialAdClosedEvent;
+            bannerAd.OnAdLoaded += BannerOnAdLoadedEvent;
+            bannerAd.OnAdLoadFailed += BannerOnAdLoadFailedEvent;
+            bannerAd.OnAdDisplayed += BannerOnAdDisplayedEvent;
+            bannerAd.OnAdDisplayFailed += BannerOnAdDisplayFailedEvent;
+            bannerAd.OnAdClicked += BannerOnAdClickedEvent;
+            bannerAd.OnAdCollapsed += BannerOnAdCollapsedEvent;
+            bannerAd.OnAdLeftApplication += BannerOnAdLeftApplicationEvent;
+            bannerAd.OnAdExpanded += BannerOnAdExpandedEvent;
 
+            // Ad load
+            bannerAd.LoadAd();
+        }
 
-            IronSourceInterstitialEvents.onAdReadyEvent += InterstitialAdReadyEvent;
-            IronSourceInterstitialEvents.onAdLoadFailedEvent += InterstitialAdLoadFailedEvent;
-            IronSourceInterstitialEvents.onAdOpenedEvent += InterstitialAdOpenedEvent;
-            IronSourceInterstitialEvents.onAdClickedEvent += InterstitialAdClickedEvent;
-            IronSourceInterstitialEvents.onAdShowSucceededEvent += InterstitialAdShowSucceededEvent;
-            IronSourceInterstitialEvents.onAdShowFailedEvent += InterstitialAdShowFailedEvent;
-            IronSourceInterstitialEvents.onAdClosedEvent += InterstitialAdClosedEvent;
+        public void DestroyBanner(){
 
-            // Add Banner Events
-            //IronSourceEvents.onBannerAdLoadedEvent += BannerAdLoadedEvent;
-            //IronSourceEvents.onBannerAdLoadFailedEvent += BannerAdLoadFailedEvent;
-            //IronSourceEvents.onBannerAdClickedEvent += BannerAdClickedEvent;
-            //IronSourceEvents.onBannerAdScreenPresentedEvent += BannerAdScreenPresentedEvent;
-            //IronSourceEvents.onBannerAdScreenDismissedEvent += BannerAdScreenDismissedEvent;
-            //IronSourceEvents.onBannerAdLeftApplicationEvent += BannerAdLeftApplicationEvent;
-
-
-            //Add AdInfo Banner Events
-            IronSourceBannerEvents.onAdLoadedEvent += BannerAdLoadedEvent;
-            IronSourceBannerEvents.onAdLoadFailedEvent += BannerAdLoadFailedEvent;
-            IronSourceBannerEvents.onAdClickedEvent += BannerAdClickedEvent;
-            IronSourceBannerEvents.onAdScreenPresentedEvent += BannerAdScreenPresentedEvent;
-            IronSourceBannerEvents.onAdScreenDismissedEvent += BannerAdScreenDismissedEvent;
-            IronSourceBannerEvents.onAdLeftApplicationEvent += BannerAdLeftApplicationEvent;
+            bannerAd.DestroyAd();
         }
 
 
-
-
-
-        //void OnApplicationPause(bool isPaused)
-        //{
-        //    Debug.Log("unity-script: OnApplicationPause = " + isPaused);
-        //    IronSource.Agent.onApplicationPause(isPaused);
-
-        //    if (!isPaused)
-        //    {
-        //        if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_Admob_appopen == 1)
-        //        {
-
-        //          //  AdmobManager.Instance.RequestAppOpenAds();
-
-        //        }
-        //    }
-        //}
 
         #region RewardedAd callback handlers
         void RewardedVideoAvailabilityChangedEvent(bool canShowAd)
@@ -258,7 +280,7 @@ namespace SuperStarSdk
         }
         #endregion
 
-        #region Interstitial callback handlers
+       
         void InterstitialAdReadyEvent(IronSourceAdInfo adInfo)
         {
             isLoadingISIntrestital = false;
@@ -335,10 +357,9 @@ namespace SuperStarSdk
             Debug.Log("heheheheheh");
 
         }
-        #endregion
-
+        
         #region Banner callback handlers
-        void BannerAdLoadedEvent(IronSourceAdInfo obj)
+        void BannerOnAdLoadedEvent(LevelPlayAdInfo obj)
         {
             //Debug.Log("unity-script: I got BannerAdLoadedEvent");
             bannerImage.SetActive(true);
@@ -346,34 +367,44 @@ namespace SuperStarSdk
 
         }
 
-        void BannerAdLoadFailedEvent(IronSourceError error)
+        void BannerOnAdLoadFailedEvent(LevelPlayAdError error)
         {
-            Debug.Log("unity-script: I got BannerAdLoadFailedEvent, code: " + error.getCode() + ", description : " + error.getDescription());
+            Debug.Log("unity-script: I got BannerOnAdLoadFailedEvent With Error " + error);
         }
 
-        void BannerAdClickedEvent(IronSourceAdInfo obj)
+        void BannerOnAdClickedEvent(LevelPlayAdInfo adInfo)
         {
-            Debug.Log("unity-script: I got BannerAdClickedEvent");
+            Debug.Log("unity-script: I got BannerOnAdClickedEvent With AdInfo " + adInfo);
         }
 
-        void BannerAdScreenPresentedEvent(IronSourceAdInfo obj)
+        void BannerOnAdDisplayedEvent(LevelPlayAdInfo adInfo)
         {
-            Debug.Log("unity-script: I got BannerAdScreenPresentedEvent");
+            Debug.Log("unity-script: I got BannerOnAdDisplayedEvent With AdInfo " + adInfo);
         }
 
-        void BannerAdScreenDismissedEvent(IronSourceAdInfo obj)
+        void BannerOnAdDisplayFailedEvent(LevelPlayAdDisplayInfoError adInfoError)
         {
-            Debug.Log("unity-script: I got BannerAdScreenDismissedEvent");
+            Debug.Log("unity-script: I got BannerOnAdDisplayFailedEvent With AdInfoError " + adInfoError);
         }
 
-        void BannerAdLeftApplicationEvent(IronSourceAdInfo obj)
+        void BannerOnAdCollapsedEvent(LevelPlayAdInfo adInfo)
         {
-            Debug.Log("unity-script: I got BannerAdLeftApplicationEvent");
+            Debug.Log("unity-script: I got BannerOnAdCollapsedEvent With AdInfo " + adInfo);
+        }
+
+        void BannerOnAdLeftApplicationEvent(LevelPlayAdInfo adInfo)
+        {
+            Debug.Log("unity-script: I got BannerOnAdLeftApplicationEvent With AdInfo " + adInfo);
+        }
+
+        void BannerOnAdExpandedEvent(LevelPlayAdInfo adInfo)
+        {
+            Debug.Log("unity-script: I got BannerOnAdExpandedEvent With AdInfo " + adInfo);
         }
         #endregion
 
 
-        public void ShowBannerAd()
+        public void ShowBannerAd(int bannertype=0)
         {
             if (NoAds != 1)
             {
@@ -381,13 +412,18 @@ namespace SuperStarSdk
                 if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_IS_banner_ads == 1)
                 {
                     Debug.Log("Banner ad load");
-                    IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, baanerPosition);
+                    LoadBanner();
                     bannerImage.SetActive(true);
                 }
                 else if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_Admob_banner == 1)
                 {
-                    AdmobManager.Instance.RequestBanner(baanerPositionadmob);
+                    if (bannertype==1){
+                    AdmobManager.Instance.RequestAdaptiveBanner(baanerPositionadmob);
                     bannerImage.SetActive(true);
+                    }else {
+                        AdmobManager.Instance.RequestBanner(baanerPositionadmob);
+                        bannerImage.SetActive(true);
+                    }
                 }
             }
         }
@@ -396,20 +432,100 @@ namespace SuperStarSdk
         {
             Debug.Log("Hide Banner Ad");
             bannerImage.SetActive(false);
-            IronSource.Agent.destroyBanner();
+            //bannerAd.DestroyAd();
             AdmobManager.Instance.DestrotyBannerAd();
             //ShowBannerAd();
         }
 
+        private LevelPlayInterstitialAd interstitialAd;
+        public void LoadInterstitialIS()
+        {
+            // Create interstitial Ad
+            interstitialAd = new LevelPlayInterstitialAd(IntrestitialAdsIds[IntrestitialIdIndex]);
+
+            // Register to events
+            interstitialAd.OnAdLoaded += InterstitialOnAdLoadedEvent;
+            interstitialAd.OnAdLoadFailed += InterstitialOnAdLoadFailedEvent;
+            interstitialAd.OnAdDisplayed += InterstitialOnAdDisplayedEvent;
+            interstitialAd.OnAdDisplayFailed += InterstitialOnAdDisplayFailedEvent;
+            interstitialAd.OnAdClicked += InterstitialOnAdClickedEvent;
+            interstitialAd.OnAdClosed += InterstitialOnAdClosedEvent;
+            interstitialAd.OnAdInfoChanged += InterstitialOnAdInfoChangedEvent;
+
+            Debug.Log("unity-script: LoadInterstitialButtonClicked");
+            interstitialAd.LoadAd();
+        }
+        void InterstitialOnAdLoadedEvent(LevelPlayAdInfo adInfo)
+        {
+            isLoadingISIntrestital = false;
+            Debug.Log("unity-script: I got InterstitialOnAdLoadedEvent With AdInfo " + adInfo);
+        }
+
+        void InterstitialOnAdLoadFailedEvent(LevelPlayAdError error)
+        {
+            isLoadingISIntrestital = false;
+            LoadInterstitialAd(0f);
+            isIntrestitiallShowing = false;
+            Debug.Log("unity-script: I got InterstitialOnAdLoadFailedEvent With Error " + error);
+        }
+
+        void InterstitialOnAdDisplayedEvent(LevelPlayAdInfo adInfo)
+        {
+            adLoader.SetActive(false);
+            Debug.Log("unity-script: I got InterstitialOnAdDisplayedEvent With AdInfo " + adInfo);
+        }
+
+        void InterstitialOnAdDisplayFailedEvent(LevelPlayAdDisplayInfoError infoError)
+        {
+            tryCount = 0;
+            adLoader.SetActive(false);
+            isIntrestitiallShowing = false;
+            if (tryCount <= 0)
+            {
+
+                if (_callbackIntrestital == null)
+                {
+                    return;
+                }
+                _callbackIntrestital.Invoke(false);
+                _callbackIntrestital = null;
+            }
+            Debug.Log("unity-script: I got InterstitialOnAdDisplayFailedEvent With InfoError " + infoError);
+        }
+
+        void InterstitialOnAdClickedEvent(LevelPlayAdInfo adInfo)
+        {
+            Debug.Log("unity-script: I got InterstitialOnAdClickedEvent With AdInfo " + adInfo);
+        }
+
+        void InterstitialOnAdClosedEvent(LevelPlayAdInfo adInfo)
+        {
+            tryCount = 0;
+            adLoader.SetActive(false);
+            LoadInterstitialAd(0f);
+            isIntrestitiallShowing = false;
+            if (_callbackIntrestital == null)
+            {
+                return;
+            }
+            _callbackIntrestital.Invoke(true);
+            _callbackIntrestital = null;
+            Debug.Log("unity-script: I got InterstitialOnAdClosedEvent With AdInfo " + adInfo);
+        }
+
+        void InterstitialOnAdInfoChangedEvent(LevelPlayAdInfo adInfo)
+        {
+            Debug.Log("unity-script: I got InterstitialOnAdInfoChangedEvent With AdInfo " + adInfo);
+        }
 
 
         public bool isLoadingISIntrestital;
         public void LoadInterstitialAd()
         {
-            if (!IronSource.Agent.isInterstitialReady() && !isLoadingISIntrestital)
+            if (interstitialAd !=null && !interstitialAd.IsAdReady() && !isLoadingISIntrestital)
             {
                 isLoadingISIntrestital = true;
-                IronSource.Agent.loadInterstitial();
+                LoadInterstitialIS();
             }
             Debug.Log("Load Interstitial AD");
             if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_Admob_intrestitial == 1)
@@ -425,13 +541,13 @@ namespace SuperStarSdk
         }
 
 
-        public void ShowInterstitial()
+        public void ShowInterstitialIS()
         {
             float time = Time.time;
-            if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_IS_interstitial_ads == 1 && IronSource.Agent.isInterstitialReady())
+            if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_IS_interstitial_ads == 1 && interstitialAd.IsAdReady())
             {
 
-                IronSource.Agent.showInterstitial();
+                interstitialAd.ShowAd();
                 lastInterstitial = time;
 
             }
@@ -445,9 +561,6 @@ namespace SuperStarSdk
             else
             {
                 LoadInterstitialAd(0f);
-
-
-
             }
         }
 
@@ -456,9 +569,9 @@ namespace SuperStarSdk
 
         public bool ISIntrestitialReadyToShow(bool ForceShow = false)
         {
-            if (!IronSource.Agent.isInterstitialReady())
+            if (!interstitialAd.IsAdReady())
             {
-                IronSource.Agent.loadInterstitial();
+              LoadInterstitialAd(0);
             }
             float time = Time.time;
             bool isloadedTime = false;
@@ -472,7 +585,7 @@ namespace SuperStarSdk
             {
                 isloadedTime = true;
             }
-            return SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_IS_interstitial_ads == 1 && IronSource.Agent.isInterstitialReady() && isloadedTime;
+            return SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_IS_interstitial_ads == 1 && interstitialAd.IsAdReady() && isloadedTime;
         }
 
 
@@ -584,8 +697,8 @@ namespace SuperStarSdk
                 }
                 else
                 {
-                    IronSource.Agent.showInterstitial();
-                    lastInterstitial = Time.time;
+                    ShowInterstitialIS();
+                      lastInterstitial = Time.time;
                 }
             }
             else if (IsAdmobIntrestitialAdAvailable())
@@ -594,40 +707,46 @@ namespace SuperStarSdk
                 lastInterstitial = Time.time;
                 if (!ISIntrestitialReadyToShow())
                 {
-                    IronSource.Agent.loadInterstitial();
+                    LoadInterstitialAd(0);
                 }
             }
             else if (ISIntrestitialReadyToShow())
             {
                 Debug.Log("Ready to show");
-                IronSource.Agent.showInterstitial();
+                ShowInterstitialIS();
                 lastInterstitial = Time.time;
             }
            
             else
             {
-                if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_ssinterstitial == 1)
-                {
-                    Debug.Log("SSIntrestitialPrefab Ready to show");
-                    Instantiate(SSIntrestitialPrefab);
-                }
-                else
-                {
-
-                    Debug.Log("can't show");
-                    adLoader.SetActive(false);
-                    isIntrestitiallShowing = false;
-                    if (_callbackIntrestital == null)
-                    {
-                        return;
-                    }
-                    _callbackIntrestital.Invoke(false);
-                    _callbackIntrestital = null;
-                }
-
-
-                LoadInterstitialAd(0f);
+                ShowSSIntrestitial();
             }
+        }
+
+        public void ShowSSIntrestitial()
+        {
+            if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_ssinterstitial == 1)
+            {
+                Debug.Log("SSIntrestitialPrefab Ready to show");
+                Instantiate(SSIntrestitialPrefab);
+            }
+            else
+            {
+
+                Debug.Log("can't show");
+                adLoader.SetActive(false);
+                isIntrestitiallShowing = false;
+                if (_callbackIntrestital == null)
+                {
+                    return;
+                }
+                _callbackIntrestital.Invoke(false);
+                _callbackIntrestital = null;
+            }
+
+
+            LoadInterstitialAd(0f);
+
         }
 
 
@@ -701,12 +820,12 @@ namespace SuperStarSdk
                     lastInterstitial = Time.time;
                     if (!ISIntrestitialReadyToShow())
                     {
-                        IronSource.Agent.loadInterstitial();
+                        LoadInterstitialAd(0);
                     }
                 }
                 else
                 {
-                    IronSource.Agent.showInterstitial();
+                  ShowInterstitialIS();
                     lastInterstitial = Time.time;
                 }
 
@@ -717,12 +836,12 @@ namespace SuperStarSdk
                 lastInterstitial = Time.time;
                 if (!ISIntrestitialReadyToShow())
                 {
-                    IronSource.Agent.loadInterstitial();
+                    LoadInterstitialAd(0);
                 }
             }
             else if (ISIntrestitialReadyToShow(true))
             {
-                IronSource.Agent.showInterstitial();
+                ShowInterstitialIS();
                 lastInterstitial = Time.time;
             }
            
@@ -816,12 +935,12 @@ namespace SuperStarSdk
                     lastInterstitial = Time.time;
                     if (!ISIntrestitialReadyToShow())
                     {
-                        IronSource.Agent.loadInterstitial();
+                       LoadInterstitialAd(0);
                     }
                 }
                 else
                 {
-                    IronSource.Agent.showInterstitial();
+                    ShowInterstitialIS();
                     lastInterstitial = Time.time;
                 }
 
@@ -832,12 +951,12 @@ namespace SuperStarSdk
                 lastInterstitial = Time.time;
                 if (!ISIntrestitialReadyToShow())
                 {
-                    IronSource.Agent.loadInterstitial();
+                    LoadInterstitialAd(0);
                 }
             }
             else if (ISIntrestitialReadyToShow(true))
             {
-                IronSource.Agent.showInterstitial();
+                ShowInterstitialIS();
                 lastInterstitial = Time.time;
             }
             else

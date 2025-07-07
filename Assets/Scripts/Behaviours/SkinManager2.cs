@@ -38,13 +38,13 @@ public class SkinManager2 : MonoBehaviour
                    // HideExportPanel();
                    // ShowAlertPanel("Skin Saved Successfully!.", danger: false);
                   //  SuperStarSdkManager.Instance.Rate();
-                    ToastManager.Instance.ShowTost("Skin Saved Successfully!.");
+                    ToastManager.Instance.ShowToast("Skin Saved Successfully!.");
 
 
                 }
                 else
                 {
-                    ToastManager.Instance.ShowTost("AD is not available");
+                    ToastManager.Instance.ShowToast("AD is not available");
                 }
             }
         },3);

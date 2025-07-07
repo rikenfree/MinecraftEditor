@@ -21,7 +21,7 @@ namespace SuperStarSdk
 {
     public class SuperStarSdkManager : MonoBehaviour
     {
-
+         
 
         public int LastPlayedCrossPromoBoxIndex = -1;
         public int LastPlayedCrossPromoIntrestitialIndex = -1;
@@ -34,7 +34,7 @@ namespace SuperStarSdk
         public string ConfigFileURLANDROID;
         public string ConfigFileURLIOS;
 
-
+        
         public SSCrossPromoAssetRoot crossPromoAssetsRoot;
         public bool isCrossPromoDataArrived = false;
 
@@ -44,8 +44,8 @@ namespace SuperStarSdk
         private const string PlayStoreUrl = "https://play.google.com/store/apps/details?id={0}";
         private const string AppStoreUrl = "https://itunes.apple.com/app/apple-store/id{0}";
 
-        //  public string PrivacyPolicyLink;
-        // public AdmobManager admobManager;
+      //  public string PrivacyPolicyLink;
+       // public AdmobManager admobManager;
         public string LastJSON;
 
 
@@ -78,11 +78,11 @@ namespace SuperStarSdk
                 PlayerPrefs.SetInt("PrivacyAccepted", value);
             }
         }
-        //   public GameObject GDPR;
+     //   public GameObject GDPR;
         private void Awake()
         {
 
-
+           
 
 
 #if UNITY_ANDROID
@@ -108,22 +108,20 @@ namespace SuperStarSdk
             }
             if (ShowLoadingScreen)
             {
-                Instantiate(LoadingPanel, this.transform);
+                Instantiate(LoadingPanel,this.transform);
             }
             Debug.unityLogger.logEnabled = isDebugEnabled;
         }
 
-        public void AcceptGDPR()
-        {
+        public void AcceptGDPR() {
             PrivacyAccepted = 1;
-            //  GDPR.SetActive(false);
+          //  GDPR.SetActive(false);
         }
-        public void CloseGDPR()
-        {
+        public void CloseGDPR() {
             PrivacyAccepted = 1;
-            //  GDPR.SetActive(false);
+          //  GDPR.SetActive(false);
         }
-        public void PrivacyPolicy()
+        public void PrivacyPolicy() 
         {
             Application.OpenURL(crossPromoAssetsRoot.PrivacyPolicy);
         }
@@ -136,7 +134,7 @@ namespace SuperStarSdk
         }
 
 
-        public async void SetupServerFile()
+        public async void SetupServerFile() 
         {
             Debug.Log("SetupServerFile");
             await GetCrossPromoDataAsync();
@@ -146,8 +144,7 @@ namespace SuperStarSdk
                 AdmobManager.Instance.SetUp();
                 SuperStarAd.Instance.Setup();
             }
-            else
-            {
+            else{
                 Debug.LogError("Network Server Error");
             }
             AppTrackTransperancy();
@@ -163,8 +160,7 @@ namespace SuperStarSdk
 
 
         public event Action sentTrackingAuthorizationRequest;
-        public void AppTrackTransperancy()
-        {
+        public void AppTrackTransperancy() {
 #if UNITY_IOS && !UNITY_EDITOR
 
             Version currentVersion = new Version(Device.systemVersion); 
@@ -208,7 +204,7 @@ namespace SuperStarSdk
 
         public async Task GetCrossPromoDataAsync()
         {
-
+         
             using (var client = new HttpClient())
             {
                 var response = await client.GetAsync(ConfigFileURL);
@@ -216,8 +212,8 @@ namespace SuperStarSdk
                 var content = await response.Content.ReadAsStringAsync();
                 content = Regex.Unescape(content);
                 DefaultConfig = content;
-                Debug.Log("All Data arrives sucessfully => " + content);
-                // crossPromoAssetsRoot = JsonConvert.DeserializeObject<SSCrossPromoAssetRoot>(content);
+                Debug.Log("All Data arrives sucessfully => "+ content);
+               // crossPromoAssetsRoot = JsonConvert.DeserializeObject<SSCrossPromoAssetRoot>(content);
             }
         }
 
@@ -310,20 +306,19 @@ namespace SuperStarSdk
         //}
 
         public GameObject ForceUpdateScreen;
-        public void CheckForForceUpdate()
-        {
+        public void CheckForForceUpdate() {
 
             if (crossPromoAssetsRoot.display_forceupdate == 1)
             {
 
-
+               
                 var result = crossPromoAssetsRoot.minversionforceupdate.CompareTo(Application.version);
-                if (result > 0)
-                {
-                    UpdatepopupOpen();
-                    Console.WriteLine("version1 is greater");
+                if (result > 0) 
+                { 
+                     UpdatepopupOpen();
+                     Console.WriteLine("version1 is greater");
                 }
-
+               
             }
             //else
             //{
@@ -339,42 +334,42 @@ namespace SuperStarSdk
                 for (int z = 0; z < crossPromoAssetsRoot.data[i].appvideourl.Count; z++)
                 {
 
-                    if (File.Exists(Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname + crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4"))
+                if (File.Exists(Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname+crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4"))
+                {
+                    Debug.Log("video is available " + Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname + crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4");
+                    crossPromoAssetsRoot.data[i].appvideourl[z].isDownloaded = true;
+                    //ActivateVideoCrossPromotion();
+                }
+                else
+                {
+
+                    Debug.Log("video is downloading" + crossPromoAssetsRoot.data[i].appvideourl.Count);
+
+
+                   
+                    UnityWebRequest www = UnityWebRequest.Get(crossPromoAssetsRoot.data[i].appvideourl[z].url);
+                    yield return www.SendWebRequest();
+
+                    if (www.isNetworkError || www.isHttpError)
                     {
-                        Debug.Log("video is available " + Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname + crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4");
-                        crossPromoAssetsRoot.data[i].appvideourl[z].isDownloaded = true;
-                        //ActivateVideoCrossPromotion();
+                        Debug.Log(www.error);
                     }
                     else
                     {
 
-                        Debug.Log("video is downloading" + crossPromoAssetsRoot.data[i].appvideourl.Count);
+                      File.WriteAllBytes(Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname + crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4", www.downloadHandler.data);
+
+                        yield return new WaitForSeconds(1f);
+                        crossPromoAssetsRoot.data[i].appvideourl[z].isDownloaded = true;
 
 
-
-                        UnityWebRequest www = UnityWebRequest.Get(crossPromoAssetsRoot.data[i].appvideourl[z].url);
-                        yield return www.SendWebRequest();
-
-                        if (www.isNetworkError || www.isHttpError)
-                        {
-                            Debug.Log(www.error);
-                        }
-                        else
-                        {
-
-                            File.WriteAllBytes(Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname + crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4", www.downloadHandler.data);
-
-                            yield return new WaitForSeconds(1f);
-                            crossPromoAssetsRoot.data[i].appvideourl[z].isDownloaded = true;
-
-
-                            Debug.Log(" video Path : " + Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname + crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4");
-                        }
-                        Debug.Log("video is downloaded");
-
-
-
+                        Debug.Log(" video Path : " + Application.persistentDataPath + "/" + crossPromoAssetsRoot.data[i].appname + crossPromoAssetsRoot.data[i].appvideourl[z].name + ".mp4");
                     }
+                    Debug.Log("video is downloaded");
+
+
+
+                }
                 }
 
 
@@ -463,7 +458,7 @@ namespace SuperStarSdk
                 PlayerPrefs.SetInt("LastCriticalUpdateDate", value);
             }
         }
-
+      
         public void UpdatepopupOpen()
         {
             if (DateTime.Now.Day != LastCriticalUpdateDate)
@@ -498,9 +493,9 @@ namespace SuperStarSdk
                 .Share();
         }
 
-        public void MoreApps()
+        public void MoreApps() 
         {
-            if (!string.IsNullOrEmpty(crossPromoAssetsRoot.moreappurl))
+            if (!string.IsNullOrEmpty(crossPromoAssetsRoot.moreappurl)  )
             {
                 Application.OpenURL(crossPromoAssetsRoot.moreappurl);
             }
@@ -527,19 +522,18 @@ namespace SuperStarSdk
 
 #endif
             }
-            else
+            else 
             {
                 OpenRateURLs();
-                //   RatePopUpScreen.SetActive(true);
-                //  RateGame.Instance.ForceShowRatePopup();
-                //Show Gley popup
+             //   RatePopUpScreen.SetActive(true);
+             //  RateGame.Instance.ForceShowRatePopup();
+             //Show Gley popup
 
             }
 
         }
 
-        public void OpenRateURLs()
-        {
+        public void OpenRateURLs() {
 #if UNITY_ANDROID
             Application.OpenURL(String.Format(PlayStoreUrl, crossPromoAssetsRoot.BundleId));
 #elif UNITY_IOS
@@ -551,9 +545,9 @@ namespace SuperStarSdk
 
 
 
-        public void openFile(string filepath)
+        public void openFile(string filepath) 
         {
-            // AndroidContentOpenerWrapper.OpenContent(filepath);
+           // AndroidContentOpenerWrapper.OpenContent(filepath);
         }
 
 
@@ -575,7 +569,7 @@ namespace SuperStarSdk
         [Button]
         public void DebugFilledData()
         {
-            //  data = Regex.Unescape(data);
+          //  data = Regex.Unescape(data);
             //LastJSON = data;
             LastJSON = JsonConvert.SerializeObject(crossPromoAssetsRoot);
 
@@ -665,11 +659,10 @@ public class SSCrossPromoAsset
 }
 
 [System.Serializable]
-public class URLClass
-{
+public class URLClass {
     public string url;
     public string name;
-    public bool isDownloaded = false;
+    public bool isDownloaded=false;
 }
 
 [System.Serializable]
@@ -703,6 +696,9 @@ public class SSCrossPromoAssetRoot
     public string moreappurl;
     public string PrivacyPolicy;
     public string ISAppKey;
+    public List<string> ISBID = new List<string>();
+    public List<string> ISInID = new List<string>();
+    public List<string> ISReID = new List<string>();
     public string AdmobAppKey;
     public string ExtraURL;
     public string subscribeUrl;
@@ -710,7 +706,7 @@ public class SSCrossPromoAssetRoot
 
     [Header("Ads Data")]
     public int IntrestitialAdsStartLevel = 5;
-    public List<int> RateAppLevel = new List<int>();
+    public List<int> RateAppLevel= new List<int>();
 
     [Header("Share")]
     public string BundleId;
@@ -725,7 +721,7 @@ public class SSCrossPromoAssetRoot
 
 
 [System.Serializable]
-public class AIInt
+public class AIInt 
 {
     public int androiddata;
     public int iOSdata;

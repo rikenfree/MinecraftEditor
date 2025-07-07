@@ -1,54 +1,70 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class InternetCheckingManager : MonoBehaviour
 {
     public static InternetCheckingManager Instance;
-    public ConnectionTester _connectionTester;
     public bool isinternetavailable;
     public GameObject NoInternetPopUp;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-         _connectionTester = ConnectionTester
-            .GetInstance(gameObject)
-            .ipToTest("www.google.com");
-
-
         InternetCheckInvoke();
     }
 
-    public void InternetCheckInvoke() 
+    public void InternetCheckInvoke()
     {
-
-        _connectionTester.TestInternet((test) =>
+        StartCoroutine(CheckInternetConnection((isConnected) =>
         {
-            if (test)
+            if (isConnected)
             {
                 isinternetavailable = true;
-             //   Debug.LogError("disable popup");
-              // Debug.LogError("Internet Availables");
                 NoInternetPopUp.SetActive(false);
-                Invoke("InternetCheckInvoke", 5);
-
             }
             else
             {
                 isinternetavailable = false;
-               // Debug.LogError("Show popup");
                 NoInternetPopUp.SetActive(true);
-                Invoke("InternetCheckInvoke", 5);
             }
 
-        });
+            Invoke("InternetCheckInvoke", 5); // Re-check internet every 5 seconds
+        }));
+    }
+
+    private IEnumerator CheckInternetConnection(System.Action<bool> callback)
+    {
+        if (Application.internetReachability == NetworkReachability.NotReachable)
+        {
+            callback(false);
+            yield break;
+        }
+
+        using (UnityWebRequest webRequest = UnityWebRequest.Get("https://www.google.com"))
+        {
+            webRequest.timeout = 5; // Timeout in seconds
+            yield return webRequest.SendWebRequest();
+
+            if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError)
+            {
+                callback(false);
+            }
+            else
+            {
+                callback(true);
+            }
+        }
     }
 }

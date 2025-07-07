@@ -113,7 +113,23 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void MakeTexture()
     {
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            {
+                SoundController1.Instance.PlayClickSound();
+                ScreenshotHandler.takePics();
+                //bodyMaterial.GetTexture(coppedImageTexture.ToString());
+                bodyMaterial.mainTexture = coppedImageTextureForDummyModel;
+                CharacterAnim.SetBool("Anim2", true);
+                HDTextureScreen.SetActive(true);
+                PickImageScreen.SetActive(false);
+                ViewImageScreen.SetActive(false);
+                MainCharacter.transform.rotation = Quaternion.identity;
+
+            }, 3);
+        }
+        else
         {
             SoundController1.Instance.PlayClickSound();
             ScreenshotHandler.takePics();
@@ -124,8 +140,7 @@ public class CapeAddonHandler1 : MonoBehaviour
             PickImageScreen.SetActive(false);
             ViewImageScreen.SetActive(false);
             MainCharacter.transform.rotation = Quaternion.identity;
-
-        }, 3);
+        }
     }
 
     [Header("Create Addon")]
@@ -220,7 +235,7 @@ public class CapeAddonHandler1 : MonoBehaviour
             }
             else
             {
-                ToastManager.Instance.ShowTost("Watch Video To Import This Addon");
+                ToastManager.Instance.ShowToast("Watch Video To Import This Addon");
             }
         });
 
@@ -382,7 +397,39 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void ChangeScreen(int ScreenNo)
     {
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            {
+                SoundController1.Instance.PlayClickSound();
+                CloseTutorial();
+                switch (ScreenNo)
+                {
+                    case 0:
+                        HDTextureScreen.SetActive(false);
+                        TutorialParent.SetActive(true);
+                        TutorialScreen[0].SetActive(true);
+                        break;
+                    case 1:
+                        TutorialScreen[1].SetActive(true);
+                        break;
+                    case 2:
+                        TutorialScreen[2].SetActive(true);
+                        break;
+                    case 3:
+                        TutorialScreen[3].SetActive(true);
+                        break;
+                    case 4:
+                        TutorialScreen[4].SetActive(true);
+                        break;
+                    case 5:
+                        TutorialParent.SetActive(false);
+                        PickImageScreen.SetActive(true);
+                        break;
+                }
+            }, 1);
+        }
+        else
         {
             SoundController1.Instance.PlayClickSound();
             CloseTutorial();
@@ -410,7 +457,8 @@ public class CapeAddonHandler1 : MonoBehaviour
                     PickImageScreen.SetActive(true);
                     break;
             }
-        }, 1);
+        }
+
     }
 
     public void BackScreen(int ScreenNo)

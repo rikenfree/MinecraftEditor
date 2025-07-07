@@ -2,11 +2,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
-using TMPro;
-
+using UnityEngine.Networking;
 //public enum CrossPromoType {
 
 //    PORTRAIT=0,
@@ -19,8 +19,6 @@ public class SSCrosspromo : MonoBehaviour
     public bool isAppOpen = false;
     public GameObject Closebtn;
 
-   
-
 
     private const string PlayStoreUrl = "https://play.google.com/store/apps/details?id={0}";
     private const string AppStoreUrl = "https://itunes.apple.com/app/apple-store/id{0}";
@@ -31,6 +29,12 @@ public class SSCrosspromo : MonoBehaviour
     private GameObject _videoPlayerGameObject;
     [SerializeField]
     private TextMeshProUGUI _gameName;
+    [SerializeField]
+    private Image _gameIcon;
+    [SerializeField]
+    private TextMeshProUGUI _gameDescriptiontxt;
+    [SerializeField]
+    private TextMeshProUGUI _buttontxt;
     [SerializeField]
     private Button _containerButton;
     [SerializeField]
@@ -87,7 +91,7 @@ public class SSCrosspromo : MonoBehaviour
             //find cross promo data for this cross promo
 
             int cross = GiveMeCrossPromoVideoIndex();
-
+            Debug.Log("cross => " + cross);
             if (cross == -1 || SuperStarAd.Instance.NoAds==1)
             {
                 Debug.Log("No video Prepared");
@@ -118,6 +122,11 @@ public class SSCrosspromo : MonoBehaviour
 
         }
 
+    }
+
+    public void OnInfoButtonClicked(){
+
+        
     }
 
     public List<int> data = new List<int>();
@@ -191,9 +200,7 @@ public class SSCrosspromo : MonoBehaviour
         SuperStarSdkManager.OnDataArrive -= CrossPromoDataAarrived;
     }
 
-    public void OpenCrossPromo() {
-        Application.OpenURL(SuperStarSdkManager.Instance.crossPromoAssetsRoot.moreappurl);
-    }
+
     public void CrossPromoDataAarrived()
     {
 
@@ -205,7 +212,6 @@ public class SSCrosspromo : MonoBehaviour
             if (!isAppOpen)
             {
                 SSParent.SetActive(false);
-
             }
 
 
@@ -238,6 +244,7 @@ public class SSCrosspromo : MonoBehaviour
         _renderTexture.Create();
 
         LoadVideo();
+        LoadIcon();
     }
     void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
@@ -313,6 +320,33 @@ public class SSCrosspromo : MonoBehaviour
         if (isAppOpen)
         {
             StartCoroutine(closeCoroutine());
+        }
+    }
+
+    void LoadIcon(){
+            StartCoroutine(DownloadImageCoroutine(_currentCrossPromoAsset.appiconurl.url));
+    }
+
+    private IEnumerator DownloadImageCoroutine(string url)
+    {
+        using (UnityWebRequest request = UnityWebRequestTexture.GetTexture(url))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.result == UnityWebRequest.Result.Success)
+            {
+                Texture2D texture = DownloadHandlerTexture.GetContent(request);
+
+                // Convert Texture2D to Sprite
+                Sprite sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
+
+                // Set the sprite to the Image
+                _gameIcon.sprite = sprite;
+            }
+            else
+            {
+                Debug.LogError($"Failed to download image: {request.error}");
+            }
         }
     }
 

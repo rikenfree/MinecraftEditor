@@ -230,7 +230,7 @@ public class AdmobManager : MonoBehaviour
         }
 
         // Create a 320x50 banner at top of the screen
-        _bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
+        _bannerView = new BannerView(adUnitId, AdSize.Banner, adpos);
 
 
         //if (_bannerView == null)
@@ -243,8 +243,48 @@ public class AdmobManager : MonoBehaviour
 
         // send the request to load the ad.
         Debug.Log("Loading banner ad.");
+       
         _bannerView.LoadAd(adRequest);
     }
+
+    public void RequestAdaptiveBanner(AdPosition adpos)
+    {
+        if (SuperStarSdkManager.Instance.crossPromoAssetsRoot.display_Admob_banner == 0)
+        {
+            return;
+        }
+
+        if (BannerIdIndex >= BannerAdsIds.Count)
+        {
+            return;
+        }
+        //Debug.LogError("Banner load");
+        string adUnitId = BannerAdsIds[BannerIdIndex];
+
+        if (_bannerView != null)
+        {
+            DestroyBannerView();
+        }
+
+        // Create a 320x50 banner at top of the screen
+        _bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
+
+
+        //if (_bannerView == null)
+        //{
+        //    CreateBannerView();
+        //}
+
+        // create our request used to load the ad.
+        var adRequest = new AdRequest();
+
+        // send the request to load the ad.
+        Debug.Log("Loading banner ad.");
+        adRequest.Extras.Add("collapsible", "bottom");
+        _bannerView.LoadAd(adRequest);
+    }
+
+
 
     //private void ListenToAdEvents()
     //{
@@ -567,9 +607,9 @@ public class AdmobManager : MonoBehaviour
         //RequestAppOpenAds();
     }
 
-    private void HandleAdFailedToPresentFullScreenContent(object sender, AdErrorEventArgs args)
+    private void HandleAdFailedToPresentFullScreenContent(object sender, AdError args)
     {
-        Debug.LogFormat("Failed to present the ad (reason: {0})", args.AdError.GetMessage());
+        Debug.LogFormat("Failed to present the ad (reason: {0})", args.GetMessage());
         // Set the ad to null to indicate that AppOpenAdManager no longer has another ad to show.
         ad = null;
         isShowingAd = false;
@@ -610,9 +650,8 @@ public class AdmobManager : MonoBehaviour
 
         string adUnitId = IntrestitialAdsIds[IntrestitialIdIndex];
 
-        var adRequest = new AdRequest.Builder()
-               .AddKeyword("unity-admob-sample")
-               .Build();
+        var adRequest = new AdRequest();
+             
 
         // send the request to load the ad.
         InterstitialAd.Load(adUnitId, adRequest,
@@ -1019,53 +1058,53 @@ public class AdmobManager : MonoBehaviour
 
 
 
-    private GameObject icon;
-    private bool nativeAdLoaded;
-    private NativeAd nativeAd;
-    private void RequestNativeAd()
-    {
-        string adUnitId = AppNativeAdsIds[AppNativeIdIndex];
-        AdLoader adLoader = new AdLoader.Builder(adUnitId)
-            .ForNativeAd()
-            .Build();
-        adLoader.OnNativeAdLoaded += this.HandleNativeAdLoaded;
-        adLoader.OnAdFailedToLoad += this.HandleNativeAdFailedToLoad;
-        adLoader.LoadAd(new AdRequest.Builder().Build());
-    }
-    void Update()
-    {
+    // private GameObject icon;
+    // private bool nativeAdLoaded;
+    // private NativeAd nativeAd;
+    // private void RequestNativeAd()
+    // {
+    //     string adUnitId = AppNativeAdsIds[AppNativeIdIndex];
+    //     AdLoader adLoader = new AdLoader.Builder(adUnitId)
+    //         .ForNativeAd()
+    //         .Build();
+    //     adLoader.OnNativeAdLoaded += this.HandleNativeAdLoaded;
+    //     adLoader.OnAdFailedToLoad += this.HandleNativeAdFailedToLoad;
+    //     adLoader.LoadAd(new AdRequest());
+    // }
+    // void Update()
+    // {
 
 
-        if (this.nativeAdLoaded)
-        {
-            this.nativeAdLoaded = false;
-            // Get Texture2D for icon asset of native ad.
-            Texture2D iconTexture = this.nativeAd.GetIconTexture();
+    //     if (this.nativeAdLoaded)
+    //     {
+    //         this.nativeAdLoaded = false;
+    //         // Get Texture2D for icon asset of native ad.
+    //         Texture2D iconTexture = this.nativeAd.GetIconTexture();
 
-            icon = GameObject.CreatePrimitive(PrimitiveType.Quad);
-            icon.transform.position = new Vector3(1, 1, 1);
-            icon.transform.localScale = new Vector3(1, 1, 1);
-            icon.GetComponent<Renderer>().material.mainTexture = iconTexture;
+    //         icon = GameObject.CreatePrimitive(PrimitiveType.Quad);
+    //         icon.transform.position = new Vector3(1, 1, 1);
+    //         icon.transform.localScale = new Vector3(1, 1, 1);
+    //         icon.GetComponent<Renderer>().material.mainTexture = iconTexture;
 
-            // Register GameObject that will display icon asset of native ad.
-            if (!this.nativeAd.RegisterIconImageGameObject(icon))
-            {
-                // Handle failure to register ad asset.
-            }
-        }
-    }
-    private void HandleNativeAdLoaded(object sender, NativeAdEventArgs args)
-    {
-        Debug.Log("Native ad loaded.");
+    //         // Register GameObject that will display icon asset of native ad.
+    //         if (!this.nativeAd.RegisterIconImageGameObject(icon))
+    //         {
+    //             // Handle failure to register ad asset.
+    //         }
+    //     }
+    // }
+    // private void HandleNativeAdLoaded(object sender, NativeAdEventArgs args)
+    // {
+    //     Debug.Log("Native ad loaded.");
 
-        this.nativeAd = args.nativeAd;
-        this.nativeAdLoaded = true;
-    }
+    //     this.nativeAd = args.nativeAd;
+    //     this.nativeAdLoaded = true;
+    // }
 
-    private void HandleNativeAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
-    {
-        Debug.Log("Native ad failed to load: ");
-    }
+    // private void HandleNativeAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
+    // {
+    //     Debug.Log("Native ad failed to load: ");
+    // }
 }
 
 public enum VideoFor

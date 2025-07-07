@@ -167,7 +167,7 @@ public class CapeEltraView : MonoBehaviour
 
             }
             else {
-                ToastManager.Instance.ShowTost("Ad is not Loaded");
+                ToastManager.Instance.ShowToast("Ad is not Loaded");
             }
         });
 
