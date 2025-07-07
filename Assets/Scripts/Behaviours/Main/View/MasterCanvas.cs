@@ -73,6 +73,7 @@ namespace Main.View
         private void Awake()
         {
             ctrl = base.scene.controller;
+            InitButtonGroup();
         }
 
         private void Start()
@@ -92,12 +93,18 @@ namespace Main.View
 
         public void InitButtonGroup()
         {
-            toggleGroup = new CircleButton[5];
-            toggleGroup[0] = buttonPencil;
-            toggleGroup[1] = buttonBucket;
-            toggleGroup[2] = buttonDropper;
-            toggleGroup[3] = buttonEraser;
-            toggleGroup[4] = buttonRotate;
+            toggleGroup = new CircleButton[5] {
+                buttonPencil,
+                buttonBucket,
+                buttonDropper,
+                buttonEraser,
+                buttonRotate
+            };
+            foreach (var btn in toggleGroup)
+            {
+                if (btn == null)
+                    Debug.LogError("A button in toggleGroup is not assigned in the Inspector!");
+            }
         }
 
         public void UpdateButtonColor(Color color)
