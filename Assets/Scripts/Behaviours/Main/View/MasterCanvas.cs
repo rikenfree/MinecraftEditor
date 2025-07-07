@@ -109,7 +109,7 @@ namespace Main.View
 
         public void UpdateButtonColor(Color color)
         {
-            buttonColor.GetComponent<Image>().color = color;
+             buttonColor.GetComponent<Image>().color = color;
         }
 
         public void OnClickSelectLanguageButton()
@@ -151,7 +151,7 @@ namespace Main.View
             CircleButton[] array = toggleGroup;
             for (int i = 0; i < array.Length; i++)
             {
-                array[i].MarkDeselected();
+                // array[i].MarkDeselected();
             }
         }
 
@@ -293,7 +293,7 @@ namespace Main.View
         {
             ctrl.sound.PlayClickSound();
             DeselectAll();
-            buttonPencil.MarkSelected();
+            // buttonPencil.MarkSelected();
             DisableGroupControllers();
             ctrl.pencil.gameObject.SetActive(value: true);
             //ctrl.ga.SendEvent("Button Click", "Pencil", "");
@@ -310,7 +310,7 @@ namespace Main.View
         {
             ctrl.sound.PlayClickSound();
             DeselectAll();
-            buttonBucket.MarkSelected();
+            // buttonBucket.MarkSelected();
             DisableGroupControllers();
             ctrl.bucket.gameObject.SetActive(value: true);
             //ctrl.ga.SendEvent("Button Click", "Bucket", "");
@@ -341,7 +341,7 @@ namespace Main.View
         {
             ctrl.sound.PlayClickSound();
             DeselectAll();
-            buttonDropper.MarkSelected();
+            // buttonDropper.MarkSelected();
             DisableGroupControllers();
             ctrl.dropper.gameObject.SetActive(value: true);
             //ctrl.ga.SendEvent("Button Click", "Dropper", "");
@@ -358,7 +358,7 @@ namespace Main.View
         {
             ctrl.sound.PlayClickSound();
             DeselectAll();
-            buttonEraser.MarkSelected();
+            // buttonEraser.MarkSelected();
             DisableGroupControllers();
             ctrl.eraser.gameObject.SetActive(value: true);
             //ctrl.ga.SendEvent("Button Click", "Eraser", "");
@@ -375,7 +375,7 @@ namespace Main.View
         {
             ctrl.sound.PlayClickSound();
             DeselectAll();
-            buttonRotate.MarkSelected();
+            // buttonRotate.MarkSelected();
             DisableGroupControllers();
             ctrl.camera.gameObject.SetActive(value: true);
             //ctrl.ga.SendEvent("Button Click", "Rotate", "");
@@ -453,7 +453,7 @@ namespace Main.View
         private void InitFirstMode()
         {
             DeselectAll();
-            buttonRotate.MarkSelected();
+            // buttonRotate.MarkSelected();
             DisableGroupControllers();
             ctrl.camera.gameObject.SetActive(value: true);
         }

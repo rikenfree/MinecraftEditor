@@ -10,17 +10,17 @@ namespace Main.View
         public Color defultColorColor;
 
 
-		public void MarkSelected()
-		{
-            selectorRing.gameObject.GetComponent<Image>().color = selectColor;
+		// public void MarkSelected()
+		// {
+        //     selectorRing.gameObject.GetComponent<Image>().color = selectColor;
 
-            //selectorRing.gameObject.SetActive(value: true);
-		}
+        //     //selectorRing.gameObject.SetActive(value: true);
+		// }
 
-		public void MarkDeselected()
-		{
-            selectorRing.gameObject.GetComponent<Image>().color = defultColorColor;
-          //  selectorRing.gameObject.SetActive(value: false);
-		}
+		// public void MarkDeselected()
+		// {
+        //     selectorRing.gameObject.GetComponent<Image>().color = defultColorColor;
+        //   //  selectorRing.gameObject.SetActive(value: false);
+		// }
 	}
 }
