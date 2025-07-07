@@ -69,7 +69,7 @@ public class RandomSkinItem2 : MonoBehaviour
                 }
                 else
                 {
-                    ToastManager.Instance.ShowTost("AD is not available");
+                    ToastManager.Instance.ShowToast("AD is not available");
                 }
 
 

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GameAnalyticsSDK;
+
 public class SSEventManager : MonoBehaviour
 {
     public static SSEventManager Instance;
@@ -15,35 +15,35 @@ public class SSEventManager : MonoBehaviour
     }
     private void Start()
     {
-        GameAnalytics.Initialize();
+      //  GameAnalytics.Initialize();
     
     }
 
     public void SSGameStarEventCall(int CurrentLevelIndex)
     {
-        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, CurrentLevelIndex + "Level_Start"); // without score
+       // GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, CurrentLevelIndex + "Level_Start"); // without score
     }
     public void SSGameStarEventCall(string CurrentLevelIndex)
     {
-       GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, CurrentLevelIndex + "Level_Start"); // without score
+      // GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, CurrentLevelIndex + "Level_Start"); // without score
     }
 
     public void SSGameWinEventCall(int CurrentLevelIndex)
     {
-       GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, CurrentLevelIndex + "Level_Complete");
+      // GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, CurrentLevelIndex + "Level_Complete");
     }
     public void SSGameWinEventCall(string CurrentLevelIndex)
     {
-        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, CurrentLevelIndex + "Level_Complete");
+       // GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, CurrentLevelIndex + "Level_Complete");
     }
 
     public void SSGameOverEventCall(int CurrentLevelIndex)
     {
-        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, CurrentLevelIndex + "Level_Fail");
+       // GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, CurrentLevelIndex + "Level_Fail");
     }
     public void SSGameOverEventCall(string CurrentLevelIndex)
     {
-       GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, CurrentLevelIndex + "Level_Fail");
+      // GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, CurrentLevelIndex + "Level_Fail");
     }
 
 

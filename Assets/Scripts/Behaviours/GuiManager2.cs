@@ -377,9 +377,9 @@ public class GuiManager2 : MonoBehaviour
 	{
 		SoundManager2.instance.PlayButtonSound();
 
-        InternetCheckingManager.Instance._connectionTester.TestInternet(hasInternet =>
-        {
-            if (!hasInternet)
+        //InternetCheckingManager.Instance._connectionTester.TestInternet(hasInternet =>
+        //{
+            if (!InternetCheckingManager.Instance.isinternetavailable)
             {
                 MapsManager2.instance.ShowNoInternetToast();
             }
@@ -395,12 +395,12 @@ public class GuiManager2 : MonoBehaviour
 					}
 					else
 					{
-						ToastManager.Instance.ShowTost("AD is not available");
+						ToastManager.Instance.ShowToast("AD is not available");
 					}
 				}, 3);
             }
 
-        });
+        //});
 
 
 	}

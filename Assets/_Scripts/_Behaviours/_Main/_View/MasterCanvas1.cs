@@ -474,11 +474,11 @@ namespace Main.View
 
                 if (result)
                 {
-                    ToastManager.Instance.ShowTost("Thank You For Your Support");
+                    ToastManager.Instance.ShowToast("Thank You For Your Support");
                 }
                 else
                 {
-                    ToastManager.Instance.ShowTost("Ad is not Loaded");
+                    ToastManager.Instance.ShowToast("Ad is not Loaded");
                 }
             });
             //ctrl.ga.SendEvent("Button Click", "Triggered Ad", "");

@@ -31,4 +31,6 @@ public class ManageScene : MonoBehaviour
         base.gameObject.SetActive(value: false);
         SuperStarSdkManager.Instance.Share();
     }
+
+    
 }
