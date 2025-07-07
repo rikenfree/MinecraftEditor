@@ -64,7 +64,7 @@ namespace Main.View
 				//base.scene.view.character.HandleTexture(skinsArray[index]);
 				//ctrl.ga.SendEvent("Button Click", "Apply Catalog", namesArray[index]);
 				base.gameObject.SetActive(value: false);
-                SuperStarAd.Instance.ShowInterstitialTimer(null);
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
             }
 		}
 
@@ -197,7 +197,7 @@ namespace Main.View
             RefreshPageInput();
             RefreshSkinInfo();
             LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowInterstitialTimer((result) => {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) => {
                 Debug.Log("Show Intrestitial  => " + result);
             });
         }
@@ -229,7 +229,7 @@ namespace Main.View
 			RefreshPageInput();
 			RefreshSkinInfo();
 			LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
 
 		public void NextPage()
@@ -243,7 +243,7 @@ namespace Main.View
 			RefreshPageInput();
 			RefreshSkinInfo();
 			LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowInterstitialTimer(null); 
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null); 
         }
 
 		public void RandomPage()
@@ -253,7 +253,7 @@ namespace Main.View
 			RefreshPageInput();
 			RefreshSkinInfo();
 			LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
 
 		public void ButtonCancelClicked()

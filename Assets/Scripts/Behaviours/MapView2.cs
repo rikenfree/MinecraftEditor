@@ -115,7 +115,7 @@ public class MapView2 : MonoBehaviour
 
 	public void Clicked()
 	{
-		SuperStarAd.Instance.ShowInterstitialTimer((o) => { 
+		SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) => { 
 		
 		SoundManager2.instance.PlayButtonSound();
         GuiManager2.instance.ShowDetailsPanel(mapImage.sprite, mapData);

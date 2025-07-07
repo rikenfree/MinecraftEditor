@@ -52,7 +52,7 @@ public class MapsManager2 : MonoBehaviour
             RefreshMapViews();
             GuiManager2.instance.UpdatePage(currentPageIndex + 1);
             SoundManager2.instance.PlayButtonSound();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
     }
 
@@ -64,7 +64,7 @@ public class MapsManager2 : MonoBehaviour
             RefreshMapViews();
             GuiManager2.instance.UpdatePage(currentPageIndex + 1);
             SoundManager2.instance.PlayButtonSound();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
     }
 
@@ -82,7 +82,7 @@ public class MapsManager2 : MonoBehaviour
         RefreshMapViews();
         GuiManager2.instance.UpdatePage(currentPageIndex + 1);
         SoundManager2.instance.PlayButtonSound();
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
     }
 
     public void RandomPage()
@@ -92,7 +92,7 @@ public class MapsManager2 : MonoBehaviour
         RefreshMapViews();
         GuiManager2.instance.UpdatePage("Random");
         SoundManager2.instance.PlayButtonSound();
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
     }
 
     public List<MapData2> MapsDataByTag(string tag)

@@ -70,7 +70,7 @@ public class WelcomeManager2 : MonoBehaviour
 	{
 		if (!loading)
 		{
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
             if (GuiManager2.instance.Login == 0)
             {
 				//GuiManager.instance.LoginScreen.SetActive(true);

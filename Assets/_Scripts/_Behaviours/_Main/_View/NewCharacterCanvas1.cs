@@ -53,7 +53,7 @@ namespace Main.View
 			catalogCanvas.Show();
             SoundController1.Instance.PlayClickSound();
             base.scene.controller.newCharacter.CloseNewCharacterView();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
 			//ctrl.ga.SendEvent("Button Click", "New From Catalog", "");
 		}
 
@@ -63,7 +63,7 @@ namespace Main.View
 			ReloadBodyPartsData();
             SoundController1.Instance.PlayClickSound();
             base.scene.controller.newCharacter.CloseNewCharacterView();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
             //ctrl.ga.SendEvent("Button Click", "New From Steve", "");
         }
 
@@ -72,7 +72,7 @@ namespace Main.View
             SoundController1.Instance.PlayClickSound();
             base.scene.controller.newCharacter.CloseNewCharacterView();
 			character.LoadMCPE();
-            SuperStarAd.Instance.ShowInterstitialTimer(null); 
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null); 
             //ctrl.ga.SendEvent("Button Click", "New From MCPE", "");
         }
 
@@ -81,7 +81,7 @@ namespace Main.View
             SoundController1.Instance.PlayClickSound();
             base.scene.controller.newCharacter.CloseNewCharacterView();
 			CapeController.Instance.maincharacter.GetComponent<CharacterMain>().LoadSkinGallery();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
             //ctrl.ga.SendEvent("Button Click", "New From Gallery", "");
         }
 
@@ -90,7 +90,7 @@ namespace Main.View
             SoundController1.Instance.PlayClickSound();
             base.scene.controller.newCharacter.CloseNewCharacterView();
 			onlineNameCanvas.gameObject.SetActive(value: true);
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
             //	ctrl.ga.SendEvent("Button Click", "New From Online", "");
         }
 
@@ -101,7 +101,7 @@ namespace Main.View
 			CapeController.Instance.maincharacter.GetComponent<CharacterMain>().LoadSkinOnine(componentInChildren.text);
             SoundController1.Instance.PlayClickSound();
             onlineNameCanvas.gameObject.SetActive(value: false);
-            SuperStarAd.Instance.ShowInterstitialTimer(null); 
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null); 
         }
 
 		public void ClickSearchOnlineCancel()
@@ -117,7 +117,7 @@ namespace Main.View
             //character.LoadRandomSkinOnine();
             SoundController1.Instance.PlayClickSound();
             base.scene.controller.newCharacter.CloseNewCharacterView();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
             //ctrl.ga.SendEvent("Button Click", "New From Random", "");
         }
 

@@ -53,7 +53,7 @@ public class Wallpaper : MonoBehaviour
     public IEnumerator DelaytoCall()
     {
         yield return new WaitForSeconds(.5f);
-        
+
     }
 
     IEnumerator UploadOrUpdateImage(string regularImagePath, string image4KPath, string title, int id)
@@ -87,7 +87,7 @@ public class Wallpaper : MonoBehaviour
 
     public IEnumerator GetAllImages(int page)
     {
-       
+
         using (UnityWebRequest www = UnityWebRequest.Get(apiUrl + "?page=" + page))
         {
             yield return www.SendWebRequest();
@@ -156,7 +156,7 @@ public class Wallpaper : MonoBehaviour
 
     public IEnumerator ImageDownloadAndSet(string URL, string name, string imgName)
     {
-        Debug.Log("name "+ URL);
+        Debug.Log("name " + URL);
         WWW www = new WWW(URL);
         yield return www;
 
@@ -182,7 +182,7 @@ public class Wallpaper : MonoBehaviour
 
         if (WallPaperManeger.Instance._scrollRect.normalizedPosition.y < 0.025f && WallPaperManeger.Instance._hasItems)
         {
-           
+
             WallPaperManeger.Instance.pageNo++;
             // Check for additional items and add them to your scrollview
             Debug.Log("Page NO : " + WallPaperManeger.Instance.pageNo);
@@ -197,7 +197,7 @@ public class Wallpaper : MonoBehaviour
     public void SaveImageToGallery(string path)
     {
 
-        if(path == imagetype)
+        if (path == imagetype)
         {
             Debug.Log("4k");
             SuperStarAd.Instance.ShowRewardVideo((o) => { StartCoroutine(DownloadWallPaperImageWithURL(path)); });
@@ -205,7 +205,7 @@ public class Wallpaper : MonoBehaviour
         else
         {
             Debug.Log("regular");
-            SuperStarAd.Instance.ShowInterstitialTimer((result) => { StartCoroutine(DownloadWallPaperImageWithURL(path)); });
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) => { StartCoroutine(DownloadWallPaperImageWithURL(path)); },3);
         }
         SoundController.instance.PlayClickSound();
     }
@@ -223,7 +223,7 @@ public class Wallpaper : MonoBehaviour
         //File.WriteAllBytes(Application.dataPath + "/Resources/Logo/" + name, www.bytes);
         Texture2D texture = new Texture2D(1080, 1920, TextureFormat.RGB24, false);
         www.LoadImageIntoTexture(texture);
-        NativeGallery.SaveImageToGallery(texture, "McpeWallPapers" , selectedImgName, null);
+        NativeGallery.SaveImageToGallery(texture, "McpeWallPapers", selectedImgName, null);
     }
 
 
@@ -242,7 +242,7 @@ public class Wallpaper : MonoBehaviour
 
         progressImage.fillAmount = 1.0f;
 
-        if(www.result != UnityWebRequest.Result.Success)
+        if (www.result != UnityWebRequest.Result.Success)
         {
             Debug.LogError(www.error);
         }
@@ -252,7 +252,7 @@ public class Wallpaper : MonoBehaviour
             Debug.Log("Download Success!");
 
         }
-        www.Dispose();  
+        www.Dispose();
     }
 }
 

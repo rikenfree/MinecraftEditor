@@ -7,7 +7,18 @@ public class ManageScene : MonoBehaviour
 {
     public void SkinEditor()
     {
-        SceneManager.LoadSceneAsync(1);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                SceneManager.LoadSceneAsync(1);
+
+            },3);
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync(1);
+        }
     }
 
     public void CapEditor()
@@ -32,5 +43,5 @@ public class ManageScene : MonoBehaviour
         SuperStarSdkManager.Instance.Share();
     }
 
-    
+
 }

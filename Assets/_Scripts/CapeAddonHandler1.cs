@@ -463,7 +463,7 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void BackScreen(int ScreenNo)
     {
-        SuperStarAd.Instance.ShowInterstitialTimer((o) =>
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
         {
             SoundController1.Instance.PlayClickSound();
             CloseTutorial();
@@ -501,7 +501,7 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void MainScreenCloseButton()
     {
-        SuperStarAd.Instance.ShowInterstitialTimer((o) =>
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
         {
             SoundController1.Instance.PlayClickSound();
             IsCustomCapeAddon = false;
@@ -511,7 +511,7 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void TextureCloseButton()
     {
-        SuperStarAd.Instance.ShowInterstitialTimer((o) =>
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
         {
             SoundController1.Instance.PlayClickSound();
             ViewImageScreen.SetActive(false);
@@ -521,7 +521,7 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void PreviewCloseButton()
     {
-        SuperStarAd.Instance.ShowInterstitialTimer((o) =>
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
         {
             SoundController1.Instance.PlayClickSound();
             HDTextureScreen.SetActive(false);

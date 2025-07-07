@@ -58,7 +58,7 @@ public class RandomSkinItem2 : MonoBehaviour
 
     public void SelectIndex1()
     {
-            SuperStarAd.Instance.ShowInterstitialTimer((result) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
             {
                 if (result)
                 {

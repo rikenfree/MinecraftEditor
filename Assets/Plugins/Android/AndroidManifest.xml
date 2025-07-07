@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.unity3d.player"
     xmlns:tools="http://schemas.android.com/tools">
+	<uses-permission android:name="android.permission.INTERNET" />
 	<application>
+		<!--Used when Application Entry is set to Activity, otherwise remove this activity block-->
 		<activity android:name="com.unity3d.player.UnityPlayerActivity"
                   android:theme="@style/UnityThemeSelector">
 			<intent-filter>
@@ -12,11 +13,33 @@
 			</intent-filter>
 			<meta-data android:name="unityplayer.UnityActivity" android:value="true" />
 		</activity>
-		<meta-data
-		 android:name="com.google.android.gms.ads.APPLICATION_ID"
-		 android:value="ca-app-pub-3206456546664189~5698163860"/>
-		
+		<!--Used when Application Entry is set to GameActivity, otherwise remove this activity block-->
+		<activity android:name="com.unity3d.player.UnityPlayerGameActivity"
+                  android:theme="@style/BaseUnityGameActivityTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+			<meta-data android:name="android.app.lib_name" android:value="game" />
+		</activity>
+
+		<provider
+            android:name="com.cartoontexas.andyr.unityplugin.UnitySSContentProvider"
+            android:authorities="MapsMCPE"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+		<provider
+            android:name="com.cartoontexas.andyr.unityplugin.UnitySSContentProvider"
+            android:authorities="velocitygamers_skineditor"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+		<provider
+            android:name="com.cartoontexas.andyr.unityplugin.UnitySSContentProvider"
+            android:authorities="velocitygamers_capeeditor"
+            android:exported="false"
+            android:grantUriPermissions="true" />
 	</application>
-	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 </manifest>

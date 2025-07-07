@@ -66,7 +66,7 @@ public class CapeEltraView : MonoBehaviour
        
             LoadCapeElytraData(currentPageIndex);
         SoundController1.Instance.PlayClickSound();
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
     }
 
     public void PreviousPage()
@@ -79,7 +79,7 @@ public class CapeEltraView : MonoBehaviour
        
         LoadCapeElytraData(currentPageIndex);
         SoundController1.Instance.PlayClickSound();
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
     }
 
     public void OpenSelectedCapeBigView() 
@@ -93,7 +93,7 @@ public class CapeEltraView : MonoBehaviour
             CapeCollectionView[i].SetActive(false);
         }
         CapeSelectedItem.Elytra.SetSkinOnclick(texture2DSelected);
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
     }
 
     public void BackSelectedCapeBigView()
@@ -106,7 +106,7 @@ public class CapeEltraView : MonoBehaviour
         {
             CapeCollectionView[i].SetActive(true);
         }
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
 
     }
 

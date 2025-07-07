@@ -174,7 +174,18 @@ namespace Main.View
 
         public void ClickButtonMenu()
         {
-            SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonMenuDelegate);
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    ClickButtonMenuDelegate();
+                }, 3);
+            }
+            else
+            {
+                ClickButtonMenuDelegate();
+            }
+            //SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonMenuDelegate);
         }
         public void OnClickexitYes()
         {
@@ -188,17 +199,17 @@ namespace Main.View
             exitPopup.SetActive(false);
         }
 
-        public void ClickButtonMenuDelegate(bool isloaded)
+        public void ClickButtonMenuDelegate()
         {
 
-            if (isloaded)
-            {
-                Debug.Log("Ad Worked");
-            }
-            else
-            {
-                Debug.Log("Ad not Worked");
-            }
+            //if (isloaded)
+            //{
+            //    Debug.Log("Ad Worked");
+            //}
+            //else
+            //{
+            //    Debug.Log("Ad not Worked");
+            //}
             ctrl.sound.PlayClickSound();
             base.scene.view.menuCanvas.gameObject.SetActive(value: true);
             //	ctrl.ga.SendEvent("Button Click", "Menu", "");
@@ -206,12 +217,13 @@ namespace Main.View
 
         public void ClickButtonNew()
         {
-            SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonNewDelegate);
-            //ctrl.sound.PlayClickSound();
-            //ctrl.newCharacter.OpenNewCharacterView();
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                ClickButtonNewDelegate();
+            }, 3);
         }
 
-        public void ClickButtonNewDelegate(bool isloaded)
+        public void ClickButtonNewDelegate()
         {
             ctrl.sound.PlayClickSound();
             ctrl.newCharacter.OpenNewCharacterView();
@@ -220,20 +232,24 @@ namespace Main.View
 
         public void ClickButtonSave()
         {
-            SuperStarAd.Instance.ShowForceInterstitial(ClickButtonSaveDelegate);
+            //SuperStarAd.Instance.ShowForceInterstitial(ClickButtonSaveDelegate);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                ClickButtonSaveDelegate();
+            }, 3);
         }
 
-        public void ClickButtonSaveDelegate(bool isloaded)
+        public void ClickButtonSaveDelegate()
         {
 
-            if (isloaded)
-            {
-                Debug.Log("Ad Worked");
-            }
-            else
-            {
-                Debug.Log("Ad not Worked");
-            }
+            //if (isloaded)
+            //{
+            //    Debug.Log("Ad Worked");
+            //}
+            //else
+            //{
+            //    Debug.Log("Ad not Worked");
+            //}
             ctrl.sound.PlayClickSound();
             base.scene.view.saveCharacter.gameObject.SetActive(value: true);
 

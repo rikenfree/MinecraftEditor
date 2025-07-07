@@ -203,7 +203,7 @@ public class GuiManager2 : MonoBehaviour
 		SoundManager2.instance.PlayButtonSound();
 		ShowHomeTab();
 		BottomPanel.SetActive(true);
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
 	//	AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
 	}
 
@@ -212,7 +212,7 @@ public class GuiManager2 : MonoBehaviour
 		SoundManager2.instance.PlayButtonSound();
 		ShowTagsTab();
 		BottomPanel.SetActive(true);
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         //AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
 	}
 	public void SkinsButtonClicked()
@@ -220,7 +220,7 @@ public class GuiManager2 : MonoBehaviour
 		SoundManager2.instance.PlayButtonSound();
 		ShowSkinsTab();
 		BottomPanel.SetActive(false);
-		SuperStarAd.Instance.ShowInterstitialTimer(null);
+		SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
 		
 		//AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
 	}
@@ -230,7 +230,7 @@ public class GuiManager2 : MonoBehaviour
 		SoundManager2.instance.PlayButtonSound();
 		ShowFavouriteTab();
 		BottomPanel.SetActive(true);
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
       //  AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
 	}
 
@@ -238,7 +238,7 @@ public class GuiManager2 : MonoBehaviour
 	{
 		SoundManager2.instance.PlayButtonSound();
 		ShowSearchInputPanel();
-		SuperStarAd.Instance.ShowInterstitialTimer(null);
+		SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
 
         //AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
 	}
@@ -247,7 +247,7 @@ public class GuiManager2 : MonoBehaviour
 	{
 		SoundManager2.instance.PlayButtonSound();
 		ShowMenuPanel();
-        SuperStarAd.Instance.ShowInterstitialTimer(null);
+        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         //AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
 	}
 
@@ -360,7 +360,7 @@ public class GuiManager2 : MonoBehaviour
 	public void AddFavouriteButtonClicked()
 	{
 		SoundManager2.instance.PlayButtonSound();
-		SuperStarAd.Instance.ShowInterstitialTimer(null);
+		SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
 		if (StorageManager2.instance.HasFavouriteMapId(currentMapData.Id))
 		{
 			StorageManager2.instance.RemoveFavouriteMapId(currentMapData.Id);

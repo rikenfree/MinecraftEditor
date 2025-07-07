@@ -163,13 +163,16 @@ namespace Main.View
         {
             SoundController1.Instance.PlayClickSound();
             selectThemePanel.SetActive(true);
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
 
         public void ClickButtonMenu()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonMenuDelegate);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                ClickButtonMenuDelegate();
+            }, 3);
         }
 
         public void OnClickexitYes()
@@ -197,7 +200,7 @@ namespace Main.View
             SucessfullyPopup.SetActive(false);
         }
 
-        public void ClickButtonMenuDelegate(bool result)
+        public void ClickButtonMenuDelegate()
         {
             SoundController1.Instance.PlayClickSound();
             base.scene.view.menuCanvas.gameObject.SetActive(value: true);
@@ -207,7 +210,10 @@ namespace Main.View
         public void ClickButtonNew()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonNewDelegate);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                ClickButtonNewDelegate();
+            }, 3);
         }
 
         public void SubscribeButtonClick()
@@ -220,7 +226,7 @@ namespace Main.View
             }
         }
 
-        public void ClickButtonNewDelegate(bool result)
+        public void ClickButtonNewDelegate()
         {
             SoundController1.Instance.PlayClickSound();
             ctrl.newCharacter.OpenNewCharacterView();
@@ -230,10 +236,13 @@ namespace Main.View
         public void ClickButtonCapePick()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonCapePickDelegate);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                ClickButtonCapePickDelegate();
+            }, 3);
         }
 
-        public void ClickButtonCapePickDelegate(bool result)
+        public void ClickButtonCapePickDelegate()
         {
             SoundController1.Instance.PlayClickSound();
             capePickFromGalleryPopup.SetActive(true);
@@ -242,10 +251,13 @@ namespace Main.View
         public void ClickButtonSave()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonSaveDelegate);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                ClickButtonSaveDelegate();
+            }, 3);
         }
 
-        public void ClickButtonSaveDelegate(bool result)
+        public void ClickButtonSaveDelegate()
         {
             SoundController1.Instance.PlayClickSound();
             base.scene.view.saveCharacter.gameObject.SetActive(value: true);
@@ -266,7 +278,7 @@ namespace Main.View
                 CapeController.Instance.currentcap.elytraObject.SetActive(false);
                 leftPanelRect.anchoredPosition = new Vector2(-191f, leftPanelRect.anchoredPosition.y);
                 cnt = 1;
-                
+
             }
             else
             {
@@ -284,7 +296,7 @@ namespace Main.View
                 leftPanelRect.anchoredPosition = new Vector2(-105f, leftPanelRect.anchoredPosition.y);
                 cnt = 0;
             }
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
 
         public void ClickButtonBodyDelegate()
@@ -469,7 +481,7 @@ namespace Main.View
         {
             SoundController1.Instance.PlayClickSound();
             //SuperStarAd.Instance.adCount = 0;
-            SuperStarAd.Instance.ShowForceInterstitial((result) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
             {
 
                 if (result)
@@ -480,7 +492,7 @@ namespace Main.View
                 {
                     ToastManager.Instance.ShowToast("Ad is not Loaded");
                 }
-            });
+            }, 3);
             //ctrl.ga.SendEvent("Button Click", "Triggered Ad", "");
         }
 
@@ -532,7 +544,7 @@ namespace Main.View
                 CapeController.Instance.currentcap.OnClickGridOnOff(true);
                 CB.MarkSelected();
             }
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
 
         public void CheckInterNetConnection()
@@ -653,32 +665,32 @@ namespace Main.View
         public void CreateNewCape2217()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitial((o) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
             {
 
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.C2217);
                 OnclickCapePickFromGalleryCancelButton();
 
-            });
+            }, 3);
         }
 
         public void CreateNewCape6432()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitial((o) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
             {
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.C6432);
                 OnclickCapePickFromGalleryCancelButton();
-            });
+            }, 3);
         }
         public void CreateNewCape512256()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitial((o) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
             {
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.C512256);
                 OnclickCapePickFromGalleryCancelButton();
-            });
+            }, 3);
 
 
         }
@@ -686,11 +698,11 @@ namespace Main.View
         public void CreateNewElytra6432()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitial((o) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
             {
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.Elytra6432);
                 OnclickCapePickFromGalleryCancelButton();
-            });
+            }, 3);
 
         }
 
@@ -712,7 +724,7 @@ namespace Main.View
 
             }
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowInterstitialTimer(null);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
         }
 
         public void OnClickBackFromCollectionView()

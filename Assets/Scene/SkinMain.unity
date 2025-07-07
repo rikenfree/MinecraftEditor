@@ -44591,6 +44591,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 1463036231}
   _videoPlayerGameObject: {fileID: 1463036229}
   _gameName: {fileID: 1393257331}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 286437978}
   _videoContent: {fileID: 1914838377}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -46246,6 +46249,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 2004272042}
   _videoPlayerGameObject: {fileID: 2004272040}
   _gameName: {fileID: 1119010275}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 733951375}
   _videoContent: {fileID: 1047236547}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -49604,6 +49610,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 2107989719}
   _videoPlayerGameObject: {fileID: 2107989717}
   _gameName: {fileID: 2093743999}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 268644460}
   _videoContent: {fileID: 1733704955}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -62126,7 +62135,7 @@ MonoBehaviour:
   m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 2
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
@@ -64864,6 +64873,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 779959053}
   _videoPlayerGameObject: {fileID: 779959051}
   _gameName: {fileID: 1106960016}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 236514976}
   _videoContent: {fileID: 578535807}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -65338,7 +65350,7 @@ MonoBehaviour:
   m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 2
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
@@ -66930,6 +66942,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 957648879}
   _videoPlayerGameObject: {fileID: 957648877}
   _gameName: {fileID: 1582497933}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 399999651}
   _videoContent: {fileID: 1876680348}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -69693,6 +69708,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 825587040}
   _videoPlayerGameObject: {fileID: 825587038}
   _gameName: {fileID: 527738424}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 2046803634}
   _videoContent: {fileID: 1841701303}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -83591,6 +83609,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 77177993}
   _videoPlayerGameObject: {fileID: 77177991}
   _gameName: {fileID: 422551184}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 625793406}
   _videoContent: {fileID: 27384567}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -93457,7 +93478,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &2084098959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95029,7 +95050,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &2147197257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103315,6 +103336,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 6581145260901764139}
   _videoPlayerGameObject: {fileID: 7257881455547213490}
   _gameName: {fileID: 6634744123739098500}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 5450549109442798525}
   _videoContent: {fileID: 4771039491053058764}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -103824,7 +103848,7 @@ MonoBehaviour:
   m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 2
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
@@ -107322,7 +107346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &7006511839923565542
 GameObject:
   m_ObjectHideFlags: 0

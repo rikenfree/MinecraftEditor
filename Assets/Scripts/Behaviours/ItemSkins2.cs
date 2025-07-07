@@ -105,7 +105,7 @@ public class ItemSkins2 : MonoBehaviour
         if (PlayerPrefs.GetInt("Item_" + CurrentIndex1, 0) == 0)
         {
            // SceneManager.instance.waitingPanel.gameObject.SetActive(false);
-            SuperStarAd.Instance.ShowInterstitialTimer((result) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
             {
 
                 SkinManager2.Instance.SelectSkin(Resources.Load<Texture2D>("DefaultSkins/" + (CurrentIndex1)), Resources.Load<Texture2D>("DefaultSkinsSprites/" + (CurrentIndex1)));
@@ -143,7 +143,7 @@ public class ItemSkins2 : MonoBehaviour
         if (PlayerPrefs.GetInt("Item_" +(CurrentIndex2), 0) == 0)
         {
 
-            SuperStarAd.Instance.ShowInterstitialTimer((result) =>
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
             {
 
                 //  SceneManager.instance.waitingPanel.gameObject.SetActive(false);

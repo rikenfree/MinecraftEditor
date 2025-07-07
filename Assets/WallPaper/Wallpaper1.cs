@@ -205,7 +205,7 @@ public class Wallpaper1 : MonoBehaviour
         else
         {
             Debug.Log("regular");
-            SuperStarAd.Instance.ShowInterstitialTimer((result) => { StartCoroutine(DownloadWallPaperImageWithURL(path)); });
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) => { StartCoroutine(DownloadWallPaperImageWithURL(path)); });
         }
     }
 

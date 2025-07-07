@@ -161,7 +161,7 @@ namespace SuperStarSdk
         {
             Debug.Log("Initialization completed");
             LoadBanner();
-
+            LoadInterstitialIS();
         }
 
         void LoadBanner()
@@ -591,7 +591,7 @@ namespace SuperStarSdk
 
         public void ExampleShowIntrestitialWithCallback()
         {
-            ShowInterstitialTimer(TestIntrestitialWithCallback);
+            ShowForceInterstitialWithLoader(TestIntrestitialWithCallback);
         }
 
         public void ExampleShowIntrestitialWithLoaderCallback()
@@ -636,7 +636,7 @@ namespace SuperStarSdk
         public Action<bool> _callbackIntrestital;
         [HideInInspector]
         public bool isIntrestitiallShowing = false;
-        public void ShowInterstitialTimer(Action<bool> onComplete)
+        public void ShowForceInterstitialWithLoader(Action<bool> onComplete)
         {
             tryCount = 0;
             Debug.Log("isIntrestitiallShowing => " + isIntrestitiallShowing);
