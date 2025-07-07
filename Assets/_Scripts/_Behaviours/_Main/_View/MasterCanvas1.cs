@@ -264,7 +264,7 @@ namespace Main.View
                 buttonBody.MarkSelected();
                 CapeController.Instance.currentcap.capeObject.SetActive(false);
                 CapeController.Instance.currentcap.elytraObject.SetActive(false);
-                leftPanelRect.anchoredPosition = new Vector2(-191f, leftPanelRect.anchoredPosition.y);
+                leftPanelRect.anchoredPosition = new Vector2(-122f, leftPanelRect.anchoredPosition.y);
                 cnt = 1;
                 
             }

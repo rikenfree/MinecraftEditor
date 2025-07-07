@@ -6814,6 +6814,270 @@ MonoBehaviour:
       - "\u56FE\u50CF\u88C1\u526A\u5668"
       Flags: 0000000000000000000000000000
       Languages_Touch: []
+    - Term: Cape Elytra Collection
+      TermType: 0
+      Description: 
+      Languages:
+      - Cape/Elytra Collection
+      - "Colecci\xF3n De Capa/\xC9litros"
+      - "Collection Cape/\xC9lytres"
+      - "\u30B1\u30FC\u30D7/\u30A8\u30EA\u30C8\u30E9\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3"
+      - "\u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u041F\u043B\u0430\u0449\u0435\u0439/\u041D\u0430\u0434\u043A\u0440\u044B\u043B\u0438\u0439"
+      - "B\u1ED9 S\u01B0u T\u1EADp Cape/Elytra"
+      - "\u0E04\u0E2D\u0E25\u0E40\u0E25\u0E04\u0E0A\u0E31\u0E48\u0E19\u0E40\u0E04\u0E1B/\u0E40\u0E2D\u0E25\u0E35\u0E15\u0E23\u0E32"
+      - "Cole\xE7\xE3o De Capas/\xC9litros"
+      - Kolekcja Peleryny/Elytry
+      - "\uCF00\uC774\uD504/\uC5D8\uB9AC\uD2B8\uB77C \uCEEC\uB809\uC158"
+      - Collezione Mantello/Elitre
+      - Kap/Elytra-Sammlung
+      - Cape/Elytra Koleksiyonu
+      - "\u62AB\u98CE/\u9798\u7FC5\u7CFB\u5217"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 1. Open minecraft pocket edition and press on the profile button in the
+        bottom right corner of the screen.
+      TermType: 0
+      Description: 
+      Languages:
+      - "1. Open minecraft pocket edition and press on the profile button \n    in
+        the bottom right corner of the screen."
+      - "1. Abre Minecraft Pocket Edition y pulsa el bot\xF3n de perfil en la esquina
+        inferior derecha de la pantalla."
+      - "1. Ouvrez Minecraft Pocket Edition et appuyez sur le bouton de profil en
+        bas \xE0 droite de l'\xE9cran."
+      - "1. Minecraft Pocket Edition\u3092\u958B\u304D\u3001\u753B\u9762\u53F3\u4E0B\u306B\u3042\u308B\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB\u30DC\u30BF\u30F3\u3092\u62BC\u3057\u307E\u3059\u3002"
+      - "1. \u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 Minecraft Pocket Edition
+        \u0438 \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u043A\u043D\u043E\u043F\u043A\u0443
+        \u043F\u0440\u043E\u0444\u0438\u043B\u044F \n\u0432 \u043F\u0440\u0430\u0432\u043E\u043C
+        \u043D\u0438\u0436\u043D\u0435\u043C \u0443\u0433\u043B\u0443 \u044D\u043A\u0440\u0430\u043D\u0430."
+      - "1. M\u1EDF Minecraft Pocket Edition v\xE0 nh\u1EA5n v\xE0o n\xFAt h\u1ED3
+        s\u01A1\n\u1EDF g\xF3c d\u01B0\u1EDBi b\xEAn ph\u1EA3i m\xE0n h\xECnh."
+      - "1. \u0E40\u0E1B\u0E34\u0E14 Minecraft Pocket Edition \u0E41\u0E25\u0E49\u0E27\u0E01\u0E14\u0E1B\u0E38\u0E48\u0E21\u0E42\u0E1B\u0E23\u0E44\u0E1F\u0E25\u0E4C
+        \n\u0E17\u0E35\u0E48\u0E21\u0E38\u0E21\u0E02\u0E27\u0E32\u0E25\u0E48\u0E32\u0E07\u0E02\u0E2D\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E08\u0E2D"
+      - "1. Abra o Minecraft Pocket Edition e pressione o bot\xE3o de perfil\nno
+        canto inferior direito da tela."
+      - "1. Otw\xF3rz Minecraft Pocket Edition i naci\u015Bnij przycisk profilu \nw
+        prawym dolnym rogu ekranu."
+      - "1. \uB9C8\uC778\uD06C\uB798\uD504\uD2B8 \uD3EC\uCF13 \uC5D0\uB514\uC158\uC744
+        \uC5F4\uACE0 \uD654\uBA74 \uC624\uB978\uCABD \uD558\uB2E8\uC5D0 \uC788\uB294
+        \uD504\uB85C\uD544 \uBC84\uD2BC\uC744 \uB204\uB974\uC138\uC694."
+      - 1. Apri Minecraft Pocket Edition e premi il pulsante del profilo nell'angolo
+        in basso a destra dello schermo.
+      - "1. \xD6ffnen Sie die Minecraft Pocket Edition und dr\xFCcken Sie unten rechts
+        auf dem Bildschirm auf die Profilschaltfl\xE4che."
+      - "1. Minecraft Pocket Edition'\u0131 a\xE7\u0131n ve ekran\u0131n sa\u011F
+        alt k\xF6\u015Fesindeki profil d\xFC\u011Fmesine \nbas\u0131n."
+      - "1. \u6253\u5F00\u300A\u6211\u7684\u4E16\u754C\uFF1A\u8896\u73CD\u7248\u300B\uFF0C\u7136\u540E\u6309\u4E0B\u5C4F\u5E55\u53F3\u4E0B\u89D2\u7684\u4E2A\u4EBA\u8D44\u6599\u6309\u94AE\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Do this after saving the texture in the gallery.
+      TermType: 0
+      Description: 
+      Languages:
+      - Do this after saving the texture in the gallery.
+      - "Haga esto despu\xE9s de guardar la textura en la galer\xEDa."
+      - "Faites ceci apr\xE8s avoir enregistr\xE9 la texture dans la galerie."
+      - "\u30C6\u30AF\u30B9\u30C1\u30E3\u3092\u30AE\u30E3\u30E9\u30EA\u30FC\u306B\u4FDD\u5B58\u3057\u305F\u5F8C\u306B\u3053\u308C\u3092\u5B9F\u884C\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "\u0421\u0434\u0435\u043B\u0430\u0439\u0442\u0435 \u044D\u0442\u043E \u043F\u043E\u0441\u043B\u0435
+        \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B
+        \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435."
+      - "Th\u1EF1c hi\u1EC7n vi\u1EC7c n\xE0y sau khi l\u01B0u k\u1EBFt c\u1EA5u
+        v\xE0o th\u01B0 vi\u1EC7n."
+      - "\u0E17\u0E33\u0E2A\u0E34\u0E48\u0E07\u0E19\u0E35\u0E49\u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E1E\u0E37\u0E49\u0E19\u0E1C\u0E34\u0E27\u0E43\u0E19\u0E41\u0E01\u0E25\u0E40\u0E25\u0E2D\u0E23\u0E35"
+      - "Fa\xE7a isso depois de salvar a textura na galeria."
+      - "Zr\xF3b to po zapisaniu tekstury w galerii."
+      - "\uAC24\uB7EC\uB9AC\uC5D0 \uD14D\uC2A4\uCC98\uB97C \uC800\uC7A5\uD55C \uD6C4
+        \uC774 \uC791\uC5C5\uC744 \uC218\uD589\uD558\uC138\uC694."
+      - Esegui questa operazione dopo aver salvato la texture nella galleria.
+      - Tun Sie dies, nachdem Sie die Textur in der Galerie gespeichert haben.
+      - "Bunu dokuyu galeriye kaydettikten sonra yap\u0131n."
+      - "\u5728\u56FE\u5E93\u4E2D\u4FDD\u5B58\u7EB9\u7406\u540E\u6267\u884C\u6B64\u64CD\u4F5C\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: Now do these steps to finish.
+      TermType: 0
+      Description: 
+      Languages:
+      - Now do these steps to finish.
+      - Ahora sigue estos pasos para finalizar.
+      - "Suivez maintenant ces \xE9tapes pour terminer."
+      - "\u6B21\u306B\u3001\u6B21\u306E\u624B\u9806\u3092\u5B9F\u884C\u3057\u3066\u7D42\u4E86\u3057\u307E\u3059\u3002"
+      - "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u0435
+        \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435 \u0448\u0430\u0433\u0438,
+        \u0447\u0442\u043E\u0431\u044B \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u044C."
+      - "B\xE2y gi\u1EDD h\xE3y th\u1EF1c hi\u1EC7n c\xE1c b\u01B0\u1EDBc sau \u0111\u1EC3
+        ho\xE0n t\u1EA5t."
+      - "\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E17\u0E33\u0E15\u0E32\u0E21\u0E02\u0E31\u0E49\u0E19\u0E15\u0E2D\u0E19\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E34\u0E49\u0E19"
+      - Agora siga estes passos para finalizar.
+      - "Teraz wykonaj poni\u017Csze kroki, aby zako\u0144czy\u0107."
+      - "\uC774\uC81C \uB2E4\uC74C \uB2E8\uACC4\uB97C \uB530\uB77C \uB9C8\uBB34\uB9AC\uD558\uC138\uC694."
+      - Ora segui questi passaggi per concludere.
+      - "F\xFChren Sie nun zum Abschluss diese Schritte aus."
+      - "\u015Eimdi bitirmek i\xE7in \u015Fu ad\u0131mlar\u0131 uygulay\u0131n."
+      - "\u73B0\u5728\u6267\u884C\u4EE5\u4E0B\u6B65\u9AA4\u5373\u53EF\u5B8C\u6210\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 1. Open Minecraft Pocket Edition and tap the profile button at the bottom
+        right.
+      TermType: 0
+      Description: 
+      Languages:
+      - "1. Open Minecraft Pocket Edition and \ntap the profile button at the bottom
+        right."
+      - "1. Abre Minecraft Pocket Edition y pulsa el bot\xF3n de perfil en la esquina
+        inferior derecha."
+      - "1. Ouvrez Minecraft Pocket Edition et appuyez sur le bouton de profil en
+        bas \xE0 droite."
+      - "1. Minecraft Pocket Edition\u3092\u958B\u304D\u3001\u53F3\u4E0B\u306B\u3042\u308B\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB\u30DC\u30BF\u30F3\u3092\u30BF\u30C3\u30D7\u3057\u307E\u3059\u3002"
+      - "1. \u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 Minecraft Pocket Edition
+        \u0438 \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \u043A\u043D\u043E\u043F\u043A\u0443
+        \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0432 \u043F\u0440\u0430\u0432\u043E\u043C
+        \u043D\u0438\u0436\u043D\u0435\u043C \u0443\u0433\u043B\u0443."
+      - "1. M\u1EDF Minecraft Pocket Edition v\xE0\nch\u1EA1m v\xE0o n\xFAt h\u1ED3
+        s\u01A1 \u1EDF g\xF3c d\u01B0\u1EDBi b\xEAn ph\u1EA3i."
+      - "1. \u0E40\u0E1B\u0E34\u0E14 Minecraft Pocket Edition \u0E41\u0E25\u0E30\n\u0E41\u0E15\u0E30\u0E1B\u0E38\u0E48\u0E21\u0E42\u0E1B\u0E23\u0E44\u0E1F\u0E25\u0E4C\u0E17\u0E35\u0E48\u0E14\u0E49\u0E32\u0E19\u0E25\u0E48\u0E32\u0E07\u0E02\u0E27\u0E32"
+      - "1. Abra o Minecraft Pocket Edition e\ntoque no bot\xE3o de perfil no canto
+        inferior direito."
+      - "1. Otw\xF3rz Minecraft Pocket Edition i \nstuknij przycisk profilu w prawym
+        dolnym rogu."
+      - "1. Minecraft Pocket Edition\uC744 \uC5F4\uACE0\n\uC624\uB978\uCABD \uD558\uB2E8\uC758
+        \uD504\uB85C\uD544 \uBC84\uD2BC\uC744 \uD0ED\uD558\uC138\uC694."
+      - 1. Apri Minecraft Pocket Edition e tocca il pulsante del profilo in basso
+        a destra.
+      - "1. \xD6ffnen Sie Minecraft Pocket Edition und tippen Sie unten rechts auf
+        die Profilschaltfl\xE4che."
+      - "1. Minecraft Pocket Edition'\u0131 a\xE7\u0131n ve\nsa\u011F alttaki profil
+        d\xFC\u011Fmesine dokunun."
+      - "1. \u6253\u5F00 Minecraft Pocket Edition\uFF0C\u7136\u540E\u70B9\u51FB\u53F3\u4E0B\u89D2\u7684\u4E2A\u4EBA\u8D44\u6599\u6309\u94AE\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 3. Tap the second tab (skin selector) shown in the image.
+      TermType: 0
+      Description: 
+      Languages:
+      - '3. Tap the second tab (skin selector)
+
+        shown in the image.'
+      - "3. Toca la segunda pesta\xF1a (selector de apariencia) que se muestra en
+        la imagen."
+      - "3. Appuyez sur le deuxi\xE8me onglet (s\xE9lecteur de skin)\naffich\xE9
+        sur l'image."
+      - "3. \u753B\u50CF\u306B\u793A\u3055\u308C\u3066\u3044\u308B2\u756A\u76EE\u306E\u30BF\u30D6\uFF08\u30B9\u30AD\u30F3\u30BB\u30EC\u30AF\u30BF\u30FC\uFF09\u3092\u30BF\u30C3\u30D7\u3057\u307E\u3059\u3002"
+      - "3. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u0432\u0442\u043E\u0440\u0443\u044E
+        \u0432\u043A\u043B\u0430\u0434\u043A\u0443 (\u0432\u044B\u0431\u043E\u0440
+        \u0441\u043A\u0438\u043D\u0430), \u043F\u043E\u043A\u0430\u0437\u0430\u043D\u043D\u0443\u044E
+        \u043D\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0438."
+      - "3. Nh\u1EA5n v\xE0o tab th\u1EE9 hai (b\u1ED9 ch\u1ECDn giao di\u1EC7n)\n\u0111\u01B0\u1EE3c
+        hi\u1EC3n th\u1ECB trong h\xECnh \u1EA3nh."
+      - "3. \u0E41\u0E15\u0E30\u0E41\u0E17\u0E47\u0E1A\u0E17\u0E35\u0E48\u0E2A\u0E2D\u0E07
+        (\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2A\u0E01\u0E34\u0E19)\n\u0E14\u0E31\u0E07\u0E17\u0E35\u0E48\u0E41\u0E2A\u0E14\u0E07\u0E43\u0E19\u0E23\u0E39\u0E1B\u0E20\u0E32\u0E1E"
+      - '3. Toque na segunda aba (seletor de skin)
+
+        mostrada na imagem.'
+      - "3. Kliknij drug\u0105 zak\u0142adk\u0119 (selektor sk\xF3rek)\npokazan\u0105
+        na obrazku."
+      - "3. \uC774\uBBF8\uC9C0\uC5D0 \uD45C\uC2DC\uB41C \uB450 \uBC88\uC9F8 \uD0ED(\uC2A4\uD0A8
+        \uC120\uD0DD\uAE30)\uC744 \uD0ED\uD558\uC138\uC694."
+      - '3. Tocca la seconda scheda (selettore skin)
+
+        mostrata nell''immagine.'
+      - 3. Tippen Sie auf die zweite Registerkarte (Skin-Auswahl), die im Bild angezeigt
+        wird.
+      - "3. Resimde g\xF6sterilen ikinci sekmeye (cilt se\xE7ici) dokunun."
+      - "3. \u70B9\u51FB\u56FE\u4E2D\u6240\u793A\u7684\u7B2C\u4E8C\u4E2A\u9009\u9879\u5361\uFF08\u76AE\u80A4\u9009\u62E9\u5668\uFF09\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 7. The gallery will open. Find and select the skin image.
+      TermType: 0
+      Description: 
+      Languages:
+      - 7. The gallery will open. Find and select the skin image.
+      - "7. Se abrir\xE1 la galer\xEDa. Busca y selecciona la imagen del tema."
+      - "7. La galerie s'ouvrira. Recherchez et s\xE9lectionnez l'image du skin."
+      - "7. \u30AE\u30E3\u30E9\u30EA\u30FC\u304C\u958B\u304D\u307E\u3059\u306E\u3067\u3001\u30B9\u30AD\u30F3\u753B\u50CF\u3092\u63A2\u3057\u3066\u9078\u629E\u3057\u307E\u3059\u3002"
+      - "7. \u041E\u0442\u043A\u0440\u043E\u0435\u0442\u0441\u044F \u0433\u0430\u043B\u0435\u0440\u0435\u044F.
+        \u041D\u0430\u0439\u0434\u0438\u0442\u0435 \u0438 \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435
+        \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0441\u043A\u0438\u043D\u0430."
+      - "7. Th\u01B0 vi\u1EC7n s\u1EBD m\u1EDF ra. T\xECm v\xE0 ch\u1ECDn h\xECnh
+        \u1EA3nh skin."
+      - "7. \u0E41\u0E01\u0E25\u0E40\u0E25\u0E2D\u0E23\u0E35\u0E08\u0E30\u0E40\u0E1B\u0E34\u0E14\u0E02\u0E36\u0E49\u0E19
+        \u0E04\u0E49\u0E19\u0E2B\u0E32\u0E41\u0E25\u0E30\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E1E\u0E2A\u0E01\u0E34\u0E19"
+      - "7. A galeria ser\xE1 aberta. Encontre e selecione a imagem da skin."
+      - "7. Galeria zostanie otwarta. Znajd\u017A i wybierz obraz sk\xF3ry."
+      - "7. \uAC24\uB7EC\uB9AC\uAC00 \uC5F4\uB9BD\uB2C8\uB2E4. \uC2A4\uD0A8 \uC774\uBBF8\uC9C0\uB97C
+        \uCC3E\uC544 \uC120\uD0DD\uD558\uC138\uC694."
+      - "7. Si aprir\xE0 la galleria. Trova e seleziona l'immagine della skin."
+      - "7. Die Galerie wird ge\xF6ffnet. Suchen und w\xE4hlen Sie das Skin-Bild
+        aus."
+      - "7. Galeri a\xE7\u0131lacakt\u0131r. Skin resmini bulup se\xE7in."
+      - "7. \u56FE\u5E93\u5C06\u6253\u5F00\u3002\u627E\u5230\u5E76\u9009\u62E9\u76AE\u80A4\u56FE\u7247\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 8. Pick the model that fits your skin best. The only difference is arm
+        size.
+      TermType: 0
+      Description: 
+      Languages:
+      - '8. Pick the model that fits your skin best.
+
+        The only difference
+        is arm size.'
+      - "8. Elige el modelo que mejor se adapte a tu piel. La \xFAnica diferencia
+        es el tama\xF1o del brazo."
+      - "8. Choisissez le mod\xE8le qui correspond le mieux \xE0 votre peau. La seule
+        diff\xE9rence r\xE9side dans la taille des bras."
+      - "8. \u808C\u306B\u6700\u3082\u30D5\u30A3\u30C3\u30C8\u3059\u308B\u30E2\u30C7\u30EB\u3092\u304A\u9078\u3073\u304F\u3060\u3055\u3044\u3002\n\u9055\u3044\u306F\u8155\u306E\u30B5\u30A4\u30BA\u3060\u3051\u3067\u3059\u3002"
+      - "8. \u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043C\u043E\u0434\u0435\u043B\u044C,
+        \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043B\u0443\u0447\u0448\u0435
+        \u0432\u0441\u0435\u0433\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
+        \u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u0436\u0435.\n\u0415\u0434\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0435
+        \u043E\u0442\u043B\u0438\u0447\u0438\u0435 \u2014 \u0440\u0430\u0437\u043C\u0435\u0440
+        \u0440\u0443\u043A\u0438."
+      - "8. Ch\u1ECDn m\u1EABu ph\xF9 h\u1EE3p nh\u1EA5t v\u1EDBi l\xE0n da c\u1EE7a
+        b\u1EA1n.\n\u0110i\u1EC3m kh\xE1c bi\u1EC7t duy nh\u1EA5t l\xE0 k\xEDch th\u01B0\u1EDBc
+        c\xE1nh tay."
+      - "8. \u0E40\u0E25\u0E37\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E17\u0E35\u0E48\u0E40\u0E02\u0E49\u0E32\u0E01\u0E31\u0E1A\u0E1C\u0E34\u0E27\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14\n\u0E04\u0E27\u0E32\u0E21\u0E41\u0E15\u0E01\u0E15\u0E48\u0E32\u0E07\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27\u0E04\u0E37\u0E2D\u0E02\u0E19\u0E32\u0E14\u0E41\u0E02\u0E19"
+      - "8. Escolha o modelo que melhor se adapta \xE0 sua pele.\nA \xFAnica diferen\xE7a
+        \xE9 o tamanho do bra\xE7o."
+      - "8. Wybierz model, kt\xF3ry najlepiej pasuje do Twojej sk\xF3ry.\nJedyna
+        r\xF3\u017Cnica to rozmiar ramienia."
+      - "8. \uC790\uC2E0\uC758 \uD53C\uBD80\uC5D0 \uAC00\uC7A5 \uC798 \uB9DE\uB294
+        \uBAA8\uB378\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n\uC720\uC77C\uD55C \uCC28\uC774\uC810\uC740
+        \uD314 \uD06C\uAE30\uBFD0\uC785\uB2C8\uB2E4."
+      - "8. Scegli il modello pi\xF9 adatto alla tua pelle.\nL'unica differenza \xE8
+        la dimensione del braccio."
+      - "8. W\xE4hlen Sie das Modell, das am besten zu Ihrer Haut passt.\nDer einzige
+        Unterschied ist die Armgr\xF6\xDFe."
+      - "8. Cildinize en uygun modeli se\xE7in.\nTek fark kol \xF6l\xE7\xFCs\xFCd\xFCr."
+      - "8. \u9009\u62E9\u6700\u9002\u5408\u4F60\u80A4\u8D28\u7684\u6B3E\u5F0F\u3002\n\u552F\u4E00\u7684\u533A\u522B\u5728\u4E8E\u624B\u81C2\u5C3A\u5BF8\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: 9. Once you open a world, your new skin will appear.
+      TermType: 0
+      Description: 
+      Languages:
+      - 9. Once you open a world, your new skin will appear.
+      - "9. Una vez que abras un mundo, aparecer\xE1 tu nueva apariencia."
+      - "9. Une fois que vous ouvrez un monde, votre nouveau skin appara\xEEtra."
+      - "9. \u30EF\u30FC\u30EB\u30C9\u3092\u958B\u304F\u3068\u3001\u65B0\u3057\u3044\u30B9\u30AD\u30F3\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002"
+      - "9. \u041A\u0430\u043A \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u044B
+        \u043E\u0442\u043A\u0440\u043E\u0435\u0442\u0435 \u043C\u0438\u0440, \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F
+        \u0432\u0430\u0448 \u043D\u043E\u0432\u044B\u0439 \u0441\u043A\u0438\u043D."
+      - "9. Khi b\u1EA1n m\u1EDF m\u1ED9t th\u1EBF gi\u1EDBi, giao di\u1EC7n m\u1EDBi
+        c\u1EE7a b\u1EA1n s\u1EBD xu\u1EA5t hi\u1EC7n."
+      - "9. \u0E40\u0E21\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E13\u0E40\u0E1B\u0E34\u0E14\u0E42\u0E25\u0E01
+        \u0E2A\u0E01\u0E34\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E02\u0E36\u0E49\u0E19"
+      - "9. Depois de abrir um mundo, sua nova skin aparecer\xE1."
+      - "9. Po otwarciu \u015Bwiata pojawi si\u0119 Twoja nowa sk\xF3rka."
+      - "9. \uC138\uACC4\uB97C \uC5F4\uBA74 \uC0C8\uB85C\uC6B4 \uC2A4\uD0A8\uC774
+        \uB098\uD0C0\uB0A9\uB2C8\uB2E4."
+      - "9. Una volta aperto un mondo, apparir\xE0 la tua nuova skin."
+      - "9. Sobald Sie eine Welt \xF6ffnen, wird Ihr neues Skin angezeigt."
+      - "9. Bir d\xFCnyay\u0131 a\xE7t\u0131\u011F\u0131n\u0131zda yeni skininiz
+        kar\u015F\u0131n\u0131za \xE7\u0131kacak."
+      - "9.\u4E00\u65E6\u4F60\u6253\u5F00\u4E00\u4E2A\u4E16\u754C\uFF0C\u4F60\u7684\u65B0\u76AE\u80A4\u5C31\u4F1A\u51FA\u73B0\u3002"
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
