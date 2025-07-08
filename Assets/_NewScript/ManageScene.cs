@@ -2,9 +2,22 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using SuperStarSdk;
 using Main.Controller;
+using System.Collections;
 
 public class ManageScene : MonoBehaviour
 {
+    public GameObject ColorPanel;
+
+    private void Start()
+    {
+        StartCoroutine(opencolorpanel());
+    }
+
+    IEnumerator opencolorpanel()
+    {
+        ColorPanel.SetActive(true);
+        yield return new WaitForSeconds(15);
+    }
     public void SkinEditor()
     {
         SceneManager.LoadSceneAsync(1);

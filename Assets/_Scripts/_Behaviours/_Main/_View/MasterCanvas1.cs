@@ -717,6 +717,7 @@ namespace Main.View
 
         public void OnClickBackFromCollectionView()
         {
+            Debug.Log("OnClickBackFromCollectionView");
             SoundController1.Instance.PlayClickSound();
             isEditorShowing = true;
             for (int i = 0; i < EditorScreens.Length; i++)
