@@ -60,12 +60,17 @@ welcomeWaitTime=0;
     {
         if (welcomeDone)
         {
-            SceneManager.LoadSceneAsync(2);
+            StartCoroutine(LoadSceneAsync(2));
+        }
+    }
 
-            //SuperStarAd.Instance.ShowInterstitialTimer((result) => {
-            //    Debug.Log("Show Intrestitial  => " + result);
-            //});
-
+    private IEnumerator LoadSceneAsync(int sceneIndex)
+    {
+        // Optionally show loading UI here
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
         }
     }
 }

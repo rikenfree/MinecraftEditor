@@ -46,8 +46,15 @@ public class CustomLoding2 : MonoBehaviour
     {
         if (loadingDone)
         {
-
-            SceneManager.LoadSceneAsync(7);
+            StartCoroutine(LoadSceneAsync(7));
+        }
+    }
+    private IEnumerator LoadSceneAsync(int sceneIndex)
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
         }
     }
 }

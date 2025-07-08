@@ -81,21 +81,23 @@ public class CustomLoding1 : MonoBehaviour
     }
     public void OnClickCapeEditorButton()
     {
-
         SoundController1.Instance.PlayClickSound();
-        SceneManager.LoadSceneAsync(4);
-        Debug.Log("Try_1");
-        //SuperStarAd.Instance.ShowInterstitial();
-
+        StartCoroutine(LoadSceneAsync(4));
     }
 
     public void OnClickCustomCapeAddonButton()
     {
-
         SoundController1.Instance.PlayClickSound();
-        SceneManager.LoadSceneAsync(5);
-        Debug.Log("Try_2");
-        //SuperStarAd.Instance.ShowInterstitial();
+        StartCoroutine(LoadSceneAsync(5));
+    }
 
+    private IEnumerator LoadSceneAsync(int sceneIndex)
+    {
+        // Optionally show loading UI here
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿#if !UNITY_EDITOR && UNITY_IOS
+﻿#if UNITY_EDITOR || UNITY_IOS
 using UnityEngine;
 
 namespace NativeShareNamespace
@@ -21,6 +21,7 @@ namespace NativeShareNamespace
 			instance.callback = callback;
 		}
 
+		[UnityEngine.Scripting.Preserve]
 		public void OnShareCompleted( string message )
 		{
 			NativeShare.ShareResultCallback _callback = callback;

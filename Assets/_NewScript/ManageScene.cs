@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using SuperStarSdk;
 using Main.Controller;
+using System.Collections;
 
 public class ManageScene : MonoBehaviour
 {
@@ -11,71 +12,72 @@ public class ManageScene : MonoBehaviour
         {
             SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
             {
-                SceneManager.LoadSceneAsync(1);
-
+                StartCoroutine(LoadSceneAsync(1));
             }, 3);
         }
         else
         {
-            SceneManager.LoadSceneAsync(1);
+            StartCoroutine(LoadSceneAsync(1));
         }
     }
 
     public void CapEditor()
     {
-        //SceneManager.LoadSceneAsync(3);
         if (SuperStarAd.Instance.NoAds == 0)
         {
             SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
             {
-                SceneManager.LoadSceneAsync(3);
-
+                StartCoroutine(LoadSceneAsync(3));
             }, 3);
         }
         else
         {
-            SceneManager.LoadSceneAsync(3);
+            StartCoroutine(LoadSceneAsync(3));
         }
     }
 
     public void MapsMinecraft()
     {
-        //SceneManager.LoadSceneAsync(6);
         if (SuperStarAd.Instance.NoAds == 0)
         {
             SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
             {
-                SceneManager.LoadSceneAsync(6);
-
+                StartCoroutine(LoadSceneAsync(6));
             }, 3);
         }
         else
         {
-            SceneManager.LoadSceneAsync(6);
+            StartCoroutine(LoadSceneAsync(6));
         }
     }
 
     public void OnBackButtonClick()
     {
-        //SceneManager.LoadSceneAsync(0);
         if (SuperStarAd.Instance.NoAds == 0)
         {
             SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
             {
-                SceneManager.LoadSceneAsync(0);
-
+                StartCoroutine(LoadSceneAsync(0));
             }, 3);
         }
         else
         {
-            SceneManager.LoadSceneAsync(0);
+            StartCoroutine(LoadSceneAsync(0));
         }
     }
 
     public void ClickButtonShare()
     {
-        //SoundController.instance.PlayClickSound();
-        //base.gameObject.SetActive(value: false);
         SuperStarSdkManager.Instance.Share();
+    }
+
+    private IEnumerator LoadSceneAsync(int sceneIndex)
+    {
+        // Optionally show loading UI here
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 }

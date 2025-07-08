@@ -1,4 +1,4 @@
-﻿#if !UNITY_EDITOR && UNITY_ANDROID
+﻿#if UNITY_EDITOR || UNITY_ANDROID
 using UnityEngine;
 
 namespace NativeShareNamespace
@@ -13,6 +13,7 @@ namespace NativeShareNamespace
 			callbackHelper.callback = callback;
 		}
 
+		[UnityEngine.Scripting.Preserve]
 		public void OnShareCompleted( int result, string shareTarget )
 		{
 			if( !callbackHelper )
@@ -24,6 +25,7 @@ namespace NativeShareNamespace
 			callbackHelper.OnShareCompleted( result, shareTarget );
 		}
 
+		[UnityEngine.Scripting.Preserve]
 		public bool HasManagedCallback()
 		{
 			return callbackHelper && callbackHelper.callback != null;

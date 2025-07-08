@@ -3123,7 +3123,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!222 &2984187823582064132
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3503,9 +3503,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b109680bc48060e44b66ff07f850dd48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestinationPos: {x: 0, y: 500}
-  tostObject: {fileID: 5780527470281693487, guid: 89ba35fe81934ab4bb9d4e9d71444669, type: 3}
-  tostParent: {fileID: 8520680287085529634}
+  toastPrefab: {fileID: 0}
+  toastParent: {fileID: 0}
+  defaultPosition: {x: 0, y: 300}
+  poolSize: 10
 --- !u!224 &3349151156950913020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4868,6 +4869,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a795cd98cecff044cb8d20a083a42405, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTestAdmobAds: 0
+  BannerAdsIds: []
+  IntrestitialAdsIds: []
+  RewardAdsIds: []
+  BannerIdIndex: 0
+  IntrestitialIdIndex: 0
+  RewardIdIndex: 0
+  AppOpenIdIndex: 0
+  AppNativeIdIndex: 0
   testMode: 0
   baanerPosition: 2
   baanerPositionadmob: 1
@@ -5507,7 +5517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe484bb61d58c8f40abaf865093e68dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _connectionTester: {fileID: 0}
   isinternetavailable: 0
   NoInternetPopUp: {fileID: 1953194517714198495}
 --- !u!222 &6068097700267488200
@@ -6612,6 +6621,9 @@ MonoBehaviour:
     moreappurl: https://velocitytechnosoft.com/API/SuperStarGames/AndroidCraftManiaPE/Moreapps/More%20apps.html
     PrivacyPolicy: https://capeditor.blogspot.com/2022/01/3dcapeditorformcpe.html
     ISAppKey: 134111e59
+    ISBID: []
+    ISInID: []
+    ISReID: []
     AdmobAppKey: ca-app-pub-1407232796132402~4862432529
     ExtraURL: https://www.google.com/
     subscribeUrl: https://velocitytechnosoft.com/API/MCPE/LinkTreeMCPE/index.html
