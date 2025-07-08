@@ -6,27 +6,24 @@ using System.Collections;
 public class ThemeManagment : MonoBehaviour
 {
     public Type type;
+
     Image image;
     TextMeshProUGUI textMeshPro;
     Text uiText;
 
     private void OnEnable()
     {
-        // Apply theme when the object becomes active (after scene change etc.)
-        if (ColorClass.instance != null)
-        {
-            ApplyTheme();
-        }
+        StartCoroutine(ApplyThemeWhenReady()); // Always apply on enable
     }
 
-    private IEnumerator Start()
+    private IEnumerator ApplyThemeWhenReady()
     {
-        // Wait until ColorClass.instance is assigned (only for first scene load)
         yield return new WaitUntil(() => ColorClass.instance != null);
 
-        image = GetComponent<Image>();
-        textMeshPro = GetComponent<TextMeshProUGUI>();
-        uiText = GetComponent<Text>();
+        // Lazy load components
+        if (image == null) image = GetComponent<Image>();
+        if (textMeshPro == null) textMeshPro = GetComponent<TextMeshProUGUI>();
+        if (uiText == null) uiText = GetComponent<Text>();
 
         ApplyTheme();
     }
@@ -75,33 +72,9 @@ public class ThemeManagment : MonoBehaviour
         }
     }
 
-    // Public method for external calls (from ColorClass)
     public void ApplyThemeFromOutside()
     {
-        ApplyTheme();
-    }
-
-    // Optional utility to get color from PlayerPrefs string
-    public static Color GetColorFromPrefs(string playerPrefsKey)
-    {
-        if (PlayerPrefs.HasKey(playerPrefsKey))
-        {
-            string hex = PlayerPrefs.GetString(playerPrefsKey);
-            if (ColorUtility.TryParseHtmlString(hex, out Color color))
-            {
-                return color;
-            }
-            else
-            {
-                Debug.LogWarning("Invalid Hex Color in key: " + playerPrefsKey + " → Value: " + hex);
-                return Color.white;
-            }
-        }
-        else
-        {
-            Debug.LogWarning("No color found in PlayerPrefs with key: " + playerPrefsKey);
-            return Color.white;
-        }
+        StartCoroutine(ApplyThemeWhenReady());
     }
 
     public enum Type

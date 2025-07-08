@@ -7,11 +7,14 @@ public class GetIndexScript : MonoBehaviour
         Debug.Log("Selected Color Index: " + index);
         PlayerPrefs.SetInt("selectedColorIndex", index);
 
-        // Refresh theme on current scene's UI
-        ThemeManagment[] themeElements = FindObjectsByType<ThemeManagment>(FindObjectsSortMode.None);
+        // Refresh theme on ALL UI elements (including inactive ones)
+        ThemeManagment[] themeElements = Resources.FindObjectsOfTypeAll<ThemeManagment>();
         foreach (var element in themeElements)
         {
-            element.ApplyThemeFromOutside();
+            if (element.gameObject.scene.IsValid()) // exclude prefabs
+            {
+                element.ApplyThemeFromOutside();
+            }
         }
     }
 }
