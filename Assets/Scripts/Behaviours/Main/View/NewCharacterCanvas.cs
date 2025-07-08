@@ -50,52 +50,86 @@ namespace Main.View
 
         public void ClickCatalogButton()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    catalogCanvas.Show();
+                    base.scene.controller.sound.PlayClickSound();
+                    //base.scene.controller.newCharacter.CloseNewCharacterView();
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
+            else
             {
                 catalogCanvas.Show();
                 base.scene.controller.sound.PlayClickSound();
                 //base.scene.controller.newCharacter.CloseNewCharacterView();
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
-            //ctrl.ga.SendEvent("Button Click", "New From Catalog", "");
+            }
         }
 
         public void ClickSkinPackCreator()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    DynamicSkinPackCreator.Instance.ResetData();
+                    daynamicTool.SetActive(true);
+                    base.scene.controller.sound.PlayClickSound();
+                    //base.scene.controller.newCharacter.CloseNewCharacterView();
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
+            else
             {
                 DynamicSkinPackCreator.Instance.ResetData();
                 daynamicTool.SetActive(true);
                 base.scene.controller.sound.PlayClickSound();
-                //base.scene.controller.newCharacter.CloseNewCharacterView();
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+            }
         }
 
 
         public void ClickSteveButton()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    character.LoadSteveSkin();
+                    ReloadBodyPartsData();
+                    base.scene.controller.sound.PlayClickSound();
+                    base.scene.controller.newCharacter.CloseNewCharacterView();
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
+            else
             {
                 character.LoadSteveSkin();
                 ReloadBodyPartsData();
                 base.scene.controller.sound.PlayClickSound();
                 base.scene.controller.newCharacter.CloseNewCharacterView();
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
-            //ctrl.ga.SendEvent("Button Click", "New From Steve", "");
+            }
         }
 
         public void ClickMCPEButton()
         {
-            base.scene.controller.sound.PlayClickSound();
-            base.scene.controller.newCharacter.CloseNewCharacterView();
-            character.LoadMCPE();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
-            //ctrl.ga.SendEvent("Button Click", "New From MCPE", "");
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    base.scene.controller.sound.PlayClickSound();
+                    base.scene.controller.newCharacter.CloseNewCharacterView();
+                    character.LoadMCPE();
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
+            else
+            {
+                base.scene.controller.sound.PlayClickSound();
+                base.scene.controller.newCharacter.CloseNewCharacterView();
+                character.LoadMCPE();
+            }
         }
 
         public void ClickGalleryButton()
@@ -111,27 +145,46 @@ namespace Main.View
 
         public void ClickSearchOnlineButton()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    base.scene.controller.sound.PlayClickSound();
+                    base.scene.controller.newCharacter.CloseNewCharacterView();
+                    onlineNameCanvas.gameObject.SetActive(value: true);
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
+            else
             {
                 base.scene.controller.sound.PlayClickSound();
                 base.scene.controller.newCharacter.CloseNewCharacterView();
                 onlineNameCanvas.gameObject.SetActive(value: true);
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
-            //	ctrl.ga.SendEvent("Button Click", "New From Online", "");
+            }
         }
 
         public void ClickSearchOnlineConfirm()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    TMP_InputField componentInChildren = onlineNameCanvas.GetComponentInChildren<TMP_InputField>();
+                    base.scene.view.waitingCanvas.ShowLoadingSkinOnlineWaiting();
+                    character.LoadSkinOnine(componentInChildren.text);
+                    base.scene.controller.sound.PlayClickSound();
+                    onlineNameCanvas.gameObject.SetActive(value: false);
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
+            else
             {
                 TMP_InputField componentInChildren = onlineNameCanvas.GetComponentInChildren<TMP_InputField>();
                 base.scene.view.waitingCanvas.ShowLoadingSkinOnlineWaiting();
                 character.LoadSkinOnine(componentInChildren.text);
                 base.scene.controller.sound.PlayClickSound();
                 onlineNameCanvas.gameObject.SetActive(value: false);
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+            }
         }
 
         public void ClickSearchOnlineCancel()
@@ -142,14 +195,24 @@ namespace Main.View
 
         public void ClickRandomOnlineButton()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    base.scene.view.waitingCanvas.ShowLoadingSkinOnlineWaiting();
+                    character.LoadRandomSkinOnine();
+                    base.scene.controller.sound.PlayClickSound();
+                    base.scene.controller.newCharacter.CloseNewCharacterView();
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
+            else
             {
                 base.scene.view.waitingCanvas.ShowLoadingSkinOnlineWaiting();
                 character.LoadRandomSkinOnine();
                 base.scene.controller.sound.PlayClickSound();
                 base.scene.controller.newCharacter.CloseNewCharacterView();
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+            }
             //ctrl.ga.SendEvent("Button Click", "New From Random", "");
         }
 

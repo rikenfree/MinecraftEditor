@@ -200,12 +200,32 @@ public class Wallpaper : MonoBehaviour
         if (path == imagetype)
         {
             Debug.Log("4k");
-            SuperStarAd.Instance.ShowRewardVideo((o) => { StartCoroutine(DownloadWallPaperImageWithURL(path)); });
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowRewardVideo((o) =>
+                {
+                    StartCoroutine(DownloadWallPaperImageWithURL(path));
+                });
+            }
+            else
+            {
+                StartCoroutine(DownloadWallPaperImageWithURL(path));
+            }
         }
         else
         {
             Debug.Log("regular");
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) => { StartCoroutine(DownloadWallPaperImageWithURL(path)); },3);
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    StartCoroutine(DownloadWallPaperImageWithURL(path));
+                }, 3);
+            }
+            else
+            {
+                StartCoroutine(DownloadWallPaperImageWithURL(path));
+            }
         }
         SoundController.instance.PlayClickSound();
     }

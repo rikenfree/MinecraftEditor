@@ -6,119 +6,128 @@ using UnityEngine.UI;
 
 public class MapView2 : MonoBehaviour
 {
-	public Image mapImage;
+    public Image mapImage;
 
-	public Text mapName;
-
-
-	public Text mapFileSize;
-
-	public Image loadingImage;
-
-	public MapData2 mapData;
-	
-
-	public void SetData(MapData2 mapData)
-	{
-		this.mapData = mapData;
-		Reload();
-	}
-	Coroutine GetSizeCoroutine;
+    public Text mapName;
 
 
-	private void Reload()
-	{
-		mapName.text = mapData.Name;
-		Sprite sprite = CacheManager2.instance.Get(mapData.Id);
-		if (sprite != null)
-		{
-			mapImage.sprite = sprite;
-			CacheManager2.instance.Set(mapData.Id, sprite);
-		}
-		else
-		{
-			loadingImage.gameObject.SetActive(value: true);
-			StartCoroutine(StartLoading());
-		}
-		if (string.IsNullOrEmpty(mapData.mapFileSize))
-		{
-            if (GetSizeCoroutine !=null)
+    public Text mapFileSize;
+
+    public Image loadingImage;
+
+    public MapData2 mapData;
+
+
+    public void SetData(MapData2 mapData)
+    {
+        this.mapData = mapData;
+        Reload();
+    }
+    Coroutine GetSizeCoroutine;
+
+
+    private void Reload()
+    {
+        mapName.text = mapData.Name;
+        Sprite sprite = CacheManager2.instance.Get(mapData.Id);
+        if (sprite != null)
+        {
+            mapImage.sprite = sprite;
+            CacheManager2.instance.Set(mapData.Id, sprite);
+        }
+        else
+        {
+            loadingImage.gameObject.SetActive(value: true);
+            StartCoroutine(StartLoading());
+        }
+        if (string.IsNullOrEmpty(mapData.mapFileSize))
+        {
+            if (GetSizeCoroutine != null)
             {
-				StopCoroutine(GetSizeCoroutine);
-				
+                StopCoroutine(GetSizeCoroutine);
+
 
             }
-			GetSizeCoroutine = StartCoroutine(GetSize());
-		}
-		else 
-		{
-			mapFileSize.text = mapData.mapFileSize+ "kb";
-		}
+            GetSizeCoroutine = StartCoroutine(GetSize());
+        }
+        else
+        {
+            mapFileSize.text = mapData.mapFileSize + "kb";
+        }
 
-	}
-	
-
-
-	private IEnumerator StartLoading()
-	{
-
-		WWW www = new WWW(mapData.ImageUrl);
-		yield return www;
-		if (www.error == null && www.url == mapData.ImageUrl)
-		{
-			Sprite sprite = Sprite.Create(rect: new Rect(0f, 0f, www.texture.width, www.texture.height), texture: www.texture, pivot: new Vector2(0f, 0f));
-			mapImage.sprite = sprite;
-			loadingImage.gameObject.SetActive(value: false);
-			CacheManager2.instance.Set(mapData.Id, sprite);
-		}
+    }
 
 
-	}
 
-	private IEnumerator GetSize()
-	{
-		
-		//WWW www = new WWW(mapData.ImageUrl);
+    private IEnumerator StartLoading()
+    {
 
-		Debug.LogError("GetSize" + mapData.mapFileUrl);
-
-
-		using (UnityWebRequest uwr = UnityWebRequest.Get(mapData.mapFileUrl))
-		{
-			uwr.method = "HEAD";
-			yield return uwr.Send();
-
-			//Debug.LogError("1  " + uwr.GetResponseHeader("Content-Length"));
-
-			int bytes = int.Parse(uwr.GetResponseHeader("Content-Length")) / 1024;
-			mapData.mapFileSize = bytes.ToString();
-			mapFileSize.text = mapData.mapFileSize + "kb";
-		}
+        WWW www = new WWW(mapData.ImageUrl);
+        yield return www;
+        if (www.error == null && www.url == mapData.ImageUrl)
+        {
+            Sprite sprite = Sprite.Create(rect: new Rect(0f, 0f, www.texture.width, www.texture.height), texture: www.texture, pivot: new Vector2(0f, 0f));
+            mapImage.sprite = sprite;
+            loadingImage.gameObject.SetActive(value: false);
+            CacheManager2.instance.Set(mapData.Id, sprite);
+        }
 
 
-		//UnityWebRequest www = UnityWebRequest.Head(mapData.mapFileUrl);
+    }
 
-		//yield return www;
-		////yield return new WaitForEndOfFrame();
-		//if (www.error == null && www.url == mapData.ImageUrl)
-		//{
+    private IEnumerator GetSize()
+    {
 
-		//	Debug.LogError(www.GetResponseHeader("Content-Length"));
-		//	mapFileSize.text = "1";
-		//}
-		//else {
-		//	Debug.LogError(www.error);
-		//}
+        //WWW www = new WWW(mapData.ImageUrl);
+
+        Debug.LogError("GetSize" + mapData.mapFileUrl);
 
 
-	}
+        using (UnityWebRequest uwr = UnityWebRequest.Get(mapData.mapFileUrl))
+        {
+            uwr.method = "HEAD";
+            yield return uwr.Send();
 
-	public void Clicked()
-	{
-		SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) => { 
-		
-		SoundManager2.instance.PlayButtonSound();
-        GuiManager2.instance.ShowDetailsPanel(mapImage.sprite, mapData);
-		});
-	}
+            //Debug.LogError("1  " + uwr.GetResponseHeader("Content-Length"));
+
+            int bytes = int.Parse(uwr.GetResponseHeader("Content-Length")) / 1024;
+            mapData.mapFileSize = bytes.ToString();
+            mapFileSize.text = mapData.mapFileSize + "kb";
+        }
+
+
+        //UnityWebRequest www = UnityWebRequest.Head(mapData.mapFileUrl);
+
+        //yield return www;
+        ////yield return new WaitForEndOfFrame();
+        //if (www.error == null && www.url == mapData.ImageUrl)
+        //{
+
+        //	Debug.LogError(www.GetResponseHeader("Content-Length"));
+        //	mapFileSize.text = "1";
+        //}
+        //else {
+        //	Debug.LogError(www.error);
+        //}
+
+
+    }
+
+    public void Clicked()
+    {
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            {
+                SoundManager2.instance.PlayButtonSound();
+                GuiManager2.instance.ShowDetailsPanel(mapImage.sprite, mapData);
+            }, 3);
+
+        }
+        else
+        {
+            SoundManager2.instance.PlayButtonSound();
+            GuiManager2.instance.ShowDetailsPanel(mapImage.sprite, mapData);
+        }
+    }
 }

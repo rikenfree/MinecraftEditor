@@ -163,16 +163,27 @@ namespace Main.View
         {
             SoundController1.Instance.PlayClickSound();
             selectThemePanel.SetActive(true);
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            }
         }
 
         public void ClickButtonMenu()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    ClickButtonMenuDelegate();
+                }, 3);
+
+            }
+            else
             {
                 ClickButtonMenuDelegate();
-            }, 3);
+            }
         }
 
         public void OnClickexitYes()
@@ -210,10 +221,17 @@ namespace Main.View
         public void ClickButtonNew()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    ClickButtonNewDelegate();
+                }, 3);
+            }
+            else
             {
                 ClickButtonNewDelegate();
-            }, 3);
+            }
         }
 
         public void SubscribeButtonClick()
@@ -236,10 +254,17 @@ namespace Main.View
         public void ClickButtonCapePick()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    ClickButtonCapePickDelegate();
+                }, 3);
+            }
+            else
             {
                 ClickButtonCapePickDelegate();
-            }, 3);
+            }
         }
 
         public void ClickButtonCapePickDelegate()
@@ -251,10 +276,17 @@ namespace Main.View
         public void ClickButtonSave()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    ClickButtonSaveDelegate();
+                }, 3);
+            }
+            else
             {
                 ClickButtonSaveDelegate();
-            }, 3);
+            }
         }
 
         public void ClickButtonSaveDelegate()
@@ -296,7 +328,10 @@ namespace Main.View
                 leftPanelRect.anchoredPosition = new Vector2(-105f, leftPanelRect.anchoredPosition.y);
                 cnt = 0;
             }
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            }
         }
 
         public void ClickButtonBodyDelegate()
@@ -481,19 +516,26 @@ namespace Main.View
         {
             SoundController1.Instance.PlayClickSound();
             //SuperStarAd.Instance.adCount = 0;
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
 
-                if (result)
-                {
-                    ToastManager.Instance.ShowToast("Thank You For Your Support");
-                }
-                else
-                {
-                    ToastManager.Instance.ShowToast("Ad is not Loaded");
-                }
-            }, 3);
-            //ctrl.ga.SendEvent("Button Click", "Triggered Ad", "");
+                    if (result)
+                    {
+                        ToastManager.Instance.ShowToast("Thank You For Your Support");
+                    }
+                    else
+                    {
+                        ToastManager.Instance.ShowToast("Ad is not Loaded");
+                    }
+                }, 3);
+
+            }
+            //else
+            //{
+            //    ToastManager.Instance.ShowToast("Thank You For Your Support");
+            //}
         }
 
         //public SSBannerCollection GetSSBannerCollection;
@@ -544,7 +586,10 @@ namespace Main.View
                 CapeController.Instance.currentcap.OnClickGridOnOff(true);
                 CB.MarkSelected();
             }
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            }
         }
 
         public void CheckInterNetConnection()
@@ -665,45 +710,72 @@ namespace Main.View
         public void CreateNewCape2217()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+                {
+                    CapeController.Instance.currentcap.NewSetup(CapeResolution.C2217);
+                    OnclickCapePickFromGalleryCancelButton();
+                }, 3);
+            }
+            else
+            {
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.C2217);
                 OnclickCapePickFromGalleryCancelButton();
-
-            }, 3);
+            }
         }
 
         public void CreateNewCape6432()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+                {
+                    CapeController.Instance.currentcap.NewSetup(CapeResolution.C6432);
+                    OnclickCapePickFromGalleryCancelButton();
+                }, 3);
+            }
+            else
             {
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.C6432);
                 OnclickCapePickFromGalleryCancelButton();
-            }, 3);
+            }
         }
         public void CreateNewCape512256()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+                {
+                    CapeController.Instance.currentcap.NewSetup(CapeResolution.C512256);
+                    OnclickCapePickFromGalleryCancelButton();
+                }, 3);
+            }
+            else
             {
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.C512256);
                 OnclickCapePickFromGalleryCancelButton();
-            }, 3);
-
-
+            }
         }
 
         public void CreateNewElytra6432()
         {
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+                {
+                    CapeController.Instance.currentcap.NewSetup(CapeResolution.Elytra6432);
+                    OnclickCapePickFromGalleryCancelButton();
+                }, 3);
+            }
+            else
             {
                 CapeController.Instance.currentcap.NewSetup(CapeResolution.Elytra6432);
                 OnclickCapePickFromGalleryCancelButton();
-            }, 3);
-
+            }
         }
 
         public void OnClickCollectionView()
@@ -724,7 +796,10 @@ namespace Main.View
 
             }
             SoundController1.Instance.PlayClickSound();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+            }
         }
 
         public void OnClickBackFromCollectionView()

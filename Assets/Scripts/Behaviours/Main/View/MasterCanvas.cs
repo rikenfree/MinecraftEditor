@@ -217,10 +217,17 @@ namespace Main.View
 
         public void ClickButtonNew()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    ClickButtonNewDelegate();
+                }, 3);
+            }
+            else
             {
                 ClickButtonNewDelegate();
-            }, 3);
+            }
         }
 
         public void ClickButtonNewDelegate()
@@ -233,10 +240,17 @@ namespace Main.View
         public void ClickButtonSave()
         {
             //SuperStarAd.Instance.ShowForceInterstitial(ClickButtonSaveDelegate);
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    ClickButtonSaveDelegate();
+                }, 3);
+            }
+            else
             {
                 ClickButtonSaveDelegate();
-            }, 3);
+            }
         }
 
         public void ClickButtonSaveDelegate()

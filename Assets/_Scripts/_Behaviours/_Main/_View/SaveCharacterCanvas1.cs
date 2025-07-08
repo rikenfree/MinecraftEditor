@@ -109,7 +109,18 @@ namespace Main.View
             SoundController1.Instance.PlayClickSound();
             Hide();
             //ctrl.ga.SendEvent("Button Click", "Save to MCPE", "");
-            SuperStarAd.Instance.ShowForceInterstitial(CharacterSaveMCPE);
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+                {
+                    CharacterSaveMCPE();
+                }, 3);
+
+            }
+            else
+            {
+                CharacterSaveMCPE();
+            }
 #if UNITY_ANDROID
             CharacterSaveGallery(0);
 #elif UNITY_IOS
@@ -118,20 +129,27 @@ namespace Main.View
 
         }
 
-        private void CharacterSaveMCPE(bool result)
+        private void CharacterSaveMCPE()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
 
-                if (result)
-                {
-                    character.SaveMCPE();
-                }
-                else
-                {
-                    ToastManager.Instance.ShowToast("Ad is not Loaded");
-                }
-            }, 3);
+                    if (result)
+                    {
+                        character.SaveMCPE();
+                    }
+                    else
+                    {
+                        ToastManager.Instance.ShowToast("Ad is not Loaded");
+                    }
+                }, 3);
+            }
+            else
+            {
+                character.SaveMCPE();
+            }
         }
 
         public void ClickGalleryButton(int index)
@@ -143,28 +161,41 @@ namespace Main.View
             if (!mainAvatarPreviewObj.gameObject.activeSelf)//Export cape.......
             {
                 Debug.Log("Export 1");
-                SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+                if (SuperStarAd.Instance.NoAds == 0)
                 {
-                    if (o)
+                    SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
                     {
-                        Debug.LogError("Export 1111");
-                        CharacterSaveGallery(index);
-                    }
-                    else
-                    {
-                        Debug.LogError("Export 000");
-                        ToastManager.Instance.ShowToast("Ad is not Loaded");
-                    }
-                }, 3);
+                        if (o)
+                        {
+                            Debug.LogError("Export 1111");
+                            CharacterSaveGallery(index);
+                        }
+                        else
+                        {
+                            Debug.LogError("Export 000");
+                            ToastManager.Instance.ShowToast("Ad is not Loaded");
+                        }
+                    }, 3);
+                }
+                else
+                {
+                    CharacterSaveGallery(index);
+                }
             }
             else//Export Character.......
             {
                 Debug.LogError("Save Main character skin");
-                SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+                if (SuperStarAd.Instance.NoAds == 0)
+                {
+                    SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+                    {
+                        MainCharacterSaveGallery();
+                    }, 3);
+                }
+                else
                 {
                     MainCharacterSaveGallery();
-                }, 3);
-
+                }
             }
         }
 

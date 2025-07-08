@@ -60,14 +60,24 @@ namespace Main.View
         {
             if (!(skinsArray[index] == null))
             {
-                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                if (SuperStarAd.Instance.NoAds == 0)
+                {
+                    SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                    {
+                        base.scene.controller.sound.PlayClickSound();
+                        base.scene.view.character.HandleTexture(skinsArray[index]);
+                        //ctrl.ga.SendEvent("Button Click", "Apply Catalog", namesArray[index]);
+                        base.gameObject.SetActive(value: false);
+                        Debug.Log("Show Intrestitial  => " + result);
+                    }, 3);
+                }
+                else
                 {
                     base.scene.controller.sound.PlayClickSound();
                     base.scene.view.character.HandleTexture(skinsArray[index]);
                     //ctrl.ga.SendEvent("Button Click", "Apply Catalog", namesArray[index]);
                     base.gameObject.SetActive(value: false);
-                    Debug.Log("Show Intrestitial  => " + result);
-                }, 3);
+                }
             }
         }
 
@@ -216,10 +226,13 @@ namespace Main.View
             RefreshPageInput();
             RefreshSkinInfo();
             LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
         }
 
         public void NextPage()
@@ -233,10 +246,13 @@ namespace Main.View
             RefreshPageInput();
             RefreshSkinInfo();
             LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
         }
 
         public void RandomPage()
@@ -246,10 +262,13 @@ namespace Main.View
             RefreshPageInput();
             RefreshSkinInfo();
             LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
         }
 
         public void SelectedPage()
@@ -266,10 +285,13 @@ namespace Main.View
             RefreshPageInput();
             RefreshSkinInfo();
             LoadSkinsOnPage();
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
         }
 
         public void ButtonCancelClicked()

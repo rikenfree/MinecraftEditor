@@ -28,10 +28,13 @@ namespace Main.View
             base.scene.controller.sound.PlayClickSound();
             Hide();
             //ctrl.ga.SendEvent("Button Click", "Save to MCPE", "");
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-                Debug.Log("Show Intrestitial  => " + result);
-            }, 3);
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    Debug.Log("Show Intrestitial  => " + result);
+                }, 3);
+            }
 #if UNITY_ANDROID
 
             CharacterSaveMCPE();
@@ -48,11 +51,19 @@ namespace Main.View
 
         public void ClickGalleryButton()
         {
-            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            if (SuperStarAd.Instance.NoAds == 0)
+            {
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    base.scene.controller.sound.PlayClickSound();
+                    CharacterSaveGallery();
+                }, 3);
+            }
+            else
             {
                 base.scene.controller.sound.PlayClickSound();
                 CharacterSaveGallery();
-            }, 3);
+            }
 
         }
 

@@ -1,43 +1,43 @@
-	using UnityEngine;
+using UnityEngine;
 using SuperStarSdk;
 using System;
 using Main.Controller;
 
 namespace Main.View
 {
-	public class MenuCanvas1 : SceneElement1
-	{
+    public class MenuCanvas1 : SceneElement1
+    {
         public GameObject tutorialPanel;
         public GameObject howToUseSkinPanel;
 
         public void ClickButtonRateThis()
-		{
+        {
             SoundController1.Instance.PlayClickSound();
             base.gameObject.SetActive(value: false);
 
-			SuperStarSdkManager.Instance.Rate();
-		}
+            SuperStarSdkManager.Instance.Rate();
+        }
 
-		public void ClickButtonAbout()
-		{
+        public void ClickButtonAbout()
+        {
             SoundController1.Instance.PlayClickSound();
             base.gameObject.SetActive(value: false);
-			base.scene.view.infoCanvas.ShowAboutUsInfo();
-		}
+            base.scene.view.infoCanvas.ShowAboutUsInfo();
+        }
 
-		public void ClickHowToUseSkin()
-		{
+        public void ClickHowToUseSkin()
+        {
             SoundController1.Instance.PlayClickSound();
             howToUseSkinPanel.SetActive(true);
         }
-		
-		public void ClickButtonPolicy()
-		{
+
+        public void ClickButtonPolicy()
+        {
             SoundController1.Instance.PlayClickSound();
             base.gameObject.SetActive(value: false);
 
 #if UNITY_ANDROID
-          Application.OpenURL(SuperStarSdkManager.Instance.crossPromoAssetsRoot.PrivacyPolicy);
+            Application.OpenURL(SuperStarSdkManager.Instance.crossPromoAssetsRoot.PrivacyPolicy);
 #elif UNITY_IPHONE
 			Application.OpenURL(SuperStarSdkManager.Instance.crossPromoAssetsRoot.PrivacyPolicy);
 #else
@@ -45,13 +45,13 @@ namespace Main.View
 #endif
 
 
-		}
+        }
 
-		public void ClickButtonCancel()
-		{
+        public void ClickButtonCancel()
+        {
             SoundController1.Instance.PlayClickSound();
             base.gameObject.SetActive(value: false);
-		}
+        }
         public void ClickButtonHowToUse()
         {
             SoundController1.Instance.PlayClickSound();
@@ -65,13 +65,13 @@ namespace Main.View
             tutorialPanel.SetActive(true);
 
         }
-		public void ClickButtonShare()
-		{
+        public void ClickButtonShare()
+        {
             SoundController1.Instance.PlayClickSound();
             base.gameObject.SetActive(value: false);
-			SuperStarSdkManager.Instance.Share();
+            SuperStarSdkManager.Instance.Share();
 
-		}
-		
-	}
+        }
+
+    }
 }

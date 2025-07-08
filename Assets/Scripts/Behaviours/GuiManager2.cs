@@ -1,6 +1,5 @@
 
 using System.Collections.Generic;
-
 using UnityEngine;
 using UnityEngine.UI;
 using SuperStarSdk;
@@ -16,118 +15,118 @@ public class GuiManager2 : MonoBehaviour
 
     public GameObject homeButton;
 
-	public GameObject tagsButton;
+    public GameObject tagsButton;
 
-	public GameObject SkinsButton;
+    public GameObject SkinsButton;
 
-	public GameObject favouriteButton;
+    public GameObject favouriteButton;
 
-	public GameObject searchButton;
+    public GameObject searchButton;
 
-	public GameObject menuButton;
+    public GameObject menuButton;
 
-	public GameObject detailsPanel;
+    public GameObject detailsPanel;
 
-	public GameObject skinDownloadPanel;
+    public GameObject skinDownloadPanel;
 
-	public Text mapNameText;
+    public Text mapNameText;
 
-	public Image mapImage;
-	public RawImage skinImage;
+    public Image mapImage;
+    public RawImage skinImage;
 
-	public MapData2 currentMapData;
+    public MapData2 currentMapData;
 
-	public GameObject searchInputPanel;
+    public GameObject searchInputPanel;
 
-	public InputField searchText;
+    public InputField searchText;
 
-	public Image favouriteImage;
+    public Image favouriteImage;
 
-	public Text favouriteText;
+    public Text favouriteText;
 
-	public Sprite favouriteSprite;
+    public Sprite favouriteSprite;
 
-	public Sprite unfavouriteSprite;
+    public Sprite unfavouriteSprite;
 
-	public GameObject homePanel;
+    public GameObject homePanel;
 
-	public GameObject homeBottom;
+    public GameObject homeBottom;
 
-	public GameObject tagsPanel;
-	public GameObject SkinsPanel;
+    public GameObject tagsPanel;
+    public GameObject SkinsPanel;
 
-	public GameObject tagsTagsPanel;
+    public GameObject tagsTagsPanel;
 
-	public GameObject tagsTagsGrid;
+    public GameObject tagsTagsGrid;
 
-	public GameObject tagsTagsBottom;
+    public GameObject tagsTagsBottom;
 
-	public GameObject tagsMapsPanel;
+    public GameObject tagsMapsPanel;
 
-	public GameObject tagsMapsGrid;
+    public GameObject tagsMapsGrid;
 
-	public GameObject tagsMapsBottom;
+    public GameObject tagsMapsBottom;
 
-	public Text tagsMapsBottomText;
+    public Text tagsMapsBottomText;
 
-	public TagView2 tagViewPrefab;
+    public TagView2 tagViewPrefab;
 
-	public MapView2 mapViewPrefab;
+    public MapView2 mapViewPrefab;
 
-	public GameObject favouritePanel;
+    public GameObject favouritePanel;
 
-	public GameObject favouriteMapsGrid;
+    public GameObject favouriteMapsGrid;
 
-	public GameObject favouriteBottom;
+    public GameObject favouriteBottom;
 
-	public GameObject searchResultPanel;
+    public GameObject searchResultPanel;
 
-	public GameObject searchResultMapsGrid;
+    public GameObject searchResultMapsGrid;
 
-	public GameObject searchResultBottom;
+    public GameObject searchResultBottom;
 
-	public Text searchResultBottomText;
+    public Text searchResultBottomText;
 
-	public GameObject downloadProgressPanel;
+    public GameObject downloadProgressPanel;
 
-	public Text downloadProgressTitle;
+    public Text downloadProgressTitle;
 
-	public RectTransform downloadProgressBar;
+    public RectTransform downloadProgressBar;
 
-	public Text downloadProgressText;
+    public Text downloadProgressText;
 
-	public GameObject playPanel;
+    public GameObject playPanel;
 
-	public GameObject ratePanel;
+    public GameObject ratePanel;
 
-	public GameObject menuPanel;
+    public GameObject menuPanel;
 
-	public GameObject selectLanguagePanel;
+    public GameObject selectLanguagePanel;
 
-	public Text pageText;
+    public Text pageText;
 
-	public Text debugText;
+    public Text debugText;
 
-	public GameObject profileScreen;
-	public GameObject LoginScreen;
-	public Image playerProfileImage;
-	public Sprite degultProfile;
-	public Text playerName;
+    public GameObject profileScreen;
+    public GameObject LoginScreen;
+    public Image playerProfileImage;
+    public Sprite degultProfile;
+    public Text playerName;
 
-	public GameObject errorPopup;
+    public GameObject errorPopup;
 
-	public GameObject BottomPanel;
-	public int PlayTime
-	{
-		get
-		{
-			return (PlayerPrefs.GetInt("PlayTime", 0));
-		}
-		set
-		{
-			PlayerPrefs.SetInt("PlayTime", value);
-		}
-	}
+    public GameObject BottomPanel;
+    public int PlayTime
+    {
+        get
+        {
+            return (PlayerPrefs.GetInt("PlayTime", 0));
+        }
+        set
+        {
+            PlayerPrefs.SetInt("PlayTime", value);
+        }
+    }
 
     public int Rate
     {
@@ -141,522 +140,543 @@ public class GuiManager2 : MonoBehaviour
         }
     }
 
-	public int Login
-	{
-		get
-		{
-			return PlayerPrefs.GetInt("Login", 0);
-		}
-		set
-		{
-			PlayerPrefs.SetInt("Login", value);
-		}
-	}
-	public string PlayerName
-	{
-		get
-		{
-			return (PlayerPrefs.GetString("PlayerName", "player"));
-		}
-		set
-		{
-			PlayerPrefs.SetString("PlayerName", value);
-		}
-	}
-	public int LoginAsGuest   //0 = guest ,1 = fb
-	{
-		get
-		{
-			return PlayerPrefs.GetInt("LoginAsGuest", 0);
-		}
-		set
-		{
-			PlayerPrefs.SetInt("LoginAsGuest", value);
-		}
-	}
-	private void Awake()
-	{
-		if (instance == null)
-		{
-			instance = this;
-		}
-		else
-		{
-			Destroy(base.gameObject);
-		}
-	}
+    public int Login
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("Login", 0);
+        }
+        set
+        {
+            PlayerPrefs.SetInt("Login", value);
+        }
+    }
+    public string PlayerName
+    {
+        get
+        {
+            return (PlayerPrefs.GetString("PlayerName", "player"));
+        }
+        set
+        {
+            PlayerPrefs.SetString("PlayerName", value);
+        }
+    }
+    public int LoginAsGuest   //0 = guest ,1 = fb
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("LoginAsGuest", 0);
+        }
+        set
+        {
+            PlayerPrefs.SetInt("LoginAsGuest", value);
+        }
+    }
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(base.gameObject);
+        }
+    }
 
-	private void Start()
-	{
-
-        
-      
+    private void Start()
+    {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         ShowHomeTab();
         PlayTime += 1;
-		
-	}
-   
+    }
+
 
     public void HomeButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ShowHomeTab();
-		BottomPanel.SetActive(true);
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
-	//	AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
-	}
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ShowHomeTab();
+        BottomPanel.SetActive(true);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
+        //	AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
+    }
 
-	public void TagsButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ShowTagsTab();
-		BottomPanel.SetActive(true);
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+    public void TagsButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ShowTagsTab();
+        BottomPanel.SetActive(true);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
         //AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
-	}
-	public void SkinsButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ShowSkinsTab();
-		BottomPanel.SetActive(false);
-		SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
-		
-		//AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
-	}
-
-	public void FavouriteButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ShowFavouriteTab();
-		BottomPanel.SetActive(true);
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
-      //  AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
-	}
-
-	public void SearchButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ShowSearchInputPanel();
-		SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+    }
+    public void SkinsButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ShowSkinsTab();
+        BottomPanel.SetActive(false);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
 
         //AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
-	}
+    }
 
-	public void MenuButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ShowMenuPanel();
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+    public void FavouriteButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ShowFavouriteTab();
+        BottomPanel.SetActive(true);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
+        //  AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
+    }
+
+    public void SearchButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ShowSearchInputPanel();
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
+
         //AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
-	}
+    }
 
-	private void HighLightButton(GameObject button)
-	{
-		ChangeButtonColor("#958181", button);
-	}
+    public void MenuButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ShowMenuPanel();
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
+        //AdMobAdManager.Instance.ShowInterstitialIfAndItsTime();
+    }
 
-	private void UnhighLightButton(GameObject button)
-	{
-		ChangeButtonColor("#FFFFFF00", button);
-	}
+    private void HighLightButton(GameObject button)
+    {
+        ChangeButtonColor("#958181", button);
+    }
 
-	private void ChangeButtonColor(string hexColor, GameObject button)
-	{
-		ColorUtility.TryParseHtmlString(hexColor, out Color color);
-		button.GetComponent<Image>().color = color;
-	}
+    private void UnhighLightButton(GameObject button)
+    {
+        ChangeButtonColor("#FFFFFF00", button);
+    }
 
-	public void ShowDetailsPanel(Sprite mapSprite, MapData2 mapData)
-	{
-		currentMapData = mapData;
-		detailsPanel.SetActive(value: true);
-		mapNameText.text = mapData.Name;
-		mapImage.sprite = mapSprite;
-		RefreshFavouriteButton();
-	}
+    private void ChangeButtonColor(string hexColor, GameObject button)
+    {
+        ColorUtility.TryParseHtmlString(hexColor, out Color color);
+        button.GetComponent<Image>().color = color;
+    }
 
-	public void ShowSkinDownloadPanel(Texture2D skin)
-	{
-		skinImage.texture = skin;
-		skinDownloadPanel.SetActive(value: true);
-		///RefreshFavouriteButton();
-	}
-	public void CloseSkinDownloadPanel()
-	{
-		skinDownloadPanel.SetActive(value: false);
-	}
+    public void ShowDetailsPanel(Sprite mapSprite, MapData2 mapData)
+    {
+        currentMapData = mapData;
+        detailsPanel.SetActive(value: true);
+        mapNameText.text = mapData.Name;
+        mapImage.sprite = mapSprite;
+        RefreshFavouriteButton();
+    }
 
-	public void CloseDetailsPanelButtonClick()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		currentMapData = null;
-		CloseDetailsPanel();
-	}
+    public void ShowSkinDownloadPanel(Texture2D skin)
+    {
+        skinImage.texture = skin;
+        skinDownloadPanel.SetActive(value: true);
+        ///RefreshFavouriteButton();
+    }
+    public void CloseSkinDownloadPanel()
+    {
+        skinDownloadPanel.SetActive(value: false);
+    }
 
-	public void CloseDetailsPanel()
-	{
-		detailsPanel.SetActive(value: false);
-	}
+    public void CloseDetailsPanelButtonClick()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        currentMapData = null;
+        CloseDetailsPanel();
+    }
 
-	public void ClearSearchTextClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ClearSearchText();
-	}
+    public void CloseDetailsPanel()
+    {
+        detailsPanel.SetActive(value: false);
+    }
 
-	public void ClearSearchText()
-	{
-		searchText.text = "";
-	}
+    public void ClearSearchTextClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ClearSearchText();
+    }
 
-	public void ShowSearchInputPanel()
-	{
-		searchInputPanel.SetActive(value: true);
-	}
+    public void ClearSearchText()
+    {
+        searchText.text = "";
+    }
 
-	public void CloseSearchInputPanelClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		CloseSearchInputPanel();
-	}
+    public void ShowSearchInputPanel()
+    {
+        searchInputPanel.SetActive(value: true);
+    }
 
-	public void CloseSearchInputPanel()
-	{
-		ClearSearchText();
-		searchInputPanel.SetActive(value: false);
-	}
+    public void CloseSearchInputPanelClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        CloseSearchInputPanel();
+    }
 
-	public void SearchMapsClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		SearchMaps();
-	}
+    public void CloseSearchInputPanel()
+    {
+        ClearSearchText();
+        searchInputPanel.SetActive(value: false);
+    }
 
-	public void SearchMaps()
-	{
-		string text = searchText.text.Trim().ToLower();
-		if (!(text == ""))
-		{
-			CloseSearchInputPanel();
-			ShowSearchResultPanel(text);
-		}
-	}
+    public void SearchMapsClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        SearchMaps();
+    }
 
-	public void RefreshFavouriteButton()
-	{
-		if (StorageManager2.instance.HasFavouriteMapId(currentMapData.Id))
-		{
-			favouriteImage.sprite = unfavouriteSprite;
-			favouriteText.text = "Unfavourite";
-		}
-		else
-		{
-			favouriteImage.sprite = favouriteSprite;
-			favouriteText.text = "Favourite";
-		}
-	}
+    public void SearchMaps()
+    {
+        string text = searchText.text.Trim().ToLower();
+        if (!(text == ""))
+        {
+            CloseSearchInputPanel();
+            ShowSearchResultPanel(text);
+        }
+    }
 
-	public void AddFavouriteButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
-		if (StorageManager2.instance.HasFavouriteMapId(currentMapData.Id))
-		{
-			StorageManager2.instance.RemoveFavouriteMapId(currentMapData.Id);
-		}
-		else
-		{
-			StorageManager2.instance.AddFavouriteMapId(currentMapData.Id);
-		}
-		RefreshFavouriteButton();
-		RefreshFavouriteMaps();
-	}
+    public void RefreshFavouriteButton()
+    {
+        if (StorageManager2.instance.HasFavouriteMapId(currentMapData.Id))
+        {
+            favouriteImage.sprite = unfavouriteSprite;
+            favouriteText.text = "Unfavourite";
+        }
+        else
+        {
+            favouriteImage.sprite = favouriteSprite;
+            favouriteText.text = "Favourite";
+        }
+    }
 
-	public void DownloadButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
+    public void AddFavouriteButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
+        if (StorageManager2.instance.HasFavouriteMapId(currentMapData.Id))
+        {
+            StorageManager2.instance.RemoveFavouriteMapId(currentMapData.Id);
+        }
+        else
+        {
+            StorageManager2.instance.AddFavouriteMapId(currentMapData.Id);
+        }
+        RefreshFavouriteButton();
+        RefreshFavouriteMaps();
+    }
+
+    public void DownloadButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
 
         //InternetCheckingManager.Instance._connectionTester.TestInternet(hasInternet =>
         //{
-            if (!InternetCheckingManager.Instance.isinternetavailable)
+        if (!InternetCheckingManager.Instance.isinternetavailable)
+        {
+            MapsManager2.instance.ShowNoInternetToast();
+        }
+        else
+        {
+            //SuperStarAd.Instance.adCount= 0;
+            if (SuperStarAd.Instance.NoAds == 0)
             {
-                MapsManager2.instance.ShowNoInternetToast();
+                SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+                {
+                    if (result)
+                    {
+
+                        DownloadManager2.instance.DownloadMap(currentMapData);
+                    }
+                    else
+                    {
+                        ToastManager.Instance.ShowToast("AD is not available");
+                    }
+                }, 3);
+
             }
             else
             {
-				//SuperStarAd.Instance.adCount= 0;
-				SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) => 
-				{
-					if (result)
-					{
-
-						DownloadManager2.instance.DownloadMap(currentMapData);
-					}
-					else
-					{
-						ToastManager.Instance.ShowToast("AD is not available");
-					}
-				}, 3);
+                DownloadManager2.instance.DownloadMap(currentMapData);
             }
+        }
+    }
 
-        //});
+    public void ShowHomeTab()
+    {
+        homePanel.SetActive(value: true);
+        homeBottom.SetActive(value: true);
+        HighLightButton(homeButton);
+        tagsPanel.SetActive(value: false);
+        tagsTagsBottom.SetActive(value: false);
+        tagsMapsBottom.SetActive(value: false);
+        UnhighLightButton(tagsButton);
+        favouritePanel.SetActive(value: false);
+        favouriteBottom.SetActive(value: false);
+        UnhighLightButton(favouriteButton);
+        searchResultPanel.SetActive(value: false);
+        searchResultBottom.SetActive(value: false);
+        UnhighLightButton(searchButton);
+        SkinsPanel.SetActive(value: false);
+        UnhighLightButton(SkinsButton);
+    }
 
+    public void ShowTagsTab()
+    {
+        homePanel.SetActive(value: false);
+        homeBottom.SetActive(value: false);
+        UnhighLightButton(homeButton);
+        tagsPanel.SetActive(value: true);
+        ShowTagsTags();
+        HighLightButton(tagsButton);
+        favouritePanel.SetActive(value: false);
+        favouriteBottom.SetActive(value: false);
+        UnhighLightButton(favouriteButton);
+        searchResultPanel.SetActive(value: false);
+        searchResultBottom.SetActive(value: false);
+        UnhighLightButton(searchButton);
 
-	}
+        SkinsPanel.SetActive(value: false);
+        UnhighLightButton(SkinsButton);
+    }
 
-	public void ShowHomeTab()
-	{
-		homePanel.SetActive(value: true);
-		homeBottom.SetActive(value: true);
-		HighLightButton(homeButton);
-		tagsPanel.SetActive(value: false);
-		tagsTagsBottom.SetActive(value: false);
-		tagsMapsBottom.SetActive(value: false);
-		UnhighLightButton(tagsButton);
-		favouritePanel.SetActive(value: false);
-		favouriteBottom.SetActive(value: false);
-		UnhighLightButton(favouriteButton);
-		searchResultPanel.SetActive(value: false);
-		searchResultBottom.SetActive(value: false);
-		UnhighLightButton(searchButton);
-		SkinsPanel.SetActive(value: false);
-		UnhighLightButton(SkinsButton);
-	}
+    public void ShowSkinsTab()
+    {
+        homePanel.SetActive(value: false);
+        homeBottom.SetActive(value: false);
+        UnhighLightButton(homeButton);
+        tagsPanel.SetActive(value: false);
+        UnhighLightButton(tagsButton);
+        //ShowTagsTags();
+        SkinsPanel.SetActive(value: true);
+        HighLightButton(SkinsButton);
+        favouritePanel.SetActive(value: false);
+        favouriteBottom.SetActive(value: false);
+        UnhighLightButton(favouriteButton);
+        searchResultPanel.SetActive(value: false);
+        searchResultBottom.SetActive(value: false);
+        UnhighLightButton(searchButton);
+    }
 
-	public void ShowTagsTab()
-	{
-		homePanel.SetActive(value: false);
-		homeBottom.SetActive(value: false);
-		UnhighLightButton(homeButton);
-		tagsPanel.SetActive(value: true);
-		ShowTagsTags();
-		HighLightButton(tagsButton);
-		favouritePanel.SetActive(value: false);
-		favouriteBottom.SetActive(value: false);
-		UnhighLightButton(favouriteButton);
-		searchResultPanel.SetActive(value: false);
-		searchResultBottom.SetActive(value: false);
-		UnhighLightButton(searchButton);
+    public void ShowTagsTags()
+    {
+        tagsTagsPanel.SetActive(value: true);
+        tagsTagsBottom.SetActive(value: true);
+        tagsMapsPanel.SetActive(value: false);
+        tagsMapsBottom.SetActive(value: false);
+    }
 
-		SkinsPanel.SetActive(value: false);
-		UnhighLightButton(SkinsButton);
-	}
+    public void CloseTagsMapsClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        CloseTagsMaps();
+    }
 
-	public void ShowSkinsTab()
-	{
-		homePanel.SetActive(value: false);
-		homeBottom.SetActive(value: false);
-		UnhighLightButton(homeButton);
-		tagsPanel.SetActive(value: false);
-		UnhighLightButton(tagsButton);
-		//ShowTagsTags();
-		SkinsPanel.SetActive(value: true);
-		HighLightButton(SkinsButton);
-		favouritePanel.SetActive(value: false);
-		favouriteBottom.SetActive(value: false);
-		UnhighLightButton(favouriteButton);
-		searchResultPanel.SetActive(value: false);
-		searchResultBottom.SetActive(value: false);
-		UnhighLightButton(searchButton);
-	}
+    public void CloseTagsMaps()
+    {
+        ShowTagsTags();
+    }
 
-	public void ShowTagsTags()
-	{
-		tagsTagsPanel.SetActive(value: true);
-		tagsTagsBottom.SetActive(value: true);
-		tagsMapsPanel.SetActive(value: false);
-		tagsMapsBottom.SetActive(value: false);
-	}
+    public void ShowTagsMapsByTag(string tag)
+    {
+        tagsTagsPanel.SetActive(value: false);
+        tagsTagsBottom.SetActive(value: false);
+        tagsMapsPanel.SetActive(value: true);
+        tagsMapsBottom.SetActive(value: true);
+        tagsMapsBottomText.text = "TAG: " + tag;
+        List<MapData2> list = MapsManager2.instance.MapsDataByTag(tag);
+        for (int i = 0; i < tagsMapsGrid.transform.childCount; i++)
+        {
+            Destroy(tagsMapsGrid.transform.GetChild(i).gameObject);
+        }
+        foreach (MapData2 item in list)
+        {
+            Instantiate(mapViewPrefab, tagsMapsGrid.transform).SetData(item);
+        }
+    }
 
-	public void CloseTagsMapsClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		CloseTagsMaps();
-	}
+    public void PopulateTags(List<TagData2> tagsData)
+    {
+        foreach (TagData2 tagsDatum in tagsData)
+        {
+            Instantiate(tagViewPrefab, tagsTagsGrid.transform).SetName(tagsDatum.Name);
+        }
+    }
 
-	public void CloseTagsMaps()
-	{
-		ShowTagsTags();
-	}
+    public void UpdatePage(int page)
+    {
+        pageText.text = page.ToString();
+    }
 
-	public void ShowTagsMapsByTag(string tag)
-	{
-		tagsTagsPanel.SetActive(value: false);
-		tagsTagsBottom.SetActive(value: false);
-		tagsMapsPanel.SetActive(value: true);
-		tagsMapsBottom.SetActive(value: true);
-		tagsMapsBottomText.text = "TAG: " + tag;
-		List<MapData2> list = MapsManager2.instance.MapsDataByTag(tag);
-		for (int i = 0; i < tagsMapsGrid.transform.childCount; i++)
-		{
-			Destroy(tagsMapsGrid.transform.GetChild(i).gameObject);
-		}
-		foreach (MapData2 item in list)
-		{
-			Instantiate(mapViewPrefab, tagsMapsGrid.transform).SetData(item);
-		}
-	}
+    public void UpdatePage(string str)
+    {
+        pageText.text = str;
+    }
 
-	public void PopulateTags(List<TagData2> tagsData)
-	{
-		foreach (TagData2 tagsDatum in tagsData)
-		{
-			Instantiate(tagViewPrefab, tagsTagsGrid.transform).SetName(tagsDatum.Name);
-		}
-	}
+    public void ShowFavouriteTab()
+    {
+        homePanel.SetActive(value: false);
+        homeBottom.SetActive(value: false);
+        UnhighLightButton(homeButton);
+        tagsPanel.SetActive(value: false);
+        tagsTagsBottom.SetActive(value: false);
+        tagsMapsBottom.SetActive(value: false);
+        UnhighLightButton(tagsButton);
+        favouritePanel.SetActive(value: true);
+        favouriteBottom.SetActive(value: true);
+        HighLightButton(favouriteButton);
+        RefreshFavouriteMaps();
+        searchResultPanel.SetActive(value: false);
+        searchResultBottom.SetActive(value: false);
+        UnhighLightButton(searchButton);
+        SkinsPanel.SetActive(value: false);
+        UnhighLightButton(SkinsButton);
+    }
 
-	public void UpdatePage(int page)
-	{
-		pageText.text = page.ToString();
-	}
+    public void RefreshFavouriteMaps()
+    {
+        if (favouritePanel.activeSelf && favouriteMapsGrid.activeSelf)
+        {
+            string[] ids = StorageManager2.instance.LoadFavouriteMapIds();
+            List<MapData2> list = MapsManager2.instance.MapsDataByIds(ids);
+            for (int i = 0; i < favouriteMapsGrid.transform.childCount; i++)
+            {
+                UnityEngine.Object.Destroy(favouriteMapsGrid.transform.GetChild(i).gameObject);
+            }
+            foreach (MapData2 item in list)
+            {
+                Object.Instantiate(mapViewPrefab, favouriteMapsGrid.transform).SetData(item);
+            }
+        }
+    }
 
-	public void UpdatePage(string str)
-	{
-		pageText.text = str;
-	}
+    public void ShowSearchResultPanel(string keyword)
+    {
+        homePanel.SetActive(value: false);
+        homeBottom.SetActive(value: false);
+        UnhighLightButton(homeButton);
+        tagsPanel.SetActive(value: false);
+        tagsTagsBottom.SetActive(value: false);
+        tagsMapsBottom.SetActive(value: false);
+        UnhighLightButton(tagsButton);
+        favouritePanel.SetActive(value: false);
+        favouriteBottom.SetActive(value: false);
+        UnhighLightButton(favouriteButton);
+        searchResultPanel.SetActive(value: true);
+        searchResultBottom.SetActive(value: true);
+        HighLightButton(searchButton);
+        RefreshSearchResultMaps(keyword);
+        SkinsPanel.SetActive(value: false);
+        UnhighLightButton(SkinsButton);
+    }
 
-	public void ShowFavouriteTab()
-	{
-		homePanel.SetActive(value: false);
-		homeBottom.SetActive(value: false);
-		UnhighLightButton(homeButton);
-		tagsPanel.SetActive(value: false);
-		tagsTagsBottom.SetActive(value: false);
-		tagsMapsBottom.SetActive(value: false);
-		UnhighLightButton(tagsButton);
-		favouritePanel.SetActive(value: true);
-		favouriteBottom.SetActive(value: true);
-		HighLightButton(favouriteButton);
-		RefreshFavouriteMaps();
-		searchResultPanel.SetActive(value: false);
-		searchResultBottom.SetActive(value: false);
-		UnhighLightButton(searchButton);
-		SkinsPanel.SetActive(value: false);
-		UnhighLightButton(SkinsButton);
-	}
+    public void RefreshSearchResultMaps(string keyword)
+    {
+        if (searchResultPanel.activeSelf && searchResultMapsGrid.activeSelf)
+        {
+            List<MapData2> list = MapsManager2.instance.MapsDataByKeyword(keyword);
+            for (int i = 0; i < searchResultMapsGrid.transform.childCount; i++)
+            {
+                UnityEngine.Object.Destroy(searchResultMapsGrid.transform.GetChild(i).gameObject);
+            }
+            foreach (MapData2 item in list)
+            {
+                Object.Instantiate(mapViewPrefab, searchResultMapsGrid.transform).SetData(item);
+            }
+            searchResultBottomText.text = "Maps Search: " + keyword;
+        }
+    }
 
-	public void RefreshFavouriteMaps()
-	{
-		if (favouritePanel.activeSelf && favouriteMapsGrid.activeSelf)
-		{
-			string[] ids = StorageManager2.instance.LoadFavouriteMapIds();
-			List<MapData2> list = MapsManager2.instance.MapsDataByIds(ids);
-			for (int i = 0; i < favouriteMapsGrid.transform.childCount; i++)
-			{
-				UnityEngine.Object.Destroy(favouriteMapsGrid.transform.GetChild(i).gameObject);
-			}
-			foreach (MapData2 item in list)
-			{
-				Object.Instantiate(mapViewPrefab, favouriteMapsGrid.transform).SetData(item);
-			}
-		}
-	}
-
-	public void ShowSearchResultPanel(string keyword)
-	{
-		homePanel.SetActive(value: false);
-		homeBottom.SetActive(value: false);
-		UnhighLightButton(homeButton);
-		tagsPanel.SetActive(value: false);
-		tagsTagsBottom.SetActive(value: false);
-		tagsMapsBottom.SetActive(value: false);
-		UnhighLightButton(tagsButton);
-		favouritePanel.SetActive(value: false);
-		favouriteBottom.SetActive(value: false);
-		UnhighLightButton(favouriteButton);
-		searchResultPanel.SetActive(value: true);
-		searchResultBottom.SetActive(value: true);
-		HighLightButton(searchButton);
-		RefreshSearchResultMaps(keyword);
-		SkinsPanel.SetActive(value: false);
-		UnhighLightButton(SkinsButton);
-	}
-
-	public void RefreshSearchResultMaps(string keyword)
-	{
-		if (searchResultPanel.activeSelf && searchResultMapsGrid.activeSelf)
-		{
-			List<MapData2> list = MapsManager2.instance.MapsDataByKeyword(keyword);
-			for (int i = 0; i < searchResultMapsGrid.transform.childCount; i++)
-			{
-				UnityEngine.Object.Destroy(searchResultMapsGrid.transform.GetChild(i).gameObject);
-			}
-			foreach (MapData2 item in list)
-			{
-				Object.Instantiate(mapViewPrefab, searchResultMapsGrid.transform).SetData(item);
-			}
-			searchResultBottomText.text = "Maps Search: " + keyword;
-		}
-	}
-
-	public void InitDownloadProgressPanel(string title)
-	{
+    public void InitDownloadProgressPanel(string title)
+    {
         tempCount = 0;
         downloadProgressBar.GetComponent<Image>().fillAmount = 0;
         downloadProgressTitle.text = title;
-		downloadProgressText.text = "0 %";
-		//downloadProgressBar.sizeDelta = new Vector2(0f, downloadProgressBar.sizeDelta.y);
-		downloadProgressPanel.SetActive(true);
-	}
+        downloadProgressText.text = "0 %";
+        //downloadProgressBar.sizeDelta = new Vector2(0f, downloadProgressBar.sizeDelta.y);
+        downloadProgressPanel.SetActive(true);
+    }
 
     float tempCount = 0;
     public void UpdateDownloadProgress(float percent)
-	{
+    {
         //tempCount += Time.deltaTime * 100;
         //if (tempCount < 99)
         //{
         //    downloadProgressBar.GetComponent<Image>().fillAmount = tempCount/100;
         //    downloadProgressText.text = (int)(tempCount) + "%";
         //}
-		downloadProgressBar.GetComponent<Image>().fillAmount = percent;
-		downloadProgressText.text = (int)(percent*100) + "%";
-	}
+        downloadProgressBar.GetComponent<Image>().fillAmount = percent;
+        downloadProgressText.text = (int)(percent * 100) + "%";
+    }
 
-	public void CancelLoadingMapButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		DownloadManager2.instance.StopDownload();
-		downloadProgressPanel.SetActive(value: false);
-	}
+    public void CancelLoadingMapButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        DownloadManager2.instance.StopDownload();
+        downloadProgressPanel.SetActive(value: false);
+    }
 
-	public void CompleteDownloadProgress()
-	{
+    public void CompleteDownloadProgress()
+    {
         downloadProgressBar.GetComponent<Image>().fillAmount = 1;
 
         downloadProgressText.text = "Download Complete";
-		downloadProgressPanel.SetActive(false);
-		playPanel.SetActive(true);
-        if (Rate!=1)
+        downloadProgressPanel.SetActive(false);
+        playPanel.SetActive(true);
+        if (Rate != 1)
         {
 
-        ratePanel.SetActive(true);
+            ratePanel.SetActive(true);
         }
-	}
+    }
 
-	public void CancelPlayMinecraftButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		playPanel.SetActive(value: false);
-	}
+    public void CancelPlayMinecraftButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        playPanel.SetActive(value: false);
+    }
 
-	public void PlayMinecraftButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		//  AndroidContentOpenerWrapper.OpenContent(DownloadManager.instance.lastOpenFileLink);
-		//RunApk("com.mojang.minecraftpe");
-		string DirPath = "";
+    public void PlayMinecraftButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        //  AndroidContentOpenerWrapper.OpenContent(DownloadManager.instance.lastOpenFileLink);
+        //RunApk("com.mojang.minecraftpe");
+        string DirPath = "";
 #if UNITY_EDITOR
         DirPath = Application.persistentDataPath + "/MapForMCPE/";
 #elif UNITY_ANDROID
         DirPath = "/storage/emulated/0/Download/MapForMCPE/";
 #endif
         string path = DirPath + DownloadManager2.WORLD_FOLDER + "/" + currentMapData.Id + ".mcworld";
-		Debug.Log(path);
+        Debug.Log(path);
 
-		AndroidContentOpenerWrapper.OpenContent(path);
-		//Singleton<AndroidNativeUtility>.instance.StartApplication("com.mojang.minecraftpe");
-	}
+        AndroidContentOpenerWrapper.OpenContent(path);
+        //Singleton<AndroidNativeUtility>.instance.StartApplication("com.mojang.minecraftpe");
+    }
     public void RunApk(string package)
     {
         string bundleId = package; // your target bundle id
@@ -684,110 +704,110 @@ public class GuiManager2 : MonoBehaviour
 
     }
 
-	public void ButtonMenuSelectLanguageClicked()
-	{
-		selectLanguagePanel.SetActive(true);
+    public void ButtonMenuSelectLanguageClicked()
+    {
+        selectLanguagePanel.SetActive(true);
         menuPanel.SetActive(value: false);
     }
 
     public void ButtonMenuProfileClicked()
-	{
-		profileScreen.SetActive(true);
-	}
-	public void OpenRatingPanel()
-	{
-		ratePanel.SetActive(value: true);
-	}
+    {
+        profileScreen.SetActive(true);
+    }
+    public void OpenRatingPanel()
+    {
+        ratePanel.SetActive(value: true);
+    }
 
-	public void CancelRateButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ratePanel.SetActive(value: false);
-	}
+    public void CancelRateButtonClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ratePanel.SetActive(value: false);
+    }
 
-	public void RateButtonClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		ratePanel.SetActive(value: false);
-		SuperStarSdkManager.Instance.Rate();
-	}
-
-	public void ShowMenuPanel()
-	{
-		menuPanel.SetActive(value: true);
-	}
-
-	public void ButtonMenuRateClicked()
-	{
+    public void RateButtonClicked()
+    {
         SoundManager2.instance.PlayButtonSound();
         ratePanel.SetActive(value: false);
         SuperStarSdkManager.Instance.Rate();
-       // Application.OpenURL("https://play.google.com/store/apps/details?id=com.MapsforMinecraft.MCPE");
+    }
+
+    public void ShowMenuPanel()
+    {
+        menuPanel.SetActive(value: true);
+    }
+
+    public void ButtonMenuRateClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        ratePanel.SetActive(value: false);
+        SuperStarSdkManager.Instance.Rate();
+        // Application.OpenURL("https://play.google.com/store/apps/details?id=com.MapsforMinecraft.MCPE");
         //Rate = 1;
 
     }
 
-	public void ButtonMenuMoreClicked()
-	{
-	}
+    public void ButtonMenuMoreClicked()
+    {
+    }
 
-	public void ButtonMenuFollowClicked()
-	{
-	}
+    public void ButtonMenuFollowClicked()
+    {
+    }
 
-	public void ButtonMenuPrivacyClicked()
-	{
-		Application.OpenURL("https://pinkprincessmapkingdomformcpe.blogspot.com/2020/12/this-privacy-policy-has-been-compiled.html");
-	}
+    public void ButtonMenuPrivacyClicked()
+    {
+        Application.OpenURL("https://pinkprincessmapkingdomformcpe.blogspot.com/2020/12/this-privacy-policy-has-been-compiled.html");
+    }
 
-	public void ButtonMenuCloseClicked()
-	{
-		SoundManager2.instance.PlayButtonSound();
-		menuPanel.SetActive(value: false);
-	}
+    public void ButtonMenuCloseClicked()
+    {
+        SoundManager2.instance.PlayButtonSound();
+        menuPanel.SetActive(value: false);
+    }
 
     public void ButtonSelectLanguageCloseClicked()
     {
         SoundManager2.instance.PlayButtonSound();
         menuPanel.SetActive(value: true);
-		selectLanguagePanel.SetActive(value: false);
+        selectLanguagePanel.SetActive(value: false);
     }
 
     public void AddDebugString(string s)
-	{
-		debugText.text = debugText.text + "\n" + s;
-	}
-	int randomNumber;
-	public void OnClickPlayAsGuestButton()
     {
-		GetRandomNumber();
-		PlayerName = "Guest" + randomNumber.ToString();
-		playerName.text = PlayerName;
-		playerProfileImage.sprite = degultProfile;
-		LoginScreen.SetActive(false);
-		Login = 1;
-		LoginAsGuest = 0;
-
-	}
-	public void GetRandomNumber()
+        debugText.text = debugText.text + "\n" + s;
+    }
+    int randomNumber;
+    public void OnClickPlayAsGuestButton()
     {
-		randomNumber = Random.Range(100000, 999999);
+        GetRandomNumber();
+        PlayerName = "Guest" + randomNumber.ToString();
+        playerName.text = PlayerName;
+        playerProfileImage.sprite = degultProfile;
+        LoginScreen.SetActive(false);
+        Login = 1;
+        LoginAsGuest = 0;
 
-	}
-	public void OnClickLogout()
-	{
-		//if (LoginAsGuest == 0)
-		//{
-			
-		//}
-		//else if (LoginAsGuest == 1)
-		//{
-		//	FaceBookManager.Instance.FacebookLogout();
-		//}
-		profileScreen.SetActive(false);
-		//LoginScreen.SetActive(true);
-		PlayerName = "Player";
-		playerProfileImage.sprite = degultProfile;
-		Login = 0;
-	}
+    }
+    public void GetRandomNumber()
+    {
+        randomNumber = Random.Range(100000, 999999);
+
+    }
+    public void OnClickLogout()
+    {
+        //if (LoginAsGuest == 0)
+        //{
+
+        //}
+        //else if (LoginAsGuest == 1)
+        //{
+        //	FaceBookManager.Instance.FacebookLogout();
+        //}
+        profileScreen.SetActive(false);
+        //LoginScreen.SetActive(true);
+        PlayerName = "Player";
+        playerProfileImage.sprite = degultProfile;
+        Login = 0;
+    }
 }

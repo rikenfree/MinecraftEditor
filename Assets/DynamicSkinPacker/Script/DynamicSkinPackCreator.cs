@@ -170,7 +170,7 @@ public class DynamicSkinPackCreator : MonoBehaviour
         if_versionNumber.text = "1";
         DirectPickImage(character.skin);
         AddAnotherSkin();
-       DownloadPack(1, 0);
+        DownloadPack(1, 0);
     }
 
     public void ShareDirect()
@@ -243,7 +243,7 @@ public class DynamicSkinPackCreator : MonoBehaviour
         if_versionNumber.text = if_versionNumberRename.text;
         DirectPickImage(character.skin);
         AddAnotherSkin();
-       DownloadPack(1);
+        DownloadPack(1);
     }
 
     public void ResetData()
@@ -296,15 +296,210 @@ public class DynamicSkinPackCreator : MonoBehaviour
     public void SharePack()
     {
         SoundController.instance.PlayClickSound();
-       DownloadPack(2, 1);
+        DownloadPack(2, 1);
     }
 
 
     public void DownloadPack(int needtoOpenIndex = 0, int exportIndex = 0)
     {
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+        if (SuperStarAd.Instance.NoAds == 0)
         {
-            Debug.Log("Show Intrestitial  => " + result);
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
+            {
+                Debug.Log("Show Intrestitial  => " + result);
+                if (skinDataRoot.skins.Count <= 0)
+                {
+                    if (allSelectedImages.Count <= 0)
+                    {
+
+
+                        Debug.LogError("No skin Available ");
+
+                    }
+                    else
+                    {
+                        AddAnotherSkin();
+                        DownloadPack(needtoOpenIndex, exportIndex);
+                        character.SkinIndex++;
+                    }
+
+
+                }
+                else
+                {
+
+                    if (exportIndex == 0)
+                    {
+                        packDirectory = ANDROIDPERSISTANTDOWNLOADPATHDIRECT;
+                    }
+                    else
+                    {
+                        packDirectory = ANDROIDPERSISTANTDOWNLOADPATHEXPORT;
+                    }
+                    //skin pack name directory created
+                    finalPackDirectory = packDirectory + "/" + skinDataRoot.serialize_name;
+
+                    if (!Directory.Exists(finalPackDirectory))
+                    {
+                        Directory.CreateDirectory(finalPackDirectory);
+
+                    }
+                    else
+                    {
+                        if (exportIndex == 0)
+                        {
+                            //combine data
+                        }
+                        else
+                        {
+                            Directory.Delete(finalPackDirectory, true);
+                            Directory.CreateDirectory(finalPackDirectory);
+                            //remove old data
+                        }
+                    }
+
+                    Directory.CreateDirectory(Path.Combine(finalPackDirectory, "texts"));
+
+                    textPackDirectory = finalPackDirectory + "/texts";
+
+
+                    if (File.Exists(Path.Combine(finalPackDirectory, "manifest.json")))
+                    {
+                        File.Delete(Path.Combine(finalPackDirectory, "manifest.json"));
+                    }
+
+                    if (File.Exists(Path.Combine(finalPackDirectory, "skin.json")))
+                    {
+                        File.Delete(Path.Combine(finalPackDirectory, "skin.json"));
+                    }
+
+                    if (exportIndex == 0)
+                    {
+                        SkinVersioningManifest++;
+                        manifestRootDirect.header.version[1] = SkinVersioningManifest;
+                        manifestRootDirect.modules[0].version[1] = SkinVersioningManifest;
+                        File.WriteAllText(Path.Combine(finalPackDirectory, "manifest.json"), JsonUtility.ToJson(manifestRootDirect));
+                    }
+                    else
+                    {
+                        SkinVersioningManifest++;
+                        manifestRootDirect.header.version[1] = SkinVersioningManifest;
+                        manifestRootDirect.modules[0].version[1] = SkinVersioningManifest;
+                        manifestRootExport.header.name = skinDataRoot.localization_name;
+                        File.WriteAllText(Path.Combine(finalPackDirectory, "manifest.json"), JsonUtility.ToJson(manifestRootExport));
+
+                    }
+
+
+                    string packname = "skinpack." + skinDataRoot.localization_name;
+                    textdatastring = packname + "=" + skinDataRoot.localization_name + "\n";
+                    if (exportIndex == 0)
+                    {
+                        for (int i = 0; i < skinOldDataRoot.skins.Count; i++)
+                        {
+                            skinDataRoot.skins.Add(skinOldDataRoot.skins[i]);
+                        }
+                    }
+
+                    for (int i = 0; i < skinDataRoot.skins.Count; i++)
+                    {
+                        textdatastring += "\t\t skin." + skinDataRoot.localization_name + "." + skinDataRoot.skins[i].localization_name + "=" + skinDataRoot.skins[i].localization_name + "\n \n";
+                    }
+
+
+                    if (!string.IsNullOrEmpty(textdatastring))
+                    {
+                        File.WriteAllText(Path.Combine(textPackDirectory, "en_US.lang"), textdatastring);
+                    }
+                    else
+                    {
+                        Debug.LogError("Manifest Data not found");
+                    }
+
+                    SkinPackDataString = JsonUtility.ToJson(skinDataRoot);
+                    //Skin Data Managed
+                    File.WriteAllText(Path.Combine(finalPackDirectory, "skins.json"), JsonUtility.ToJson(skinDataRoot));
+
+                    //image need to be copy at this position
+                    for (int i = 0; i < allSelectedImages.Count; i++)
+                    {
+                        SaveTextureAsPNG(allSelectedImages[i].texture2D, allSelectedImages[i].FileName, finalPackDirectory);
+                    }
+                    string ZipPath = "";
+
+
+                    if (File.Exists(MAINDOWNLOADPATHDIRECT + "/" + skinDataRoot.localization_name + ".mcpack"))
+                    {
+                        Debug.LogError("File Exxist and delete");
+                        File.Delete(MAINDOWNLOADPATHDIRECT + "/" + skinDataRoot.localization_name + ".mcpack");
+
+                    }
+                    else
+                    {
+                        Debug.LogError("File not exist and not delete");
+
+                    }
+
+                    if (exportIndex == 0)
+                    {
+                        ZipPath = MAINDOWNLOADPATHDIRECT + "/" + skinDataRoot.localization_name + ".mcpack";
+                        Zip.CompressDirectory(finalPackDirectory, ZipPath, true);
+
+                    }
+                    else
+                    {
+                        ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".mcpack";
+
+                        Zip.CompressDirectory(finalPackDirectory, ZipPath, true);
+                    }
+
+
+                    //     Zip.CompressDirectory(finalPackDirectory, ZipPath, true);
+                    //  lzip.compressDir(finalPackDirectory , 0, packMCpath, false);
+                    // yield return new WaitForSeconds(1);
+                    if (needtoOpenIndex == 1)
+                    {
+#if UNITY_EDITOR
+                        Debug.LogError("Unity Editor will not open it");
+#elif UNITY_ANDROID
+            AndroidContentOpenerWrapper.OpenContent(ZipPath);
+#elif UNITY_IOS
+
+                    new NativeShare().AddFile(ZipPath)
+            .SetSubject("3DSkinEditorSkinPAck")
+            .SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
+            .Share();
+#endif
+                    }
+                    else if (needtoOpenIndex == 2)
+                    {
+
+#if UNITY_ANDROID
+
+                        ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip";
+
+                        Zip.CompressDirectory(finalPackDirectory, ZipPath, true);
+
+                        new NativeShare().AddFile(ZipPath)
+                .SetSubject("3DSkinEditorSkinPAck").SetText("3D Skin Editor MCPE")
+                .SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
+                .Share();
+#elif UNITY_IOS
+
+                    new NativeShare().AddFile(ZipPath)
+            .SetSubject("3DSkinEditorSkinPAck").SetText("3D Skin Editor MCPE")
+            .SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
+            .Share();
+#endif
+                    }
+                }
+
+            }, 3);
+
+        }
+        else
+        {
+            //Debug.Log("Show Intrestitial  => " + result);
             if (skinDataRoot.skins.Count <= 0)
             {
                 if (allSelectedImages.Count <= 0)
@@ -350,7 +545,7 @@ public class DynamicSkinPackCreator : MonoBehaviour
                     }
                     else
                     {
-                        Directory.Delete(finalPackDirectory , true);
+                        Directory.Delete(finalPackDirectory, true);
                         Directory.CreateDirectory(finalPackDirectory);
                         //remove old data
                     }
@@ -430,9 +625,10 @@ public class DynamicSkinPackCreator : MonoBehaviour
                 {
                     Debug.LogError("File Exxist and delete");
                     File.Delete(MAINDOWNLOADPATHDIRECT + "/" + skinDataRoot.localization_name + ".mcpack");
-                  
+
                 }
-                else { 
+                else
+                {
                     Debug.LogError("File not exist and not delete");
 
                 }
@@ -457,7 +653,7 @@ public class DynamicSkinPackCreator : MonoBehaviour
                 if (needtoOpenIndex == 1)
                 {
 #if UNITY_EDITOR
-                Debug.LogError("Unity Editor will not open it");
+                    Debug.LogError("Unity Editor will not open it");
 #elif UNITY_ANDROID
             AndroidContentOpenerWrapper.OpenContent(ZipPath);
 #elif UNITY_IOS
@@ -473,7 +669,7 @@ public class DynamicSkinPackCreator : MonoBehaviour
 
 #if UNITY_ANDROID
 
-ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip";
+                    ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip";
 
                     Zip.CompressDirectory(finalPackDirectory, ZipPath, true);
 
@@ -490,11 +686,10 @@ ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip"
 #endif
                 }
             }
+        }
 
-        }, 3);
 
 
-        
     }
     public void SaveTextureAsPNG(Texture2D texture, string filename, string fpath)
     {
@@ -536,7 +731,7 @@ ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip"
         {
             skinDataRoot.serialize_name = if_skinPackName.text;
             skinDataRoot.localization_name = if_skinPackName.text;
-          
+
         }
         else
         {
@@ -663,7 +858,8 @@ ZipPath = MAINDOWNLOADPATHEXPORT + "/" + skinDataRoot.localization_name + ".zip"
                 //   HandleTexture(texture);
 
             }
-            else {
+            else
+            {
                 Debug.LogError("Path is null");
             }
         }, "Select a PNG image", "image/png");

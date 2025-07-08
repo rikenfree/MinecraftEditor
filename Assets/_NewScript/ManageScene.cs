@@ -13,7 +13,7 @@ public class ManageScene : MonoBehaviour
             {
                 SceneManager.LoadSceneAsync(1);
 
-            },3);
+            }, 3);
         }
         else
         {
@@ -23,25 +23,59 @@ public class ManageScene : MonoBehaviour
 
     public void CapEditor()
     {
-        SceneManager.LoadSceneAsync(3);
+        //SceneManager.LoadSceneAsync(3);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                SceneManager.LoadSceneAsync(3);
+
+            }, 3);
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync(3);
+        }
     }
 
     public void MapsMinecraft()
     {
-        SceneManager.LoadSceneAsync(6);
+        //SceneManager.LoadSceneAsync(6);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                SceneManager.LoadSceneAsync(6);
+
+            }, 3);
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync(6);
+        }
     }
 
     public void OnBackButtonClick()
     {
-        SceneManager.LoadSceneAsync(0);
+        //SceneManager.LoadSceneAsync(0);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((k) =>
+            {
+                SceneManager.LoadSceneAsync(0);
+
+            }, 3);
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync(0);
+        }
     }
 
     public void ClickButtonShare()
     {
-        SoundController.instance.PlayClickSound();
-        base.gameObject.SetActive(value: false);
+        //SoundController.instance.PlayClickSound();
+        //base.gameObject.SetActive(value: false);
         SuperStarSdkManager.Instance.Share();
     }
-
-
 }

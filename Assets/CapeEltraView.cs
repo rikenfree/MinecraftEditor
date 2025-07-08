@@ -12,7 +12,7 @@ public class CapeEltraView : MonoBehaviour
     public MasterCanvas1 MC;
     public CapeEltraData[] CapeItem;
     public CapeEltraData CapeSelectedItem;
-    public int currentPageIndex=0;
+    public int currentPageIndex = 0;
     public int MaxItem = 70;
     public int MaxPage = 0;
 
@@ -29,8 +29,8 @@ public class CapeEltraView : MonoBehaviour
         {
             MaxPage = Mathf.FloorToInt(MaxItem / 6);
         }
-        else 
-        { 
+        else
+        {
             MaxPage = Mathf.FloorToInt(MaxItem / 6);
         }
     }
@@ -40,33 +40,36 @@ public class CapeEltraView : MonoBehaviour
     }
 
     [Button]
-    public void LoadCapeElytraData(int capePageIndex) 
+    public void LoadCapeElytraData(int capePageIndex)
     {
-        PageTxt.text = "Page " + (capePageIndex+1);
+        PageTxt.text = "Page " + (capePageIndex + 1);
         string s = LocalizationManager.GetTranslation("Page");
-        PageTxt.text = s + " " +(capePageIndex + 1);
+        PageTxt.text = s + " " + (capePageIndex + 1);
 
         for (int i = 0; i < CapeItem.Length; i++)
         {
-            Texture2D cape = Resources.Load<Texture2D>("cape/"+((capePageIndex*6) + i));
+            Texture2D cape = Resources.Load<Texture2D>("cape/" + ((capePageIndex * 6) + i));
 
-           // CapeItem[i].Cape.SetSkinOnclick(cape);
+            // CapeItem[i].Cape.SetSkinOnclick(cape);
             CapeItem[i].Elytra.SetSkinOnclick(cape);
         }
-    
+
     }
 
-    public void NextPage() 
+    public void NextPage()
     {
-            currentPageIndex++;
+        currentPageIndex++;
         if (currentPageIndex > MaxPage)
         {
             currentPageIndex = MaxPage;
         }
-       
-            LoadCapeElytraData(currentPageIndex);
+
+        LoadCapeElytraData(currentPageIndex);
         SoundController1.Instance.PlayClickSound();
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
     }
 
     public void PreviousPage()
@@ -74,26 +77,32 @@ public class CapeEltraView : MonoBehaviour
         currentPageIndex--;
         if (currentPageIndex < 0)
         {
-            currentPageIndex=0;
+            currentPageIndex = 0;
         }
-       
+
         LoadCapeElytraData(currentPageIndex);
         SoundController1.Instance.PlayClickSound();
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
     }
 
-    public void OpenSelectedCapeBigView() 
+    public void OpenSelectedCapeBigView()
     {
         for (int i = 0; i < CapeSelectedView.Length; i++)
         {
-        CapeSelectedView[i].SetActive(true);
+            CapeSelectedView[i].SetActive(true);
         }
         for (int i = 0; i < CapeCollectionView.Length; i++)
         {
             CapeCollectionView[i].SetActive(false);
         }
         CapeSelectedItem.Elytra.SetSkinOnclick(texture2DSelected);
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
     }
 
     public void BackSelectedCapeBigView()
@@ -106,31 +115,39 @@ public class CapeEltraView : MonoBehaviour
         {
             CapeCollectionView[i].SetActive(true);
         }
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
 
     }
 
 
-    public void SelectCape(Texture2D texture) {
+    public void SelectCape(Texture2D texture)
+    {
 
         texture2DSelected = texture;
-       
+
     }
 
-    public void EditCape() 
+    public void EditCape()
     {
         UndoRedoController1.Instance.InitStacks();
         //  CapeController.Instance.currentcap
-        if (texture2DSelected!=null)
+        if (texture2DSelected != null)
         {
 
-        CapeController.Instance.ChangePickCapeTexture(texture2DSelected);
+            CapeController.Instance.ChangePickCapeTexture(texture2DSelected);
         }
-            MC.OnClickBackFromCollectionView();
-        SuperStarAd.Instance.ShowForceInterstitial(null);
+        MC.OnClickBackFromCollectionView();
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
 
     }
-    public void EditElytra() {
+    public void EditElytra()
+    {
 
         UndoRedoController1.Instance.InitStacks();
         if (texture2DSelected != null)
@@ -138,7 +155,10 @@ public class CapeEltraView : MonoBehaviour
             CapeController.Instance.ChangePickElytraTexture(texture2DSelected);
         }
         MC.OnClickBackFromCollectionView();
-        SuperStarAd.Instance.ShowForceInterstitial(null);
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader(null);
+        }
     }
 
     public int LastSavedIndex
@@ -151,35 +171,46 @@ public class CapeEltraView : MonoBehaviour
     public void SaveGallery()
     {
         LastSavedIndex++;
-        SuperStarAd.Instance.ShowForceInterstitial((result)=> {
-
-            if (result)
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
             {
-                if (texture2DSelected != null)
+                if (result)
                 {
-                    NativeGallery.SaveImageToGallery(texture2DSelected, "3DCapeEditor2217", "Skin"+ LastSavedIndex, null);
+                    if (texture2DSelected != null)
+                    {
+                        NativeGallery.SaveImageToGallery(texture2DSelected, "3DCapeEditor2217", "Skin" + LastSavedIndex, null);
+                    }
+                    else
+                    {
+                        Debug.LogError("No Texture for save");
+                    }
+                    succesfullPooup.SetActive(true);
                 }
                 else
                 {
-                    Debug.LogError("No Texture for save");
+                    ToastManager.Instance.ShowToast("Ad is not Loaded");
                 }
-                 succesfullPooup.SetActive(true);
-
+            }, 3);
+        }
+        else
+        {
+            if (texture2DSelected != null)
+            {
+                NativeGallery.SaveImageToGallery(texture2DSelected, "3DCapeEditor2217", "Skin" + LastSavedIndex, null);
             }
-            else {
-                ToastManager.Instance.ShowToast("Ad is not Loaded");
+            else
+            {
+                Debug.LogError("No Texture for save");
             }
-        });
-
+            succesfullPooup.SetActive(true);
+        }
     }
 }
 
 
 [Serializable]
-public class CapeEltraData 
+public class CapeEltraData
 {
     public LoadTextureOnModel Elytra;
-    
-
-
 }

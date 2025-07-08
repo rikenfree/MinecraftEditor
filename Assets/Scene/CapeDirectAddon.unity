@@ -5919,7 +5919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Scegli L'immagine
+  m_text: Pick Image
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f9012321d579e794080480f3698fd731, type: 2}
   m_sharedMaterial: {fileID: -6549791259732256272, guid: f9012321d579e794080480f3698fd731, type: 2}
@@ -6601,7 +6601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Componente Aggiuntivo Del Mantello
+  m_text: Cape Addon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f9012321d579e794080480f3698fd731, type: 2}
   m_sharedMaterial: {fileID: -6549791259732256272, guid: f9012321d579e794080480f3698fd731, type: 2}
@@ -6628,7 +6628,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.7
+  m_fontSize: 60
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8663,7 +8663,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &1722054954
 MonoBehaviour:
   m_ObjectHideFlags: 0

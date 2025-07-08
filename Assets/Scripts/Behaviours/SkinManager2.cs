@@ -9,7 +9,7 @@ public class SkinManager2 : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance==null)
+        if (Instance == null)
         {
             Instance = this;
         }
@@ -18,36 +18,38 @@ public class SkinManager2 : MonoBehaviour
     public Texture2D currentskin;
 
 
-    public void SelectSkin(Texture2D tex,Texture2D uiskin) {
+    public void SelectSkin(Texture2D tex, Texture2D uiskin)
+    {
         currentskin = tex;
         GuiManager2.instance.ShowSkinDownloadPanel(uiskin);
     }
 
-    public void DownloadCurrentSkin() {
-
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((result)=> {
-
-            if (result)
+    public void DownloadCurrentSkin()
+    {
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((result) =>
             {
                 if (result)
                 {
-
-                    // minecraftButton.SetActive(false);
-                    NativeGallery.SaveImageToGallery(currentskin, "3DSkins", "Skin", null);
-
-                   // HideExportPanel();
-                   // ShowAlertPanel("Skin Saved Successfully!.", danger: false);
-                  //  SuperStarSdkManager.Instance.Rate();
-                    ToastManager.Instance.ShowToast("Skin Saved Successfully!.");
-
-
+                    if (result)
+                    {
+                        NativeGallery.SaveImageToGallery(currentskin, "3DSkins", "Skin", null);
+                        ToastManager.Instance.ShowToast("Skin Saved Successfully!.");
+                    }
+                    else
+                    {
+                        ToastManager.Instance.ShowToast("AD is not available");
+                    }
                 }
-                else
-                {
-                    ToastManager.Instance.ShowToast("AD is not available");
-                }
-            }
-        },3);
+            }, 3);
+
+        }
+        else
+        {
+            NativeGallery.SaveImageToGallery(currentskin, "3DSkins", "Skin", null);
+            ToastManager.Instance.ShowToast("Skin Saved Successfully!.");
+        }
     }
 
 }

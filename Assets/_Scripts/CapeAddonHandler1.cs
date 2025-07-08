@@ -226,18 +226,24 @@ public class CapeAddonHandler1 : MonoBehaviour
     public void CreateDirectImmportPack()
     {
         SoundController1.Instance.PlayClickSound();
-
-        SuperStarAd.Instance.ShowRewardVideo((o) =>
+        if (SuperStarAd.Instance.NoAds == 0)
         {
-            if (o)
+            SuperStarAd.Instance.ShowRewardVideo((o) =>
             {
-                createAddonForCape(0);
-            }
-            else
-            {
-                ToastManager.Instance.ShowToast("Watch Video To Import This Addon");
-            }
-        });
+                if (o)
+                {
+                    createAddonForCape(0);
+                }
+                else
+                {
+                    ToastManager.Instance.ShowToast("Watch Video To Import This Addon");
+                }
+            });
+        }
+        else
+        {
+            createAddonForCape(0);
+        }
 
     }
 
@@ -427,7 +433,7 @@ public class CapeAddonHandler1 : MonoBehaviour
                         PickImageScreen.SetActive(true);
                         break;
                 }
-            }, 1);
+            }, 3);
         }
         else
         {
@@ -463,7 +469,36 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void BackScreen(int ScreenNo)
     {
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            {
+                SoundController1.Instance.PlayClickSound();
+                CloseTutorial();
+
+                switch (ScreenNo)
+                {
+                    case 0:
+                        TutorialParent.SetActive(false);
+                        HDTextureScreen.SetActive(true);
+                        MainCharacter.transform.rotation = Quaternion.identity;
+                        break;
+                    case 1:
+                        TutorialScreen[0].SetActive(true);
+                        break;
+                    case 2:
+                        TutorialScreen[1].SetActive(true);
+                        break;
+                    case 3:
+                        TutorialScreen[2].SetActive(true);
+                        break;
+                    case 4:
+                        TutorialScreen[3].SetActive(true);
+                        break;
+                }
+            }, 3);
+        }
+        else
         {
             SoundController1.Instance.PlayClickSound();
             CloseTutorial();
@@ -488,7 +523,7 @@ public class CapeAddonHandler1 : MonoBehaviour
                     TutorialScreen[3].SetActive(true);
                     break;
             }
-        });
+        }
     }
 
     public void CloseTutorial()
@@ -501,32 +536,60 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public void MainScreenCloseButton()
     {
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            {
+                SoundController1.Instance.PlayClickSound();
+                IsCustomCapeAddon = false;
+                SceneManager.LoadSceneAsync(3);
+            }, 3);
+        }
+        else
         {
             SoundController1.Instance.PlayClickSound();
             IsCustomCapeAddon = false;
             SceneManager.LoadSceneAsync(3);
-        });
+        }
     }
 
     public void TextureCloseButton()
     {
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            {
+                SoundController1.Instance.PlayClickSound();
+                ViewImageScreen.SetActive(false);
+                PickImageScreen.SetActive(true);
+            }, 3);
+
+        }
+        else
         {
             SoundController1.Instance.PlayClickSound();
             ViewImageScreen.SetActive(false);
             PickImageScreen.SetActive(true);
-        });
+        }
     }
 
     public void PreviewCloseButton()
     {
-        SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+        if (SuperStarAd.Instance.NoAds == 0)
+        {
+            SuperStarAd.Instance.ShowForceInterstitialWithLoader((o) =>
+            {
+                SoundController1.Instance.PlayClickSound();
+                HDTextureScreen.SetActive(false);
+                PickImageScreen.SetActive(true);
+            }, 3);
+        }
+        else
         {
             SoundController1.Instance.PlayClickSound();
             HDTextureScreen.SetActive(false);
             PickImageScreen.SetActive(true);
-        });
+        }
     }
 
     public void RateUs()

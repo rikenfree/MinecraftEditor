@@ -12323,7 +12323,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24277,6 +24277,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 160286110}
   _videoPlayerGameObject: {fileID: 160286108}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 2001222660}
   _videoContent: {fileID: 621120883}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -24365,6 +24368,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 1690871080}
   _videoPlayerGameObject: {fileID: 1690871078}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 33756070}
   _videoContent: {fileID: 1848029370}
   _renderTexture: {fileID: 8400000, guid: cfecf9239bdd714418e6e3f1847253ce, type: 2}
@@ -28039,6 +28045,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 6830468}
   _videoPlayerGameObject: {fileID: 6830466}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 1239132462}
   _videoContent: {fileID: 20088627}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -28729,6 +28738,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 1441338536}
   _videoPlayerGameObject: {fileID: 1441338534}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 1880639036}
   _videoContent: {fileID: 1836326496}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -39902,6 +39914,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 1302647910}
   _videoPlayerGameObject: {fileID: 1302647908}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 1010697413}
   _videoContent: {fileID: 1620046663}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -43347,6 +43362,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 1604190174}
   _videoPlayerGameObject: {fileID: 1604190172}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 201126273}
   _videoContent: {fileID: 963305286}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -51277,6 +51295,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 2015552373}
   _videoPlayerGameObject: {fileID: 2015552371}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 397926270}
   _videoContent: {fileID: 1593849127}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
@@ -54046,6 +54067,9 @@ MonoBehaviour:
   _videoPlayer: {fileID: 636785481749869892}
   _videoPlayerGameObject: {fileID: 636785481749869894}
   _gameName: {fileID: 0}
+  _gameIcon: {fileID: 0}
+  _gameDescriptiontxt: {fileID: 0}
+  _buttontxt: {fileID: 0}
   _containerButton: {fileID: 636785483332839134}
   _videoContent: {fileID: 636785481657613196}
   _renderTexture: {fileID: 8400000, guid: 54387758d3f804b119e7f1b27196964f, type: 2}
