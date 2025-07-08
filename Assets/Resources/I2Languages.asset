@@ -5622,6 +5622,22 @@ MonoBehaviour:
       - "\u0130htiyac\u0131n\u0131za g\xF6re bir model se\xE7in."
       Flags: 00000000000000000000
       Languages_Touch: []
+    - Term: Color
+      TermType: 0
+      Description: 
+      Languages:
+      - Color
+      - Color
+      - Couleur
+      - "\u0426\u0432\u0435\u0442"
+      - "M\xE0u S\u1EAFc"
+      - Cor
+      - Kolor
+      - Colore
+      - Farbe
+      - Renk
+      Flags: 00000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
