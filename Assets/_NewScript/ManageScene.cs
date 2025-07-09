@@ -10,14 +10,24 @@ public class ManageScene : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(opencolorpanel());
+        // Show color panel only once on first launch
+        if (!PlayerPrefs.HasKey("ColorPanelShown"))
+        {
+            StartCoroutine(OpenColorPanelDelayed());
+            PlayerPrefs.SetInt("ColorPanelShown", 1);
+        }
+        else
+        {
+            ColorPanel.SetActive(false);
+        }
     }
 
-    IEnumerator opencolorpanel()
+    IEnumerator OpenColorPanelDelayed()
     {
+        yield return new WaitForSeconds(0.5f); // Wait 5 seconds before showing
         ColorPanel.SetActive(true);
-        yield return new WaitForSeconds(15);
     }
+
     public void SkinEditor()
     {
         SceneManager.LoadSceneAsync(1);
@@ -41,7 +51,7 @@ public class ManageScene : MonoBehaviour
     public void ClickButtonShare()
     {
         SoundController.instance.PlayClickSound();
-        base.gameObject.SetActive(value: false);
+        gameObject.SetActive(false);
         SuperStarSdkManager.Instance.Share();
     }
 }
