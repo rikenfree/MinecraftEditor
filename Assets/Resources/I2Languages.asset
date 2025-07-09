@@ -6045,6 +6045,22 @@ MonoBehaviour:
       - Reklamlarla Destek
       Flags: 00000000000000000000
       Languages_Touch: []
+    - Term: Change Theme
+      TermType: 0
+      Description: 
+      Languages:
+      - Change Theme
+      - Cambiar Tema
+      - "Changer De Th\xE8me"
+      - "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0422\u0435\u043C\u0443"
+      - "Thay \u0110\u1ED5i Ch\u1EE7 \u0110\u1EC1"
+      - Mudar Tema
+      - "Zmie\u0144 Motyw"
+      - Cambia Tema
+      - "Thema \xC4ndern"
+      - "Temay\u0131 De\u011Fi\u015Ftir"
+      Flags: 00000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
