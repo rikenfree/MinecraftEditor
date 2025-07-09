@@ -5945,6 +5945,22 @@ MonoBehaviour:
       - "Ba\u011Flant\u0131y\u0131 Ba\u015Flat"
       Flags: 00000000000000000000
       Languages_Touch: []
+    - Term: 0
+      TermType: 0
+      Description: 
+      Languages:
+      - 0%
+      - 0%
+      - 0%
+      - 0%
+      - 0%
+      - 0%
+      - 0%
+      - 0%
+      - 0 %
+      - '%0'
+      Flags: 00000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
