@@ -13,15 +13,6 @@ public class Launguage
     public string Code;
 }
 
-[System.Serializable]
-public class LanguageButtonData
-{
-    public string LanguageName;
-    public string LanguageCode;
-    public Button button;      // Reference to the button
-    public Image tickmark;     // Reference to the tickmark image
-}
-
 public class LaunguageLocalization : MonoBehaviour
 {
     public static LaunguageLocalization instance;
@@ -42,10 +33,7 @@ public class LaunguageLocalization : MonoBehaviour
 
     public string currentlanguage
     {
-        get
-        {
-            return PlayerPrefs.GetString("language", "en");
-        }
+        get { return PlayerPrefs.GetString("language", "en"); }
         set
         {
             PlayerPrefs.SetString("language", value);
@@ -53,9 +41,7 @@ public class LaunguageLocalization : MonoBehaviour
         }
     }
 
-    [Space]
-    [Header("I2 Localize Refrence")]
-
+    [Header("I2 Localize Reference")]
     public Transform languagebtnparent;
     public List<Launguage> Language = new List<Launguage>();
 
@@ -66,7 +52,14 @@ public class LaunguageLocalization : MonoBehaviour
         for (int i = 0; i < Language.Count; i++)
         {
             Transform t = languagebtnparent.GetChild(i);
-            t.GetChild(0).GetComponent<TextMeshProUGUI>().text = Language[i].Name;
+
+            // ✅ Instead of setting .text directly, use Localize if needed
+            var localize = t.GetChild(0).GetComponent<Localize>();
+            if (localize != null)
+            {
+                localize.Term = Language[i].Name; // Use Term as key for language name
+                localize.OnLocalize();
+            }
 
             Button button = t.GetComponent<Button>();
             button.onClick.RemoveAllListeners();
@@ -124,6 +117,7 @@ public class LaunguageLocalization : MonoBehaviour
 
         currentlanguage = Language[index].Code;
         LocalizationManager.CurrentLanguageCode = currentlanguage;
+
         oldSelectedNob = index;
     }
 
@@ -133,3 +127,5 @@ public class LaunguageLocalization : MonoBehaviour
         OnLanguageSelect(0);
     }
 }
+
+

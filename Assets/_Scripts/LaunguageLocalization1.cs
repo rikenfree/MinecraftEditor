@@ -34,10 +34,7 @@ public class LaunguageLocalization1 : MonoBehaviour
 
     public string currentlanguage
     {
-        get
-        {
-            return PlayerPrefs.GetString("language", "en");
-        }
+        get { return PlayerPrefs.GetString("language", "en"); }
         set
         {
             PlayerPrefs.SetString("language", value);
@@ -45,9 +42,7 @@ public class LaunguageLocalization1 : MonoBehaviour
         }
     }
 
-    [Space]
-    [Header("I2 Localize Refrence")]
-
+    [Header("I2 Localize Reference")]
     public Transform languagebtnparent;
     public List<Launguage> Language = new List<Launguage>();
 
@@ -61,7 +56,14 @@ public class LaunguageLocalization1 : MonoBehaviour
         for (int i = 0; i < Language.Count; i++)
         {
             Transform t = languagebtnparent.GetChild(i);
-            t.GetChild(0).GetComponent<TextMeshProUGUI>().text = Language[i].Name;
+
+            // ✅ Use Localize instead of setting .text directly
+            var localize = t.GetChild(0).GetComponent<Localize>();
+            if (localize != null)
+            {
+                localize.Term = Language[i].Name;
+                localize.OnLocalize();
+            }
 
             Button button = t.GetComponent<Button>();
             button.onClick.RemoveAllListeners();
@@ -120,6 +122,7 @@ public class LaunguageLocalization1 : MonoBehaviour
 
         currentlanguage = Language[index].Code;
         LocalizationManager.CurrentLanguageCode = currentlanguage;
+
         oldSelectedNob = index;
     }
 
@@ -133,8 +136,16 @@ public class LaunguageLocalization1 : MonoBehaviour
     {
         SoundController1.Instance.PlayClickSound();
         LanguagePanel.SetActive(false);
+
         string translateKey = CapeController.Instance.currentcap.CurrentHeaderName;
-        string s = LocalizationManager.GetTranslation(translateKey);
-        MasterCanvas.HeaderText.text = s;
+
+        // ✅ Use Localize for HeaderText
+        if (MasterCanvas.HeaderLocalize != null)
+        {
+            MasterCanvas.HeaderLocalize.Term = translateKey;
+            MasterCanvas.HeaderLocalize.OnLocalize();
+        }
+
+        // No direct .text = s; anymore!
     }
 }
