@@ -428,7 +428,7 @@ MonoBehaviour:
       - Claro
       - Clair
       - "\u041F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u0439"
-      - "Th\xF4ng tho\xE1ng"
+      - "Th\xF4ng Tho\xE1ng"
       - Claro
       - Jasne
       - Chiaro
@@ -524,12 +524,12 @@ MonoBehaviour:
       - Descargar
       - "T\xE9l\xE9charger"
       - "\u0421\u043A\u0430\u0447\u0430\u0442\u044C"
-      - "T\u1EA3i xu\u1ED1ng"
+      - "T\u1EA3i V\u1EC1"
       - Download
       - "Pobiera\u0107"
       - Scaricamento
       - Herunterladen
-      - "\u0130ndirmek"
+      - Indirmek
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Download Skin
@@ -537,15 +537,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Download Skin
-      - Descargar piel
-      - "T\xE9l\xE9charger le skin"
-      - "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u0441\u043A\u0438\u043D"
-      - "T\u1EA3i xu\u1ED1ng da"
-      - Baixar skin
-      - "Pobierz sk\xF3rk\u0119"
-      - Scarica Pelle
-      - Skin herunterladen
-      - "D\u0131\u015F G\xF6r\xFCn\xFCm\xFC \u0130ndir"
+      - Descargar Skin
+      - "T\xE9l\xE9charger Le Skin"
+      - "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u0421\u043A\u0438\u043D"
+      - "T\u1EA3i Xu\u1ED1ng Giao Di\u1EC7n"
+      - Baixar Skin
+      - "Pobierz Sk\xF3rk\u0119"
+      - Scarica Skin
+      - Skin Herunterladen
+      - Cildi Indir
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Dropper
@@ -617,16 +617,16 @@ MonoBehaviour:
       Description: 
       Languages:
       - Enter keyword to search
-      - Ingrese la palabra clave para buscar
-      - "Entrez le mot-cl\xE9 pour rechercher"
+      - Introduzca una palabra clave para buscar
+      - "Entrez un mot-cl\xE9 pour rechercher"
       - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043A\u043B\u044E\u0447\u0435\u0432\u043E\u0435
         \u0441\u043B\u043E\u0432\u043E \u0434\u043B\u044F \u043F\u043E\u0438\u0441\u043A\u0430"
       - "Nh\u1EADp t\u1EEB kh\xF3a \u0111\u1EC3 t\xECm ki\u1EBFm"
       - Digite a palavra-chave para pesquisar
-      - "Wpisz s\u0142owo kluczowe, aby wyszuka\u0107"
+      - "Wprowad\u017A s\u0142owo kluczowe, aby wyszuka\u0107"
       - Inserisci la parola chiave da cercare
-      - Geben Sie den Suchbegriff ein, um zu suchen
-      - Aranacak anahtar kelimeyi girin
+      - "Geben Sie ein Schl\xFCsselwort f\xFCr die Suche ein"
+      - "Aramak i\xE7in anahtar kelime girin"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Epic
@@ -717,7 +717,7 @@ MonoBehaviour:
       - Favorito
       - "Pr\xE9f\xE9r\xE9"
       - "\u041B\u044E\u0431\u0438\u043C\u044B\u0439"
-      - "Y\xEAu th\xEDch"
+      - "Y\xEAu Th\xEDch"
       - Favorito
       - Ulubiony
       - Preferito
@@ -730,13 +730,13 @@ MonoBehaviour:
       Description: 
       Languages:
       - Favourite Maps
-      - Mapas favoritos
-      - Cartes favorites
-      - "\u041B\u044E\u0431\u0438\u043C\u044B\u0435 \u043A\u0430\u0440\u0442\u044B"
-      - "B\u1EA3n \u0111\u1ED3 y\xEAu th\xEDch"
-      - Mapas favoritos
-      - Ulubione mapy
-      - Mappe preferite
+      - Mapas Favoritos
+      - "Cartes Pr\xE9f\xE9r\xE9es"
+      - "\u041B\u044E\u0431\u0438\u043C\u044B\u0435 \u041A\u0430\u0440\u0442\u044B"
+      - "B\u1EA3n \u0110\u1ED3 Y\xEAu Th\xEDch"
+      - Mapas Favoritos
+      - Ulubione Mapy
+      - Mappe Preferite
       - Lieblingskarten
       - Favori Haritalar
       Flags: 00000000000000000000
@@ -749,14 +749,14 @@ MonoBehaviour:
       - Se requiere permiso de archivo para exportar mapas a Minecraft.
       - L'autorisation de fichier est requise pour exporter des cartes vers Minecraft.
       - "\u0414\u043B\u044F \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430 \u043A\u0430\u0440\u0442
-        \u0432 Minecraft \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435
-        \u0444\u0430\u0439\u043B\u0430."
+        \u0432 Minecraft \u0442\u0440\u0435\u0431\u0443\u044E\u0442\u0441\u044F \u043F\u0440\u0430\u0432\u0430
+        \u0434\u043E\u0441\u0442\u0443\u043F\u0430 \u043A \u0444\u0430\u0439\u043B\u0443."
       - "C\u1EA7n c\xF3 quy\u1EC1n truy c\u1EADp t\u1EC7p \u0111\u1EC3 xu\u1EA5t
         b\u1EA3n \u0111\u1ED3 sang Minecraft."
       - "\xC9 necess\xE1ria permiss\xE3o de arquivo para exportar mapas para o Minecraft."
-      - "Aby wyeksportowa\u0107 mapy do Minecrafta, wymagane s\u0105 uprawnienia
-        do pliku."
-      - "Per esportare le mappe in Minecraft \xE8 necessaria l'autorizzazione del
+      - "Aby wyeksportowa\u0107 mapy do Minecrafta, wymagane jest uprawnienie do
+        pliku."
+      - "Per esportare le mappe in Minecraft \xE8 richiesta l'autorizzazione del
         file."
       - Zum Exportieren von Karten nach Minecraft ist eine Dateiberechtigung erforderlich.
       - "Haritalar\u0131 Minecraft'a aktarmak i\xE7in dosya izni gereklidir."
@@ -1062,13 +1062,14 @@ MonoBehaviour:
       - "\u0415\u0441\u043B\u0438 \u043C\u044B \u0432\u0430\u043C \u043D\u0440\u0430\u0432\u0438\u043C\u0441\u044F,
         \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043F\u043E\u0441\u0442\u0430\u0432\u044C\u0442\u0435
         \u043D\u0430\u043C 5 \u0437\u0432\u0435\u0437\u0434 :D"
-      - "N\u1EBFu b\u1EA1n th\xEDch ch\xFAng t\xF4i, vui l\xF2ng cho ch\xFAng t\xF4i
-        5 sao :D"
-      - "Se voc\xEA gosta de n\xF3s, por favor, d\xEA-nos 5 estrelas: D"
+      - "N\u1EBFu b\u1EA1n th\xEDch ch\xFAng t\xF4i, h\xE3y cho ch\xFAng t\xF4i 5
+        sao nh\xE9 :D"
+      - "Se voc\xEA gosta de n\xF3s, d\xEA-nos 5 estrelas :D"
       - "Je\u015Bli nas lubisz, daj nam 5 gwiazdek :D"
-      - 'Se ti piacciamo, ti preghiamo di darci 5 stelle: D'
-      - "Wenn Sie uns m\xF6gen, geben Sie uns bitte 5 Sterne :D"
-      - "Bizi be\u011Fendiyseniz, l\xFCtfen bize 5 y\u0131ld\u0131z verin: D"
+      - Se vi piacciamo, vi preghiamo di darci 5 stelle :D
+      - Wenn wir dir gefallen, gib uns bitte 5 Sterne :D
+      - "E\u011Fer bizi be\u011Fendiyseniz l\xFCtfen bize 5 y\u0131ld\u0131z verin
+        :D"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Import Now
@@ -1076,16 +1077,16 @@ MonoBehaviour:
       Description: 
       Languages:
       - Import Now
-      - Importar ahora
-      - Importer maintenant
+      - Importar Ahora
+      - Importer Maintenant
       - "\u0418\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
-        \u0441\u0435\u0439\u0447\u0430\u0441"
-      - "Nh\u1EADp ngay"
-      - Importar agora
-      - Importuj teraz
-      - Importa ora
-      - Jetzt importieren
-      - "\u015Eimdi \u0130\xE7e Aktar"
+        \u0421\u0435\u0439\u0447\u0430\u0441"
+      - "Nh\u1EADp Kh\u1EA9u Ngay"
+      - Importar Agora
+      - Importuj Teraz
+      - Importa Ora
+      - Jetzt Importieren
+      - "\u015Eimdi I\xE7e Aktar"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Intrestital Force Loader Callback
@@ -1158,15 +1159,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Later
-      - "M\xE1s tarde"
-      - Plus tard
+      - "M\xE1s Tarde"
+      - Plus Tard
       - "\u041F\u043E\u0437\u0436\u0435"
-      - "Sau \u0111\xF3"
-      - Mais tarde
+      - "Sau \u0110\xF3"
+      - Mais Tarde
       - "P\xF3\u017Aniej"
       - Dopo
       - "Sp\xE4ter"
-      - Daha sonra
+      - Daha Sonra
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Lucky
@@ -1190,25 +1191,25 @@ MonoBehaviour:
       Description: 
       Languages:
       - MCPE is not installed on your phone Please install Leatest Version
-      - "MCPE no est\xE1 instalado en su tel\xE9fono. Instale la versi\xF3n m\xE1s
-        reciente."
-      - "MCPE n'est pas install\xE9 sur votre t\xE9l\xE9phone Veuillez installer
-        la version la plus r\xE9cente"
+      - "MCPE no est\xE1 instalado en tu tel\xE9fono. Instala la \xFAltima versi\xF3n."
+      - "MCPE n'est pas install\xE9 sur votre t\xE9l\xE9phone. Veuillez installer
+        la version la plus r\xE9cente."
       - "MCPE \u043D\u0435 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D
         \u043D\u0430 \u0432\u0430\u0448\u0435\u043C \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0435.
-        \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044E\u044E
-        \u0432\u0435\u0440\u0441\u0438\u044E."
+        \u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044E\u044E \u0432\u0435\u0440\u0441\u0438\u044E."
       - "MCPE ch\u01B0a \u0111\u01B0\u1EE3c c\xE0i \u0111\u1EB7t tr\xEAn \u0111i\u1EC7n
         tho\u1EA1i c\u1EE7a b\u1EA1n Vui l\xF2ng c\xE0i \u0111\u1EB7t Phi\xEAn b\u1EA3n
         m\u1EDBi nh\u1EA5t"
-      - "MCPE n\xE3o est\xE1 instalado no seu telefone Instale a vers\xE3o mais recente"
-      - "MCPE nie jest zainstalowane na Twoim telefonie. Zainstaluj najnowsz\u0105
-        wersj\u0119"
-      - "MCPE non \xE8 installato sul tuo telefono. Installa la versione pi\xF9 recente"
+      - "O MCPE n\xE3o est\xE1 instalado no seu telefone. Instale a vers\xE3o mais
+        recente."
+      - "MCPE nie jest zainstalowany na Twoim telefonie. Zainstaluj najnowsz\u0105
+        wersj\u0119."
+      - "MCPE non \xE8 installato sul tuo telefono. Installa la versione pi\xF9 recente."
       - MCPE ist nicht auf Ihrem Telefon installiert. Bitte installieren Sie die
-        aktuellste Version
-      - "MCPE telefonunuzda y\xFCkl\xFC de\u011Fil L\xFCtfen En Son S\xFCr\xFCm\xFC
-        Y\xFCkleyin"
+        neueste Version
+      - "Telefonunuzda MCPE y\xFCkl\xFC de\u011Fil. L\xFCtfen en son s\xFCr\xFCm\xFC
+        y\xFCkleyin."
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Mansion
@@ -1264,13 +1265,13 @@ MonoBehaviour:
       Description: 
       Languages:
       - Map Name
-      - Nombre del mapa
-      - Nom de la carte
-      - "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0430\u0440\u0442\u044B"
-      - "T\xEAn b\u1EA3n \u0111\u1ED3"
-      - Nome do mapa
-      - Nazwa mapy
-      - Nome della mappa
+      - Nombre Del Mapa
+      - Nom De La Carte
+      - "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u041A\u0430\u0440\u0442\u044B"
+      - "T\xEAn B\u1EA3n \u0110\u1ED3"
+      - Nome Do Mapa
+      - Nazwa Mapy
+      - Nome Della Mappa
       - Kartenname
       - "Harita Ad\u0131"
       Flags: 00000000000000000000
@@ -1348,9 +1349,9 @@ MonoBehaviour:
       - Menu
       - "\u041C\u0435\u043D\u044E"
       - "Th\u1EF1c \u0110\u01A1n"
-      - "Card\xE1pio"
       - Menu
-      - "Men\xF9"
+      - Menu
+      - Menu
       - Speisekarte
       - "Men\xFC"
       Flags: 00000000000000000000
@@ -1424,13 +1425,13 @@ MonoBehaviour:
       Description: 
       Languages:
       - New Text
-      - Nuevo texto
-      - Nouveau texte
-      - "\u041D\u043E\u0432\u044B\u0439 \u0442\u0435\u043A\u0441\u0442"
-      - "V\u0103n b\u1EA3n m\u1EDBi"
-      - Novo texto
-      - Nowy tekst
-      - Nuovo testo
+      - Nuevo Texto
+      - Nouveau Texte
+      - "\u041D\u043E\u0432\u044B\u0439 \u0422\u0435\u043A\u0441\u0442"
+      - "V\u0103n B\u1EA3n M\u1EDBi"
+      - Novo Texto
+      - Nowy Tekst
+      - Nuovo Testo
       - Neuer Text
       - Yeni Metin
       Flags: 00000000000000000000
@@ -1456,15 +1457,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - OK
-      - DE ACUERDO
-      - D'ACCORD
-      - "\u0425\u041E\u0420\u041E\u0428\u041E"
-      - "\u0110\u01AF\u1EE2C R\u1ED2I"
+      - OK
+      - D'accord
+      - "\u0425\u043E\u0440\u043E\u0448\u043E"
+      - "\u0110\u01B0\u1EE3c R\u1ED3i"
       - OK
       - OK
       - OK
       - OK
-      - TAMAM
+      - Tamam
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Ok
@@ -1472,10 +1473,10 @@ MonoBehaviour:
       Description: 
       Languages:
       - Ok
-      - De acuerdo
+      - OK
       - D'accord
       - "\u0425\u043E\u0440\u043E\u0448\u043E"
-      - "\u0110\u01B0\u1EE3c r\u1ED3i"
+      - "\u0110\u01B0\u1EE3c R\u1ED3i"
       - OK
       - OK
       - OK
@@ -1536,15 +1537,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Permission Required!
-      - "\xA1Se requiere permiso!"
-      - "Autorisation requise\_!"
-      - "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435!"
-      - "C\u1EA7n c\xF3 s\u1EF1 cho ph\xE9p!"
-      - "Permiss\xE3o necess\xE1ria!"
-      - Wymagane pozwolenie!
-      - Permesso richiesto!
-      - Erlaubnis erforderlich!
-      - "\u0130zin Gerekli!"
+      - "\xA1Se Requiere Permiso!"
+      - Autorisation Requise !
+      - "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435!"
+      - "C\u1EA7n Ph\u1EA3i C\xF3 S\u1EF1 Cho Ph\xE9p!"
+      - "Permiss\xE3o Necess\xE1ria!"
+      - Wymagane Pozwolenie!
+      - "\xC8 Richiesta L'autorizzazione!"
+      - Genehmigung Erforderlich!
+      - Izin Gerekli!
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Pixel
@@ -1584,15 +1585,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Please Rate Us!
-      - "\xA1Calif\xEDcanos!"
-      - "Veuillez nous \xE9valuer\_!"
-      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043E\u0446\u0435\u043D\u0438\u0442\u0435
-        \u043D\u0430\u0441!"
-      - "H\xE3y \u0111\xE1nh gi\xE1 ch\xFAng t\xF4i!"
-      - Por favor, avalie-nos!
-      - "Oce\u0144 nas!"
-      - Per favore valutaci!
-      - Bitte bewerten Sie uns!
+      - "\xA1Por Favor Calif\xEDquenos!"
+      - "S'il Vous Pla\xEEt, \xC9valuez-Nous !"
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u041E\u0446\u0435\u043D\u0438\u0442\u0435
+        \u041D\u0430\u0441!"
+      - "Vui L\xF2ng \u0110\xE1nh Gi\xE1 Ch\xFAng T\xF4i!"
+      - Por Favor Nos Avalie!
+      - "Oce\u0144 Nas!"
+      - Per Favore, Dacci Una Valutazione!
+      - Bitte Bewerten Sie Uns!
       - "L\xFCtfen Bizi De\u011Ferlendirin!"
       Flags: 00000000000000000000
       Languages_Touch: []
@@ -1732,7 +1733,7 @@ MonoBehaviour:
       - Tasa
       - Taux
       - "\u0421\u0442\u0430\u0432\u043A\u0430"
-      - "T\u1EF7 l\u1EC7"
+      - "T\u1EF7 L\u1EC7"
       - Avaliar
       - "Wska\u017Anik"
       - Valutare
@@ -1745,14 +1746,14 @@ MonoBehaviour:
       Description: 
       Languages:
       - Rate For Us
-      - Tasa Para Nosotros
+      - Tarifa Para Nosotros
       - Tarif Pour Nous
-      - "\u0426\u0435\u043D\u0430 \u0414\u043B\u044F \u041D\u0430\u0441"
+      - "\u0421\u0442\u0430\u0432\u043A\u0430 \u0414\u043B\u044F \u041D\u0430\u0441"
       - "\u0110\xE1nh Gi\xE1 Cho Ch\xFAng T\xF4i"
-      - "Taxa Para N\xF3s"
+      - "Avalie Para N\xF3s"
       - Stawka Dla Nas
       - Tariffa Per Noi
-      - "Tarif F\xFCr Uns"
+      - "Preis F\xFCr Uns"
       - "Bizim I\xE7in Oran"
       Flags: 00000000000000000000
       Languages_Touch: []
@@ -1893,7 +1894,7 @@ MonoBehaviour:
       - Buscar
       - Recherche
       - "\u041F\u043E\u0438\u0441\u043A"
-      - "T\xECm ki\u1EBFm"
+      - "T\xECm Ki\u1EBFm"
       - Procurar
       - Szukaj
       - Ricerca
@@ -1906,15 +1907,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Search Maps
-      - Buscar mapas
-      - Rechercher des cartes
-      - "\u041F\u043E\u0438\u0441\u043A \u043F\u043E \u043A\u0430\u0440\u0442\u0430\u043C"
-      - "T\xECm ki\u1EBFm b\u1EA3n \u0111\u1ED3"
-      - Pesquisar mapas
-      - Szukaj w Mapach
-      - Cerca mappe
-      - Karten durchsuchen
-      - Haritalarda Ara
+      - Buscar Mapas
+      - Cartes De Recherche
+      - "\u041F\u043E\u0438\u0441\u043A \u041A\u0430\u0440\u0442"
+      - "T\xECm Ki\u1EBFm B\u1EA3n \u0110\u1ED3"
+      - Pesquisar Mapas
+      - Przeszukaj Mapy
+      - Cerca Mappe
+      - Kartensuche
+      - "Haritalar\u0131 Ara"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Search Result
@@ -1922,15 +1923,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Search Result
-      - "Resultado de b\xFAsqueda"
-      - "R\xE9sultat de la recherche"
-      - "\u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u043F\u043E\u0438\u0441\u043A\u0430"
-      - "T\xECm k\xEAt qu\u1EA3"
-      - Resultado da pesquisa
-      - Wynik wyszukiwania
-      - Risultato della ricerca
+      - "Resultado De La B\xFAsqueda"
+      - "R\xE9sultat De La Recherche"
+      - "\u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u041F\u043E\u0438\u0441\u043A\u0430"
+      - "K\u1EBFt Qu\u1EA3 T\xECm Ki\u1EBFm"
+      - Resultado Da Pesquisa
+      - Wynik Wyszukiwania
+      - Risultato Della Ricerca
       - Suchergebnis
-      - "Arama sonu\xE7lar\u0131"
+      - Arama Sonucu
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Select Language
@@ -1938,8 +1939,8 @@ MonoBehaviour:
       Description: 
       Languages:
       - Select Language
-      - Seleccione El Idioma
-      - Choisir La Langue
+      - Seleccionar Idioma
+      - "S\xE9lectionner La Langue"
       - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u042F\u0437\u044B\u043A"
       - "Ch\u1ECDn Ng\xF4n Ng\u1EEF"
       - Selecione O Idioma
@@ -1956,13 +1957,14 @@ MonoBehaviour:
       - Select Maps by Tags
       - Seleccionar mapas por etiquetas
       - "S\xE9lectionner des cartes par balises"
-      - "\u0412\u044B\u0431\u043E\u0440 \u043A\u0430\u0440\u0442 \u043F\u043E \u0442\u0435\u0433\u0430\u043C"
+      - "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u043A\u0430\u0440\u0442\u044B
+        \u043F\u043E \u0442\u0435\u0433\u0430\u043C"
       - "Ch\u1ECDn b\u1EA3n \u0111\u1ED3 theo th\u1EBB"
-      - Selecione mapas por tags
-      - "Wybierz Mapy wed\u0142ug tag\xF3w"
-      - Seleziona Mappe per tag
-      - "W\xE4hlen Sie Karten nach Tags aus"
-      - "Haritalar\u0131 Etiketlere G\xF6re Se\xE7in"
+      - Selecionar mapas por tags
+      - "Wybierz mapy wed\u0142ug tag\xF3w"
+      - Seleziona mappe per tag
+      - "Karten nach Tags ausw\xE4hlen"
+      - "Etiketlere G\xF6re Haritalar\u0131 Se\xE7in"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Select language
@@ -2009,7 +2011,7 @@ MonoBehaviour:
       - Compartir
       - Partager
       - "\u0414\u0435\u043B\u0438\u0442\u044C\u0441\u044F"
-      - "Chia s\u1EBB"
+      - "Chia S\u1EBB"
       - Compartilhar
       - "Udzia\u0142"
       - Condividere
@@ -2026,11 +2028,11 @@ MonoBehaviour:
       - Partager L'application
       - "\u041F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F \u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\u043C"
       - "Chia S\u1EBB \u1EE8ng D\u1EE5ng"
-      - Compartilhe O Aplicativo
-      - "Udost\u0119pnij Aplikacje"
+      - Compartilhar Aplicativo
+      - "Udost\u0119pnij Aplikacj\u0119"
       - Condividi App
       - App Teilen
-      - "Uygulamay\u0131 Payla\u015F"
+      - "Payla\u015F\u0131m Uygulamas\u0131"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Ship
@@ -2166,15 +2168,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Start Import
-      - "Iniciar importaci\xF3n"
-      - "D\xE9marrer l'importation"
-      - "\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u043C\u043F\u043E\u0440\u0442"
-      - "B\u1EAFt \u0111\u1EA7u nh\u1EADp"
-      - "Iniciar importa\xE7\xE3o"
-      - Rozpocznij importowanie
-      - Avvia l'importazione
-      - Starten Sie den Import
-      - "\u0130\xE7e aktarmay\u0131 ba\u015Flat"
+      - "Iniciar Importaci\xF3n"
+      - "D\xE9marrer L'importation"
+      - "\u041D\u0430\u0447\u0430\u0442\u044C \u0418\u043C\u043F\u043E\u0440\u0442"
+      - "B\u1EAFt \u0110\u1EA7u Nh\u1EADp Kh\u1EA9u"
+      - "Iniciar Importa\xE7\xE3o"
+      - Rozpocznij Importowanie
+      - Avvia L'importazione
+      - Import Starten
+      - "I\xE7e Aktarmay\u0131 Ba\u015Flat"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Statue
@@ -2230,15 +2232,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - 'TAG: Some Tag'
-      - 'ETIQUETA: Alguna etiqueta'
-      - "TAG\_:\_Une \xE9tiquette"
-      - "\u0422\u0415\u0413: \u041A\u0430\u043A\u043E\u0439-\u0442\u043E \u0442\u0435\u0433"
-      - "TAG: M\u1ED9t s\u1ED1 th\u1EBB"
-      - 'TAG: alguma etiqueta'
-      - "TAG: jaki\u015B tag"
-      - 'TAG: qualche tag'
-      - 'TAG: Irgendein Tag'
-      - "ET\u0130KET: Baz\u0131 Etiketler"
+      - 'Etiqueta: Alguna Etiqueta'
+      - 'Tag : Quelques Tags'
+      - "\u0422\u0435\u0433: \u041A\u0430\u043A\u043E\u0439-\u0422\u043E \u0422\u0435\u0433"
+      - "Th\u1EBB: M\u1ED9t S\u1ED1 Th\u1EBB"
+      - 'Tag: Alguma Tag'
+      - "Tag: Jaki\u015B Tag"
+      - 'Tag: Qualche Tag'
+      - 'Tag: Irgendein Tag'
+      - "Etiket: Baz\u0131 Etiketler"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: TAP TO CONTINUE
@@ -2246,16 +2248,16 @@ MonoBehaviour:
       Description: 
       Languages:
       - TAP TO CONTINUE
-      - PULSE PARA CONTINUAR
-      - APPUYEZ POUR CONTINUER
-      - "\u041D\u0410\u0416\u041C\u0418\u0422\u0415, \u0427\u0422\u041E\u0411\u042B
-        \u041F\u0420\u041E\u0414\u041E\u041B\u0416\u0418\u0422\u042C"
-      - "NH\u1EA4N \u0110\u1EC2 TI\u1EBEP T\u1EE4C"
-      - CLIQUE PARA CONTINUAR
-      - "KLIKNIJ, ABY KONTYNUOWA\u0106"
-      - TOCCA PER CONTINUARE
-      - TIPPEN SIE, UM FORTZUFAHREN
-      - "DEVAM ETMEK \u0130\xC7\u0130N DOKUNUN"
+      - Toca Para Continuar
+      - Appuyez Pour Continuer
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0427\u0442\u043E\u0431\u044B
+        \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - "Ch\u1EA1m \u0110\u1EC3 Ti\u1EBFp T\u1EE5c"
+      - Toque Para Continuar
+      - "Dotknij, Aby Kontynuowa\u0107"
+      - Tocca Per Continuare
+      - Tippen Sie, Um Fortzufahren
+      - "Devam Etmek I\xE7in Dokunun"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Tag
@@ -2506,12 +2508,12 @@ MonoBehaviour:
       Languages:
       - Edit Cape
       - "Capa De Edici\xF3n"
-      - Modifier Le Manteau
+      - Modifier La Cape
       - "\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
         \u041F\u043B\u0430\u0449"
       - "Ch\u1EC9nh S\u1EEDa \xC1o Cho\xE0ng"
       - Editar Capa
-      - "Edytuj P\u0142aszcz"
+      - "Edytuj Peleryn\u0119"
       - Modifica Mantello
       - Umhang Bearbeiten
       - "Pelerini D\xFCzenle"
@@ -2528,7 +2530,7 @@ MonoBehaviour:
         \u041D\u0430\u0434\u043A\u0440\u044B\u043B\u044C\u044F"
       - "Ch\u1EC9nh S\u1EEDa Elytra"
       - "Editar \xC9litros"
-      - "Edytuj Elytr\u0119"
+      - Edytuj Pokrywy
       - Modificare Le Elitre
       - "Fl\xFCgeldecken Bearbeiten"
       - "Elitra'y\u0131 D\xFCzenle"
@@ -2589,11 +2591,11 @@ MonoBehaviour:
       - Create Hd Cape Texture
       - Crear Textura De Capa HD
       - "Cr\xE9er Une Texture De Cape HD"
-      - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C Hd \u0422\u0435\u043A\u0441\u0442\u0443\u0440\u0443
+      - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C HD \u0422\u0435\u043A\u0441\u0442\u0443\u0440\u0443
         \u041F\u043B\u0430\u0449\u0430"
       - "T\u1EA1o K\u1EBFt C\u1EA5u \xC1o Cho\xE0ng Hd"
       - Criar Textura De Capa Hd
-      - "Utw\xF3rz Tekstur\u0119 Peleryny Hd"
+      - "Utw\xF3rz Tekstur\u0119 Peleryny HD"
       - Creare Una Trama Di Mantello Hd
       - Erstellen Sie Eine HD-Cape-Textur
       - "Hd Pelerin Dokusu Olu\u015Ftur"
@@ -2624,12 +2626,12 @@ MonoBehaviour:
       - "\xC9diteur De Skin 3D Pour MCPE"
       - "3D \u0420\u0435\u0434\u0430\u043A\u0442\u043E\u0440 \u0421\u043A\u0438\u043D\u043E\u0432
         \u0414\u043B\u044F Mcpe"
-      - "Tr\xECnh Ch\u1EC9nh S\u1EEDa Skin 3D Cho Mcpe"
+      - "Tr\xECnh Ch\u1EC9nh S\u1EEDa Giao Di\u1EC7n 3D Cho Mcpe"
       - Editor De Skin 3D Para MCPE
-      - "Edytor Sk\xF3rek 3D Dla Mcpe"
+      - "Edytor Sk\xF3rek 3D Do Mcpe"
       - Editor Di Skin 3D Per MCPE
       - "3D-Skin-Editor F\xFCr MCPE"
-      - "Mcpe I\xE7in 3D Skin D\xFCzenleyici"
+      - "Mcpe I\xE7in 3D Cilt D\xFCzenleyici"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: RateUS
@@ -2639,13 +2641,13 @@ MonoBehaviour:
       - RateUS
       - RateUS
       - TauxUS
-      - "\u041E\u0446\u0435\u043D\u0438\u0442\u044C\u0421\u0428\u0410"
-      - "T\u1EF7 gi\xE1US"
       - RateUS
-      - "Oce\u0144USA"
+      - "T\u1EF7 l\u1EC7 US"
       - RateUS
       - RateUS
-      - OranABD
+      - RateUS
+      - RateUS
+      - RateUS
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: How To Use Editor
@@ -2657,12 +2659,12 @@ MonoBehaviour:
       - "Comment Utiliser L'\xE9diteur"
       - "\u041A\u0430\u043A \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
         \u0420\u0435\u0434\u0430\u043A\u0442\u043E\u0440"
-      - "C\xE1ch S\u1EED D\u1EE5ng Tr\xECnh Bi\xEAn T\u1EADp"
+      - "C\xE1ch S\u1EED D\u1EE5ng Tr\xECnh So\u1EA1n Th\u1EA3o"
       - Como Usar O Editor
-      - "Jak U\u017Cywa\u0107 Edytora"
+      - "Jak Korzysta\u0107 Z Edytora"
       - Come Usare L'editor
       - So Verwenden Sie Den Editor
-      - "Edit\xF6r Nas\u0131l Kullan\u0131l\u0131r"
+      - "D\xFCzenleyici Nas\u0131l Kullan\u0131l\u0131r"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: How To Import Skin
@@ -2743,7 +2745,7 @@ MonoBehaviour:
       - Youtube
       - Youtube
       - Youtube
-      - Youtube'da
+      - Youtube
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Instagram
@@ -2756,7 +2758,7 @@ MonoBehaviour:
       - "\u0418\u043D\u0441\u0442\u0430\u0433\u0440\u0430\u043C"
       - Instagram
       - Instagram
-      - Instagramy
+      - Instagram
       - Instagram
       - Instagram
       - Instagram
@@ -2775,7 +2777,7 @@ MonoBehaviour:
       - Facebook
       - Facebook
       - Facebook
-      - Facebook'ta
+      - Facebook
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Select Color
@@ -2881,13 +2883,13 @@ MonoBehaviour:
       - SkinPack Creator
       - Creador de paquetes de aspectos
       - "Cr\xE9ateur de SkinPack"
-      - "\u0421\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u044C SkinPack"
-      - "Ng\u01B0\u1EDDi t\u1EA1o SkinPack"
+      - "\u0421\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u044C \u0441\u043A\u0438\u043D\u043F\u0430\u043A\u043E\u0432"
+      - "Tr\xECnh t\u1EA1o SkinPack"
       - Criador do SkinPack
       - "Tw\xF3rca SkinPack"
       - Creatore di SkinPack
       - SkinPack-Ersteller
-      - "SkinPack Yarat\u0131c\u0131s\u0131"
+      - "SkinPack Olu\u015Fturucu"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Steve Skin
@@ -2898,12 +2900,12 @@ MonoBehaviour:
       - Steve Skin
       - Peau De Steve
       - "\u0421\u0442\u0438\u0432 \u0421\u043A\u0438\u043D"
-      - Da Steve
+      - Steve Skin
       - Steve Skin
       - "Sk\xF3ra Steve'a"
       - Steve Skin
       - Steve Skin
-      - Steve Cildi
+      - Steve Skin
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Browse Gallery
@@ -2914,7 +2916,7 @@ MonoBehaviour:
       - "Explorar La Galer\xEDa"
       - Parcourir La Galerie
       - "\u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0413\u0430\u043B\u0435\u0440\u0435\u044E"
-      - "Duy\u1EC7t Th\u01B0 Vi\u1EC7n"
+      - "Duy\u1EC7t Th\u01B0 Vi\u1EC7n \u1EA2nh"
       - Navegar Na Galeria
       - "Przegl\u0105daj Galeri\u0119"
       - Sfoglia La Galleria
@@ -2979,7 +2981,7 @@ MonoBehaviour:
       - "Cat\xE1logo De Pieles En L\xEDnea"
       - Catalogue De Skins En Ligne
       - "\u041E\u043D\u043B\u0430\u0439\u043D-\u041A\u0430\u0442\u0430\u043B\u043E\u0433
-        \u041A\u043E\u0436\u0438"
+        \u0421\u043A\u0438\u043D\u043E\u0432"
       - "Danh M\u1EE5c Da Tr\u1EF1c Tuy\u1EBFn"
       - "Cat\xE1logo De Pele Online"
       - "Katalog Sk\xF3rek Online"
@@ -3057,10 +3059,10 @@ MonoBehaviour:
       Description: 
       Languages:
       - Export Character
-      - "Exportar Car\xE1cter"
+      - "Car\xE1cter De Exportaci\xF3n"
       - "Caract\xE8re D'exportation"
       - "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u043D\u044B\u0439 \u0421\u0438\u043C\u0432\u043E\u043B"
-      - "Xu\u1EA5t Kh\u1EA9u K\xFD T\u1EF1"
+      - "Xu\u1EA5t K\xFD T\u1EF1"
       - "Personagem De Exporta\xE7\xE3o"
       - Eksportuj Znak
       - Esporta Carattere
@@ -3094,7 +3096,7 @@ MonoBehaviour:
       - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435"
       - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n"
       - Salvar na galeria
-      - Zapisz w Galerii
+      - Zapisz w galerii
       - Salva nella Galleria
       - In Galerie speichern
       - Galeriye Kaydet
@@ -3104,7 +3106,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Rename  & Import
+      - Rename & Import
       - Renombrar E Importar
       - Renommer Et Importer
       - "\u041F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u0442\u044C
@@ -3223,7 +3225,7 @@ MonoBehaviour:
       - Selector De Gradiente
       - "S\xE9lecteur De D\xE9grad\xE9"
       - "\u0421\u0435\u043B\u0435\u043A\u0442\u043E\u0440 \u0413\u0440\u0430\u0434\u0438\u0435\u043D\u0442\u0430"
-      - "B\u1ED9 Ch\u1ECDn Gradient"
+      - "B\u1ED9 Ch\u1ECDn \u0110\u1ED9 D\u1ED1c"
       - Seletor De Gradiente
       - Selektor Gradientu
       - Selettore Di Gradiente
@@ -3239,7 +3241,7 @@ MonoBehaviour:
       - "buscar m\xE1scaras en l\xEDnea"
       - rechercher des skins en ligne
       - "\u043F\u043E\u0438\u0441\u043A \u0441\u043A\u0438\u043D\u043E\u0432 \u043E\u043D\u043B\u0430\u0439\u043D"
-      - "t\xECm ki\u1EBFm skin tr\u1EF1c tuy\u1EBFn"
+      - "t\xECm ki\u1EBFm giao di\u1EC7n tr\u1EF1c tuy\u1EBFn"
       - pesquisar skins online
       - "szukaj sk\xF3rek online"
       - cerca skin online
@@ -3289,7 +3291,7 @@ MonoBehaviour:
       - Descargando Skin
       - "T\xE9l\xE9chargement Du Skin"
       - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u0421\u043A\u0438\u043D\u0430"
-      - "T\u1EA3i Xu\u1ED1ng Skin"
+      - "T\u1EA3i Xu\u1ED1ng Giao Di\u1EC7n"
       - Baixando Skin
       - "Pobieranie Sk\xF3rki"
       - Download Della Skin
@@ -3350,22 +3352,21 @@ MonoBehaviour:
       Languages:
       - "We want to create the best tool for you. \n rate us :D"
       - "Queremos crear la mejor herramienta para ti. Calif\xEDcanos :D"
-      - "Nous voulons cr\xE9er le meilleur outil pour vous. \nNotez-nous\_:D"
+      - "Nous voulons cr\xE9er le meilleur outil pour vous.\nNotez-nous\_:D"
       - "\u041C\u044B \u0445\u043E\u0442\u0438\u043C \u0441\u043E\u0437\u0434\u0430\u0442\u044C
         \u0434\u043B\u044F \u0432\u0430\u0441 \u043B\u0443\u0447\u0448\u0438\u0439
-        \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442. \n\u043E\u0446\u0435\u043D\u0438\u0442\u0435
+        \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442.\n\u041E\u0446\u0435\u043D\u0438\u0442\u0435
         \u043D\u0430\u0441 :D"
       - "Ch\xFAng t\xF4i mu\u1ED1n t\u1EA1o ra c\xF4ng c\u1EE5 t\u1ED1t nh\u1EA5t
-        cho b\u1EA1n.\n\u0111\xE1nh gi\xE1 ch\xFAng t\xF4i :D"
+        cho b\u1EA1n.\nH\xE3y \u0111\xE1nh gi\xE1 ch\xFAng t\xF4i :D"
       - "Queremos criar a melhor ferramenta para voc\xEA.\nAvalie-nos :D"
-      - "Chcemy stworzy\u0107 dla Ciebie najlepsze narz\u0119dzie. \nOce\u0144 nas
+      - "Chcemy stworzy\u0107 dla Ciebie najlepsze narz\u0119dzie. Oce\u0144 nas
         :D"
       - 'Vogliamo creare lo strumento migliore per te.
 
         Valutaci :D'
       - "Wir m\xF6chten das beste Tool f\xFCr Sie entwickeln.\nBewerten Sie uns :D"
-      - "Sizin i\xE7in en iyi arac\u0131 yaratmak istiyoruz.\nBizi derecelendirin
-        :D"
+      - "Sizin i\xE7in en iyi arac\u0131 yaratmak istiyoruz.\nBize puan verin :D"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: How To Use ?
@@ -3375,8 +3376,8 @@ MonoBehaviour:
       - How To Use ?
       - "\xBFC\xF3mo Se Utiliza?"
       - Comment Utiliser ?
-      - "\u041A\u0430\u043A \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C?"
-      - "C\xE1ch S\u1EED D\u1EE5ng Nh\u01B0 Th\u1EBF N\xE0o?"
+      - "\u041A\u0430\u043A \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C\u0441\u044F?"
+      - "C\xE1ch S\u1EED D\u1EE5ng?"
       - Como Usar?
       - "Jak U\u017Cywa\u0107?"
       - Come Si Usa?
@@ -3443,7 +3444,7 @@ MonoBehaviour:
       - Annuler Vos Modifications
       - "\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C \u0412\u0430\u0448\u0438
         \u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F"
-      - "Ho\xE0n T\xE1c Nh\u1EEFng Thay \u0110\u1ED5i C\u1EE7a B\u1EA1n"
+      - "Ho\xE0n T\xE1c C\xE1c Thay \u0110\u1ED5i C\u1EE7a B\u1EA1n"
       - "Desfazer Suas Altera\xE7\xF5es"
       - Cofnij Zmiany
       - Annullare Le Modifiche
@@ -3458,7 +3459,7 @@ MonoBehaviour:
       - Redo Your changes
       - Rehacer sus cambios
       - Refaire vos modifications
-      - "\u041F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u0435 \u0412\u0430\u0448\u0438
+      - "\u041F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u0435 \u0432\u0430\u0448\u0438
         \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F"
       - "L\xE0m l\u1EA1i nh\u1EEFng thay \u0111\u1ED5i c\u1EE7a b\u1EA1n"
       - "Refa\xE7a suas altera\xE7\xF5es"
@@ -3535,7 +3536,7 @@ MonoBehaviour:
       - "Outil de s\xE9lection de couleurs"
       - "\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442 \u0432\u044B\u0431\u043E\u0440\u0430
         \u0446\u0432\u0435\u0442\u0430"
-      - "C\xF4ng c\u1EE5 \u0111\xE1nh d\u1EA5u m\xE0u"
+      - "C\xF4ng c\u1EE5 piker m\xE0u"
       - Ferramenta seletora de cores
       - "Narz\u0119dzie do wybierania kolor\xF3w"
       - Strumento di selezione del colore
@@ -3575,7 +3576,7 @@ MonoBehaviour:
       - "Znajd\u017A dowoln\u0105 sk\xF3rk\u0119 po nazwie online"
       - Trova qualsiasi skin per nome online
       - Finden Sie jede Skin online nach Namen
-      - "Herhangi bir cildi ismine g\xF6re \xE7evrimi\xE7i bulun"
+      - "Herhangi bir g\xF6r\xFCn\xFCm\xFC ismine g\xF6re \xE7evrimi\xE7i bulun"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Save it and load it to gallery and use it directly
@@ -3742,7 +3743,7 @@ MonoBehaviour:
       - Do you want to exit?
       - "\xBFQuieres salir?"
       - Voulez-vous sortir ?
-      - "\u0425\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438?"
+      - "\u0412\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438?"
       - "B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t kh\xF4ng?"
       - "Voc\xEA quer sair?"
       - "Czy chcesz wyj\u015B\u0107?"
@@ -3810,7 +3811,7 @@ MonoBehaviour:
       - "\u0428\u0430\u0433\u0438 \u041F\u043E \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044E"
       - "C\xE1c B\u01B0\u1EDBc S\u1EED D\u1EE5ng"
       - Passos Para Usar
-      - "Kroki U\u017Cytkowania"
+      - "Kroki Do U\u017Cycia"
       - Passaggi Da Utilizzare
       - Schritte Zur Verwendung
       - "Kullan\u0131m Ad\u0131mlar\u0131"
@@ -3978,7 +3979,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - Gallary Save
-      - "Guardar Galer\xEDa"
+      - "Galer\xEDa Guardada"
       - Sauvegarde De La Galerie
       - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0413\u0430\u043B\u0435\u0440\u0435\u044E"
       - "L\u01B0u Tr\u1EEF Th\u01B0 Vi\u1EC7n"
@@ -4018,7 +4019,7 @@ MonoBehaviour:
       - Importowanie Do Mcpe
       - Importa In Mcpe
       - In Mcpe Importieren
-      - Mcpe'ye Aktar
+      - "Mcpe'ye I\xE7e Aktar"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: WallPaper
@@ -4111,10 +4112,10 @@ MonoBehaviour:
       - "*\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F"
       - "*T\u1EA3i L\xEAn H\xECnh \u1EA2nh"
       - '*Upload De Imagem'
-      - "*Przes\u0142anie Obrazu"
+      - "*Przesy\u0142anie Obrazu"
       - '*Caricamento Dell''immagine'
       - '*Bild-Upload'
-      - "*Resim Y\xFCkleme"
+      - "*G\xF6r\xFCnt\xFC Y\xFCkleme"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Choose File
@@ -4142,7 +4143,7 @@ MonoBehaviour:
       - Aucun emplacement de fichier
       - "\u041D\u0435\u0442 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F
         \u0444\u0430\u0439\u043B\u0430"
-      - "Kh\xF4ng c\xF3 v\u1ECB tr\xED t\u1EADp tin"
+      - "Kh\xF4ng c\xF3 v\u1ECB tr\xED t\u1EC7p"
       - "Nenhuma localiza\xE7\xE3o de arquivo"
       - Brak lokalizacji pliku
       - Nessuna posizione del file
@@ -4154,7 +4155,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - '     File Added : '
+      - 'File Added:'
       - "Archivo A\xF1adido:"
       - "Fichier Ajout\xE9 :"
       - "\u0424\u0430\u0439\u043B \u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D:"
@@ -4180,7 +4181,7 @@ MonoBehaviour:
       - "Dodaj Inn\u0105 Sk\xF3rk\u0119"
       - Aggiungi Un'altra Skin
       - "Ein Weiteres Skin Hinzuf\xFCgen"
-      - "Ba\u015Fka Bir Cilt Ekle"
+      - "Ba\u015Fka Bir G\xF6r\xFCn\xFCm Ekle"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Import Pack
@@ -4256,12 +4257,12 @@ MonoBehaviour:
       - "\xC9diteur De Skin 3D Pour MCPE"
       - "3D \u0420\u0435\u0434\u0430\u043A\u0442\u043E\u0440 \u0421\u043A\u0438\u043D\u043E\u0432
         \u0414\u043B\u044F Mcpe"
-      - "Tr\xECnh Ch\u1EC9nh S\u1EEDa Skin 3D Cho Mcpe"
+      - "Tr\xECnh Ch\u1EC9nh S\u1EEDa Giao Di\u1EC7n 3D Cho Mcpe"
       - Editor De Skin 3D Para MCPE
-      - "Edytor Sk\xF3rek 3D Dla Mcpe"
+      - "Edytor Sk\xF3rek 3D Do Mcpe"
       - Editor Di Skin 3D Per MCPE
       - "3D-Skin-Editor F\xFCr MCPE"
-      - "Mcpe I\xE7in 3D Skin D\xFCzenleyici"
+      - "Mcpe I\xE7in 3D Cilt D\xFCzenleyici"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Setting
@@ -4352,9 +4353,9 @@ MonoBehaviour:
       - "Capa De Exportaci\xF3n"
       - Cap D'exportation
       - "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u043D\u044B\u0439 \u041F\u043B\u0430\u0449"
-      - "Xu\u1EA5t Kh\u1EA9u \xC1o Cho\xE0ng"
+      - "Xu\u1EA5t Kh\u1EA9u M\u0169i"
       - "Capa De Exporta\xE7\xE3o"
-      - Eksport Peleryny
+      - Peleryna Eksportowa
       - Capo Di Esportazione
       - Exportkap
       - Ihracat Pelerini
@@ -4387,7 +4388,7 @@ MonoBehaviour:
         \u0412 \u0413\u0430\u043B\u0435\u0440\u0435\u044E"
       - "L\u01B0u Skin V\xE0o Th\u01B0 Vi\u1EC7n"
       - Salvar Skin Na Galeria
-      - "Zapisz Sk\xF3rk\u0119 Do Galerii"
+      - "Zapisz Sk\xF3rk\u0119 W Galerii"
       - Salva La Skin Nella Galleria
       - Skin In Galerie Speichern
       - Cildi Galeriye Kaydet
@@ -4404,7 +4405,7 @@ MonoBehaviour:
         Elytra (64X32)"
       - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n \u1EA3nh Elytra (64X32)"
       - Salvar na Galeria Elytra (64X32)
-      - Zapisz do Galerii Elytra (64X32)
+      - Zapisz w Galerii Elytra (64X32)
       - Salva nella Galleria Elitre (64X32)
       - In der Galerie speichern Elytra (64X32)
       - Galeriye Kaydet Elytra (64X32)
@@ -4421,7 +4422,7 @@ MonoBehaviour:
         Cape (22X17)"
       - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n \u1EA3nh Cape (22X17)"
       - Salvar na Galeria Cape (22X17)
-      - Zapisz do Galerii Cape (22X17)
+      - Zapisz w Galerii Cape (22X17)
       - Salva nella Galleria Cape (22X17)
       - In der Galerie speichern Cape (22X17)
       - Galeriye Kaydet Cape (22X17)
@@ -4455,7 +4456,7 @@ MonoBehaviour:
         Cape (512X256)"
       - "L\u01B0u v\xE0o Th\u01B0 vi\u1EC7n \u1EA3nh Cape (512X256)"
       - Salvar na Galeria Cape (512X256)
-      - Zapisz do Galerii Cape (512X256)
+      - Zapisz w Galerii Cape (512X256)
       - Salva nella Galleria Cape (512X256)
       - In der Galerie speichern Cape (512X256)
       - Galeriye Kaydet Cape (512X256)
@@ -4528,8 +4529,8 @@ MonoBehaviour:
       - "4. Presione la pesta\xF1a PROPIEDAD."
       - "4. Appuyez sur l'onglet PROPRI\xC9TAIRE."
       - "4. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u0432\u043A\u043B\u0430\u0434\u043A\u0443
-        \u0421\u041E\u0411\u0421\u0422\u0412\u0415\u041D\u041D\u042B\u0415."
-      - "4. Nh\u1EA5n v\xE0o tab OWNED."
+        \u0421\u041E\u0411\u0421\u0422\u0412\u0415\u041D\u041D\u042B\u0419."
+      - "4. Nh\u1EA5n v\xE0o tab S\u1EDE H\u1EEEU."
       - 4. Pressione a aba OWNED.
       - "4. Kliknij na zak\u0142adk\u0119 POSIADANE."
       - "4. Premere sulla scheda DI PROPRIET\xC0."
@@ -4551,7 +4552,7 @@ MonoBehaviour:
       - "5. Kliknij Importuj sk\xF3rk\u0119."
       - 5. Premere su Importa skin.
       - "5. Klicken Sie auf \u201ESkin importieren\u201C."
-      - "5. Import Skin\u2019e bas\u0131n."
+      - "5. \u0130\xE7e Aktarma Derisi'ne bas\u0131n."
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: 6.Press on CHOOSE NEW SKIN.
@@ -4568,7 +4569,7 @@ MonoBehaviour:
       - "6. Kliknij WYBIERZ NOW\u0104 SK\xD3RK\u0118."
       - 6. Premere su SCEGLI NUOVA SKIN.
       - "6. Dr\xFCcken Sie auf NEUE HAUT AUSW\xC4HLEN."
-      - "6.YEN\u0130 DER\u0130 SE\xC7'e bas\u0131n."
+      - "6. YEN\u0130 DER\u0130 SE\xC7'e bas\u0131n."
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: 7. Next a gallery will open.Find the skin image among your images and
@@ -4667,7 +4668,7 @@ MonoBehaviour:
       - "Cr\xE9er Une Cape\n(22x17) (64x32)"
       - "\u0441\u043E\u0437\u0434\u0430\u0442\u044C \u043F\u043B\u0430\u0449\n(22x17)
         (64x32)"
-      - "T\u1EA1o Cape\n(22x17) (64x32)"
+      - "T\u1EA1o \xE1o Cho\xE0ng\n(22x17) (64x32)"
       - 'Criar Capa
 
         (22x17) (64x32)'
@@ -4678,7 +4679,7 @@ MonoBehaviour:
       - 'Umhang Erstellen
 
         (22 X 17) (64 X 32)'
-      - "Cape Olu\u015Ftur\n(22x17) (64x32)"
+      - "Pelerin Olu\u015Ftur\n(22x17) (64x32)"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Create Elytra (64x32)
@@ -4690,15 +4691,15 @@ MonoBehaviour:
         (64x32)'
       - "Crear \xE9litros\n(64x32)"
       - "Cr\xE9er Des \xE9lytres\n(64x32)"
-      - "\u0441\u043E\u0437\u0434\u0430\u0442\u044C \u044D\u043B\u0438\u0442\u0440\u0443\n(64x32)"
+      - "\u0441\u043E\u0437\u0434\u0430\u0442\u044C \u043D\u0430\u0434\u043A\u0440\u044B\u043B\u044C\u044F\n(64x32)"
       - "T\u1EA1o Elytra\n(64x32)"
       - "Criar \xE9litros\n(64x32)"
-      - "Utw\xF3rz Elytr\u0119\n(64x32)"
+      - "Stw\xF3rz Elytr\u0119\n(64x32)"
       - 'Crea Elitre
 
         (64x32)'
       - "Fl\xFCgeldecken Erstellen\n(64 X 32)"
-      - "Elytra'y\u0131 Olu\u015Ftur\n(64x32)"
+      - "Elytra'y\u0131 Yarat\n(64x32)"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Browse Gallery Cape (22x17)(64x32)
@@ -4714,7 +4715,7 @@ MonoBehaviour:
         (22x17)(64x32)'
       - "\u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0433\u0430\u043B\u0435\u0440\u0435\u044E
         Cape\n(22x17)(64x32)"
-      - "Duy\u1EC7t Qua Th\u01B0 Vi\u1EC7n Cape\n(22x17)(64x32)"
+      - "Duy\u1EC7t Qua B\u1ED9 S\u01B0u T\u1EADp Cape\n(22x17)(64x32)"
       - 'Explorar Galeria De Capas
 
         (22x17)(64x32)'
@@ -4725,7 +4726,7 @@ MonoBehaviour:
       - 'Galerie Cape Durchsuchen
 
         (22x17)(64x32)'
-      - "Galeriye G\xF6zat Cape\n(22x17)(64x32)"
+      - "Galeriye G\xF6z At\u0131n Cape\n(22x17)(64x32)"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Browse Gallery Elytra (64x32)
@@ -4740,8 +4741,8 @@ MonoBehaviour:
 
         (64x32)'
       - "\u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0433\u0430\u043B\u0435\u0440\u0435\u044E
-        Elytra\n(64x32)"
-      - "Duy\u1EC7t Th\u01B0 Vi\u1EC7n Elytra\n(64x32)"
+        \xAB\u043D\u0430\u0434\u043A\u0440\u044B\u043B\u044C\u044F\xBB\n(64x32)"
+      - "Duy\u1EC7t Qua Th\u01B0 Vi\u1EC7n Elytra\n(64x32)"
       - 'Explorar Galeria Elytra
 
         (64x32)'
@@ -4752,7 +4753,7 @@ MonoBehaviour:
       - 'Galerie Elytra Durchsuchen
 
         (64x32)'
-      - "Galeriye G\xF6z At Elytra\n(64x32)"
+      - "Elytra Galerisine G\xF6z At\u0131n\n(64x32)"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Cape format is not valid
@@ -4778,7 +4779,7 @@ MonoBehaviour:
       - "Please select\nCape 22x17 or 64x32    \nElytra 64x32  "
       - "Por favor seleccione\nCape 22x17 o 64x32\n\xC9lytra 64x32"
       - "Veuillez s\xE9lectionner\nCape 22x17 ou 64x32\nElytra 64x32"
-      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435\n\u041F\u043B\u0430\u0449
+      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435\n\u041D\u0430\u043A\u0438\u0434\u043A\u0430
         22x17 \u0438\u043B\u0438 64x32\n\u041D\u0430\u0434\u043A\u0440\u044B\u043B\u044C\u044F
         64x32"
       - "Vui l\xF2ng ch\u1ECDn\nCape 22x17 ho\u1EB7c 64x32\nElytra 64x32"
@@ -4787,14 +4788,14 @@ MonoBehaviour:
         Capa 22x17 ou 64x32
 
         Elytra 64x32'
-      - "Prosz\u0119 wybra\u0107\nCape 22x17 lub 64x32\nElytra 64x32"
+      - "Prosz\u0119 wybra\u0107\nPeleryna 22x17 lub 64x32\nElytra 64x32"
       - 'Seleziona
 
         Cape 22x17 o 64x32
 
         Elitre 64x32'
       - "Bitte w\xE4hlen Sie:\nKap 22x17 oder 64x32\nElytra 64x32"
-      - "L\xFCtfen se\xE7in\nCape 22x17 veya 64x32\nElytra 64x32"
+      - "L\xFCtfen se\xE7in\nPelerin 22x17 veya 64x32\nElytra 64x32"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Online Cap Catalog
@@ -4859,7 +4860,7 @@ MonoBehaviour:
       - "\u0421\u0442\u0435\u0440\u0435\u0442\u044C \u041F\u0438\u043A\u0441\u0435\u043B\u0438"
       - "X\xF3a \u0110i\u1EC3m \u1EA2nh"
       - Apagar Pixels
-      - "Wyma\u017C Piksele"
+      - "Wymaza\u0107 Piksele"
       - Cancella I Pixel
       - "Pixel L\xF6schen"
       - Pikselleri Sil
@@ -4874,7 +4875,7 @@ MonoBehaviour:
       - Outil De Peinture Pour Le Visage
       - "\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442 \u0414\u043B\u044F
         \u0420\u0438\u0441\u043E\u0432\u0430\u043D\u0438\u044F \u041D\u0430 \u041B\u0438\u0446\u0435"
-      - "C\xF4ng C\u1EE5 V\u1EBD M\u1EB7t"
+      - "D\u1EE5ng C\u1EE5 V\u1EBD M\u1EB7t"
       - Ferramenta De Pintura Facial
       - "Narz\u0119dzie Do Malowania Twarzy"
       - Strumento Per Dipingere Il Viso
@@ -4887,15 +4888,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Drawing with pencil
-      - "Dibujar con l\xE1piz"
-      - Dessiner au crayon
-      - "\u0420\u0438\u0441\u043E\u0432\u0430\u0442\u044C \u043A\u0430\u0440\u0430\u043D\u0434\u0430\u0448\u043E\u043C"
+      - "Dibujo con l\xE1piz"
+      - Dessin au crayon
+      - "\u0420\u0438\u0441\u0443\u043D\u043E\u043A \u043A\u0430\u0440\u0430\u043D\u0434\u0430\u0448\u043E\u043C"
       - "V\u1EBD b\u1EB1ng b\xFAt ch\xEC"
       - "Desenho a l\xE1pis"
       - "Rysowanie o\u0142\xF3wkiem"
-      - Disegnare con la matita
+      - Disegno a matita
       - Zeichnen mit Bleistift
-      - "Kalemle \xE7iz"
+      - "Kalemle \xE7izim"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Edge Visibility
@@ -4920,10 +4921,10 @@ MonoBehaviour:
       Languages:
       - Show/Hide Parts
       - Mostrar/Ocultar Partes
-      - "Afficher/Masquer Les Pi\xE8ces"
+      - Afficher/Masquer Les Parties
       - "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C/\u0421\u043A\u0440\u044B\u0442\u044C
-        \u0427\u0430\u0441\u0442\u0438"
-      - "Hi\u1EC3n Th\u1ECB/\u1EA8n C\xE1c Ph\u1EA7n"
+        \u0414\u0435\u0442\u0430\u043B\u0438"
+      - "Hi\u1EC3n Th\u1ECB/\u1EA8n C\xE1c B\u1ED9 Ph\u1EADn"
       - Mostrar/Ocultar Partes
       - "Poka\u017C/Ukryj Cz\u0119\u015Bci"
       - Mostra/Nascondi Parti
@@ -4940,10 +4941,10 @@ MonoBehaviour:
       - Sauvegarde rapide dans la galerie
       - "\u0411\u044B\u0441\u0442\u0440\u043E\u0435 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435
         \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435"
-      - "L\u01B0u nhanh v\xE0o Th\u01B0 vi\u1EC7n"
+      - "L\u01B0u nhanh v\xE0o th\u01B0 vi\u1EC7n"
       - Salvar rapidamente na galeria
       - Szybkie zapisywanie w galerii
-      - Salvataggio rapido nella Galleria
+      - Salvataggio rapido nella galleria
       - Schnelles Speichern in der Galerie
       - "Galeriye h\u0131zl\u0131 kaydet"
       Flags: 00000000000000000000
@@ -4956,7 +4957,7 @@ MonoBehaviour:
       - Cargado con pieles
       - "Charg\xE9 de skins"
       - "\u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043D\u043E \u0441\u043A\u0438\u043D\u0430\u043C\u0438"
-      - "\u0110\u01B0\u1EE3c t\u1EA3i v\u1EDBi Skins"
+      - "\u0110\u1EA7y \u0111\u1EE7 c\xE1c lo\u1EA1i da"
       - Carregado com skins
       - "Za\u0142adowany sk\xF3rkami"
       - Caricato con pelli
@@ -4972,13 +4973,13 @@ MonoBehaviour:
       - "Red Autom\xE1tica"
       - "R\xE9seau Automatique"
       - "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-        \u0421\u0435\u0442\u043A\u0430"
-      - "L\u01B0\u1EDBi T\u1EF1 \u0110\u1ED9ng"
+        \u0421\u0435\u0442\u044C"
+      - "M\u1EA1ng T\u1EF1 \u0110\u1ED9ng"
       - "Rede Autom\xE1tica"
-      - "Sie\u0107 Automatyczna"
+      - "Automatyczna Sie\u0107"
       - Rete Automatica
       - Automatisches Netzwerk
-      - Otomatik Izgara
+      - "Otomatik A\u011F"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Utilities+
@@ -5006,12 +5007,12 @@ MonoBehaviour:
       - Soporte con publicidad
       - "Assistance avec publicit\xE9"
       - "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u0441 \u0440\u0435\u043A\u043B\u0430\u043C\u043E\u0439"
-      - "H\u1ED7 tr\u1EE3 v\u1EDBi Qu\u1EA3ng c\xE1o"
+      - "H\u1ED7 tr\u1EE3 v\u1EDBi Ad"
       - "Suporte com an\xFAncio"
       - "Wsparcie z reklam\u0105"
       - "Supporto con pubblicit\xE0"
       - "Unterst\xFCtzung mit Anzeige"
-      - Reklamla Destekleyin
+      - Reklamla Destek
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Custom Cape Addon
@@ -5038,11 +5039,11 @@ MonoBehaviour:
       - Custom Cape Addon
       - Complemento De Capa Personalizado
       - "Module Compl\xE9mentaire De Cape Personnalis\xE9e"
-      - "\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
-        \u041D\u0430\u043A\u0438\u0434\u043A\u0430"
+      - "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0439
+        \u041F\u043B\u0430\u0449-\u0414\u043E\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435"
       - "Addon \xC1o Cho\xE0ng T\xF9y Ch\u1EC9nh"
       - Capa Personalizada Adicional
-      - Niestandardowy Dodatek Peleryny
+      - Niestandardowy Dodatek Do Peleryny
       - Componente Aggiuntivo Del Mantello Personalizzato
       - Benutzerdefiniertes Cape-Addon
       - "\xD6zel Pelerin Eklentisi"
@@ -5055,10 +5056,10 @@ MonoBehaviour:
       - Cape Addon
       - Complemento De Capa
       - "Module Compl\xE9mentaire De Cape"
-      - "\u041D\u0430\u043A\u0438\u0434\u043A\u0430 \u0410\u0434\u0434\u043E\u043D"
+      - "\u041D\u0430\u043A\u0438\u0434\u043A\u0430-\u0410\u0434\u0434\u043E\u043D"
       - "Ph\u1EA7n B\u1ED5 Sung \xC1o Cho\xE0ng"
       - Capa Addon
-      - Dodatek Peleryna
+      - Dodatek Peleryny
       - Componente Aggiuntivo Del Mantello
       - Umhang-Addon
       - Pelerin Eklentisi
@@ -5085,49 +5086,40 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - "Explore new Mods, Tools, Packs for MCPE \nwith our app!\nDiscover fresh
-        maps, mods, and skins to\nenhance your Minecraft gameplay."
+      - 'Explore new mods, tools, and packs for MCPE with our app!
+
+        Discover
+        new maps, mods, and skins to enhance your Minecraft gaming experience.'
       - "\xA1Explora nuevos mods, herramientas y paquetes para MCPE con nuestra app!\nDescubre
         nuevos mapas, mods y aspectos para mejorar tu experiencia de juego en Minecraft."
-      - "D\xE9couvrez de nouveaux mods, outils et packs pour MCPE\navec notre application\_!\nD\xE9couvrez
-        de nouvelles cartes, mods et skins pour\nam\xE9liorer votre exp\xE9rience
+      - "D\xE9couvrez de nouveaux mods, outils et packs pour MCPE avec notre application\_!\nD\xE9couvrez
+        de nouvelles cartes, mods et skins pour am\xE9liorer votre exp\xE9rience
         de jeu Minecraft."
-      - "\u0418\u0441\u0441\u043B\u0435\u0434\u0443\u0439\u0442\u0435 \u043D\u043E\u0432\u044B\u0435
-        \u043C\u043E\u0434\u044B, \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B,
-        \u043F\u0430\u043A\u0435\u0442\u044B \u0434\u043B\u044F MCPE \n\u0441 \u043D\u0430\u0448\u0438\u043C
-        \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\u043C!\n\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435
+      - "\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0434\u043B\u044F \u0441\u0435\u0431\u044F
+        \u043D\u043E\u0432\u044B\u0435 \u043C\u043E\u0434\u044B, \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B
+        \u0438 \u043F\u0430\u043A\u0435\u0442\u044B \u0434\u043B\u044F MCPE \u0441
+        \u043D\u0430\u0448\u0438\u043C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\u043C!\n\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435
         \u0434\u043B\u044F \u0441\u0435\u0431\u044F \u043D\u043E\u0432\u044B\u0435
-        \u043A\u0430\u0440\u0442\u044B, \u043C\u043E\u0434\u044B \u0438 \u0441\u043A\u0438\u043D\u044B,\n\u0447\u0442\u043E\u0431\u044B
-        \u0443\u043B\u0443\u0447\u0448\u0438\u0442\u044C \u0438\u0433\u0440\u043E\u0432\u043E\u0439
-        \u043F\u0440\u043E\u0446\u0435\u0441\u0441 Minecraft."
-      - "Kh\xE1m ph\xE1 c\xE1c Mod, C\xF4ng c\u1EE5, G\xF3i m\u1EDBi cho MCPE\nv\u1EDBi
-        \u1EE9ng d\u1EE5ng c\u1EE7a ch\xFAng t\xF4i!\nKh\xE1m ph\xE1 c\xE1c b\u1EA3n
-        \u0111\u1ED3, mod v\xE0 giao di\u1EC7n m\u1EDBi \u0111\u1EC3\nn\xE2ng cao
-        l\u1ED1i ch\u01A1i Minecraft c\u1EE7a b\u1EA1n."
-      - 'Explore novos Mods, Ferramentas e Pacotes para MCPE
-
-        com nosso aplicativo!
-
-        Descubra
-        novos mapas, mods e skins para
-
-        melhorar sua jogabilidade no Minecraft.'
-      - "Odkryj nowe mody, narz\u0119dzia, pakiety do MCPE \ndzi\u0119ki naszej aplikacji!\nOdkryj
-        nowe mapy, mody i sk\xF3rki, aby\nulepszy\u0107 rozgrywk\u0119 w Minecraft."
-      - 'Esplora nuove mod, strumenti e pacchetti per MCPE
-
-        con la nostra
-        app!
-
-        Scopri nuove mappe, mod e skin per
-
-        migliorare il tuo
-        gameplay di Minecraft.'
-      - "Entdecke neue Mods, Tools und Packs f\xFCr MCPE\nmit unserer App!\nEntdecke
-        neue Karten, Mods und Skins, um\ndein Minecraft-Gameplay zu verbessern."
-      - "MCPE i\xE7in yeni Modlar, Ara\xE7lar, Paketler ke\u015Ffedin\nuygulamam\u0131zla!\nMinecraft
-        oyununuzu geli\u015Ftirmek i\xE7in\nyeni haritalar, modlar ve g\xF6r\xFCn\xFCmler
-        ke\u015Ffedin."
+        \u043A\u0430\u0440\u0442\u044B, \u043C\u043E\u0434\u044B \u0438 \u0441\u043A\u0438\u043D\u044B,
+        \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0441\u0434\u0435\u043B\u0430\u044E\u0442
+        \u0432\u0430\u0448 \u0438\u0433\u0440\u043E\u0432\u043E\u0439 \u043E\u043F\u044B\u0442
+        \u0432 Minecraft \u0435\u0449\u0451 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0435."
+      - "Kh\xE1m ph\xE1 c\xE1c b\u1EA3n mod, c\xF4ng c\u1EE5 v\xE0 g\xF3i m\u1EDBi
+        cho MCPE v\u1EDBi \u1EE9ng d\u1EE5ng c\u1EE7a ch\xFAng t\xF4i!\nKh\xE1m ph\xE1
+        b\u1EA3n \u0111\u1ED3, b\u1EA3n mod v\xE0 giao di\u1EC7n m\u1EDBi \u0111\u1EC3
+        n\xE2ng cao tr\u1EA3i nghi\u1EC7m ch\u01A1i game Minecraft c\u1EE7a b\u1EA1n."
+      - "Explore novos mods, ferramentas e pacotes para MCPE com nosso aplicativo!\nDescubra
+        novos mapas, mods e skins para aprimorar sua experi\xEAncia de jogo no Minecraft."
+      - "Odkryj nowe mody, narz\u0119dzia i pakiety do MCPE dzi\u0119ki naszej aplikacji!\nOdkryj
+        nowe mapy, mody i sk\xF3rki, aby ulepszy\u0107 swoje wra\u017Cenia z gry
+        Minecraft."
+      - Esplora nuove mod, strumenti e pacchetti per MCPE con la nostra app! Scopri
+        nuove mappe, mod e skin per migliorare la tua esperienza di gioco in Minecraft.
+      - "Entdecke mit unserer App neue Mods, Tools und Packs f\xFCr MCPE!\nEntdecke
+        neue Karten, Mods und Skins, um dein Minecraft-Spielerlebnis zu verbessern."
+      - "Uygulamam\u0131zla MCPE i\xE7in yeni modlar\u0131, ara\xE7lar\u0131 ve paketleri
+        ke\u015Ffedin!\nMinecraft oyun deneyiminizi zenginle\u015Ftirecek yeni haritalar,
+        modlar ve g\xF6r\xFCn\xFCmler ke\u015Ffedin."
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Next
@@ -5197,20 +5189,20 @@ MonoBehaviour:
         CIERTOS GRINDERS EST\xC1N PROHIBIDOS"
       - "1. NE VOLEZ PAS\n2. NE VOUS ATTENTEZ PAS\n3. NE SOYEZ PAS UN CASSE-T\xCATE\n4.
         PAS DE PIRATAGE - PAS DE TRICHE\n5. CERTAINS GRINDERS SONT INTERDITS"
-      - "1. \u041D\u0415 \u0412\u041E\u0420\u0423\u0419\n2. \u041D\u0415 \u0413\u041E\u0420\u0418\n3.
+      - "1. \u041D\u0415 \u0412\u041E\u0420\u0423\u0419\n2. \u041D\u0415 \u0421\u0422\u0420\u0410\u0414\u0410\u0419\n3.
         \u041D\u0415 \u0411\u0423\u0414\u042C \u041F\u0420\u0418\u0414\u0423\u0420\u041E\u041A\u041E\u041C\n4.
-        \u041D\u0418\u041A\u0410\u041A\u0418\u0425 \u0412\u0417\u041B\u041E\u041C\u041E\u0412
-        - \u041D\u0418\u041A\u0410\u041A\u041E\u0413\u041E \u041E\u0411\u041C\u0410\u041D\u0410\n5.
-        \u041D\u0415\u041A\u041E\u0422\u041E\u0420\u042B\u0415 \u0413\u0420\u0410\u0419\u041D\u0414\u0415\u0420\u042B
+        \u0411\u0415\u0417 \u0412\u0417\u041B\u041E\u041C\u041E\u0412 \u2014 \u0411\u0415\u0417
+        \u041C\u041E\u0428\u0415\u041D\u041D\u0418\u0427\u0415\u0421\u0422\u0412\u0410\n5.
+        \u041D\u0415\u041A\u041E\u0422\u041E\u0420\u042B\u0415 \u0413\u0420\u0410\u041D\u0414\u0415\u0420\u042B
         \u0417\u0410\u041F\u0420\u0415\u0429\u0415\u041D\u042B"
-      - "1. KH\xD4NG TR\u1ED8M C\u1EAEP\n2. KH\xD4NG BU\u1ED2N\n3. KH\xD4NG L\xC0M
-        K\u1EBA \u0110\u1EA6U\n4. KH\xD4NG C\xD3 HACK - KH\xD4NG GIAN L\u1EACN\n5.
-        C\u1EA4M M\u1ED8T S\u1ED0 M\xC1Y XAY"
+      - "1. KH\xD4NG \u0102N C\u1EAEP\n2. KH\xD4NG BU\u1ED2N B\u1ECA\n3. KH\xD4NG
+        L\xC0M K\u1EBA \u0110\u1EA6U\n4. KH\xD4NG C\u1EAEP - KH\xD4NG GIAN L\u1EACN\n5.
+        C\u1EA4M M\u1ED8T S\u1ED0 M\xC1Y C\xC0I \u0110\u1EB6T"
       - "1. N\xC3O ROUBE\n2. N\xC3O SE CHORE\n3. N\xC3O SEJA IDIOTA\n4. SEM HACKS
         - SEM TRAPA\xC7AS\n5. CERTOS GRINDERS S\xC3O PROIBIDOS"
-      - "1. NIE KRADZIE\u017B\n2. NIE \u017BA\u0141UJ\n3. NIE B\u0104D\u0179 G\u0141UPKIEM\n4.
-        \u017BADNYCH HACK\xD3W - \u017BADNYCH OSZUSTW\n5. NIEKT\xD3RE GRINDERY S\u0104
-        ZABRONIONE"
+      - "1. NIE KRADN\u0104\u0106\n2. NIE \u017BA\u0141OWA\u0106\n3. NIE B\u0104D\u0179
+        G\u0141UPCEM\n4. \u017BADNYCH HACK\xD3W \u2013 \u017BADNYCH OSZUSTW\n5. NIEKT\xD3RE
+        GRINDERY S\u0104 ZABRONIONE"
       - '1. NON RUBARE
 
         2. NON AFFLITARTI
@@ -5221,10 +5213,10 @@ MonoBehaviour:
         NIENTE TRUCCHI - NIENTE IMBROGLI
 
         5. ALCUNI GRINDER SONO VIETATI'
-      - "1. NICHT STEHLEN\n2. NICHT TRAURIG SEIN\n3. KEIN ARSCHLOCH SEIN\n4. KEINE
-        HACKS \u2013 KEIN SCHUMMELN\n5. BESTIMMTE GRINDER SIND VERBOTEN"
-      - "1. \xC7ALMA\n2. \xDCZ\xDCLME\n3. SERSER\u0130 OLMAYIN\n4. H\u0130LE YOK
-        - H\u0130LE YOK\n5. BEL\u0130RL\u0130 \xD6\u011E\xDCT\xDCC\xDCLER YASAKTIR"
+      - "1. NICHT STEHLEN\n2. NICHT TRAUERN\n3. NICHT TROTZER SEIN\n4. KEINE HACKS
+        \u2013 KEIN SCHUMMELN\n5. BESTIMMTE GRINDER SIND VERBOTEN"
+      - "1. \xC7ALMA\n2. \xDCZ\xDCLME\n3. SA\xC7MALIK YAPMA\n4. H\u0130LE YOK - H\u0130LE
+        YOK\n5. BAZI \xD6\u011E\xDCT\xDCC\xDCLER YASAKTIR"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: How To Activate
@@ -5251,19 +5243,19 @@ MonoBehaviour:
         Gamer"
       - "1) Configuraci\xF3n > Recursos globales\n\n2) Activar > Capa directa de
         Velocity Gamer"
-      - "1) Param\xE8tres > Ressources globales\n\n2) Activer > Cap direct par Velocity
-        Gamer"
-      - "1) \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 > \u0413\u043B\u043E\u0431\u0430\u043B\u044C\u043D\u044B\u0435
-        \u0440\u0435\u0441\u0443\u0440\u0441\u044B \n\n2) \u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+      - "1) Param\xE8tres > Ressources globales\n\n2) Activation > Cap direct par
+        Velocity Gamer"
+      - "1) \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 > \u0413\u043B\u043E\u0431\u0430\u043B\u044C\u043D\u044B\u0435
+        \u0440\u0435\u0441\u0443\u0440\u0441\u044B\n\n2) \u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C
         > Direct Cape \u043E\u0442 Velocity Gamer"
-      - "1) Thi\u1EBFt l\u1EADp > T\xE0i nguy\xEAn to\xE0n c\u1EA7u\n\n2) K\xEDch
-        ho\u1EA1t > Direct Cape c\u1EE7a Velocity Gamer"
+      - "1) C\xE0i \u0111\u1EB7t > T\xE0i nguy\xEAn To\xE0n c\u1EA7u\n\n2) K\xEDch
+        ho\u1EA1t > M\u0169i t\xEAn Tr\u1EF1c ti\u1EBFp c\u1EE7a Velocity Gamer"
       - "1) Configura\xE7\xF5es > Recursos Globais\n\n2) Ativar > Direct Cape da
         Velocity Gamer"
       - '1) Ustawienia > Zasoby globalne
 
 
-        2) Aktywuj > Direct Cape by Velocity
+        2) Aktywuj > Direct Cape od Velocity
         Gamer'
       - '1) Impostazioni > Risorse globali
 
@@ -5275,8 +5267,8 @@ MonoBehaviour:
 
         2) Aktivieren > Direkter
         Zugriff von Velocity Gamer'
-      - "1) Ayarlar > K\xFCresel Kaynaklar \n\n2) Etkinle\u015Ftir > Velocity Gamer
-        taraf\u0131ndan Do\u011Frudan Cape"
+      - "1) Ayarlar > K\xFCresel Kaynaklar\n\n2) Etkinle\u015Ftir > Velocity Gamer
+        taraf\u0131ndan Do\u011Frudan Pelerin"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Rate us
@@ -5292,7 +5284,7 @@ MonoBehaviour:
       - "Oce\u0144 nas"
       - Valutaci
       - Bewerten Sie uns
-      - Bizi derecelendirin
+      - "Bizi de\u011Ferlendirin"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Thank you for using our app.Rate us with 5 stars to help. After that
@@ -5315,17 +5307,17 @@ MonoBehaviour:
       - "Merci d'utiliser notre application. Donnez-nous 5 \xE9toiles pour nous aider.\nApr\xE8s
         cela, ouvrez votre jeu et votre carte a \xE9t\xE9 ajout\xE9e.\n"
       - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435
-        \u043D\u0430\u0448\u0435\u0433\u043E \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F.\u041E\u0446\u0435\u043D\u0438\u0442\u0435
-        \u043D\u0430\u0441\n5 \u0437\u0432\u0435\u0437\u0434\u0430\u043C\u0438, \u0447\u0442\u043E\u0431\u044B
-        \u043F\u043E\u043C\u043E\u0447\u044C.\n\u041F\u043E\u0441\u043B\u0435 \u044D\u0442\u043E\u0433\u043E
-        \u043E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0441\u0432\u043E\u044E
-        \u0438\u0433\u0440\u0443, \u0432\u0430\u0448\u0430 \u043A\u0430\u0440\u0442\u0430\n\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E
+        \u043D\u0430\u0448\u0435\u0433\u043E \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F.
+        \u041E\u0446\u0435\u043D\u0438\u0442\u0435 \u043D\u0430\u0441\n5 \u0437\u0432\u0451\u0437\u0434\u0430\u043C\u0438,
+        \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043C\u043E\u0447\u044C.\n\u041F\u043E\u0441\u043B\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043E\u0442\u043A\u0440\u043E\u0439\u0442\u0435
+        \u0438\u0433\u0440\u0443 \u0438 \u043A\u0430\u0440\u0442\u0443.\n\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E
         \u0443\u0441\u043F\u0435\u0448\u043D\u043E.\n"
       - "C\u1EA3m \u01A1n b\u1EA1n \u0111\xE3 s\u1EED d\u1EE5ng \u1EE9ng d\u1EE5ng
-        c\u1EE7a ch\xFAng t\xF4i. \u0110\xE1nh gi\xE1 ch\xFAng t\xF4i v\u1EDBi\n5
-        sao \u0111\u1EC3 gi\xFAp \u0111\u1EE1.\nSau \u0111\xF3 m\u1EDF tr\xF2 ch\u01A1i
-        c\u1EE7a b\u1EA1n, b\u1EA3n \u0111\u1ED3 c\u1EE7a b\u1EA1n\n\u0110\xE3 th\xEAm
-        th\xE0nh c\xF4ng.\n"
+        c\u1EE7a ch\xFAng t\xF4i. H\xE3y \u0111\xE1nh gi\xE1 ch\xFAng t\xF4i v\u1EDBi
+        5 sao \u0111\u1EC3 \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3.\nSau \u0111\xF3,
+        h\xE3y m\u1EDF tr\xF2 ch\u01A1i v\xE0 b\u1EA3n \u0111\u1ED3 c\u1EE7a b\u1EA1n\n\u0110\xE3
+        th\xEAm th\xE0nh c\xF4ng.\n"
       - 'Obrigado por usar nosso aplicativo. Avalie-nos com
 
         5 estrelas para
@@ -5338,15 +5330,14 @@ MonoBehaviour:
 
 '
       - "Dzi\u0119kujemy za korzystanie z naszej aplikacji. Oce\u0144 nas\n5 gwiazdkami,
-        aby pom\xF3c.\nNast\u0119pnie otw\xF3rz swoj\u0105 gr\u0119, swoj\u0105 map\u0119\nDodano
-        pomy\u015Blnie.\n"
-      - "Grazie per aver utilizzato la nostra app. Valutaci con\n5 stelle per aiutarci.\nDopodich\xE9,
+        aby nam pom\xF3c.\nPotem otw\xF3rz gr\u0119 i map\u0119.\nDodano pomy\u015Blnie.\n"
+      - "Grazie per aver utilizzato la nostra app. Valutaci con 5 stelle per aiutarci.\nDopodich\xE9,
         apri il gioco e la mappa.\nAggiunta con successo."
       - "Vielen Dank, dass Sie unsere App nutzen. Bewerten Sie uns mit 5 Sternen,
         um uns zu helfen.\n\xD6ffnen Sie anschlie\xDFend Ihr Spiel und Ihre Karte.\nErfolgreich
         hinzugef\xFCgt.\n"
       - "Uygulamam\u0131z\u0131 kulland\u0131\u011F\u0131n\u0131z i\xE7in te\u015Fekk\xFCr
-        ederiz. Bize yard\u0131mc\u0131 olmak i\xE7in\n5 y\u0131ld\u0131z verin.\nArd\u0131ndan
+        ederiz. Yard\u0131mc\u0131 olmak i\xE7in bize 5 y\u0131ld\u0131z verin.\nArd\u0131ndan
         oyununuzu a\xE7\u0131n ve haritan\u0131z\nBa\u015Far\u0131yla Eklendi.\n"
       Flags: 00000000000000000000
       Languages_Touch: []
@@ -5367,18 +5358,18 @@ MonoBehaviour:
         votre appareil."
       - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043A\u043D\u043E\u043F\u043A\u0443
         \xAB\u0418\u043C\u043F\u043E\u0440\u0442\xBB > \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435
-        Minecraft\n\n\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435:
+        Minecraft.\n\n\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435:
         \u0443\u0431\u0435\u0434\u0438\u0442\u0435\u0441\u044C, \u0447\u0442\u043E
         \u043D\u0430 \u0432\u0430\u0448\u0435\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435
         \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0430 \u200B\u200B\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F
-        \u0432\u0435\u0440\u0441\u0438\u044F Minecraft"
+        \u0432\u0435\u0440\u0441\u0438\u044F Minecraft."
       - "Nh\u1EA5p v\xE0o n\xFAt Nh\u1EADp > Ch\u1ECDn Minecraft\n\nL\u01B0u \xFD:
-        \u0110\u1EA3m b\u1EA3o Minecreaft m\u1EDBi nh\u1EA5t c\u1EA7n \u0111\u01B0\u1EE3c
-        c\xE0i \u0111\u1EB7t trong thi\u1EBFt b\u1ECB c\u1EE7a b\u1EA1n"
+        \u0110\u1EA3m b\u1EA3o Minecraft m\u1EDBi nh\u1EA5t ph\u1EA3i \u0111\u01B0\u1EE3c
+        c\xE0i \u0111\u1EB7t tr\xEAn thi\u1EBFt b\u1ECB c\u1EE7a b\u1EA1n"
       - "Clique no bot\xE3o Importar > Selecione Minecraft\n\nObserva\xE7\xE3o: Certifique-se
         de que a vers\xE3o mais recente do Minecraft esteja instalada no seu dispositivo."
-      - "Kliknij przycisk Importuj > Wybierz Minecraft\n\nUwaga: Upewnij si\u0119,
-        \u017Ce najnowsza wersja Minecraft musi by\u0107 zainstalowana na Twoim urz\u0105dzeniu"
+      - "Kliknij przycisk Importuj > Wybierz Minecraft.\n\nUwaga: Upewnij si\u0119,
+        \u017Ce na Twoim urz\u0105dzeniu jest zainstalowana najnowsza wersja Minecraft."
       - 'Fai clic sul pulsante Importa > Seleziona Minecraft
 
 
@@ -5387,9 +5378,9 @@ MonoBehaviour:
       - "Klicken Sie auf \u201EImportieren\u201C > \u201EMinecraft ausw\xE4hlen\u201C.\n\nHinweis:
         Stellen Sie sicher, dass die neueste Version von Minecraft auf Ihrem Ger\xE4t
         installiert ist."
-      - "\u0130\xE7e Aktarma D\xFC\u011Fmesine T\u0131klay\u0131n > Minecraft'\u0131
-        Se\xE7in\n\nNot: Cihaz\u0131n\u0131za En Son Minecreaft'\u0131n Y\xFCkl\xFC
-        Oldu\u011Fundan Emin Olun"
+      - "\u0130\xE7e Aktar D\xFC\u011Fmesine T\u0131klay\u0131n > Minecraft'\u0131
+        Se\xE7in\n\nNot: Cihaz\u0131n\u0131zda En Son Minecraft S\xFCr\xFCm\xFCn\xFCn
+        Y\xFCkl\xFC Oldu\u011Fundan Emin Olun"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Preview
@@ -5509,7 +5500,7 @@ MonoBehaviour:
       - "\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435
         \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u0443 \u0432 \u0441\u0432\u043E\u0435\u0439
         \u0433\u0430\u043B\u0435\u0440\u0435\u0435."
-      - "Tr\u01B0\u1EDBc ti\xEAn h\xE3y l\u01B0u h\u1ECDa ti\u1EBFt v\xE0o th\u01B0
+      - "Tr\u01B0\u1EDBc ti\xEAn h\xE3y l\u01B0u k\u1EBFt c\u1EA5u v\xE0o th\u01B0
         vi\u1EC7n \u1EA3nh c\u1EE7a b\u1EA1n."
       - Primeiro, salve a textura na sua galeria.
       - "Najpierw zapisz tekstur\u0119 w galerii."
@@ -5542,15 +5533,14 @@ MonoBehaviour:
       - Tap Dressing Room (bottom right).
       - Vestidor de grifo (abajo a la derecha).
       - "Dressing du Tap (en bas \xE0 droite)."
-      - "\u041F\u0440\u0438\u043C\u0435\u0440\u043E\u0447\u043D\u0430\u044F (\u0432\u043D\u0438\u0437\u0443
-        \u0441\u043F\u0440\u0430\u0432\u0430)."
-      - "Nh\u1EA5n v\xE0o Ph\xF2ng thay \u0111\u1ED3 (ph\xEDa d\u01B0\u1EDBi b\xEAn
-        ph\u1EA3i)."
+      - "\u041A\u043E\u043C\u043D\u0430\u0442\u0430 \u0434\u043B\u044F \u0442\u0430\u043D\u0446\u0435\u0432
+        (\u0432\u043D\u0438\u0437\u0443 \u0441\u043F\u0440\u0430\u0432\u0430)."
+      - "Ph\xF2ng thay \u0111\u1ED3 (ph\xEDa d\u01B0\u1EDBi b\xEAn ph\u1EA3i)."
       - "Toque em Vesti\xE1rio (canto inferior direito)."
-      - Kliknij Garderoba (w prawym dolnym rogu).
+      - "Tap Dressing Room (prawy dolny r\xF3g)."
       - Tocca Dressing Room (in basso a destra).
       - "Tippen Sie auf \u201EAnkleidekabine\u201C (unten rechts)."
-      - "Soyunma Odas\u0131na dokunun (sa\u011F alt)."
+      - "Soyunma Odas\u0131 (sa\u011F alt)."
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Tap Change Classic Skin.
@@ -5578,8 +5568,9 @@ MonoBehaviour:
       - Tap Choose New Skin.
       - "Toca Y Elige Una Nueva M\xE1scara."
       - Appuyez Sur Choisir Un Nouveau Skin.
-      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u0412\u044B\u0431\u0440\u0430\u0442\u044C
-        \u041D\u043E\u0432\u044B\u0439 \u0421\u043A\u0438\u043D."
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0427\u0442\u043E\u0431\u044B
+        \u0412\u044B\u0431\u0440\u0430\u0442\u044C \u041D\u043E\u0432\u044B\u0439
+        \u0421\u043A\u0438\u043D."
       - "Ch\u1EA1m V\xE0o Ch\u1ECDn Giao Di\u1EC7n M\u1EDBi."
       - Toque Em Escolher Nova Skin.
       - "Kliknij, Aby Wybra\u0107 Now\u0105 Sk\xF3rk\u0119."
@@ -5612,8 +5603,8 @@ MonoBehaviour:
       - Pick a model as needed.
       - "Elija un modelo seg\xFAn sea necesario."
       - "Choisissez un mod\xE8le selon vos besoins."
-      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043C\u043E\u0434\u0435\u043B\u044C
-        \u043F\u043E \u043C\u0435\u0440\u0435 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E\u0441\u0442\u0438."
+      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u0443\u044E
+        \u043C\u043E\u0434\u0435\u043B\u044C."
       - "Ch\u1ECDn m\u1ED9t m\xF4 h\xECnh theo nhu c\u1EA7u."
       - "Selecione um modelo conforme necess\xE1rio."
       - "Wybierz model wed\u0142ug potrzeb."
@@ -5645,13 +5636,13 @@ MonoBehaviour:
       - Cape/Elytra Collection
       - "Colecci\xF3n De Capa/\xC9litros"
       - "Collection Cape/\xC9lytres"
-      - "\u30B1\u30FC\u30D7/\u30A8\u30EA\u30C8\u30E9\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3"
       - "\u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u041F\u043B\u0430\u0449\u0435\u0439/\u041D\u0430\u0434\u043A\u0440\u044B\u043B\u0438\u0439"
       - "B\u1ED9 S\u01B0u T\u1EADp Cape/Elytra"
-      - "\u0E04\u0E2D\u0E25\u0E40\u0E25\u0E04\u0E0A\u0E31\u0E48\u0E19\u0E40\u0E04\u0E1B/\u0E40\u0E2D\u0E25\u0E35\u0E15\u0E23\u0E32"
       - "Cole\xE7\xE3o De Capas/\xC9litros"
-      - Kolekcja Peleryny/Elytry
-      - "\uCF00\uC774\uD504/\uC5D8\uB9AC\uD2B8\uB77C \uCEEC\uB809\uC158"
+      - Kolekcja Peleryny/Pokryw
+      - Collezione Mantello/Elitre
+      - Kap/Elytra-Sammlung
+      - Cape/Elytra Koleksiyonu
       - Collezione Mantello/Elitre
       - Kap/Elytra-Sammlung
       - Cape/Elytra Koleksiyonu
@@ -5701,17 +5692,16 @@ MonoBehaviour:
       - Do this after saving the texture in the gallery.
       - "Haga esto despu\xE9s de guardar la textura en la galer\xEDa."
       - "Faites ceci apr\xE8s avoir enregistr\xE9 la texture dans la galerie."
-      - "\u30C6\u30AF\u30B9\u30C1\u30E3\u3092\u30AE\u30E3\u30E9\u30EA\u30FC\u306B\u4FDD\u5B58\u3057\u305F\u5F8C\u306B\u3053\u308C\u3092\u5B9F\u884C\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
       - "\u0421\u0434\u0435\u043B\u0430\u0439\u0442\u0435 \u044D\u0442\u043E \u043F\u043E\u0441\u043B\u0435
         \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B
         \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u0435."
       - "Th\u1EF1c hi\u1EC7n vi\u1EC7c n\xE0y sau khi l\u01B0u k\u1EBFt c\u1EA5u
         v\xE0o th\u01B0 vi\u1EC7n."
-      - "\u0E17\u0E33\u0E2A\u0E34\u0E48\u0E07\u0E19\u0E35\u0E49\u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E1E\u0E37\u0E49\u0E19\u0E1C\u0E34\u0E27\u0E43\u0E19\u0E41\u0E01\u0E25\u0E40\u0E25\u0E2D\u0E23\u0E35"
       - "Fa\xE7a isso depois de salvar a textura na galeria."
       - "Zr\xF3b to po zapisaniu tekstury w galerii."
-      - "\uAC24\uB7EC\uB9AC\uC5D0 \uD14D\uC2A4\uCC98\uB97C \uC800\uC7A5\uD55C \uD6C4
-        \uC774 \uC791\uC5C5\uC744 \uC218\uD589\uD558\uC138\uC694."
+      - Esegui questa operazione dopo aver salvato la texture nella galleria.
+      - Tun Sie dies, nachdem Sie die Textur in der Galerie gespeichert haben.
+      - "Dokuyu galeriye kaydettikten sonra bunu yap\u0131n."
       - Esegui questa operazione dopo aver salvato la texture nella galleria.
       - Tun Sie dies, nachdem Sie die Textur in der Galerie gespeichert haben.
       - "Bunu dokuyu galeriye kaydettikten sonra yap\u0131n."
@@ -5725,16 +5715,16 @@ MonoBehaviour:
       - Now do these steps to finish.
       - Ahora sigue estos pasos para finalizar.
       - "Suivez maintenant ces \xE9tapes pour terminer."
-      - "\u6B21\u306B\u3001\u6B21\u306E\u624B\u9806\u3092\u5B9F\u884C\u3057\u3066\u7D42\u4E86\u3057\u307E\u3059\u3002"
       - "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u0435
-        \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435 \u0448\u0430\u0433\u0438,
-        \u0447\u0442\u043E\u0431\u044B \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u044C."
+        \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435 \u0448\u0430\u0433\u0438
+        \u0434\u043B\u044F \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u044F."
       - "B\xE2y gi\u1EDD h\xE3y th\u1EF1c hi\u1EC7n c\xE1c b\u01B0\u1EDBc sau \u0111\u1EC3
         ho\xE0n t\u1EA5t."
-      - "\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E17\u0E33\u0E15\u0E32\u0E21\u0E02\u0E31\u0E49\u0E19\u0E15\u0E2D\u0E19\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E34\u0E49\u0E19"
       - Agora siga estes passos para finalizar.
-      - "Teraz wykonaj poni\u017Csze kroki, aby zako\u0144czy\u0107."
-      - "\uC774\uC81C \uB2E4\uC74C \uB2E8\uACC4\uB97C \uB530\uB77C \uB9C8\uBB34\uB9AC\uD558\uC138\uC694."
+      - "Teraz, aby zako\u0144czy\u0107, wykonaj poni\u017Csze kroki."
+      - Ora segui questi passaggi per concludere.
+      - "F\xFChren Sie nun zum Abschluss diese Schritte aus."
+      - "\u015Eimdi bitirmek i\xE7in \u015Fu ad\u0131mlar\u0131 uygulay\u0131n."
       - Ora segui questi passaggi per concludere.
       - "F\xFChren Sie nun zum Abschluss diese Schritte aus."
       - "\u015Eimdi bitirmek i\xE7in \u015Fu ad\u0131mlar\u0131 uygulay\u0131n."
@@ -5752,20 +5742,22 @@ MonoBehaviour:
         inferior derecha."
       - "1. Ouvrez Minecraft Pocket Edition et appuyez sur le bouton de profil en
         bas \xE0 droite."
-      - "1. Minecraft Pocket Edition\u3092\u958B\u304D\u3001\u53F3\u4E0B\u306B\u3042\u308B\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB\u30DC\u30BF\u30F3\u3092\u30BF\u30C3\u30D7\u3057\u307E\u3059\u3002"
       - "1. \u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 Minecraft Pocket Edition
         \u0438 \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \u043A\u043D\u043E\u043F\u043A\u0443
         \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0432 \u043F\u0440\u0430\u0432\u043E\u043C
         \u043D\u0438\u0436\u043D\u0435\u043C \u0443\u0433\u043B\u0443."
-      - "1. M\u1EDF Minecraft Pocket Edition v\xE0\nch\u1EA1m v\xE0o n\xFAt h\u1ED3
+      - "1. M\u1EDF Minecraft Pocket Edition v\xE0\nnh\u1EA5n v\xE0o n\xFAt h\u1ED3
         s\u01A1 \u1EDF g\xF3c d\u01B0\u1EDBi b\xEAn ph\u1EA3i."
-      - "1. \u0E40\u0E1B\u0E34\u0E14 Minecraft Pocket Edition \u0E41\u0E25\u0E30\n\u0E41\u0E15\u0E30\u0E1B\u0E38\u0E48\u0E21\u0E42\u0E1B\u0E23\u0E44\u0E1F\u0E25\u0E4C\u0E17\u0E35\u0E48\u0E14\u0E49\u0E32\u0E19\u0E25\u0E48\u0E32\u0E07\u0E02\u0E27\u0E32"
       - "1. Abra o Minecraft Pocket Edition e\ntoque no bot\xE3o de perfil no canto
         inferior direito."
-      - "1. Otw\xF3rz Minecraft Pocket Edition i \nstuknij przycisk profilu w prawym
+      - "1. Otw\xF3rz Minecraft Pocket Edition i\ndotknij przycisku profilu w prawym
         dolnym rogu."
-      - "1. Minecraft Pocket Edition\uC744 \uC5F4\uACE0\n\uC624\uB978\uCABD \uD558\uB2E8\uC758
-        \uD504\uB85C\uD544 \uBC84\uD2BC\uC744 \uD0ED\uD558\uC138\uC694."
+      - 1. Apri Minecraft Pocket Edition e tocca il pulsante del profilo in basso
+        a destra.
+      - "1. \xD6ffnen Sie Minecraft Pocket Edition und tippen Sie unten rechts auf
+        die Profilschaltfl\xE4che."
+      - "1. Minecraft Pocket Edition'\u0131 a\xE7\u0131n ve\nsa\u011F alttaki profil
+        butonuna dokunun."
       - 1. Apri Minecraft Pocket Edition e tocca il pulsante del profilo in basso
         a destra.
       - "1. \xD6ffnen Sie Minecraft Pocket Edition und tippen Sie unten rechts auf
@@ -5786,22 +5778,23 @@ MonoBehaviour:
         la imagen."
       - "3. Appuyez sur le deuxi\xE8me onglet (s\xE9lecteur de skin)\naffich\xE9
         sur l'image."
-      - "3. \u753B\u50CF\u306B\u793A\u3055\u308C\u3066\u3044\u308B2\u756A\u76EE\u306E\u30BF\u30D6\uFF08\u30B9\u30AD\u30F3\u30BB\u30EC\u30AF\u30BF\u30FC\uFF09\u3092\u30BF\u30C3\u30D7\u3057\u307E\u3059\u3002"
       - "3. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u0432\u0442\u043E\u0440\u0443\u044E
         \u0432\u043A\u043B\u0430\u0434\u043A\u0443 (\u0432\u044B\u0431\u043E\u0440
         \u0441\u043A\u0438\u043D\u0430), \u043F\u043E\u043A\u0430\u0437\u0430\u043D\u043D\u0443\u044E
         \u043D\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0438."
       - "3. Nh\u1EA5n v\xE0o tab th\u1EE9 hai (b\u1ED9 ch\u1ECDn giao di\u1EC7n)\n\u0111\u01B0\u1EE3c
         hi\u1EC3n th\u1ECB trong h\xECnh \u1EA3nh."
-      - "3. \u0E41\u0E15\u0E30\u0E41\u0E17\u0E47\u0E1A\u0E17\u0E35\u0E48\u0E2A\u0E2D\u0E07
-        (\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2A\u0E01\u0E34\u0E19)\n\u0E14\u0E31\u0E07\u0E17\u0E35\u0E48\u0E41\u0E2A\u0E14\u0E07\u0E43\u0E19\u0E23\u0E39\u0E1B\u0E20\u0E32\u0E1E"
       - '3. Toque na segunda aba (seletor de skin)
 
         mostrada na imagem.'
       - "3. Kliknij drug\u0105 zak\u0142adk\u0119 (selektor sk\xF3rek)\npokazan\u0105
         na obrazku."
-      - "3. \uC774\uBBF8\uC9C0\uC5D0 \uD45C\uC2DC\uB41C \uB450 \uBC88\uC9F8 \uD0ED(\uC2A4\uD0A8
-        \uC120\uD0DD\uAE30)\uC744 \uD0ED\uD558\uC138\uC694."
+      - '3. Tocca la seconda scheda (selettore skin)
+
+        mostrata nell''immagine.'
+      - 3. Tippen Sie auf die zweite Registerkarte (Skin-Auswahl), die im Bild angezeigt
+        wird.
+      - "3. Resimde g\xF6sterilen ikinci sekmeye (cilt se\xE7ici) dokunun."
       - '3. Tocca la seconda scheda (selettore skin)
 
         mostrata nell''immagine.'
@@ -5818,18 +5811,17 @@ MonoBehaviour:
       - 7. The gallery will open. Find and select the skin image.
       - "7. Se abrir\xE1 la galer\xEDa. Busca y selecciona la imagen del tema."
       - "7. La galerie s'ouvrira. Recherchez et s\xE9lectionnez l'image du skin."
-      - "7. \u30AE\u30E3\u30E9\u30EA\u30FC\u304C\u958B\u304D\u307E\u3059\u306E\u3067\u3001\u30B9\u30AD\u30F3\u753B\u50CF\u3092\u63A2\u3057\u3066\u9078\u629E\u3057\u307E\u3059\u3002"
       - "7. \u041E\u0442\u043A\u0440\u043E\u0435\u0442\u0441\u044F \u0433\u0430\u043B\u0435\u0440\u0435\u044F.
         \u041D\u0430\u0439\u0434\u0438\u0442\u0435 \u0438 \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435
         \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0441\u043A\u0438\u043D\u0430."
       - "7. Th\u01B0 vi\u1EC7n s\u1EBD m\u1EDF ra. T\xECm v\xE0 ch\u1ECDn h\xECnh
-        \u1EA3nh skin."
-      - "7. \u0E41\u0E01\u0E25\u0E40\u0E25\u0E2D\u0E23\u0E35\u0E08\u0E30\u0E40\u0E1B\u0E34\u0E14\u0E02\u0E36\u0E49\u0E19
-        \u0E04\u0E49\u0E19\u0E2B\u0E32\u0E41\u0E25\u0E30\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E1E\u0E2A\u0E01\u0E34\u0E19"
+        \u1EA3nh giao di\u1EC7n."
       - "7. A galeria ser\xE1 aberta. Encontre e selecione a imagem da skin."
-      - "7. Galeria zostanie otwarta. Znajd\u017A i wybierz obraz sk\xF3ry."
-      - "7. \uAC24\uB7EC\uB9AC\uAC00 \uC5F4\uB9BD\uB2C8\uB2E4. \uC2A4\uD0A8 \uC774\uBBF8\uC9C0\uB97C
-        \uCC3E\uC544 \uC120\uD0DD\uD558\uC138\uC694."
+      - "7. Otworzy si\u0119 galeria. Znajd\u017A i wybierz obraz sk\xF3rki."
+      - "7. Si aprir\xE0 la galleria. Trova e seleziona l'immagine della skin."
+      - "7. Die Galerie wird ge\xF6ffnet. Suchen und w\xE4hlen Sie das Skin-Bild
+        aus."
+      - "7. Galeri a\xE7\u0131lacakt\u0131r. Cilt resmini bulup se\xE7in."
       - "7. Si aprir\xE0 la galleria. Trova e seleziona l'immagine della skin."
       - "7. Die Galerie wird ge\xF6ffnet. Suchen und w\xE4hlen Sie das Skin-Bild
         aus."
@@ -5848,26 +5840,26 @@ MonoBehaviour:
         is arm size.'
       - "8. Elige el modelo que mejor se adapte a tu piel. La \xFAnica diferencia
         es el tama\xF1o del brazo."
-      - "8. Choisissez le mod\xE8le qui correspond le mieux \xE0 votre peau. La seule
+      - "8. Choisissez le mod\xE8le qui convient le mieux \xE0 votre peau. La seule
         diff\xE9rence r\xE9side dans la taille des bras."
-      - "8. \u808C\u306B\u6700\u3082\u30D5\u30A3\u30C3\u30C8\u3059\u308B\u30E2\u30C7\u30EB\u3092\u304A\u9078\u3073\u304F\u3060\u3055\u3044\u3002\n\u9055\u3044\u306F\u8155\u306E\u30B5\u30A4\u30BA\u3060\u3051\u3067\u3059\u3002"
       - "8. \u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043C\u043E\u0434\u0435\u043B\u044C,
         \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043B\u0443\u0447\u0448\u0435
         \u0432\u0441\u0435\u0433\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
-        \u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u0436\u0435.\n\u0415\u0434\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0435
-        \u043E\u0442\u043B\u0438\u0447\u0438\u0435 \u2014 \u0440\u0430\u0437\u043C\u0435\u0440
+        \u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u0436\u0435.\n\u0420\u0430\u0437\u043D\u0438\u0446\u0430
+        \u0442\u043E\u043B\u044C\u043A\u043E \u0432 \u0440\u0430\u0437\u043C\u0435\u0440\u0435
         \u0440\u0443\u043A\u0438."
       - "8. Ch\u1ECDn m\u1EABu ph\xF9 h\u1EE3p nh\u1EA5t v\u1EDBi l\xE0n da c\u1EE7a
         b\u1EA1n.\n\u0110i\u1EC3m kh\xE1c bi\u1EC7t duy nh\u1EA5t l\xE0 k\xEDch th\u01B0\u1EDBc
         c\xE1nh tay."
-      - "8. \u0E40\u0E25\u0E37\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E17\u0E35\u0E48\u0E40\u0E02\u0E49\u0E32\u0E01\u0E31\u0E1A\u0E1C\u0E34\u0E27\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14\n\u0E04\u0E27\u0E32\u0E21\u0E41\u0E15\u0E01\u0E15\u0E48\u0E32\u0E07\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27\u0E04\u0E37\u0E2D\u0E02\u0E19\u0E32\u0E14\u0E41\u0E02\u0E19"
       - "8. Escolha o modelo que melhor se adapta \xE0 sua pele.\nA \xFAnica diferen\xE7a
         \xE9 o tamanho do bra\xE7o."
-      - "8. Wybierz model, kt\xF3ry najlepiej pasuje do Twojej sk\xF3ry.\nJedyna
-        r\xF3\u017Cnica to rozmiar ramienia."
-      - "8. \uC790\uC2E0\uC758 \uD53C\uBD80\uC5D0 \uAC00\uC7A5 \uC798 \uB9DE\uB294
-        \uBAA8\uB378\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n\uC720\uC77C\uD55C \uCC28\uC774\uC810\uC740
-        \uD314 \uD06C\uAE30\uBFD0\uC785\uB2C8\uB2E4."
+      - "8. Wybierz model, kt\xF3ry najlepiej pasuje do Twojej sk\xF3ry.\nJedyn\u0105
+        r\xF3\u017Cnic\u0105 jest rozmiar ramienia."
+      - "8. Scegli il modello pi\xF9 adatto alla tua pelle.\nL'unica differenza \xE8
+        la dimensione del braccio."
+      - "8. W\xE4hlen Sie das Modell, das am besten zu Ihrer Haut passt.\nDer einzige
+        Unterschied ist die Armgr\xF6\xDFe."
+      - "8. Cildinize en uygun modeli se\xE7in.\nTek fark kol \xF6l\xE7\xFCn\xFCzd\xFCr."
       - "8. Scegli il modello pi\xF9 adatto alla tua pelle.\nL'unica differenza \xE8
         la dimensione del braccio."
       - "8. W\xE4hlen Sie das Modell, das am besten zu Ihrer Haut passt.\nDer einzige
@@ -5883,18 +5875,17 @@ MonoBehaviour:
       - 9. Once you open a world, your new skin will appear.
       - "9. Una vez que abras un mundo, aparecer\xE1 tu nueva apariencia."
       - "9. Une fois que vous ouvrez un monde, votre nouveau skin appara\xEEtra."
-      - "9. \u30EF\u30FC\u30EB\u30C9\u3092\u958B\u304F\u3068\u3001\u65B0\u3057\u3044\u30B9\u30AD\u30F3\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002"
       - "9. \u041A\u0430\u043A \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u044B
         \u043E\u0442\u043A\u0440\u043E\u0435\u0442\u0435 \u043C\u0438\u0440, \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F
         \u0432\u0430\u0448 \u043D\u043E\u0432\u044B\u0439 \u0441\u043A\u0438\u043D."
       - "9. Khi b\u1EA1n m\u1EDF m\u1ED9t th\u1EBF gi\u1EDBi, giao di\u1EC7n m\u1EDBi
         c\u1EE7a b\u1EA1n s\u1EBD xu\u1EA5t hi\u1EC7n."
-      - "9. \u0E40\u0E21\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E13\u0E40\u0E1B\u0E34\u0E14\u0E42\u0E25\u0E01
-        \u0E2A\u0E01\u0E34\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E02\u0E36\u0E49\u0E19"
       - "9. Depois de abrir um mundo, sua nova skin aparecer\xE1."
       - "9. Po otwarciu \u015Bwiata pojawi si\u0119 Twoja nowa sk\xF3rka."
-      - "9. \uC138\uACC4\uB97C \uC5F4\uBA74 \uC0C8\uB85C\uC6B4 \uC2A4\uD0A8\uC774
-        \uB098\uD0C0\uB0A9\uB2C8\uB2E4."
+      - "9. Una volta aperto un mondo, apparir\xE0 la tua nuova skin."
+      - "9. Sobald Sie eine Welt \xF6ffnen, wird Ihr neues Skin angezeigt."
+      - "9. Bir d\xFCnyay\u0131 a\xE7t\u0131\u011F\u0131n\u0131zda yeni g\xF6r\xFCn\xFCm\xFCn\xFCz
+        kar\u015F\u0131n\u0131za \xE7\u0131kacak."
       - "9. Una volta aperto un mondo, apparir\xE0 la tua nuova skin."
       - "9. Sobald Sie eine Welt \xF6ffnen, wird Ihr neues Skin angezeigt."
       - "9. Bir d\xFCnyay\u0131 a\xE7t\u0131\u011F\u0131n\u0131zda yeni skininiz
@@ -5911,14 +5902,14 @@ MonoBehaviour:
       - Nous avons besoin d'une connexion Internet pour exporter votre skin vers
         Minecraft.
       - "\u041D\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
-        \u043A \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0443 \u0434\u043B\u044F\n\u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430
+        \u043A \u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0443 \u0434\u043B\u044F\n\u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430
         \u0432\u0430\u0448\u0435\u0433\u043E \u0441\u043A\u0438\u043D\u0430 \u0432
-        minecraft"
+        Minecraft"
       - "Ch\xFAng t\xF4i c\u1EA7n k\u1EBFt n\u1ED1i internet \u0111\u1EC3\nxu\u1EA5t
-        skin c\u1EE7a b\u1EA1n sang minecraft"
+        skin c\u1EE7a b\u1EA1n sang Minecraft"
       - "Precisamos de conex\xE3o com a internet para\nexportar sua skin para o Minecraft"
-      - "Potrzebujemy po\u0142\u0105czenia internetowego, aby\neksportowa\u0107 twoj\u0105
-        sk\xF3rk\u0119 do Minecrafta"
+      - "Potrzebujemy po\u0142\u0105czenia internetowego, aby\nwyeksportowa\u0107
+        Twoj\u0105 sk\xF3rk\u0119 do Minecrafta"
       - 'Abbiamo bisogno di una connessione internet per
 
         esportare la tua
@@ -5926,7 +5917,7 @@ MonoBehaviour:
       - "Wir ben\xF6tigen eine Internetverbindung, um\ndeinen Skin nach Minecraft
         zu exportieren"
       - "Skininizi Minecraft'a aktarmak i\xE7in internet ba\u011Flant\u0131s\u0131na
-        ihtiyac\u0131m\u0131z var"
+        ihtiyac\u0131m\u0131z var."
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Start Connection
@@ -6023,7 +6014,7 @@ MonoBehaviour:
         \u0421\u0435\u0442\u044C"
       - "M\u1EA1ng T\u1EF1 \u0110\u1ED9ng"
       - "Rede Autom\xE1tica"
-      - "Sie\u0107 Automatyczna"
+      - "Automatyczna Sie\u0107"
       - Rete Automatica
       - Automatisches Netzwerk
       - "Otomatik A\u011F"
@@ -6059,6 +6050,296 @@ MonoBehaviour:
       - Cambia Tema
       - "Thema \xC4ndern"
       - "Temay\u0131 De\u011Fi\u015Ftir"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Success
+      TermType: 0
+      Description: 
+      Languages:
+      - Success
+      - "\xC9xito"
+      - "Succ\xE8s"
+      - "\u0423\u0441\u043F\u0435\u0445"
+      - "Th\xE0nh C\xF4ng"
+      - Sucesso
+      - Sukces
+      - Successo
+      - Erfolg
+      - "Ba\u015Far\u0131"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Thank You
+      TermType: 0
+      Description: 
+      Languages:
+      - Thank You
+      - Gracias
+      - Merci
+      - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E"
+      - "C\u1EA3m \u01A0n"
+      - Obrigado
+      - "Dzi\u0119kuj\u0119"
+      - Grazie
+      - Danke
+      - "Te\u015Fekk\xFCrler"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Page 1
+      TermType: 0
+      Description: 
+      Languages:
+      - Page 1
+      - "P\xE1gina 1"
+      - Page 1
+      - "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 1"
+      - Trang 1
+      - "P\xE1gina 1"
+      - Strona 1
+      - Pagina 1
+      - Seite 1
+      - Sayfa 1
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: use?
+      TermType: 0
+      Description: 
+      Languages:
+      - use?
+      - "\xBFusar?"
+      - utiliser?
+      - "\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C?"
+      - "s\u1EED d\u1EE5ng?"
+      - usar?
+      - "u\u017Cywa\u0107?"
+      - utilizzo?
+      - verwenden?
+      - kullanmak?
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Search skins Online
+      TermType: 0
+      Description: 
+      Languages:
+      - Search skins Online
+      - "Buscar m\xE1scaras en l\xEDnea"
+      - Rechercher des skins en ligne
+      - "\u041F\u043E\u0438\u0441\u043A \u0441\u043A\u0438\u043D\u043E\u0432 \u043E\u043D\u043B\u0430\u0439\u043D"
+      - "T\xECm ki\u1EBFm giao di\u1EC7n tr\u1EF1c tuy\u1EBFn"
+      - Pesquisar skins online
+      - "Szukaj sk\xF3rek online"
+      - Cerca skin online
+      - Suche nach Skins online
+      - "\xC7evrimi\xE7i g\xF6r\xFCn\xFCmleri aray\u0131n"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Reset to Default
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Connection Failed!
+      TermType: 0
+      Description: 
+      Languages:
+      - Connection Failed!
+      - "\xA1La Conexi\xF3n Fall\xF3!"
+      - "La Connexion A \xC9chou\xE9 !"
+      - "\u0421\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0435 \u041D\u0435
+        \u0423\u0434\u0430\u043B\u043E\u0441\u044C!"
+      - "K\u1EBFt N\u1ED1i Kh\xF4ng Th\xE0nh C\xF4ng!"
+      - "Falha Na Conex\xE3o!"
+      - "Po\u0142\u0105czenie Nieudane!"
+      - Connessione Fallita!
+      - Verbindung Fehlgeschlagen!
+      - "Ba\u011Flant\u0131 Ba\u015Far\u0131s\u0131z!"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: We need internet connection To export your skin to minecraft
+      TermType: 0
+      Description: 
+      Languages:
+      - 'We need internet connection
+
+        To export your skin to minecraft'
+      - "Necesitamos conexi\xF3n a internet\nPara exportar tu skin a Minecraft"
+      - Nous avons besoin d'une connexion internet pour exporter votre skin vers
+        Minecraft.
+      - "\u041D\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+        \u043A \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0443\n\u0427\u0442\u043E\u0431\u044B
+        \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0432\u0430\u0448 \u0441\u043A\u0438\u043D \u0432 minecraft"
+      - "Ch\xFAng t\xF4i c\u1EA7n k\u1EBFt n\u1ED1i internet\n\u0110\u1EC3 xu\u1EA5t
+        skin c\u1EE7a b\u1EA1n sang Minecraft"
+      - "Precisamos de conex\xE3o com a internet\nPara exportar sua skin para o Minecraft"
+      - "Potrzebujemy po\u0142\u0105czenia z internetem\nAby wyeksportowa\u0107 sk\xF3rk\u0119
+        do Minecrafta"
+      - 'Abbiamo bisogno di una connessione internet
+
+        Per esportare la tua
+        skin su Minecraft'
+      - "Wir ben\xF6tigen eine Internetverbindung, um deinen Skin nach Minecraft
+        zu exportieren."
+      - "Skininizi Minecraft'a aktarmak i\xE7in internet ba\u011Flant\u0131s\u0131na
+        ihtiyac\u0131m\u0131z var."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: MCPE Import Successfully
+      TermType: 0
+      Description: 
+      Languages:
+      - Mcpe Import Successfully
+      - "Importaci\xF3n De MCPE Exitosa"
+      - "Importation Mcpe R\xE9ussie"
+      - "Mcpe \u0418\u043C\u043F\u043E\u0440\u0442 \u0423\u0441\u043F\u0435\u0448\u0435\u043D"
+      - "Nh\u1EADp Mcpe Th\xE0nh C\xF4ng"
+      - "Importa\xE7\xE3o Do Mcpe Com Sucesso"
+      - "Import Mcpe Zako\u0144czony Powodzeniem"
+      - Importazione Mcpe Riuscita
+      - MCPE-Import Erfolgreich
+      - "Mcpe Ba\u015Far\u0131yla I\xE7e Aktar\u0131ld\u0131"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Enter skinpack name.....
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter skinpack name.....
+      - Ingrese el nombre del skinpack.....
+      - Entrez le nom du skinpack.....
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435
+        \u0441\u043A\u0438\u043D\u043F\u0430\u043A\u0430....."
+      - "Nh\u1EADp t\xEAn skinpack....."
+      - Digite o nome do skinpack.....
+      - "Podaj nazw\u0119 sk\xF3rki....."
+      - Inserisci il nome dello skinpack.....
+      - Geben Sie den Skinpack-Namen ein.....
+      - "Skinpack ad\u0131n\u0131 girin....."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Enter name of the skin.....
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter name of the skin.....
+      - Introduzca el nombre del skin.....
+      - Entrez le nom du skin.....
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435
+        \u0441\u043A\u0438\u043D\u0430....."
+      - "Nh\u1EADp t\xEAn skin....."
+      - Digite o nome da skin.....
+      - "Podaj nazw\u0119 sk\xF3rki....."
+      - Inserisci il nome della skin.....
+      - Geben Sie den Namen des Skins ein.....
+      - "Skinin ad\u0131n\u0131 girin....."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Enter version number.....
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter version number.....
+      - "Introduzca el n\xFAmero de versi\xF3n....."
+      - "Entrez le num\xE9ro de version....."
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043D\u043E\u043C\u0435\u0440
+        \u0432\u0435\u0440\u0441\u0438\u0438....."
+      - "Nh\u1EADp s\u1ED1 phi\xEAn b\u1EA3n....."
+      - "Digite o n\xFAmero da vers\xE3o....."
+      - "Wprowad\u017A numer wersji....."
+      - Inserisci il numero della versione.....
+      - Geben Sie die Versionsnummer ein.....
+      - "S\xFCr\xFCm numaras\u0131n\u0131 girin....."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Tap To Continue
+      TermType: 0
+      Description: 
+      Languages:
+      - Tap To Continue
+      - Toca Para Continuar
+      - Appuyez Pour Continuer
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0427\u0442\u043E\u0431\u044B
+        \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - "Nh\u1EA5n \u0110\u1EC3 Ti\u1EBFp T\u1EE5c"
+      - Toque Para Continuar
+      - "Dotknij, Aby Kontynuowa\u0107"
+      - Tocca Per Continuare
+      - Tippen Sie, Um Fortzufahren
+      - "Devam Etmek I\xE7in Dokunun"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Animal Skin
+      TermType: 0
+      Description: 
+      Languages:
+      - Animal Skin
+      - Piel De Animal
+      - Peau D'animal
+      - "\u0428\u043A\u0443\u0440\u0430 \u0416\u0438\u0432\u043E\u0442\u043D\u043E\u0433\u043E"
+      - "Da \u0110\u1ED9ng V\u1EADt"
+      - Pele De Animal
+      - "Sk\xF3ra Zwierz\u0119ca"
+      - Pelle Di Animale
+      - Tierhaut
+      - Hayvan Derisi
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: 3DSkinEditor
+      TermType: 0
+      Description: 
+      Languages:
+      - 3DSkinEditor
+      - Editor de piel 3DSkin
+      - 3DSkinEditor
+      - 3DSkinEditor
+      - "Tr\xECnh ch\u1EC9nh s\u1EEDa 3DSkin"
+      - 3DSkinEditor
+      - Edytor 3DSkin
+      - Editor di skin 3DS
+      - 3DSkinEditor
+      - "3DSkinEdit\xF6r\xFC"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: CapEditor
+      TermType: 0
+      Description: 
+      Languages:
+      - CapEditor
+      - Editor de tapas
+      - CapEditor
+      - CapEditor
+      - CapEditor
+      - Editor de Caps
+      - Edytor czapek
+      - Editor di cappucci
+      - CapEditor
+      - CapEditor
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: MapForMCPE
+      TermType: 0
+      Description: 
+      Languages:
+      - MapForMCPE
+      - Mapa para MCPE
+      - Carte pour MCPE
+      - "\u041A\u0430\u0440\u0442\u0430 \u0434\u043B\u044F MCPE"
+      - "B\u1EA3n \u0111\u1ED3 cho MCPE"
+      - Mapa para MCPE
+      - MapForMCPE
+      - Mappa per MCPE
+      - MapForMCPE
+      - "MCPE \u0130\xE7in Harita"
       Flags: 00000000000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
