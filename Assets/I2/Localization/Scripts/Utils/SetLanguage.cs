@@ -14,11 +14,14 @@ namespace I2.Loc
         private void Start()
         {
             // Hide tickmark by default
-            this.gameObject.transform.GetChild(0).gameObject.SetActive(LocalizationManager.CurrentLanguage == _Language);
+            this.gameObject.transform.GetChild(0).gameObject.SetActive(PlayerPrefs.GetString("language", LocalizationManager.CurrentLanguage) == _Language);
         }
 
         public void ApplyLanguage()
         {
+            PlayerPrefs.SetString("language", _Language);
+            PlayerPrefs.Save();
+
             if (LocalizationManager.HasLanguage(_Language))
             {
                 LocalizationManager.CurrentLanguage = _Language;

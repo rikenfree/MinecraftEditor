@@ -74,6 +74,7 @@ namespace Main.View
 
 
         public TextMeshProUGUI HeaderText;
+        public Localize HeaderLocalize;
 
         public GameObject[] EditorScreens;
         public GameObject[] CollectionScreens;
