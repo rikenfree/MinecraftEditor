@@ -880,7 +880,6 @@ GameObject:
   - component: {fileID: 490}
   - component: {fileID: 293}
   - component: {fileID: 743}
-  - component: {fileID: 744}
   - component: {fileID: 1236561100}
   - component: {fileID: 1236561101}
   m_Layer: 5
@@ -1079,7 +1078,6 @@ GameObject:
   - component: {fileID: 501}
   - component: {fileID: 304}
   - component: {fileID: 760}
-  - component: {fileID: 759}
   - component: {fileID: 1667726755}
   - component: {fileID: 1667726756}
   m_Layer: 5
@@ -5802,7 +5800,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 258, y: 82.789}
+  m_SizeDelta: {x: 275, y: 82.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &448
 RectTransform:
@@ -6298,7 +6296,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 267, y: 82.789}
+  m_SizeDelta: {x: 274, y: 82.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &474
 RectTransform:
@@ -6580,8 +6578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 173.5, y: -41.3945}
-  m_SizeDelta: {x: 169, y: 82.789}
+  m_AnchoredPosition: {x: 182, y: -41.3945}
+  m_SizeDelta: {x: 186, y: 82.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &491
 RectTransform:
@@ -6767,8 +6765,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 178, y: -41.3945}
-  m_SizeDelta: {x: 178, y: 82.789}
+  m_AnchoredPosition: {x: 181.5, y: -41.3945}
+  m_SizeDelta: {x: 185, y: 82.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &502
 RectTransform:
@@ -11557,21 +11555,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Favourite
---- !u!114 &744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
+  m_Text: "\u041B\u044E\u0431\u0438\u043C\u044B\u0439"
 --- !u!114 &745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11824,7 +11808,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Favourite Maps
+  m_Text: "\u041B\u044E\u0431\u0438\u043C\u044B\u0435 \u041A\u0430\u0440\u0442\u044B"
 --- !u!114 &753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11993,20 +11977,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Enter keyword to search
---- !u!114 &759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
 --- !u!114 &760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12040,7 +12010,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Download
+  m_Text: "\u0421\u043A\u0430\u0447\u0430\u0442\u044C"
 --- !u!114 &761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13148,7 +13118,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Map Name
+  m_Text: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u041A\u0430\u0440\u0442\u044B"
 --- !u!114 &810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50348,7 +50318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd07a5c292e87d54891efe2b301ba6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 6
 --- !u!114 &1865416860
 MonoBehaviour:
   m_ObjectHideFlags: 0
