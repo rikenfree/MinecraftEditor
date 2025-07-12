@@ -24985,8 +24985,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1774}
-  - {fileID: 1785}
   - {fileID: 1602}
+  - {fileID: 1785}
   m_Father: {fileID: 1713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -26639,8 +26639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0954231cb75dc2a43ad5fd785ea5124d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: {fileID: 2229}
-  info: {fileID: 639653268}
+  titleLocalize: {fileID: 2228}
+  infoLocalize: {fileID: 639653269}
 --- !u!114 &2023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30906,8 +30906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb81d129edea8549838edf00364aa8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: {fileID: 2334}
-  info: {fileID: 2013}
+  titleLocalize: {fileID: 2333}
+  infoLocalize: {fileID: 2012}
 --- !u!114 &2221
 MonoBehaviour:
   m_ObjectHideFlags: 0

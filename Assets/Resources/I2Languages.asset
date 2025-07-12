@@ -2828,22 +2828,6 @@ MonoBehaviour:
       - "Izgaray\u0131 Se\xE7"
       Flags: 00000000000000000000
       Languages_Touch: []
-    - Term: '#FF00A7'
-      TermType: 0
-      Description: 
-      Languages:
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      - '#Ff00a7'
-      Flags: 00000000000000000000
-      Languages_Touch: []
     - Term: New Character
       TermType: 0
       Description: 
@@ -3004,22 +2988,6 @@ MonoBehaviour:
       - Pagina
       - Seite
       - Sayfa
-      Flags: 00000000000000000000
-      Languages_Touch: []
-    - Term: 1 _ 8
-      TermType: 0
-      Description: 
-      Languages:
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
-      - 1 _ 8
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Skin
@@ -3433,23 +3401,6 @@ MonoBehaviour:
       - Rimpicciolisci il personaggio
       - Den Charakter herauszoomen
       - "Karakteri Uzakla\u015Ft\u0131r"
-      Flags: 00000000000000000000
-      Languages_Touch: []
-    - Term: Undo Your Changes
-      TermType: 0
-      Description: 
-      Languages:
-      - Undo Your Changes
-      - Deshacer Los Cambios
-      - Annuler Vos Modifications
-      - "\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C \u0412\u0430\u0448\u0438
-        \u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F"
-      - "Ho\xE0n T\xE1c C\xE1c Thay \u0110\u1ED5i C\u1EE7a B\u1EA1n"
-      - "Desfazer Suas Altera\xE7\xF5es"
-      - Cofnij Zmiany
-      - Annullare Le Modifiche
-      - "Ihre \xC4nderungen R\xFCckg\xE4ngig Machen"
-      - "De\u011Fi\u015Fikliklerinizi Geri Al\u0131n"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Redo Your changes
@@ -4214,22 +4165,6 @@ MonoBehaviour:
       - Condividi Il Pacchetto
       - Paket Teilen
       - "Payla\u015F\u0131m Paketi"
-      Flags: 00000000000000000000
-      Languages_Touch: []
-    - Term: 1
-      TermType: 0
-      Description: 
-      Languages:
-      - 1
-      - 1
-      - 1
-      - 1
-      - 1
-      - 1
-      - 1
-      - 1
-      - 1
-      - 1
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Dowload
@@ -5936,22 +5871,6 @@ MonoBehaviour:
       - "Ba\u011Flant\u0131y\u0131 Ba\u015Flat"
       Flags: 00000000000000000000
       Languages_Touch: []
-    - Term: 0
-      TermType: 0
-      Description: 
-      Languages:
-      - 0%
-      - 0%
-      - 0%
-      - 0%
-      - 0%
-      - 0%
-      - 0%
-      - 0%
-      - 0 %
-      - '%0'
-      Flags: 00000000000000000000
-      Languages_Touch: []
     - Term: Drawing With Pencil
       TermType: 0
       Description: 
@@ -6340,6 +6259,286 @@ MonoBehaviour:
       - Mappa per MCPE
       - MapForMCPE
       - "MCPE \u0130\xE7in Harita"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Success!
+      TermType: 0
+      Description: 
+      Languages:
+      - Success!
+      - "\xA1\xC9xito!"
+      - "Succ\xE8s!"
+      - "\u0423\u0441\u043F\u0435\u0445!"
+      - "Th\xE0nh C\xF4ng!"
+      - Sucesso!
+      - Sukces!
+      - Successo!
+      - Erfolg!
+      - "Ba\u015Far\u0131!"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Please Restart MCPE
+      TermType: 0
+      Description: 
+      Languages:
+      - Please Restart MCPE
+      - Por Favor Reinicie Mcpe
+      - "Veuillez Red\xE9marrer Mcpe"
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u041F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u0442\u0438\u0442\u0435
+        Mcpe"
+      - "Vui L\xF2ng Kh\u1EDFi \u0110\u1ED9ng L\u1EA1i Mcpe"
+      - Por Favor Reinicie O Mcpe
+      - "Prosz\u0119 Ponownie Uruchomi\u0107 Mcpe"
+      - Per Favore Riavvia Mcpe
+      - Bitte Starten Sie Mcpe Neu
+      - "L\xFCtfen Mcpe'yi Yeniden Ba\u015Flat\u0131n"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Skin is saved to Gallery.
+      TermType: 0
+      Description: 
+      Languages:
+      - Skin is saved to Gallery.
+      - "La m\xE1scara se guarda en la Galer\xEDa."
+      - "Le skin est enregistr\xE9 dans la galerie."
+      - "\u0421\u043A\u0438\u043D \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D
+        \u0432 \u0413\u0430\u043B\u0435\u0440\u0435\u0435."
+      - "Da \u0111\u01B0\u1EE3c l\u01B0u v\xE0o Th\u01B0 vi\u1EC7n."
+      - "A pele \xE9 salva na Galeria."
+      - "Sk\xF3rka zosta\u0142a zapisana w Galerii."
+      - La skin viene salvata nella Galleria.
+      - Skin wird in der Galerie gespeichert.
+      - Skin Galeri'ye kaydedildi.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Can't Download Skin
+      TermType: 0
+      Description: 
+      Languages:
+      - Can't Download Skin
+      - No Puedo Descargar La Skin
+      - "Impossible De T\xE9l\xE9charger Le Skin"
+      - "\u041D\u0435 \u041C\u043E\u0433\u0443 \u0421\u043A\u0430\u0447\u0430\u0442\u044C
+        \u0421\u043A\u0438\u043D"
+      - "Kh\xF4ng Th\u1EC3 T\u1EA3i Xu\u1ED1ng Giao Di\u1EC7n"
+      - "N\xE3o Consigo Baixar A Skin"
+      - "Nie Mo\u017Cna Pobra\u0107 Sk\xF3rki"
+      - Non Riesco A Scaricare La Skin
+      - Skin Kann Nicht Heruntergeladen Werden
+      - Cildi Indiremiyorum
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Please Try Again
+      TermType: 0
+      Description: 
+      Languages:
+      - Please Try Again
+      - "Por Favor, Int\xE9ntalo De Nuevo"
+      - "Veuillez R\xE9essayer"
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435
+        \u0415\u0449\u0435 \u0420\u0430\u0437"
+      - "Vui L\xF2ng Th\u1EED L\u1EA1i"
+      - Por Favor Tente Novamente
+      - "Prosz\u0119 Spr\xF3bowa\u0107 Ponownie"
+      - Per Favore Riprova
+      - Bitte Versuchen Sie Es Erneut
+      - "L\xFCtfen Tekrar Deneyin"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Unsupported Skin Size
+      TermType: 0
+      Description: 
+      Languages:
+      - Unsupported Skin Size
+      - "Tama\xF1o De Piel No Compatible"
+      - Taille De Peau Non Prise En Charge
+      - "\u041D\u0435\u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043C\u044B\u0439
+        \u0420\u0430\u0437\u043C\u0435\u0440 \u0421\u043A\u0438\u043D\u0430"
+      - "K\xEDch Th\u01B0\u1EDBc Da Kh\xF4ng \u0110\u01B0\u1EE3c H\u1ED7 Tr\u1EE3"
+      - "Tamanho De Pele N\xE3o Suportado"
+      - "Nieobs\u0142ugiwany Rozmiar Sk\xF3ry"
+      - Dimensione Della Pelle Non Supportata
+      - "Nicht Unterst\xFCtzte Skin-Gr\xF6\xDFe"
+      - Desteklenmeyen Cilt Boyutu
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: We only Support 64x32 Skin.
+      TermType: 0
+      Description: 
+      Languages:
+      - We only Support 64x32 Skin.
+      - Solo admitimos skins de 64x32.
+      - Nous ne prenons en charge que les skins 64x32.
+      - "\u041C\u044B \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043C
+        \u0442\u043E\u043B\u044C\u043A\u043E \u0441\u043A\u0438\u043D\u044B \u0440\u0430\u0437\u043C\u0435\u0440\u043E\u043C
+        64x32."
+      - "Ch\xFAng t\xF4i ch\u1EC9 h\u1ED7 tr\u1EE3 skin 64x32."
+      - Oferecemos suporte apenas para skins de 64x32.
+      - "Obs\u0142ugujemy tylko sk\xF3rki 64x32."
+      - Supportiamo solo la skin 64x32.
+      - "Wir unterst\xFCtzen nur 64x32 Skin."
+      - Sadece 64x32 Skin'i Destekliyoruz.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Can't Locate MCPE
+      TermType: 0
+      Description: 
+      Languages:
+      - Can't Locate MCPE
+      - No Puedo Localizar Mcpe
+      - Impossible De Localiser Mcpe
+      - "\u041D\u0435 \u041C\u043E\u0433\u0443 \u041D\u0430\u0439\u0442\u0438 Mcpe"
+      - "Kh\xF4ng Th\u1EC3 \u0110\u1ECBnh V\u1ECB Mcpe"
+      - "N\xE3o Consigo Localizar O Mcpe"
+      - "Nie Mog\u0119 Znale\u017A\u0107 Mcpe"
+      - Non Riesco A Trovare Mcpe
+      - Kann Mcpe Nicht Finden
+      - "Mcpe'yi Bulam\u0131yorum"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Please Import from Gallery Instead.
+      TermType: 0
+      Description: 
+      Languages:
+      - Please Import from Gallery Instead.
+      - "Por favor, importe desde la galer\xEDa."
+      - "Veuillez plut\xF4t importer depuis la galerie."
+      - "\u0412\u043C\u0435\u0441\u0442\u043E \u044D\u0442\u043E\u0433\u043E \u0438\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u0443\u0439\u0442\u0435
+        \u0438\u0437 \u0433\u0430\u043B\u0435\u0440\u0435\u0438."
+      - "Vui l\xF2ng nh\u1EADp t\u1EEB Th\u01B0 vi\u1EC7n."
+      - Em vez disso, importe da Galeria.
+      - "Zamiast tego prosz\u0119 importowa\u0107 z Galerii."
+      - Si prega di importare dalla Galleria.
+      - Bitte stattdessen aus der Galerie importieren.
+      - "L\xFCtfen Galeriden i\xE7e aktar\u0131n."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Can't Save MCPE
+      TermType: 0
+      Description: 
+      Languages:
+      - Can't Save MCPE
+      - No Se Puede Guardar MCPE
+      - Impossible De Sauvegarder Mcpe
+      - "\u041D\u0435 \u041C\u043E\u0433\u0443 \u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C
+        Mcpe"
+      - "Kh\xF4ng Th\u1EC3 L\u01B0u Mcpe"
+      - "N\xE3o \xC9 Poss\xEDvel Salvar O Mcpe"
+      - "Nie Mo\u017Cna Zapisa\u0107 Mcpe"
+      - Non Riesco A Salvare Mcpe
+      - Kann Mcpe Nicht Speichern
+      - "Mcpe'yi Kurtaram\u0131yorum"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Please Export to Gallery Instead.
+      TermType: 0
+      Description: 
+      Languages:
+      - Please Export to Gallery Instead.
+      - "Por favor, exporte a la galer\xEDa."
+      - "Veuillez plut\xF4t exporter vers la galerie."
+      - "\u0412\u043C\u0435\u0441\u0442\u043E \u044D\u0442\u043E\u0433\u043E \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u0443\u0439\u0442\u0435
+        \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u044E."
+      - "Vui l\xF2ng xu\u1EA5t sang Th\u01B0 vi\u1EC7n."
+      - Em vez disso, exporte para a galeria.
+      - "Zamiast tego prosz\u0119 wyeksportowa\u0107 do Galerii."
+      - Si prega di esportare nella Galleria.
+      - Bitte stattdessen in die Galerie exportieren.
+      - "L\xFCtfen bunun yerine Galeri'ye aktar\u0131n."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Can't Save Skin to Gallery.
+      TermType: 0
+      Description: 
+      Languages:
+      - Can't Save Skin to Gallery.
+      - "No se puede guardar la m\xE1scara en la galer\xEDa."
+      - Impossible d'enregistrer le skin dans la galerie.
+      - "\u041D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C
+        \u0441\u043A\u0438\u043D \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u044E."
+      - "Kh\xF4ng th\u1EC3 l\u01B0u Skin v\xE0o Th\u01B0 vi\u1EC7n."
+      - "N\xE3o \xE9 poss\xEDvel salvar o tema na galeria."
+      - "Nie mo\u017Cna zapisa\u0107 sk\xF3rki w Galerii."
+      - Impossibile salvare la skin nella Galleria.
+      - Skin kann nicht in der Galerie gespeichert werden.
+      - Skin Galeriye Kaydedilemiyor.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Error_CheckInternetOrName
+      TermType: 0
+      Description: 
+      Languages:
+      - '1. Check Internet Connection.
+
+        2. Check if the Name is Correct.'
+      - "1. Verifique la conexi\xF3n a Internet.\n2. Verifique si el nombre es correcto."
+      - "1. V\xE9rifiez la connexion Internet. \n2. V\xE9rifiez que le nom est correct."
+      - "1. \u041F\u0440\u043E\u0432\u0435\u0440\u044C\u0442\u0435 \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+        \u043A \u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0443. \n2. \u041F\u0440\u043E\u0432\u0435\u0440\u044C\u0442\u0435
+        \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0438\u043C\u0435\u043D\u0438."
+      - "1. Ki\u1EC3m tra k\u1EBFt n\u1ED1i Internet.\n2. Ki\u1EC3m tra xem T\xEAn
+        \u0111\xE3 \u0111\xFAng ch\u01B0a."
+      - "1. Verifique a conex\xE3o com a Internet.\n2. Verifique se o nome est\xE1
+        correto."
+      - "1. Sprawd\u017A po\u0142\u0105czenie internetowe.\n2. Sprawd\u017A, czy
+        nazwa jest poprawna."
+      - '1. Controlla la connessione Internet.
+
+        2. Controlla che il nome
+        sia corretto.'
+      - "1. Internetverbindung pr\xFCfen. \n2. \xDCberpr\xFCfen Sie, ob der Name
+        korrekt ist."
+      - "1. \u0130nternet Ba\u011Flant\u0131n\u0131z\u0131 Kontrol Edin.\n2. Ad\u0131n
+        Do\u011Fru Olup Olmad\u0131\u011F\u0131n\u0131 Kontrol Edin."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Cape_Header_22x17
+      TermType: 0
+      Description: 
+      Languages:
+      - "Cape 22x17\t"
+      - Cabo 22x17
+      - Cap 22x17
+      - "\u043F\u043B\u0430\u0449 22x17"
+      - "M\u0169i 22x17"
+      - Cabo 22x17
+      - Peleryna 22x17
+      - Mantello 22x17
+      - Umhang 22x17
+      - "22x17 Numaral\u0131 Burun"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Cape_Header_64x32
+      TermType: 0
+      Description: 
+      Languages:
+      - Cape 64x32
+      - Cabo 64x32
+      - Cap 64x32
+      - "\u043F\u043B\u0430\u0449 64x32"
+      - "M\u0169i 64x32"
+      - Cabo 64x32
+      - Peleryna 64x32
+      - Mantello 64x32
+      - Umhang 64x32
+      - "64x32 Numaral\u0131 Burun"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Cape_Header_Elytra_64x32
+      TermType: 0
+      Description: 
+      Languages:
+      - Elytra 64x32
+      - "\xE9litros 64x32"
+      - "\xE9lytres 64x32"
+      - "\u043D\u0430\u0434\u043A\u0440\u044B\u043B\u044C\u044F 64x32"
+      - Elytra 64x32
+      - "\xE9litro 64x32"
+      - Pokrywy 64x32
+      - Elitre 64x32
+      - "Fl\xFCgeldecken 64x32"
+      - Elitra 64x32
       Flags: 00000000000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

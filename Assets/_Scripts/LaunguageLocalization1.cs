@@ -137,14 +137,14 @@ public class LaunguageLocalization1 : MonoBehaviour
         SoundController1.Instance.PlayClickSound();
         LanguagePanel.SetActive(false);
 
-        string translateKey = CapeController.Instance.currentcap.CurrentHeaderName;
+        //string translateKey = CapeController.Instance.currentcap.CurrentHeaderName;
 
-        // ✅ Use Localize for HeaderText
-        if (MasterCanvas.HeaderLocalize != null)
-        {
-            MasterCanvas.HeaderLocalize.Term = translateKey;
-            MasterCanvas.HeaderLocalize.OnLocalize();
-        }
+        //// ✅ Use Localize for HeaderText
+        //if (MasterCanvas.HeaderLocalize != null)
+        //{
+        //    MasterCanvas.HeaderLocalize.Term = translateKey;
+        //    MasterCanvas.HeaderLocalize.OnLocalize();
+        //}
 
         // No direct .text = s; anymore!
     }

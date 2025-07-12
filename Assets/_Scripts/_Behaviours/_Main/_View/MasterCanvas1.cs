@@ -73,7 +73,7 @@ namespace Main.View
         public GameObject selectLanguagePopup;
 
 
-        public TextMeshProUGUI HeaderText;
+        //public TextMeshProUGUI HeaderText;
         public Localize HeaderLocalize;
 
         public GameObject[] EditorScreens;
