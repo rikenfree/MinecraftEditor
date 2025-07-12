@@ -141,6 +141,7 @@ namespace Main.View
 
                 CurrentHeaderName = "Cape 22x17";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
             }
             else if (cape == CapeResolution.C6432)
             {
@@ -152,6 +153,7 @@ namespace Main.View
 
                 CurrentHeaderName = "Cape 64x32";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_64x32";
+                LocalizationManager.LocalizeAll();
             }
             else if (cape == CapeResolution.C512256)
             {
@@ -160,6 +162,7 @@ namespace Main.View
                 LoadSkinWithTexture(Resources.Load<Texture2D>("cape/e2"));
                 // If this needs a header too, add it!
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_512x256";
+                LocalizationManager.LocalizeAll();
             }
             else if (cape == CapeResolution.Elytra6432)
             {
@@ -171,6 +174,7 @@ namespace Main.View
 
                 CurrentHeaderName = "Elytra 64x32";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_Elytra_64x32";
+                LocalizationManager.LocalizeAll();
             }
         }
 
@@ -417,6 +421,7 @@ namespace Main.View
             {
                 CurrentHeaderName = "Cape 22x17";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
 
                 skin = new Texture2D(22, 17, TextureFormat.ARGB32, false);
                 LoadDefaultCapeSkin();
@@ -425,6 +430,7 @@ namespace Main.View
             {
                 CurrentHeaderName = "Elytra 64x32";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_Elytra_64x32";
+                LocalizationManager.LocalizeAll();
 
                 skin = new Texture2D(24, 22, TextureFormat.ARGB32, false);
                 LoadDefaultElytraSkin();
@@ -465,6 +471,7 @@ namespace Main.View
         {
             CurrentHeaderName = "Cape 64x32";
             base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_64x32";
+            LocalizationManager.LocalizeAll();
 
             elytraTexture = elytra;
 
@@ -510,6 +517,7 @@ namespace Main.View
             {
                 CurrentHeaderName = "Cape 22x17";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
 
                 skin = new Texture2D(22, 17, TextureFormat.ARGB32, false);
                 Debug.LogError("2217 " + CurrentHeaderName);
@@ -522,6 +530,7 @@ namespace Main.View
             {
                 CurrentHeaderName = "Cape 64x32";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_64x32";
+                LocalizationManager.LocalizeAll();
 
                 skin = new Texture2D(64, 32, TextureFormat.ARGB32, false);
 
@@ -542,8 +551,10 @@ namespace Main.View
             else
             {
                 skin = new Texture2D(22, 17, TextureFormat.ARGB32, false);
+
                 CurrentHeaderName = "Cape 22x17";
                 base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
 
                 Debug.LogError("default 2217");
                 Paint22x17TextureOnSkin(cape);
