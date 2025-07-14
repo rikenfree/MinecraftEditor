@@ -50,7 +50,7 @@ namespace Main.View
         private RootController ctrl;
 
         public GameObject internetconnectionPopup;
-        public GameObject GridPanel;
+        public GameObject gridButton;
 
         public GameObject tutorialPanel;
         public GameObject howToUseSkinPanel;
@@ -109,7 +109,7 @@ namespace Main.View
 
         public void UpdateButtonColor(Color color)
         {
-             buttonColor.GetComponent<Image>().color = color;
+            buttonColor.GetComponent<Image>().color = color;
         }
 
         public void OnClickSelectLanguageButton()
@@ -265,7 +265,14 @@ namespace Main.View
         {
             //SuperStarAd.Instance.ShowInterstitialIfReady(ClickButtonClothingDelegate);
             ClickButtonClothingDelegate();
-
+            if (ctrl.clothing.clothingOn)
+            {
+                gridButton.transform.GetChild(1).gameObject.SetActive(true);
+            }
+            else if (!ctrl.clothing.clothingOn)
+            {
+                gridButton.transform.GetChild(1).gameObject.SetActive(false);
+            }
         }
 
         public void ClickButtonClothingDelegate()

@@ -30,28 +30,36 @@ public class ManageScene : MonoBehaviour
 
     public void SkinEditor()
     {
+        SoundControllerMain.instance.PlayClickSound();
         SceneManager.LoadSceneAsync(1);
     }
 
     public void CapEditor()
     {
+        SoundControllerMain.instance.PlayClickSound();
         SceneManager.LoadSceneAsync(3);
     }
 
     public void MapsMinecraft()
     {
+        SoundControllerMain.instance.PlayClickSound();
         SceneManager.LoadSceneAsync(6);
     }
 
     public void OnBackButtonClick()
     {
+        SoundControllerMain.instance.PlayClickSound();
         SceneManager.LoadSceneAsync(0);
     }
 
     public void ClickButtonShare()
     {
-        SoundController.instance.PlayClickSound();
         gameObject.SetActive(false);
         SuperStarSdkManager.Instance.Share();
+    }
+
+    public void ClickButtonPlaySound()
+    {
+        SoundControllerMain.instance.PlayClickSound();
     }
 }

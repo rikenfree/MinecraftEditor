@@ -46,7 +46,7 @@ public class CustomLoding2 : MonoBehaviour
     {
         if (loadingDone)
         {
-
+            SoundControllerMain.instance.PlayClickSound();
             SceneManager.LoadSceneAsync(7);
         }
     }

@@ -16167,7 +16167,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16201,7 +16201,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16235,7 +16235,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16269,7 +16269,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16303,7 +16303,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16337,7 +16337,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16371,7 +16371,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16405,7 +16405,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16439,7 +16439,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16473,7 +16473,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16507,7 +16507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!114 &933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23766,7 +23766,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choisir la langue
+  m_Text: Select language
 --- !u!222 &381804333
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48066,7 +48066,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cartes Pour Minecraft
+  m_text: Maps For Minecraft
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f9012321d579e794080480f3698fd731, type: 2}
   m_sharedMaterial: {fileID: -6549791259732256272, guid: f9012321d579e794080480f3698fd731, type: 2}
@@ -61743,7 +61743,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nouveau Texte
+  m_Text: New Text
 --- !u!1 &6013759591894695071
 GameObject:
   m_ObjectHideFlags: 0

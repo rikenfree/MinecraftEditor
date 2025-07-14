@@ -4,6 +4,7 @@ using Main.Controller;
 using System;
 using System.Collections;
 using System.IO;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -93,7 +94,6 @@ namespace Main.View
 
 
         }
-
         public void RefreshModels()
         {
 
@@ -180,15 +180,15 @@ namespace Main.View
 
         private void Start()
         {
-            SaveImageOnPersistentDataPathFromResource("cape/p0", "p0.png");
-            SaveImageOnPersistentDataPathFromResource("cape/p1", "p1.png");
-            SaveImageOnPersistentDataPathFromResource("cape/p2", "p2.png");
-            SaveImageOnPersistentDataPathFromResource("cape/p3", "p3.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e0", "e0.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e1", "e1.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e2", "e2.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e3", "e3.png");
             StartCoroutine(LoadGalleryPickedTexture("gload.png"));
-            StartCoroutine(LoadGalleryPickedTexturep1("p0.png"));
-            StartCoroutine(LoadGalleryPickedTexturep2("p1.png"));
-            StartCoroutine(LoadGalleryPickedTexturep3("p2.png"));
-            StartCoroutine(LoadGalleryPickedElytraTexturep("p3.png"));
+            StartCoroutine(LoadGalleryPickedTexturep1("e0.png"));
+            StartCoroutine(LoadGalleryPickedTexturep2("e1.png"));
+            StartCoroutine(LoadGalleryPickedTexturep3("e2.png"));
+            StartCoroutine(LoadGalleryPickedElytraTexturep("e3.png"));
 
             if (skin == null)
             {
@@ -199,6 +199,8 @@ namespace Main.View
             {
                 capeTexture = Resources.Load<Texture2D>("cape/e0");
             }
+
+            LoadSkinWithTexture(capeTexture);
         }
 
         public IEnumerator LoadAutoSavedTexture(string textureFileName)

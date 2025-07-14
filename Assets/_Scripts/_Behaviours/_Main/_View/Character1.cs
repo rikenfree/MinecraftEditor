@@ -49,6 +49,8 @@ namespace Main.View
 
 		private bool tryAutoLoad;
 
+		[Header("Character Splash")]
+		public CharacterMain characterMain;
 		
 
 		private void Awake()
@@ -72,7 +74,7 @@ namespace Main.View
 			skin = Resources.Load<Texture2D>("Skins/empty");
 			blankTexture = Resources.Load<Texture2D>("Skins/blank");
 			steveTexture = Resources.Load<Texture2D>("Skins/steve");
-			LoadSteveSkin();
+			LoadSteveSkin1();
 		}
 
 		private void InitBodyParts()
@@ -90,11 +92,11 @@ namespace Main.View
 			return colorMaps[j * skin.width + i];
 		}
 
-		public void LoadSteveSkin()
+		public void LoadSteveSkin1()
 		{
 			steveTexture = Resources.Load<Texture2D>("Skins/steve");
-			Paint64x64TextureOnSkin(steveTexture);
-			colorMaps = skin.GetPixels();
+			//Paint64x64TextureOnSkin(steveTexture);
+			characterMain.LoadSkinDirect(steveTexture);
 		}
 
 		public void LoadBlankSkin()

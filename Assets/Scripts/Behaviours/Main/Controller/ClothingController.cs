@@ -4,7 +4,7 @@ namespace Main.Controller
 {
 	public class ClothingController : SceneElement
 	{
-		private bool clothingOn;
+		public bool clothingOn;
 
 		private void Start()
 		{
