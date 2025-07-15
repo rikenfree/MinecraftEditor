@@ -49,7 +49,7 @@ public class ManageScene : MonoBehaviour
     public void OnBackButtonClick()
     {
         SoundControllerMain.instance.PlayClickSound();
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(3);
     }
 
     public void ClickButtonShare()

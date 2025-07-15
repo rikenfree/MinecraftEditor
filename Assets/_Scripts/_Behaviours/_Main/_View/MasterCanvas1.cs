@@ -1,10 +1,11 @@
-using Main.Controller;
-using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
-using SuperStarSdk;
-using TMPro;
 using I2.Loc;
+using Main.Controller;
+using SuperStarSdk;
+using System.Collections;
+using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Main.View
 {
@@ -207,7 +208,7 @@ namespace Main.View
         public void ClickButtonMenuDelegate(bool result)
         {
             SoundController1.Instance.PlayClickSound();
-            base.scene.view.menuCanvas.gameObject.SetActive(value: true);
+            SceneManager.LoadSceneAsync(3);
             //	ctrl.ga.SendEvent("Button Click", "Menu", "");
         }
 
