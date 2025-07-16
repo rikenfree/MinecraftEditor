@@ -9108,6 +9108,7 @@ MonoBehaviour:
   SuccessText: {fileID: 7801036214248667743}
   CapeEditorButton: {fileID: 2158604216518266986}
   CustomCapeAddonButton: {fileID: 8804586826800751554}
+  backButton: {fileID: 1056964864}
   ProgressBar: {fileID: 3367957377014472346}
   welcomeProgress: {fileID: 866311089476820693}
 --- !u!222 &8153468903082386648

@@ -13,6 +13,7 @@ public class CustomLoding1 : MonoBehaviour
 
     public GameObject CapeEditorButton;
     public GameObject CustomCapeAddonButton;
+    public GameObject backButton;
     public GameObject ProgressBar;
 
     public UnityEngine.UI.Image welcomeProgress;
@@ -25,9 +26,9 @@ public class CustomLoding1 : MonoBehaviour
     private void Awake()
     {
 #if UNITY_ANDROID
-        welcomeWaitTime = 8;
+        welcomeWaitTime = 6;
 #elif UNITY_IOS
-        welcomeWaitTime=0;
+        welcomeWaitTime=6;
 #endif
     }
 
@@ -61,15 +62,16 @@ public class CustomLoding1 : MonoBehaviour
 
                 CapeEditorButton.SetActive(false);
                 CustomCapeAddonButton.SetActive(false);
+                backButton.SetActive(false);
             }
         }
     }
 
     public IEnumerator SetSuceessText()
     {
-        yield return new WaitForSeconds(2f);
-        welcomeDone = true;
         ProgressBar.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        welcomeDone = true;
 
         CapeEditorButton.SetActive(true);
         //string text1 = "Custom Cape Addon";
@@ -78,6 +80,8 @@ public class CustomLoding1 : MonoBehaviour
         CustomCapeAddonButton.SetActive(true);
         //string text = "Cape Editor";
         //CustomCapeAddonButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = LocalizationManager.GetTranslation(text);
+
+        backButton.SetActive(true);
     }
     public void OnClickCapeEditorButton()
     {

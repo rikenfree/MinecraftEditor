@@ -15,6 +15,8 @@ public class CustomLoding : MonoBehaviour
 
     public Image welcomeProgress;
 
+    public GameObject ProgressBar;
+
     public float welcomeWaitTime = 0f;
 
     private bool welcomeDone = false;
@@ -23,9 +25,9 @@ public class CustomLoding : MonoBehaviour
     void Start()
     {
 #if UNITY_IOS
-welcomeWaitTime=0;
+welcomeWaitTime=6;
 #else
-        welcomeWaitTime = 8;
+        welcomeWaitTime = 6;
 #endif
 
     }
@@ -46,6 +48,7 @@ welcomeWaitTime=0;
 
                 welcomeDoneText.gameObject.SetActive(true);
                 welcomeDone = true;
+                ProgressBar.SetActive(false);
             }
             else
             {

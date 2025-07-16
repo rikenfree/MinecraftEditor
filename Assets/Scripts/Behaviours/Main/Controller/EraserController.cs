@@ -20,7 +20,7 @@ namespace Main.Controller
 			{
 				Ray ray = Camera.main.ScreenPointToRay(UnityEngine.Input.mousePosition);
 				RaycastHit hitInfo = default(RaycastHit);
-				if (Input.GetMouseButton(0) && root.AllowAction() && Physics.Raycast(ray, out hitInfo) && hitInfo.transform.tag == "Pixel")
+				if (Input.GetMouseButton(0) && !root.camera.isAbleToRotate && root.AllowAction() && Physics.Raycast(ray, out hitInfo) && hitInfo.transform.tag == "Pixel")
 				{
 					hitInfo.transform.GetComponent<Pixel>().Erase();
 				}

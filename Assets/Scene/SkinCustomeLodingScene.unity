@@ -503,6 +503,7 @@ MonoBehaviour:
   welcomePercentText: {fileID: 1425233016}
   welcomeDoneText: {fileID: 1913142250337648276}
   welcomeProgress: {fileID: 1586182731}
+  ProgressBar: {fileID: 1586182729}
   welcomeWaitTime: 0
 --- !u!114 &1052339780
 MonoBehaviour:

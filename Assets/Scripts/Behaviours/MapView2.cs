@@ -16,9 +16,8 @@ public class MapView2 : MonoBehaviour
 	public Image loadingImage;
 
 	public MapData2 mapData;
-	
 
-	public void SetData(MapData2 mapData)
+    public void SetData(MapData2 mapData)
 	{
 		this.mapData = mapData;
 		Reload();
@@ -28,7 +27,7 @@ public class MapView2 : MonoBehaviour
 
 	private void Reload()
 	{
-		mapName.text = mapData.Name;
+        mapName.text = mapData.Name;
 		Sprite sprite = CacheManager2.instance.Get(mapData.Id);
 		if (sprite != null)
 		{

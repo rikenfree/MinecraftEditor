@@ -1,6 +1,5 @@
 
 using System.Collections.Generic;
-
 using UnityEngine;
 using UnityEngine.UI;
 using SuperStarSdk;
@@ -117,7 +116,10 @@ public class GuiManager2 : MonoBehaviour
 	public GameObject errorPopup;
 
 	public GameObject BottomPanel;
-	public int PlayTime
+
+    private I2.Loc.Localize favouriteLocalize;
+
+    public int PlayTime
 	{
 		get
 		{
@@ -184,17 +186,15 @@ public class GuiManager2 : MonoBehaviour
 		{
 			Destroy(base.gameObject);
 		}
-	}
 
-	private void Start()
+		favouriteLocalize = favouriteText.GetComponent<I2.Loc.Localize>();
+    }
+
+    private void Start()
 	{
-
-        
-      
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         ShowHomeTab();
         PlayTime += 1;
-		
 	}
    
 
@@ -345,17 +345,17 @@ public class GuiManager2 : MonoBehaviour
 
 	public void RefreshFavouriteButton()
 	{
-		if (StorageManager2.instance.HasFavouriteMapId(currentMapData.Id))
-		{
-			favouriteImage.sprite = unfavouriteSprite;
-			favouriteText.text = "Unfavourite";
-		}
-		else
-		{
-			favouriteImage.sprite = favouriteSprite;
-			favouriteText.text = "Favourite";
-		}
-	}
+        if (StorageManager2.instance.HasFavouriteMapId(currentMapData.Id))
+        {
+            favouriteImage.sprite = unfavouriteSprite;
+            favouriteLocalize.SetTerm("Unfavourite");
+        }
+        else
+        {
+            favouriteImage.sprite = favouriteSprite;
+            favouriteLocalize.SetTerm("Favourite");
+        }
+    }
 
 	public void AddFavouriteButtonClicked()
 	{

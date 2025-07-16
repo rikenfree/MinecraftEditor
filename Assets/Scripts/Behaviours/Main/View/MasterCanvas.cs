@@ -162,6 +162,11 @@ namespace Main.View
             ctrl.bucket.gameObject.SetActive(value: false);
             ctrl.eraser.gameObject.SetActive(value: false);
             ctrl.dropper.gameObject.SetActive(value: false);
+
+            buttonPencil.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+            buttonBucket.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+            buttonDropper.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+            buttonEraser.gameObject.transform.GetChild(1).gameObject.SetActive(false);
         }
         public void OnClickTutorialButton()
         {
@@ -268,10 +273,14 @@ namespace Main.View
             if (ctrl.clothing.clothingOn)
             {
                 gridButton.transform.GetChild(1).gameObject.SetActive(true);
+                DisableGroupControllers();
             }
             else if (!ctrl.clothing.clothingOn)
             {
                 gridButton.transform.GetChild(1).gameObject.SetActive(false);
+                DisableGroupControllers();
+                ctrl.pencil.gameObject.SetActive(value: true);
+                buttonPencil.gameObject.transform.GetChild(1).gameObject.SetActive(true);
             }
         }
 
@@ -303,6 +312,7 @@ namespace Main.View
             // buttonPencil.MarkSelected();
             DisableGroupControllers();
             ctrl.pencil.gameObject.SetActive(value: true);
+            buttonPencil.gameObject.transform.GetChild(1).gameObject.SetActive(true);
             //ctrl.ga.SendEvent("Button Click", "Pencil", "");
         }
 
@@ -320,6 +330,7 @@ namespace Main.View
             // buttonBucket.MarkSelected();
             DisableGroupControllers();
             ctrl.bucket.gameObject.SetActive(value: true);
+            buttonBucket.gameObject.transform.GetChild(1).gameObject.SetActive(true);
             //ctrl.ga.SendEvent("Button Click", "Bucket", "");
         }
 
@@ -351,6 +362,7 @@ namespace Main.View
             // buttonDropper.MarkSelected();
             DisableGroupControllers();
             ctrl.dropper.gameObject.SetActive(value: true);
+            buttonDropper.gameObject.transform.GetChild(1).gameObject.SetActive(true);
             //ctrl.ga.SendEvent("Button Click", "Dropper", "");
         }
 
@@ -368,6 +380,7 @@ namespace Main.View
             // buttonEraser.MarkSelected();
             DisableGroupControllers();
             ctrl.eraser.gameObject.SetActive(value: true);
+            buttonEraser.gameObject.transform.GetChild(1).gameObject.SetActive(true);
             //ctrl.ga.SendEvent("Button Click", "Eraser", "");
         }
 

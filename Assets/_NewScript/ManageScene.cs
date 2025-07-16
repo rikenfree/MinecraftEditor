@@ -51,7 +51,11 @@ public class ManageScene : MonoBehaviour
         SoundControllerMain.instance.PlayClickSound();
         SceneManager.LoadSceneAsync(3);
     }
-
+    public void OnBackButtonClick2()
+    {
+        SoundControllerMain.instance.PlayClickSound();
+        SceneManager.LoadSceneAsync(0);
+    }
     public void ClickButtonShare()
     {
         gameObject.SetActive(false);

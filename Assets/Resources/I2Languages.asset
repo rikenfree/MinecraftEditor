@@ -5224,22 +5224,6 @@ MonoBehaviour:
       - "Kaydedilen g\xF6r\xFCn\xFCm\xFC Galeri'den se\xE7in."
       Flags: 00000000000000000000
       Languages_Touch: []
-    - Term: Select your character and press "Change classic skin" button
-      TermType: 0
-      Description: 
-      Languages:
-      - 2. Select your character and press "Change classic skin" button
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 00000000000000000000
-      Languages_Touch: []
     - Term: Select your character and press Change classic skin button
       TermType: 0
       Description: 
@@ -6572,6 +6556,22 @@ MonoBehaviour:
       - utilizzo?
       - verwenden?
       - kullanmak?
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Unfavourite
+      TermType: 0
+      Description: 
+      Languages:
+      - Unfavourite
+      - Desfavorecido
+      - "D\xE9favoris\xE9"
+      - "\u041D\u0435\u043B\u044E\u0431\u0438\u043C\u044B\u0439"
+      - "Kh\xF4ng \u01AFa Th\xEDch"
+      - Desfavorito
+      - Nielubiany
+      - Non Preferito
+      - Nicht Favorisiert
+      - Favori Olmayan
       Flags: 00000000000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

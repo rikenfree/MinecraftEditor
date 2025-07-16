@@ -241,10 +241,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTarget: {fileID: 943592361}
-  mAlignment_RTL: 516
-  mAlignment_LTR: 513
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
   mAlignmentWasRTL: 0
-  mInitializeAlignment: 1
+  mInitializeAlignment: 0
 --- !u!1 &394144343
 GameObject:
   m_ObjectHideFlags: 0
@@ -10415,6 +10415,7 @@ MonoBehaviour:
   welcomePercentText: {fileID: 1522896076}
   tapToContinueText: {fileID: 943592361}
   welcomeProgress: {fileID: 2078894629}
+  ProgressBar: {fileID: 0}
   fillDuration: 3
 --- !u!114 &1270918315
 MonoBehaviour:
@@ -10769,7 +10770,8 @@ MonoBehaviour:
   welcomePercentText: {fileID: 1522896076}
   tapToContinueText: {fileID: 943592361}
   welcomeProgress: {fileID: 2078894629}
-  fillDuration: 3
+  ProgressBar: {fileID: 2078894627}
+  fillDuration: 6
 --- !u!114 &2078894632
 MonoBehaviour:
   m_ObjectHideFlags: 0
