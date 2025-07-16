@@ -10,7 +10,14 @@ public class ButtonHighlighter : MonoBehaviour
     {
         foreach (var button in buttons)
         {
-            SetHighlight(button, false);
+            if (button.CompareTag("Pencil"))
+            {
+                SetHighlight(button, true);
+            }
+            else
+            {
+                SetHighlight(button, false);
+            }
             button.onClick.AddListener(() => OnButtonClick(button));
         }
     }

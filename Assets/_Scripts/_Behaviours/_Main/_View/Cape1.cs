@@ -4,6 +4,7 @@ using Main.Controller;
 using System;
 using System.Collections;
 using System.IO;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -93,7 +94,6 @@ namespace Main.View
 
 
         }
-
         public void RefreshModels()
         {
 
@@ -130,6 +130,7 @@ namespace Main.View
         public void NewSetup(CapeResolution cape)
         {
             UndoRedoController1.Instance.InitStacks();
+
             if (cape == CapeResolution.C2217)
             {
                 CurrentResolution = CapeResolution.C2217;
@@ -138,10 +139,9 @@ namespace Main.View
                 elytraObject.SetActive(false);
                 LoadSkinWithTexture(Resources.Load<Texture2D>("cape/e0"));
 
-                CurrentHeaderName = "cape 22x17";
-                //string translationKey = "cape 22x17";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+                CurrentHeaderName = "Cape 22x17";
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
             }
             else if (cape == CapeResolution.C6432)
             {
@@ -151,17 +151,18 @@ namespace Main.View
                 elytraObject.SetActive(false);
                 LoadSkinWithTexture(Resources.Load<Texture2D>("cape/e1"));
 
-                CurrentHeaderName = "cape 64x32";
-                //string translationKey = "cape 64x32";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+                CurrentHeaderName = "Cape 64x32";
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_64x32";
+                LocalizationManager.LocalizeAll();
             }
             else if (cape == CapeResolution.C512256)
             {
-                CurrentResolution = CapeResolution.C6432;
+                CurrentResolution = CapeResolution.C512256;
                 LastMode = 2;
                 LoadSkinWithTexture(Resources.Load<Texture2D>("cape/e2"));
-
+                // If this needs a header too, add it!
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_512x256";
+                LocalizationManager.LocalizeAll();
             }
             else if (cape == CapeResolution.Elytra6432)
             {
@@ -172,23 +173,22 @@ namespace Main.View
                 LoadElytraWithTexture(Resources.Load<Texture2D>("cape/e3"));
 
                 CurrentHeaderName = "Elytra 64x32";
-                //string translationKey = "Elytra 64x32";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_Elytra_64x32";
+                LocalizationManager.LocalizeAll();
             }
         }
 
         private void Start()
         {
-            SaveImageOnPersistentDataPathFromResource("cape/p0", "p0.png");
-            SaveImageOnPersistentDataPathFromResource("cape/p1", "p1.png");
-            SaveImageOnPersistentDataPathFromResource("cape/p2", "p2.png");
-            SaveImageOnPersistentDataPathFromResource("cape/p3", "p3.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e0", "e0.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e1", "e1.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e2", "e2.png");
+            SaveImageOnPersistentDataPathFromResource("cape/e3", "e3.png");
             StartCoroutine(LoadGalleryPickedTexture("gload.png"));
-            StartCoroutine(LoadGalleryPickedTexturep1("p0.png"));
-            StartCoroutine(LoadGalleryPickedTexturep2("p1.png"));
-            StartCoroutine(LoadGalleryPickedTexturep3("p2.png"));
-            StartCoroutine(LoadGalleryPickedElytraTexturep("p3.png"));
+            StartCoroutine(LoadGalleryPickedTexturep1("e0.png"));
+            StartCoroutine(LoadGalleryPickedTexturep2("e1.png"));
+            StartCoroutine(LoadGalleryPickedTexturep3("e2.png"));
+            StartCoroutine(LoadGalleryPickedElytraTexturep("e3.png"));
 
             if (skin == null)
             {
@@ -199,6 +199,8 @@ namespace Main.View
             {
                 capeTexture = Resources.Load<Texture2D>("cape/e0");
             }
+
+            LoadSkinWithTexture(capeTexture);
         }
 
         public IEnumerator LoadAutoSavedTexture(string textureFileName)
@@ -419,20 +421,18 @@ namespace Main.View
             }
             else if (LastMode == 0)
             {
-                CurrentHeaderName = "cape 22x17";
-                //string translationKey = "cape 22x17";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+                CurrentHeaderName = "Cape 22x17";
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
 
-                skin = skin = new Texture2D(22, 17, TextureFormat.ARGB32, false); ;
+                skin = new Texture2D(22, 17, TextureFormat.ARGB32, false);
                 LoadDefaultCapeSkin();
             }
             else if (LastMode == 3)
             {
                 CurrentHeaderName = "Elytra 64x32";
-                //string translationKey = "Elytra 64x32";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_Elytra_64x32";
+                LocalizationManager.LocalizeAll();
 
                 skin = new Texture2D(24, 22, TextureFormat.ARGB32, false);
                 LoadDefaultElytraSkin();
@@ -471,28 +471,24 @@ namespace Main.View
 
         public void LoadElytraWithTexture(Texture2D elytra)
         {
-            CurrentHeaderName = "cape 64x32";
-            //string translationKey = "cape 64x32";
-            //string S = LocalizationManager.GetTranslation(translationKey);
-            base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+            CurrentHeaderName = "Cape 64x32";
+            base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_64x32";
+            LocalizationManager.LocalizeAll();
 
             elytraTexture = elytra;
 
             if (elytraTexture.width == 64 && elytraTexture.height == 32)
             {
-
-                Debug.LogError("texture is available");  //Debug.Break();
+                Debug.LogError("texture is available");
                 subElytraTexture = TextureUtility1.GetSubTexture(elytraTexture, new Vector2(22, 10), new Vector2(24, 22));
-                skin = new Texture2D(24, 22, TextureFormat.ARGB32, false); ;
-                // Paint2422TextureOnSkin(pickedTexture2D2217);
-                //   tempRawImage.texture = skin;
+                skin = new Texture2D(24, 22, TextureFormat.ARGB32, false);
                 colorMaps = subElytraTexture.GetPixels();
                 TempLoadElytra();
             }
             else if (elytraTexture.width == 24 && elytraTexture.height == 22)
             {
                 subElytraTexture = elytra;
-                skin = new Texture2D(24, 22, TextureFormat.ARGB32, false); ;
+                skin = new Texture2D(24, 22, TextureFormat.ARGB32, false);
                 colorMaps = subElytraTexture.GetPixels();
                 TempLoadElytra();
             }
@@ -500,7 +496,6 @@ namespace Main.View
             {
                 Debug.LogError("elytra not supported");
             }
-
         }
         public void LoadDefaultCapeSkin()
         {
@@ -519,30 +514,25 @@ namespace Main.View
         public void LoadSkinWithTexture(Texture2D cape)
         {
             capeTexture = cape;
-            // skin = cape;
+
             if (cape.width == 22 && cape.height == 17)
             {
-                CurrentHeaderName = "cape 22x17";
-                //string translationKey = "cape 22x17";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+                CurrentHeaderName = "Cape 22x17";
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
 
                 skin = new Texture2D(22, 17, TextureFormat.ARGB32, false);
-                Debug.LogError("2217" + CurrentHeaderName);
+                Debug.LogError("2217 " + CurrentHeaderName);
                 galleryPickedTexture = cape;
                 Paint22x17TextureOnSkin(capeTexture);
 
                 colorMaps = skin.GetPixels();
-                // tempcolorMaps = capeTexture.GetPixels();
-                // tempcolorMaps123 = capeTexture.GetPixels32();
-
             }
             else if (cape.width == 64 && cape.height == 32)
             {
-                CurrentHeaderName = "cape 64x32";
-                //string translationKey = "cape 64x32";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
+                CurrentHeaderName = "Cape 64x32";
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_64x32";
+                LocalizationManager.LocalizeAll();
 
                 skin = new Texture2D(64, 32, TextureFormat.ARGB32, false);
 
@@ -550,37 +540,31 @@ namespace Main.View
                 SaveTexureOnPersistentDataPath(cape, "gload.png");
                 galleryPickedTexture = cape;
                 Texture2D pickedTexture2D2217 = TextureUtility1.GetSubTexture(cape, new Vector2(0, 15), new Vector2(22, 17));
-                skin = new Texture2D(64, 32, TextureFormat.ARGB32, false); ;
+                skin = new Texture2D(64, 32, TextureFormat.ARGB32, false);
                 capeTexture = pickedTexture2D2217;
                 Paint22x17TextureOnSkin(capeTexture);
                 colorMaps = skin.GetPixels();
-                //  tempcolorMaps = capeTexture.GetPixels();
-                // tempcolorMaps123 = capeTexture.GetPixels32();
             }
             else if (cape.width == 512 && cape.height == 256)
             {
                 Debug.LogError("512256");
-
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_512x256";
             }
             else
             {
                 skin = new Texture2D(22, 17, TextureFormat.ARGB32, false);
-                CurrentHeaderName = "cape 22x17";
-                //string translationKey = "cape 22x17";
-                //string S = LocalizationManager.GetTranslation(translationKey);
-                base.scene.view.masterCavas.HeaderText.text = CurrentHeaderName;
 
-                Debug.LogError("default  2217");
-                Debug.LogError("2217");
+                CurrentHeaderName = "Cape 22x17";
+                base.scene.view.masterCavas.HeaderLocalize.Term = "Cape_Header_22x17";
+                LocalizationManager.LocalizeAll();
+
+                Debug.LogError("default 2217");
                 Paint22x17TextureOnSkin(cape);
                 Debug.LogError("SetColor0:" + skin.GetPixel(1, 1) + "  :raw:" + capeTexture.GetPixel(1, 1));
                 colorMaps = skin.GetPixels();
-                // tempcolorMaps = capeTexture.GetPixels();
-                // tempcolorMaps123 = capeTexture.GetPixels32();
             }
+
             TempLoadCape();
-
-
         }
 
         public void LoadCapeSkinFromGallery(Texture2D pickedTexture2D)

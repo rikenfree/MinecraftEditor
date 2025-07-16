@@ -68,9 +68,10 @@ namespace Main.View
         public GameObject button_new;
         public GameObject button_save;
         public GameObject button_cap;
-        public GameObject button_grid;
+        public GameObject button_theme;
         public GameObject button_BodyGrid;
         public GameObject selectLanguagePopup;
+        public GameObject dropDownMenuButton;
 
 
         public TextMeshProUGUI HeaderText;
@@ -83,7 +84,7 @@ namespace Main.View
 
         public RectTransform dropdownContainer;
         public float dropdownAnimationDuration = 0.3f;
-        private bool isDropdownOpen = false;
+        private bool isDropdownOpen = true;
         private Coroutine dropdownAnimationCoroutine;
 
         public Image DownImage;
@@ -142,6 +143,11 @@ namespace Main.View
             ctrl.dropper.gameObject.SetActive(value: false);
         }
 
+        public void OnCloseLanguagePanel()
+        {
+            SoundController1.Instance.PlayClickSound();
+            selectLanguagePopup.SetActive(false);
+        }
         public void OnClickSelectLanguageButton()
         {
             SoundController1.Instance.PlayClickSound();
@@ -265,7 +271,8 @@ namespace Main.View
                 //buttonBody.MarkSelected();
                 CapeController.Instance.currentcap.capeObject.SetActive(false);
                 CapeController.Instance.currentcap.elytraObject.SetActive(false);
-                leftPanelRect.anchoredPosition = new Vector2(-122f, leftPanelRect.anchoredPosition.y);
+                dropDownMenuButton.SetActive(false);
+                //leftPanelRect.anchoredPosition = new Vector2(-122f, leftPanelRect.anchoredPosition.y);
                 cnt = 1;
                 
             }
@@ -282,7 +289,8 @@ namespace Main.View
                     CapeController.Instance.currentcap.elytraObject.SetActive(true);
                     //CapeController.Instance.currentcap.capeObject.SetActive(false);
                 }
-                leftPanelRect.anchoredPosition = new Vector2(-105f, leftPanelRect.anchoredPosition.y);
+                //leftPanelRect.anchoredPosition = new Vector2(-105f, leftPanelRect.anchoredPosition.y);
+                dropDownMenuButton.SetActive(true);
                 cnt = 0;
             }
             SuperStarAd.Instance.ShowInterstitialTimer(null);
@@ -299,7 +307,6 @@ namespace Main.View
             button_new_for_cape.SetActive(!button_new_for_cape.activeSelf);
             button_new.SetActive(!button_new.activeSelf);
             button_cap.SetActive(!button_cap.activeSelf);
-            button_grid.SetActive(!button_grid.activeSelf);
             button_BodyGrid.SetActive(!button_BodyGrid.activeSelf);
             //button_save.SetActive(!button_save.activeSelf);
             //charecterCapskin.GetComponent<Cape>().skin = Resources.Load<Texture2D>("Skins/disk_tmp");
@@ -524,14 +531,15 @@ namespace Main.View
 
             if (CB.isMarked)
             {
-
                 CapeController.Instance.currentcap.OnClickGridOnOff(false);
-                //CB.MarkDeselected();
+                CB.MarkDeselected();
+                button_BodyGrid.transform.GetChild(1).gameObject.SetActive(false);
             }
             else
             {
                 CapeController.Instance.currentcap.OnClickGridOnOff(true);
-                //CB.MarkSelected();
+                CB.MarkSelected();
+                button_BodyGrid.transform.GetChild(1).gameObject.SetActive(true);
             }
             SuperStarAd.Instance.ShowInterstitialTimer(null);
         }
@@ -640,7 +648,6 @@ namespace Main.View
 
         public void OnclickCapePickFromGalleryCancelButton()
         {
-            SoundController1.Instance.PlayClickSound();
             capePickFromGalleryPopup.SetActive(false);
         }
 
@@ -756,20 +763,20 @@ namespace Main.View
                 canvasGroup = dropdownContainer.gameObject.AddComponent<CanvasGroup>();
             }
 
-            if (open)
+            if (!open)
             {
-                dropdownContainer.gameObject.SetActive(true);
-                StartCoroutine(FadeImage(UpImage, true, 0.2f));
-                StartCoroutine(FadeImage(DownImage, false, 0.2f));
+                StartCoroutine(FadeImage(UpImage, false, 0.2f));
+                StartCoroutine(FadeImage(DownImage, true, 0.2f));
             }
             else
             {
-                StartCoroutine(FadeImage(DownImage, true, 0.2f));
-                StartCoroutine(FadeImage(UpImage, false, 0.2f));
+                dropdownContainer.gameObject.SetActive(true);
+                StartCoroutine(FadeImage(DownImage, false, 0.2f));
+                StartCoroutine(FadeImage(UpImage, true, 0.2f));
             }
 
             // Set the pivot to top center
-            dropdownContainer.pivot = new Vector2(0.5f, 1f);
+            //dropdownContainer.pivot = new Vector2(0.5f, 1f);
 
             float timer = 0f;
             while (timer < dropdownAnimationDuration)

@@ -11,18 +11,18 @@ namespace Main.View
 
 		public bool isMarked = false;
 
-		//public void MarkSelected()
-		//{
-  //          selectorRing.gameObject.GetComponent<Image>().color = selectColor;
-		//	isMarked = true;
-		//	//selectorRing.gameObject.SetActive(value: true);
-		//}
+		public void MarkSelected()
+		{
+			//selectorRing.gameObject.GetComponent<Image>().color = selectColor;
+			isMarked = true;
+			//selectorRing.gameObject.SetActive(value: true);
+		}
 
-		//public void MarkDeselected()
-		//{
-		//	isMarked = false;
-		//	selectorRing.gameObject.GetComponent<Image>().color = defultColorColor;
-  //        //  selectorRing.gameObject.SetActive(value: false);
-		//}
+		public void MarkDeselected()
+		{
+			isMarked = false;
+			//selectorRing.gameObject.GetComponent<Image>().color = defultColorColor;
+			//  selectorRing.gameObject.SetActive(value: false);
+		}
 	}
 }

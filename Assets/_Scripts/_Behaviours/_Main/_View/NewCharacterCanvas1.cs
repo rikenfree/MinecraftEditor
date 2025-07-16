@@ -59,7 +59,7 @@ namespace Main.View
 
 		public void ClickSteveButton()
 		{
-			character.LoadSteveSkin();
+			character.LoadSteveSkin1();
 			ReloadBodyPartsData();
             SoundController1.Instance.PlayClickSound();
             base.scene.controller.newCharacter.CloseNewCharacterView();
