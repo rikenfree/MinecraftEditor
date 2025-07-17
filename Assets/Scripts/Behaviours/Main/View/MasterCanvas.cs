@@ -55,7 +55,6 @@ namespace Main.View
         public GameObject tutorialPanel;
         public GameObject howToUseSkinPanel;
         public GameObject selectThemePanel;
-        public GameObject exitPopup;
         public GameObject selectLanguagePopup;
         public GameObject HowToSetSkin;
 
@@ -81,14 +80,6 @@ namespace Main.View
             InitButtonGroup();
             ClickButtonPencilDelegate();
             InvokeRepeating("CheckInterNetConnection", 5, 5);
-        }
-
-        private void Update()
-        {
-            if (Input.GetKey(KeyCode.Escape))
-            {
-                exitPopup.SetActive(true);
-            }
         }
 
         public void InitButtonGroup()
@@ -188,18 +179,6 @@ namespace Main.View
         {
             SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonMenuDelegate);
         }
-        public void OnClickexitYes()
-        {
-            base.scene.controller.sound.PlayClickSound();
-            Application.Quit();
-        }
-
-        public void OnClickexitNo()
-        {
-            base.scene.controller.sound.PlayClickSound();
-            exitPopup.SetActive(false);
-        }
-
         public void ClickButtonMenuDelegate(bool isloaded)
         {
 

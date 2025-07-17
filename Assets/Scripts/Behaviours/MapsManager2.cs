@@ -172,7 +172,7 @@ public class MapsManager2 : MonoBehaviour
         });
 
 
-        RefreshMapViews();
+		RefreshMapViews();
 	}
 
 

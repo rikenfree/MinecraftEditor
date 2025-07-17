@@ -6,8 +6,17 @@ using System.Collections;
 
 public class ManageScene : MonoBehaviour
 {
+    public static ManageScene instance;
+
     public GameObject ColorPanel;
 
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
     private void Start()
     {
         // Show color panel only once on first launch
@@ -21,7 +30,6 @@ public class ManageScene : MonoBehaviour
             ColorPanel.SetActive(false);
         }
     }
-
     IEnumerator OpenColorPanelDelayed()
     {
         yield return new WaitForSeconds(0.5f); // Wait 5 seconds before showing
@@ -65,5 +73,10 @@ public class ManageScene : MonoBehaviour
     public void ClickButtonPlaySound()
     {
         SoundControllerMain.instance.PlayClickSound();
+    }
+
+    public void ChangeToScene(int index)
+    {
+        SceneManager.LoadSceneAsync(index);
     }
 }

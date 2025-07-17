@@ -65,6 +65,10 @@ public class CustomLoding1 : MonoBehaviour
                 backButton.SetActive(false);
             }
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ManageScene.instance.ChangeToScene(0);
+        }
     }
 
     public IEnumerator SetSuceessText()

@@ -278,15 +278,15 @@ public class ImageCropper : MonoBehaviour
 
 	private void LateUpdate()
 	{
-		if( gameObject.activeInHierarchy )
+		if (gameObject.activeInHierarchy)
 		{
-			if( currentSelectionHandler != null && m_imageHolder.localScale.z > minImageScale + 0.01f )
+			if (currentSelectionHandler != null && m_imageHolder.localScale.z > minImageScale + 0.01f)
 				currentSelectionHandler.OnUpdate();
 
-			if( shouldRefreshViewport )
+			if (shouldRefreshViewport)
 			{
 				//textsSynchronizer.Synchronize();
-				ResetView( true );
+				ResetView(true);
 
 				shouldRefreshViewport = false;
 			}

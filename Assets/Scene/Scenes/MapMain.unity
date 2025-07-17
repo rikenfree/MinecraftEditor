@@ -2214,7 +2214,7 @@ GameObject:
   - component: {fileID: 273306911}
   m_Layer: 5
   m_Name: Menu Panel
-  m_TagString: Untagged
+  m_TagString: MapSetting
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21671,6 +21671,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260954808}
   m_CullTransparentMesh: 1
+--- !u!1 &261426883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261426885}
+  - component: {fileID: 261426884}
+  m_Layer: 0
+  m_Name: EscapeHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &261426884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261426883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ec510cddbba1a46959662514f48866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainPanels:
+  - {fileID: 134}
+  - {fileID: 3542278435739686997}
+  - {fileID: 4498637515355104599}
+  - {fileID: 42}
+  - {fileID: 114}
+  - {fileID: 27}
+  - {fileID: 65}
+  - {fileID: 1287150716}
+  - {fileID: 292187172}
+  - {fileID: 69}
+  settingPanels:
+  - {fileID: 430473545}
+  - {fileID: 233066419365398581}
+--- !u!4 &261426885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261426883}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &268990093
 GameObject:
   m_ObjectHideFlags: 0
@@ -67294,3 +67352,4 @@ SceneRoots:
   - {fileID: 1626377806}
   - {fileID: 1274333138}
   - {fileID: 1943375034}
+  - {fileID: 261426885}

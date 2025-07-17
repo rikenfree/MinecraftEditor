@@ -30,6 +30,8 @@ public class CapeAddonHandler1 : MonoBehaviour
 
     public GameObject MainCharacter;
 
+    public GameObject backImage;
+
     public bool IsCustomCapeAddon = false;
 
     private void Start()
@@ -48,7 +50,17 @@ public class CapeAddonHandler1 : MonoBehaviour
         CharacterAnim.SetBool("Anim2", false);
 
     }
-
+    private void Update()
+    {
+        if (HDTextureScreen.activeSelf)
+        {
+            backImage.SetActive(false);
+        }
+        else
+        {
+            backImage.SetActive(true);
+        }
+    }
     private void Awake()
     {
         if (Instance == null)

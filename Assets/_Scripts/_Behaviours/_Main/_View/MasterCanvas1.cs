@@ -56,7 +56,6 @@ namespace Main.View
         public GameObject tutorialPanel;
         public GameObject howToUseSkinPanel;
         public GameObject selectThemePanel;
-        public GameObject exitPopup;
 
         public GameObject mainCharecter;
         public GameObject mainCap;
@@ -101,15 +100,6 @@ namespace Main.View
             InitFirstMode();
             InvokeRepeating("CheckInterNetConnection", 5, 5);
         }
-
-        private void Update()
-        {
-            if (Input.GetKey(KeyCode.Escape))
-            {
-                exitPopup.SetActive(true);
-            }
-        }
-
         public void InitButtonGroup()
         {
             toggleGroup = new CircleButton1[5];
@@ -183,19 +173,6 @@ namespace Main.View
             SoundController1.Instance.PlayClickSound();
             SuperStarAd.Instance.ShowInterstitialTimer(ClickButtonMenuDelegate);
         }
-
-        public void OnClickexitYes()
-        {
-            SoundController1.Instance.PlayClickSound();
-            Application.Quit();
-        }
-
-        public void OnClickExitNo()
-        {
-            SoundController1.Instance.PlayClickSound();
-            exitPopup.SetActive(false);
-        }
-
         public void HowToSetPlayerClose()
         {
             SoundController1.Instance.PlayClickSound();
