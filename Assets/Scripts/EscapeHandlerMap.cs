@@ -7,6 +7,8 @@ public class EscapeHandlerMap : MonoBehaviour
 
     [SerializeField] private List<GameObject> settingPanels;
 
+    [SerializeField] private GameObject wallpaperPanel;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -28,6 +30,11 @@ public class EscapeHandlerMap : MonoBehaviour
                 if (obj.CompareTag("MapSetting"))
                 {
                     CloseSettingPanels(obj);
+                }
+                else if (obj.CompareTag("MapWallPaperSave"))
+                {
+                    obj.SetActive(false);
+                    wallpaperPanel.gameObject.SetActive(true);
                 }
                 else
                 {

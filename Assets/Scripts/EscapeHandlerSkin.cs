@@ -9,6 +9,8 @@ public class EscapeHandlerSkin : MonoBehaviour
     [SerializeField] private List<GameObject> exportPanels;
     [SerializeField] private List<GameObject> newCharacterPanels;
 
+    [SerializeField] private GameObject wallpaperPanel;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -38,6 +40,11 @@ public class EscapeHandlerSkin : MonoBehaviour
                 else if (obj.CompareTag("SkinCharacter"))
                 {
                     CloseNewCharacterPanels(obj);
+                }
+                else if (obj.CompareTag("SkinWallPaperSave"))
+                {
+                    obj.SetActive(false);
+                    wallpaperPanel.SetActive(true);
                 }
                 else
                 {

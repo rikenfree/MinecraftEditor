@@ -512,6 +512,7 @@ namespace Main.View
             //buttonPencil.MarkSelected();
             DisableGroupControllers();
             ctrl.pencil.gameObject.SetActive(value: true);
+            buttonPencil.gameObject.transform.GetChild(1).gameObject.SetActive(true);
         }
 
         public void GridsOnOff(CircleButton1 CB)

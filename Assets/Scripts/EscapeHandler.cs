@@ -1,12 +1,25 @@
 using UnityEngine;
 using System.Collections.Generic;
+using Main.View;
 
 public class EscapeHandler : MonoBehaviour
 {
     [SerializeField] private List<GameObject> mainPanels;
 
     [SerializeField] private List<GameObject> settingPanels;
+    [SerializeField] private GameObject wallpaperPanel;
 
+    [SerializeField] private GameObject capviewCanvas;
+    [SerializeField] private GameObject elytraviewCanvas;
+    [SerializeField] private GameObject elytraParent;
+    [SerializeField] private GameObject elytraParentBig;
+    [SerializeField] private GameObject canvasBig;
+    [SerializeField] private GameObject canvasCollections;
+    [SerializeField] private GameObject saveToGallery;
+    [SerializeField] private GameObject chanracterSplash;
+
+    [SerializeField] private MasterCanvas1 masterCanvas1;
+    [SerializeField] private WallPaperManeger wallPaperManager;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -29,6 +42,15 @@ public class EscapeHandler : MonoBehaviour
                 {
                     CloseSettingPanels(obj);
                 }
+                else if (obj.CompareTag("CapWallPaperSave"))
+                {
+                    obj.SetActive(false);
+                    wallPaperManager.OnClickWallPaper();
+                }
+                else if (obj.CompareTag("CapWallPaper"))
+                {
+                    wallPaperManager.OnClickBackBtn();
+                }
                 else
                 {
                     obj.SetActive(false);
@@ -36,8 +58,35 @@ public class EscapeHandler : MonoBehaviour
                 }
 
                 anyClosed = true;
-                break; // close only one per press
+                break; 
             }
+        }
+
+        if (elytraviewCanvas.activeSelf && saveToGallery.activeSelf)
+        {
+            saveToGallery.SetActive(false);
+            return;
+        }
+
+        if (elytraviewCanvas.activeSelf && elytraParentBig.activeSelf && canvasBig.activeSelf)
+        {
+            elytraParentBig.SetActive(false);
+            canvasBig.SetActive(false);
+            elytraParent.SetActive(true);
+            canvasCollections.SetActive(true);
+            return;
+        }
+
+        if (elytraviewCanvas.activeSelf && elytraParent.activeSelf && canvasCollections.activeSelf)
+        {
+            masterCanvas1.OnClickBackFromCollectionView();
+            return;
+        }
+
+        if (chanracterSplash.activeSelf)
+        {
+            masterCanvas1.ClickButtonBody();
+            return;
         }
 
         if (!anyClosed)

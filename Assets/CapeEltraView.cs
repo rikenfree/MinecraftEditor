@@ -107,7 +107,7 @@ public class CapeEltraView : MonoBehaviour
             CapeCollectionView[i].SetActive(true);
         }
         SuperStarAd.Instance.ShowInterstitialTimer(null);
-
+        MC.OnClickBackFromCollectionView();
     }
 
 

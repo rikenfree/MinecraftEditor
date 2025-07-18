@@ -7,6 +7,16 @@ TagManager:
   - Pencil
   - Pixel
   - English
+  - CapRateUS
+  - CapSetting
+  - CapSaveToGallery
+  - CapColorOption
+  - CapTheme
+  - CapWallPaper
+  - CapMenu
+  - CapWallPaperSave
+  - MapWallPaperSave
+  - SkinWallPaperSave
   layers:
   - Default
   - TransparentFX
